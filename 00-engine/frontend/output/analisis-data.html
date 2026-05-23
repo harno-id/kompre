@@ -1,0 +1,321 @@
+﻿<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Analisis Data CUQ - Kompre Harno</title>
+  <meta name="description" content="Halaman analisis data CUQ interaktif berbasis data final audited.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="app.css?v=20260521-analysis-data-v2">
+</head>
+<body>
+  <svg class="svg-sprite" aria-hidden="true">
+    <symbol id="i-home" viewBox="0 0 24 24"><path d="M3 10.5 12 3l9 7.5"/><path d="M5 9.5V21h14V9.5"/><path d="M9 21v-7h6v7"/></symbol>
+    <symbol id="i-doc" viewBox="0 0 24 24"><path d="M7 3h7l4 4v14H7z"/><path d="M14 3v5h5"/><path d="M9 13h6M9 17h6"/></symbol>
+    <symbol id="i-brief" viewBox="0 0 24 24"><path d="M8 7V5h8v2"/><path d="M4 7h16v13H4z"/><path d="M4 12h16"/><path d="M10 12v2h4v-2"/></symbol>
+    <symbol id="i-help" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M9.5 9a2.6 2.6 0 0 1 5 1.2c0 2-2.5 2.1-2.5 4"/><path d="M12 18h.01"/></symbol>
+    <symbol id="i-flask" viewBox="0 0 24 24"><path d="M9 3h6"/><path d="M10 3v5l-5 9a3 3 0 0 0 2.6 4.5h8.8A3 3 0 0 0 19 17l-5-9V3"/><path d="M8 15h8"/></symbol>
+    <symbol id="i-chart" viewBox="0 0 24 24"><path d="M4 20h16"/><path d="M7 16v-5"/><path d="M12 16V7"/><path d="M17 16v-9"/><path d="m6 9 5-4 4 3 4-5"/></symbol>
+    <symbol id="i-target" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="4"/><path d="m15 9 5-5"/><path d="M19 4h1v5"/></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 3 5 6v5c0 5 3 8.5 7 10 4-1.5 7-5 7-10V6z"/><path d="m9 12 2 2 4-5"/></symbol>
+    <symbol id="i-clipboard" viewBox="0 0 24 24"><path d="M9 4h6l1 2h3v15H5V6h3z"/><path d="M9 4v3h6V4"/><path d="M8 12h8M8 16h8"/></symbol>
+    <symbol id="i-book" viewBox="0 0 24 24"><path d="M5 5.5A3.5 3.5 0 0 1 8.5 2H20v17H8.5A3.5 3.5 0 0 0 5 22z"/><path d="M5 5.5V22"/><path d="M8 6h8"/></symbol>
+    <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m16.5 16.5 4 4"/></symbol>
+    <symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M19.1 4.9l-1.4 1.4M6.3 17.7l-1.4 1.4"/></symbol>
+    <symbol id="i-download" viewBox="0 0 24 24"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 21h14"/></symbol>
+    <symbol id="i-upload" viewBox="0 0 24 24"><path d="M12 21V9"/><path d="m7 14 5-5 5 5"/><path d="M5 3h14"/></symbol>
+    <symbol id="i-reset" viewBox="0 0 24 24"><path d="M3 12a9 9 0 1 0 3-6.7"/><path d="M3 4v6h6"/></symbol>
+    <symbol id="i-expand" viewBox="0 0 24 24"><path d="M9 3H3v6"/><path d="M21 9V3h-6"/><path d="M3 15v6h6"/><path d="M15 21h6v-6"/></symbol>
+    <symbol id="i-x" viewBox="0 0 24 24"><path d="M6 6l12 12M6 18 18 6"/></symbol>
+        <symbol id="i-cog" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 1 1-4 0v-.09a1.65 1.65 0 0 0-1-1.51 1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 1 1 0-4h.09a1.65 1.65 0 0 0 1.51-1 1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33h.01a1.65 1.65 0 0 0 1-1.51V3a2 2 0 1 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82v.01a1.65 1.65 0 0 0 1.51 1H21a2 2 0 1 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></symbol>
+  </svg>
+
+  <div class="app-shell">
+    <aside class="sidebar" aria-label="Navigasi analisis data">
+      <div class="brand-block">
+        <div class="brand-mark">KA</div>
+        <div>
+          <strong>Kompre</strong>
+          <b>Assistant</b>
+        </div>
+      </div>
+
+      <nav class="nav-list">
+        <a href="index.html"><svg><use href="#i-home"></use></svg>Beranda</a>
+        <a href="tesis-viewer.html"><svg><use href="#i-doc"></use></svg>Ringkasan Tesis</a>
+        <a href="presentasi.html"><svg><use href="#i-brief"></use></svg>Presentasi <span class="pill">PPT</span></a>
+        <a href="teori-konsep.html"><svg><use href="#i-book"></use></svg>Teori & Konsep</a>
+        <a href="metodologi.html"><svg><use href="#i-flask"></use></svg>Metodologi</a>
+        <a class="active" href="analisis-data.html"><svg><use href="#i-chart"></use></svg>Analisis Data</a>
+        <a href="implikasi-saran.html"><svg><use href="#i-target"></use></svg>Implikasi & Saran</a>
+        <a href="simulasi-kompre.html"><svg><use href="#i-brief"></use></svg>Simulasi Kompre</a>
+        <a href="jawaban-aman.html"><svg><use href="#i-shield"></use></svg>Penyusun Jawaban <span class="pill">Baru</span></a>
+        <a href="laporan-ekspor.html"><svg><use href="#i-doc"></use></svg>Laporan & Ekspor</a>
+        <a href="index.html#overview"><svg><use href="#i-cog"></use></svg>Pengaturan</a>
+      </nav>
+
+      <section class="research-card">
+        <h3>Info Penelitian</h3>
+        <div id="analysisInfo"></div>
+      </section>
+    </aside>
+
+    <main class="analysis-content">
+      <header class="analysis-topbar">
+        <div class="analysis-title">
+          <a class="back-link" href="index.html"><span>&lt;</span>Kembali ke Dashboard</a>
+          <h1>Analisis Data CUQ</h1>
+          <p>Analisis komparatif usability chatbot antara gaya bahasa Formal dan Generasi Z pada responden Generasi Z.</p>
+        </div>
+        <div class="analysis-actions">
+          <button class="icon-only" type="button" aria-label="Mode tampilan"><svg><use href="#i-sun"></use></svg></button>
+          <div class="user-chip"><span class="avatar">H</span><span><b>Harno</b><small>Mahasiswa</small></span></div>
+          <button id="downloadReportBtn" class="action-btn" type="button"><svg><use href="#i-download"></use></svg>Unduh Laporan</button>
+          <button id="exportDataBtn" class="action-btn" type="button"><svg><use href="#i-upload"></use></svg>Ekspor Data</button>
+        </div>
+      </header>
+
+      <section class="panel analysis-filterbar" aria-label="Filter analisis">
+        <label class="filter-field"><span>Dataset</span><select id="datasetFilter" class="select-control"><option value="cuq">CUQ - Statistik Agregat</option><option value="raw">CUQ - Raw Data Responden</option><option value="lampiran">CUQ - Lampiran Olah Data</option></select></label>
+        <label class="filter-field"><span>Perbandingan</span><select id="comparisonFilter" class="select-control"><option value="formal_genz">Formal vs Gen-Z</option></select></label>
+        <label class="filter-field"><span>Kelompok</span><select id="groupFilter" class="select-control"><option value="genz">Generasi Z</option></select></label>
+        <label class="filter-field"><span>Metode Uji</span><select id="methodFilter" class="select-control"><option value="paired">Paired t-test</option><option value="wilcoxon">Wilcoxon</option></select></label>
+        <label class="filter-field"><span>Tingkat Signifikansi</span><select id="alphaFilter" class="select-control"><option value="0.05">alpha 0.05</option><option value="0.01">alpha 0.01</option></select></label>
+        <button id="resetAnalysisFilters" class="action-btn" type="button"><svg><use href="#i-reset"></use></svg>Reset</button>
+      </section>
+
+      <section id="statSection">
+      <section class="analysis-metrics" aria-label="Metrik analisis">
+        <article class="panel analysis-card">
+          <h2>Rata-rata Skor (Mean)</h2>
+          <div class="metric-pair">
+            <div><small>Formal</small><strong id="formalMean" class="blue-value">-</strong></div>
+            <span class="vs-chip">VS</span>
+            <div><small>Gen-Z</small><strong id="genzMean" class="green-value">-</strong></div>
+          </div>
+          <div id="meanSparkline" class="sparkline"></div>
+          <div class="delta-text">Delta = <span id="meanDiff">-</span></div>
+        </article>
+
+        <article class="panel analysis-card">
+          <h2>Reliabilitas (Cronbach alpha)</h2>
+          <div class="metric-pair">
+            <div><small>Formal</small><strong id="formalAlpha" class="blue-value">-</strong></div>
+            <span class="reliability-icon"><svg><use href="#i-shield"></use></svg></span>
+            <div><small>Gen-Z</small><strong id="genzAlpha" class="green-value">-</strong></div>
+          </div>
+          <div class="card-note">Reliabilitas sangat tinggi</div>
+        </article>
+
+        <article class="panel analysis-card">
+          <h2>Uji Signifikansi (p-value)</h2>
+          <div class="metric-pair">
+            <div><small>Paired t-test</small><strong id="pairedP" class="gold-value">-</strong></div>
+            <span class="significance-curve"></span>
+            <div><small>Wilcoxon</small><strong id="wilcoxonP" class="gold-value">-</strong></div>
+          </div>
+          <div id="significanceLabel" class="p-note">-</div>
+        </article>
+
+        <article class="panel analysis-card">
+          <h2>Ukuran Efek (Cohen's dz)</h2>
+          <div id="effectSize" class="effect-value">-</div>
+          <div class="effect-track"><i id="effectMarker"></i><div class="effect-ticks"><span>-0.50</span><span>0</span><span>0.50</span></div></div>
+          <div id="effectLabel" class="card-note">-</div>
+        </article>
+      </section>
+
+      <section class="analysis-charts" aria-label="Visualisasi analisis">
+        <article class="panel chart-panel">
+          <div class="chart-head"><h2>Distribusi Skor CUQ</h2><span class="legend"><span><i class="blue"></i>Formal</span><span><i class="green"></i>Gen-Z</span></span></div>
+          <div id="distributionChart" class="chart-svg"></div>
+          <div id="distributionTable" class="distribution-table"></div>
+        </article>
+
+        <article class="panel chart-panel">
+          <div class="chart-head"><h2>Perbandingan Dimensi CUQ</h2><span class="legend"><span><i class="blue"></i>Formal</span><span><i class="green"></i>Gen-Z</span></span></div>
+          <div id="radarChart" class="chart-svg"></div>
+          <small>Skala 0-100; semakin tinggi semakin baik.</small>
+        </article>
+
+        <article class="panel chart-panel">
+          <div class="chart-head"><h2>Plot Perbedaan (Paired)</h2></div>
+          <div id="pairedChart" class="chart-svg"></div>
+          <div id="pairedStats" class="paired-stats"></div>
+        </article>
+      </section>
+
+      <section class="analysis-interpretation">
+        <article class="panel interpret-panel">
+          <span class="interpret-icon"><svg><use href="#i-help"></use></svg></span>
+          <div>
+            <h2>Interpretasi Hasil Analisis</h2>
+            <p id="interpretationText">Memuat interpretasi...</p>
+          </div>
+        </article>
+        <aside class="conclusion-box">
+          <span class="conclusion-icon"><svg><use href="#i-shield"></use></svg></span>
+          <div><b>Kesimpulan</b><p>Tidak ada bukti perbedaan praktis yang kuat antara dua gaya bahasa chatbot.</p></div>
+        </aside>
+      </section>
+      </section>
+
+      <section id="rawSection" class="raw-explorer" hidden aria-label="Raw data explorer">
+        <article class="panel raw-filterbar">
+          <div class="raw-filter-row">
+            <label class="search-wrap raw-search-wrap"><svg><use href="#i-search"></use></svg><input id="rawSearch" type="search" placeholder="Cari sekolah, kota, ID..."></label>
+            <select id="rawGender" class="select-control" aria-label="Gender"><option value="">Semua Gender</option></select>
+            <select id="rawUsia" class="select-control" aria-label="Usia"><option value="">Semua Usia</option></select>
+            <select id="rawKab" class="select-control" aria-label="Kabupaten/Kota"><option value="">Semua Kab/Kota</option></select>
+            <select id="rawOrder" class="select-control" aria-label="Urutan"><option value="">Semua Urutan</option></select>
+            <select id="rawDurasi" class="select-control" aria-label="Durasi"><option value="">Semua Durasi</option></select>
+            <select id="rawFreq" class="select-control" aria-label="Frekuensi"><option value="">Semua Frekuensi</option></select>
+            <button id="rawReset" class="action-btn" type="button"><svg><use href="#i-reset"></use></svg>Reset</button>
+          </div>
+          <div class="raw-summary">
+            <span class="raw-pill"><b id="rawCount">0</b><small>Responden tampil</small></span>
+            <span class="raw-pill"><b id="rawFormalMean">-</b><small>Mean Formal</small></span>
+            <span class="raw-pill"><b id="rawGenzMean">-</b><small>Mean Gen-Z</small></span>
+            <span class="raw-pill"><b id="rawDiffMean">-</b><small>Selisih Rata-rata</small></span>
+            <span class="raw-pill"><b id="rawN">405</b><small>Total Sampel</small></span>
+          </div>
+        </article>
+
+        <section class="raw-charts">
+          <article class="panel raw-chart-panel">
+            <h2>Distribusi Profil Responden</h2>
+            <div class="raw-chart-row">
+              <div id="rawDonutGender" class="raw-donut" aria-label="Distribusi gender"></div>
+              <div id="rawDonutOrder" class="raw-donut" aria-label="Distribusi urutan"></div>
+              <div id="rawDonutFreq" class="raw-donut" aria-label="Distribusi frekuensi chatbot"></div>
+            </div>
+          </article>
+          <article class="panel raw-chart-panel">
+            <h2>Heatmap Skor Per Item CUQ (Q1-Q16)</h2>
+            <div id="rawHeatmap" class="raw-heatmap" aria-label="Heatmap skor per item"></div>
+            <small>Skala 1-5; warna gelap = skor tinggi. Q1, Q3, Q5, Q7, Q9, Q11, Q13, Q15 adalah item positif.</small>
+          </article>
+        </section>
+
+        <article class="panel raw-table-panel">
+          <header class="raw-table-head">
+            <h2><span class="raw-table-title">Tabel Responden</span><button class="raw-expand-btn" type="button" id="rawExpandBtn" aria-label="Tampilkan layar penuh"><svg><use href="#i-expand"></use></svg></button></h2>
+            <div class="raw-table-actions">
+              <label class="raw-toggle"><input type="checkbox" id="rawShowName"><span>Tampilkan nama asli (debug)</span></label>
+              <button id="rawExportCsv" class="action-btn" type="button"><svg><use href="#i-download"></use></svg>Ekspor CSV</button>
+            </div>
+          </header>
+          <div class="raw-table-wrap">
+            <table class="raw-table">
+              <thead>
+                <tr>
+                  <th data-sort="id" class="sortable num">#</th>
+                  <th data-sort="initials" class="sortable">ID</th>
+                  <th data-sort="usia" class="sortable num">Usia</th>
+                  <th data-sort="gender" class="sortable">Gender</th>
+                  <th data-sort="kabkota" class="sortable">Kab/Kota</th>
+                  <th data-sort="order" class="sortable">Urutan</th>
+                  <th data-sort="formal" class="sortable num">Formal</th>
+                  <th data-sort="genz" class="sortable num">Gen-Z</th>
+                  <th data-sort="diff" class="sortable num">Selisih</th>
+                </tr>
+              </thead>
+              <tbody id="rawTableBody"></tbody>
+            </table>
+            <p id="rawEmpty" class="raw-empty" hidden>Tidak ada responden cocok dengan filter.</p>
+          </div>
+        </article>
+      </section>
+
+      <div id="rawDetailBackdrop" class="raw-detail-backdrop" hidden>
+        <article class="raw-detail-modal" role="dialog" aria-modal="true" aria-labelledby="rawDetailTitle">
+          <header>
+            <span class="raw-detail-avatar" id="rawDetailAvatar">??</span>
+            <div>
+              <h3 id="rawDetailTitle">Responden #?</h3>
+              <p id="rawDetailMeta">Memuat detail...</p>
+            </div>
+            <button id="rawDetailClose" type="button" class="raw-detail-close" aria-label="Tutup">&times;</button>
+          </header>
+          <div class="raw-detail-body">
+            <div class="raw-detail-context" id="rawDetailContext"></div>
+            <div class="raw-detail-totals" id="rawDetailTotals"></div>
+            <div class="raw-detail-chart" id="rawDetailItems" aria-label="Skor per item Q1-Q16"></div>
+          </div>
+        </article>
+      </div>
+
+      <section id="lampiranSection" class="lampiran-explorer" hidden aria-label="Lampiran olah data reader">
+        <article class="panel lampiran-toolbar">
+          <div class="lampiran-toolbar-left">
+            <h2 id="lampiranStageLabel">Memuat tahap...</h2>
+            <p id="lampiranStageKicker">Lampiran olah data tesis</p>
+          </div>
+          <div class="lampiran-toolbar-right">
+            <a id="lampiranOpenMd" class="action-btn" target="_blank" rel="noreferrer"><svg><use href="#i-doc"></use></svg>Buka MD</a>
+            <button id="lampiranPrint" class="action-btn" type="button"><svg><use href="#i-download"></use></svg>Cetak / PDF</button>
+          </div>
+        </article>
+
+        <section class="lampiran-grid">
+          <aside class="panel lampiran-stage-list" aria-label="Daftar tahap">
+            <h3>Tahap Olah Data</h3>
+            <ol id="lampiranStageList"></ol>
+          </aside>
+
+          <article class="panel lampiran-content" aria-label="Isi lampiran">
+            <header class="lampiran-content-head">
+              <span id="lampiranContentKicker" class="lampiran-kicker">Tahap</span>
+              <p id="lampiranContentSummary">Memuat ringkasan tahap...</p>
+            </header>
+            <div id="lampiranHighlights" class="lampiran-highlight-grid"></div>
+            <div id="lampiranCharts" class="lampiran-charts"></div>
+            <article id="lampiranArticle" class="lampiran-article">Memuat dokumen...</article>
+          </article>
+        </section>
+      </section>
+    </main>
+  </div>
+
+  <div id="rawTableModal" class="raw-table-modal" hidden aria-hidden="true">
+    <div class="raw-table-modal-backdrop" data-close="1"></div>
+    <article class="raw-table-modal-card" role="dialog" aria-modal="true" aria-labelledby="rawTableModalTitle">
+      <header class="raw-table-modal-head">
+        <div>
+          <h2 id="rawTableModalTitle">Tabel Responden</h2>
+          <p id="rawTableModalMeta">405 responden</p>
+        </div>
+        <button id="rawTableModalClose" class="raw-table-modal-close" type="button" aria-label="Tutup"><svg><use href="#i-x"></use></svg></button>
+      </header>
+      <div class="raw-table-modal-body">
+        <div class="raw-table-wrap" id="rawTableModalWrap">
+          <table class="raw-table" id="rawTableModalTable">
+            <thead>
+              <tr>
+                <th data-sort="id" class="sortable num">#</th>
+                <th data-sort="initials" class="sortable">ID</th>
+                <th data-sort="usia" class="sortable num">Usia</th>
+                <th data-sort="gender" class="sortable">Gender</th>
+                <th data-sort="kabkota" class="sortable">Kab/Kota</th>
+                <th data-sort="order" class="sortable">Urutan</th>
+                <th data-sort="formal" class="sortable num">Formal</th>
+                <th data-sort="genz" class="sortable num">Gen-Z</th>
+                <th data-sort="diff" class="sortable num">Selisih</th>
+              </tr>
+            </thead>
+            <tbody id="rawTableModalBody"></tbody>
+          </table>
+          <p id="rawTableModalEmpty" class="raw-empty" hidden>Tidak ada responden cocok dengan filter.</p>
+        </div>
+      </div>
+    </article>
+  </div>
+  <script src="assets/echarts/echarts.min.js"></script>
+  <script src="assets/marked/marked.min.js"></script>
+  <script src="raw-explorer.js?v=20260522-raw-modal-v2"></script>
+  <script src="lampiran-reader.js?v=20260522-lampiran"></script>
+  <script src="analysis-data.js?v=20260522-echarts-raw-lampiran"></script>
+</body>
+</html>

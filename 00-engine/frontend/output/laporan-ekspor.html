@@ -1,0 +1,302 @@
+﻿<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Laporan & Ekspor - Kompre Harno</title>
+  <meta name="description" content="Laporan dan ekspor hasil kompre berbasis data final audited.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="app.css?v=20260523-report-modals">
+</head>
+<body>
+  <svg class="svg-sprite" aria-hidden="true">
+    <symbol id="i-home" viewBox="0 0 24 24"><path d="M3 10.5 12 3l9 7.5"/><path d="M5 9.5V21h14V9.5"/><path d="M9 21v-7h6v7"/></symbol>
+    <symbol id="i-doc" viewBox="0 0 24 24"><path d="M7 3h7l4 4v14H7z"/><path d="M14 3v5h5"/><path d="M9 13h6M9 17h6"/></symbol>
+    <symbol id="i-brief" viewBox="0 0 24 24"><path d="M8 7V5h8v2"/><path d="M4 7h16v13H4z"/><path d="M4 12h16"/><path d="M10 12v2h4v-2"/></symbol>
+    <symbol id="i-help" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M9.5 9a2.6 2.6 0 0 1 5 1.2c0 2-2.5 2.1-2.5 4"/><path d="M12 18h.01"/></symbol>
+    <symbol id="i-flask" viewBox="0 0 24 24"><path d="M9 3h6"/><path d="M10 3v5l-5 9a3 3 0 0 0 2.6 4.5h8.8A3 3 0 0 0 19 17l-5-9V3"/><path d="M8 15h8"/></symbol>
+    <symbol id="i-chart" viewBox="0 0 24 24"><path d="M4 20h16"/><path d="M7 16v-5"/><path d="M12 16V7"/><path d="M17 16v-9"/><path d="m6 9 5-4 4 3 4-5"/></symbol>
+    <symbol id="i-target" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="4"/><path d="m15 9 5-5"/><path d="M19 4h1v5"/></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 3 5 6v5c0 5 3 8.5 7 10 4-1.5 7-5 7-10V6z"/><path d="m9 12 2 2 4-5"/></symbol>
+    <symbol id="i-book" viewBox="0 0 24 24"><path d="M5 5.5A3.5 3.5 0 0 1 8.5 2H20v17H8.5A3.5 3.5 0 0 0 5 22z"/><path d="M5 5.5V22"/><path d="M8 6h8"/></symbol>
+    <symbol id="i-download" viewBox="0 0 24 24"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 21h14"/></symbol>
+    <symbol id="i-settings" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a8 8 0 0 0 .1-2l2-1.5-2-3.4-2.4 1a8 8 0 0 0-1.7-1L15 5.5h-6l-.4 2.6a8 8 0 0 0-1.7 1l-2.4-1-2 3.4 2 1.5a8 8 0 0 0 .1 2l-2.1 1.6 2 3.4 2.5-1a8 8 0 0 0 1.6.9l.4 2.6h6l.4-2.6a8 8 0 0 0 1.6-.9l2.5 1 2-3.4z"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12 4 4L19 6"/></symbol>
+    <symbol id="i-x" viewBox="0 0 24 24"><path d="M6 6l12 12M6 18 18 6"/></symbol>
+    <symbol id="i-trash" viewBox="0 0 24 24"><path d="M3 6h18"/><path d="M8 6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6"/><path d="M10 11v6M14 11v6"/></symbol>
+    <symbol id="i-calendar" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></symbol>
+    <symbol id="i-print" viewBox="0 0 24 24"><path d="M6 9V2h12v7"/><rect x="2" y="9" width="20" height="9" rx="1"/><path d="M6 14h12v8H6z"/></symbol>
+        <symbol id="i-cog" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 1 1-4 0v-.09a1.65 1.65 0 0 0-1-1.51 1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 1 1 0-4h.09a1.65 1.65 0 0 0 1.51-1 1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33h.01a1.65 1.65 0 0 0 1-1.51V3a2 2 0 1 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82v.01a1.65 1.65 0 0 0 1.51 1H21a2 2 0 1 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></symbol>
+  </svg>
+
+  <div class="app-shell">
+    <aside class="sidebar" aria-label="Navigasi laporan">
+      <div class="brand-block">
+        <div class="brand-mark">KA</div>
+        <div>
+          <strong>Kompre</strong>
+          <b>Assistant</b>
+        </div>
+      </div>
+      <nav class="nav-list">
+        <a href="index.html"><svg><use href="#i-home"></use></svg>Beranda</a>
+        <a href="tesis-viewer.html"><svg><use href="#i-doc"></use></svg>Ringkasan Tesis</a>
+        <a href="presentasi.html"><svg><use href="#i-brief"></use></svg>Presentasi <span class="pill">PPT</span></a>
+        <a href="teori-konsep.html"><svg><use href="#i-book"></use></svg>Teori & Konsep</a>
+        <a href="metodologi.html"><svg><use href="#i-flask"></use></svg>Metodologi</a>
+        <a href="analisis-data.html"><svg><use href="#i-chart"></use></svg>Analisis Data</a>
+        <a href="implikasi-saran.html"><svg><use href="#i-target"></use></svg>Implikasi & Saran</a>
+        <a href="simulasi-kompre.html"><svg><use href="#i-brief"></use></svg>Simulasi Kompre</a>
+        <a href="jawaban-aman.html"><svg><use href="#i-shield"></use></svg>Penyusun Jawaban <span class="pill">Baru</span></a>
+        <a class="active" href="laporan-ekspor.html"><svg><use href="#i-doc"></use></svg>Laporan & Ekspor</a>
+        <a href="index.html#overview"><svg><use href="#i-cog"></use></svg>Pengaturan</a>
+      </nav>
+
+      <section class="research-card">
+        <h3>Info Penelitian</h3>
+        <div id="reportInfo"></div>
+      </section>
+    </aside>
+
+    <main class="report-content">
+      <header class="report-topbar">
+        <div>
+          <h1>Laporan & Ekspor</h1>
+          <p>Ringkasan komprehensif hasil potensi pertanyaan, jawaban aman, dan pemetaan teori.</p>
+        </div>
+        <div class="analysis-actions">
+          <button class="action-btn" id="btnReportSettings" type="button"><svg><use href="#i-settings"></use></svg>Pengaturan Laporan</button>
+          <button class="action-btn" id="btnReportHistory" type="button"><svg><use href="#i-clock"></use></svg>Riwayat Laporan</button>
+        </div>
+      </header>
+
+      <section class="panel report-executive">
+        <h2>Ringkasan Eksekutif Penelitian</h2>
+        <div class="report-metrics">
+          <article class="report-metric blue"><svg><use href="#i-help"></use></svg><strong id="metricQuestions">-</strong><span>Pertanyaan Potensial</span><p>Dari bank pertanyaan final audited.</p></article>
+          <article class="report-metric green"><svg><use href="#i-shield"></use></svg><strong id="metricSafe">-</strong><span>Jawaban Aman</span><p>Disiapkan dengan narasi netral.</p></article>
+          <article class="report-metric purple"><svg><use href="#i-target"></use></svg><strong id="metricReady">-</strong><span>Tingkat Kesiapan</span><p>Audit, data, dan Q&A tersedia.</p></article>
+          <article class="report-metric gold"><svg><use href="#i-chart"></use></svg><strong id="metricCuq">-</strong><span>Skor CUQ Gen-Z</span><p>Skala final 0-100.</p></article>
+          <article class="report-metric green"><svg><use href="#i-book"></use></svg><strong id="metricTheory">-</strong><span>Teori/Konsep</span><p>Dipetakan ke jawaban.</p></article>
+          <article class="report-metric blue"><svg><use href="#i-doc"></use></svg><strong id="metricPages">-</strong><span>Halaman Laporan</span><p>Estimasi ringkasan cetak.</p></article>
+        </div>
+      </section>
+
+      <section class="report-summary-row">
+        <article class="panel report-finding">
+          <h2>Ringkasan Temuan Utama</h2>
+          <p id="executiveSummary">Memuat ringkasan...</p>
+        </article>
+        <aside class="panel report-period">
+          <h2>Periode Laporan</h2>
+          <p><svg><use href="#i-clock"></use></svg><span id="reportPeriod">-</span></p>
+          <button class="action-btn" id="btnReportPeriod" type="button">Ubah Periode</button>
+        </aside>
+      </section>
+
+      <section class="report-main-grid">
+        <aside class="panel report-options">
+          <h2>Opsi Ekspor Laporan</h2>
+          <div class="export-option-grid">
+            <article class="export-option pdf"><b>Ekspor PDF</b><p>Laporan lengkap siap cetak.</p><button id="exportPdfCard">Ekspor PDF</button></article>
+            <article class="export-option ppt"><b>Ekspor PPT Ringkas</b><p>Ringkasan untuk seminar atau sidang.</p><button id="exportPptCard">Ekspor PPT</button></article>
+            <article class="export-option html"><b>Ringkasan HTML</b><p>Versi web interaktif untuk dibagikan.</p><button id="exportHtmlCard">Ekspor HTML</button></article>
+          </div>
+          <div class="report-contents">
+            <h3>Isi Laporan</h3>
+            <ul id="reportContents"></ul>
+          </div>
+          <p class="report-note">Catatan: Semua data berdasarkan analisis final audited 21 Mei 2026.</p>
+        </aside>
+
+        <article class="panel report-preview-panel">
+          <div class="report-preview-head">
+            <h2>Pratinjau Laporan</h2>
+            <div class="report-preview-controls"><span>1 / 1</span><button>-</button><b>100%</b><button>+</button><button id="exportReportPdf">Cetak</button></div>
+          </div>
+          <div id="reportPreview" class="report-preview"></div>
+        </article>
+      </section>
+    </main>
+  </div>
+
+  <!-- ============== Modal: Pengaturan Laporan ============== -->
+  <div id="reportSettingsModal" class="report-modal" hidden aria-hidden="true">
+    <div class="report-modal-backdrop" data-close="1"></div>
+    <article class="report-modal-card" role="dialog" aria-modal="true" aria-labelledby="reportSettingsTitle">
+      <header class="report-modal-head">
+        <div>
+          <h2 id="reportSettingsTitle"><svg><use href="#i-settings"></use></svg>Pengaturan Laporan</h2>
+          <p>Atur format default, identitas, dan konten laporan untuk dicetak.</p>
+        </div>
+        <button class="report-modal-close" data-close="1" type="button" aria-label="Tutup"><svg><use href="#i-x"></use></svg></button>
+      </header>
+      <div class="report-modal-body">
+        <form id="reportSettingsForm" class="report-form">
+          <fieldset>
+            <legend>Format Default</legend>
+            <div class="report-form-row">
+              <label><input type="radio" name="format" value="pdf"><span>PDF</span></label>
+              <label><input type="radio" name="format" value="html"><span>HTML</span></label>
+              <label><input type="radio" name="format" value="ppt"><span>PPT (Ringkas TXT)</span></label>
+            </div>
+            <div class="report-form-grid-2">
+              <label class="report-field">
+                <span>Ukuran Kertas</span>
+                <select name="paper">
+                  <option value="A4">A4 (210 x 297 mm)</option>
+                  <option value="Letter">Letter (8.5 x 11 in)</option>
+                  <option value="A5">A5 (148 x 210 mm)</option>
+                </select>
+              </label>
+              <label class="report-field">
+                <span>Orientasi</span>
+                <select name="orientation">
+                  <option value="portrait">Portrait</option>
+                  <option value="landscape">Landscape</option>
+                </select>
+              </label>
+              <label class="report-field">
+                <span>Margin</span>
+                <select name="margin">
+                  <option value="normal">Normal (20 mm)</option>
+                  <option value="narrow">Narrow (12 mm)</option>
+                  <option value="wide">Wide (30 mm)</option>
+                </select>
+              </label>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>Identitas Mahasiswa</legend>
+            <div class="report-form-grid-2">
+              <label class="report-field"><span>Nama</span><input type="text" name="name" placeholder="Nama lengkap"></label>
+              <label class="report-field"><span>NPM</span><input type="text" name="npm" placeholder="2226031036"></label>
+              <label class="report-field"><span>Program Studi</span><input type="text" name="prodi" placeholder="Magister Ilmu Komunikasi"></label>
+              <label class="report-field"><span>Pembimbing</span><input type="text" name="pembimbing" placeholder="Nama pembimbing"></label>
+            </div>
+            <div class="report-form-row">
+              <label class="report-toggle"><input type="checkbox" name="showName"><span>Tampilkan nama mahasiswa</span></label>
+              <label class="report-toggle"><input type="checkbox" name="showNpm"><span>Tampilkan NPM</span></label>
+              <label class="report-toggle"><input type="checkbox" name="showProdi"><span>Tampilkan program studi</span></label>
+              <label class="report-toggle"><input type="checkbox" name="showPembimbing"><span>Tampilkan pembimbing</span></label>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>Konten Tambahan</legend>
+            <div class="report-form-row">
+              <label class="report-toggle"><input type="checkbox" name="watermark"><span>Sertakan watermark "DRAFT"</span></label>
+              <label class="report-toggle"><input type="checkbox" name="footer"><span>Footer halaman</span></label>
+              <label class="report-toggle"><input type="checkbox" name="dateStamp"><span>Tanggal cetak otomatis</span></label>
+              <label class="report-toggle"><input type="checkbox" name="lockHash"><span>SHA256 lock manifest</span></label>
+              <label class="report-toggle"><input type="checkbox" name="toc"><span>Daftar isi</span></label>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>Lampiran Statistik</legend>
+            <div class="report-form-row">
+              <label class="report-toggle"><input type="checkbox" name="lampProfile"><span>Tabel 4.2 profil responden</span></label>
+              <label class="report-toggle"><input type="checkbox" name="lampDist"><span>Distribusi kategori skor</span></label>
+              <label class="report-toggle"><input type="checkbox" name="lampClusters"><span>Tabel 4.3-4.8 klaster CUQ</span></label>
+              <label class="report-toggle"><input type="checkbox" name="lampQA"><span>Daftar 125 pertanyaan kompre</span></label>
+            </div>
+          </fieldset>
+        </form>
+      </div>
+      <footer class="report-modal-foot">
+        <button class="action-btn report-btn-ghost" id="reportSettingsReset" type="button"><svg><use href="#i-clock"></use></svg>Reset ke Default</button>
+        <span class="report-modal-spacer"></span>
+        <button class="action-btn report-btn-primary" id="reportSettingsSave" type="button"><svg><use href="#i-check"></use></svg>Simpan Pengaturan</button>
+      </footer>
+    </article>
+  </div>
+
+  <!-- ============== Modal: Periode Laporan ============== -->
+  <div id="reportPeriodModal" class="report-modal" hidden aria-hidden="true">
+    <div class="report-modal-backdrop" data-close="1"></div>
+    <article class="report-modal-card report-modal-medium" role="dialog" aria-modal="true" aria-labelledby="reportPeriodTitle">
+      <header class="report-modal-head">
+        <div>
+          <h2 id="reportPeriodTitle"><svg><use href="#i-calendar"></use></svg>Periode Laporan</h2>
+          <p>Atur cakupan periode penelitian dan tanggal cetak laporan.</p>
+        </div>
+        <button class="report-modal-close" data-close="1" type="button" aria-label="Tutup"><svg><use href="#i-x"></use></svg></button>
+      </header>
+      <div class="report-modal-body">
+        <form id="reportPeriodForm" class="report-form">
+          <fieldset>
+            <legend>Periode Pengumpulan Data</legend>
+            <div class="report-form-grid-2">
+              <label class="report-field"><span>Mulai</span><input type="date" name="dataStart"></label>
+              <label class="report-field"><span>Selesai</span><input type="date" name="dataEnd"></label>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>Tanggal Penting</legend>
+            <div class="report-form-grid-2">
+              <label class="report-field"><span>Tanggal Lock Tesis</span><input type="date" name="lockDate" readonly></label>
+              <label class="report-field"><span>Tanggal Cetak Laporan</span><input type="date" name="printDate"></label>
+              <label class="report-field"><span>Tanggal Sidang Kompre</span><input type="date" name="sidangDate"></label>
+              <label class="report-field"><span>Periode Akademik</span><input type="text" name="academicPeriod" placeholder="Genap 2025/2026"></label>
+            </div>
+          </fieldset>
+
+          <div class="report-period-preview" id="reportPeriodPreview">Memuat preview...</div>
+        </form>
+      </div>
+      <footer class="report-modal-foot">
+        <button class="action-btn report-btn-ghost" id="reportPeriodReset" type="button"><svg><use href="#i-clock"></use></svg>Reset</button>
+        <span class="report-modal-spacer"></span>
+        <button class="action-btn report-btn-primary" id="reportPeriodSave" type="button"><svg><use href="#i-check"></use></svg>Simpan Periode</button>
+      </footer>
+    </article>
+  </div>
+
+  <!-- ============== Modal: Riwayat Laporan ============== -->
+  <div id="reportHistoryModal" class="report-modal" hidden aria-hidden="true">
+    <div class="report-modal-backdrop" data-close="1"></div>
+    <article class="report-modal-card" role="dialog" aria-modal="true" aria-labelledby="reportHistoryTitle">
+      <header class="report-modal-head">
+        <div>
+          <h2 id="reportHistoryTitle"><svg><use href="#i-clock"></use></svg>Riwayat Laporan</h2>
+          <p id="reportHistoryMeta">0 entri tersimpan</p>
+        </div>
+        <button class="report-modal-close" data-close="1" type="button" aria-label="Tutup"><svg><use href="#i-x"></use></svg></button>
+      </header>
+      <div class="report-modal-body">
+        <div id="reportHistoryEmpty" class="report-history-empty" hidden>
+          <svg><use href="#i-clock"></use></svg>
+          <p>Belum ada riwayat ekspor laporan.</p>
+          <small>Riwayat akan otomatis tersimpan setiap kali Anda mengekspor laporan dari halaman ini.</small>
+        </div>
+        <div class="report-history-table-wrap">
+          <table class="report-history-table" id="reportHistoryTable">
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>Tanggal</th>
+                <th>Format</th>
+                <th>Nama File</th>
+                <th>Periode</th>
+                <th>Aksi</th>
+              </tr>
+            </thead>
+            <tbody id="reportHistoryBody"></tbody>
+          </table>
+        </div>
+      </div>
+      <footer class="report-modal-foot">
+        <button class="action-btn report-btn-danger" id="reportHistoryClear" type="button"><svg><use href="#i-trash"></use></svg>Hapus Semua Riwayat</button>
+      </footer>
+    </article>
+  </div>
+
+  <script src="laporan-ekspor.js?v=20260523-report-modals"></script>
+</body>
+</html>

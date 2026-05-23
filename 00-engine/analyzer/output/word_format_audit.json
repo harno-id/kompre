@@ -1,0 +1,1098 @@
+{
+  "file": "D:\\DATA\\TESIS\\KOMPRE\\HARNO-KOMPRE\\02-data\\thesis\\TESIS_HARNO_CSV_MASTER_UPDATE_WORKING_20260521-092331.docx",
+  "paragraph_count": 1153,
+  "table_count": 27,
+  "section_count": 8,
+  "styles": [
+    [
+      "Normal",
+      720
+    ],
+    [
+      "List Paragraph",
+      122
+    ],
+    [
+      "Body Text",
+      89
+    ],
+    [
+      "toc 1",
+      43
+    ],
+    [
+      "toc 2",
+      39
+    ],
+    [
+      "Heading 2",
+      39
+    ],
+    [
+      "toc 3",
+      29
+    ],
+    [
+      "Heading 3",
+      29
+    ],
+    [
+      "Caption Tabel",
+      24
+    ],
+    [
+      "Heading 1",
+      19
+    ]
+  ],
+  "headings_count": 87,
+  "headings": [
+    {
+      "p": 55,
+      "style": "Heading 1",
+      "text": "ABSTRAK"
+    },
+    {
+      "p": 76,
+      "style": "Heading 1",
+      "text": "ABSTRACT"
+    },
+    {
+      "p": 97,
+      "style": "Heading 1",
+      "text": "LEMBAR PERSETUJUAN"
+    },
+    {
+      "p": 123,
+      "style": "Heading 1",
+      "text": "LEMBAR PENGESAHAN"
+    },
+    {
+      "p": 166,
+      "style": "Heading 1",
+      "text": "SURAT PERNYATAAN"
+    },
+    {
+      "p": 193,
+      "style": "Heading 1",
+      "text": "RIWAYAT HIDUP"
+    },
+    {
+      "p": 211,
+      "style": "Heading 1",
+      "text": "PERSEMBAHAN"
+    },
+    {
+      "p": 233,
+      "style": "Heading 1",
+      "text": "MOTTO"
+    },
+    {
+      "p": 257,
+      "style": "Heading 1",
+      "text": "SANWACANA"
+    },
+    {
+      "p": 309,
+      "style": "Heading 1",
+      "text": "DAFTAR ISI"
+    },
+    {
+      "p": 413,
+      "style": "Heading 1",
+      "text": "DAFTAR TABEL"
+    },
+    {
+      "p": 465,
+      "style": "Heading 1",
+      "text": "DAFTAR GAMBAR"
+    },
+    {
+      "p": 474,
+      "style": "Heading 1",
+      "text": "I. PENDAHULUAN"
+    },
+    {
+      "p": 476,
+      "style": "Heading 2",
+      "text": "1.1 \tLatar Belakang"
+    },
+    {
+      "p": 501,
+      "style": "Heading 2",
+      "text": "1.2 \tRumusan Masalah"
+    },
+    {
+      "p": 507,
+      "style": "Heading 2",
+      "text": "1.3 \tTujuan Penelitian"
+    },
+    {
+      "p": 518,
+      "style": "Heading 2",
+      "text": "1.4 \tManfaat Penelitian"
+    },
+    {
+      "p": 539,
+      "style": "Heading 1",
+      "text": "II. TINJAUAN PUSTAKA"
+    },
+    {
+      "p": 543,
+      "style": "Heading 2",
+      "text": "2.1 \tPenelitian Terdahulu dan Celah Penelitian"
+    },
+    {
+      "p": 553,
+      "style": "Heading 2",
+      "text": "2.2 \tLandasan Teoretis"
+    },
+    {
+      "p": 565,
+      "style": "Heading 2",
+      "text": "2.3 \tChatbot sebagai Media Komunikasi Institusional"
+    },
+    {
+      "p": 570,
+      "style": "Heading 2",
+      "text": "2.4 \tGaya Bahasa Chatbot dan Generasi Z"
+    },
+    {
+      "p": 575,
+      "style": "Heading 2",
+      "text": "2.5 \tUsabilitas Interaksi Komunikasi dan CUQ"
+    },
+    {
+      "p": 580,
+      "style": "Heading 2",
+      "text": "2.6 \tKerangka Pemikiran dan Hipotesis Penelitian"
+    },
+    {
+      "p": 592,
+      "style": "Heading 1",
+      "text": "III. METODE PENELITIAN"
+    },
+    {
+      "p": 594,
+      "style": "Heading 2",
+      "text": "3.1 \tJenis dan Desain Penelitian"
+    },
+    {
+      "p": 599,
+      "style": "Heading 2",
+      "text": "3.2 \tLokasi dan Waktu Penelitian"
+    },
+    {
+      "p": 607,
+      "style": "Heading 2",
+      "text": "3.3 \tVariabel Penelitian"
+    },
+    {
+      "p": 614,
+      "style": "Heading 2",
+      "text": "3.4 \tDefinisi Konseptual dan Operasional Variabel"
+    },
+    {
+      "p": 621,
+      "style": "Heading 2",
+      "text": "3.5 \tPopulasi, Sampel, dan Teknik Penentuan Sampel"
+    },
+    {
+      "p": 622,
+      "style": "Heading 3",
+      "text": "3.5.1 Populasi"
+    },
+    {
+      "p": 627,
+      "style": "Heading 3",
+      "text": "3.5.2 Sampel"
+    },
+    {
+      "p": 632,
+      "style": "Heading 3",
+      "text": "3.5.3 Teknik Penentuan Sampel"
+    },
+    {
+      "p": 635,
+      "style": "Heading 2",
+      "text": "3.6 \tInstrumen Penelitian"
+    },
+    {
+      "p": 642,
+      "style": "Heading 2",
+      "text": "3.7 \tProsedur Pengumpulan Data"
+    },
+    {
+      "p": 647,
+      "style": "Heading 2",
+      "text": "3.8 Teknik Pengolahan Data"
+    },
+    {
+      "p": 650,
+      "style": "Heading 2",
+      "text": "3.9 \tUji Kualitas Instrumen"
+    },
+    {
+      "p": 651,
+      "style": "Heading 3",
+      "text": "3.9.1 Uji Validitas"
+    },
+    {
+      "p": 654,
+      "style": "Heading 3",
+      "text": "3.9.2 Uji Reliabilitas"
+    },
+    {
+      "p": 657,
+      "style": "Heading 2",
+      "text": "3.10 \tTeknik Analisis Data"
+    },
+    {
+      "p": 664,
+      "style": "Heading 2",
+      "text": "3.11 \tKriteria Pengujian Hipotesis"
+    },
+    {
+      "p": 691,
+      "style": "Heading 1",
+      "text": "IV. HASIL DAN PEMBAHASAN"
+    },
+    {
+      "p": 696,
+      "style": "Heading 2",
+      "text": "4.1 Deskripsi Umum Layanan Chatbot PMB Universitas Lampung"
+    },
+    {
+      "p": 699,
+      "style": "Heading 3",
+      "text": "4.1.1 Profil Universitas Lampung dan Layanan PMB"
+    },
+    {
+      "p": 702,
+      "style": "Heading 3",
+      "text": "4.1.2 Gambaran Implementasi Chatbot PMB"
+    },
+    {
+      "p": 705,
+      "style": "Heading 3",
+      "text": "4.1.3 Karakter Layanan Informasi Berbasis Percakapan"
+    },
+    {
+      "p": 708,
+      "style": "Heading 3",
+      "text": "4.1.4 Tujuan Penggunaan Chatbot PMB"
+    },
+    {
+      "p": 711,
+      "style": "Heading 2",
+      "text": "4.2 Deskripsi Data Penelitian"
+    },
+    {
+      "p": 712,
+      "style": "Heading 3",
+      "text": "4.2.1 Persiapan Data dan Justifikasi Akademik Ukuran Sampel"
+    },
+    {
+      "p": 718,
+      "style": "Heading 3",
+      "text": "4.2.2 Karakteristik Responden"
+    },
+    {
+      "p": 731,
+      "style": "Heading 3",
+      "text": "4.2.3 Deskripsi Skor CUQ Kondisi Chatbot Gaya Bahasa Formal"
+    },
+    {
+      "p": 734,
+      "style": "Heading 3",
+      "text": "4.2.4 Deskripsi Skor CUQ Kondisi Chatbot Gaya Bahasa Generasi Z"
+    },
+    {
+      "p": 740,
+      "style": "Heading 3",
+      "text": "4.2.5 Analisis Dimensi Usabilitas Interaksi Komunikasi Berdasarkan CUQ"
+    },
+    {
+      "p": 751,
+      "style": "Heading 2",
+      "text": "4.3 Hasil Uji Instrumen Penelitian"
+    },
+    {
+      "p": 754,
+      "style": "Heading 3",
+      "text": "4.3.1 Uji Reliabilitas"
+    },
+    {
+      "p": 763,
+      "style": "Heading 3",
+      "text": "4.3.2 Uji Validitas"
+    },
+    {
+      "p": 776,
+      "style": "Heading 2",
+      "text": "4.4 Uji Prasyarat Analisis"
+    },
+    {
+      "p": 779,
+      "style": "Heading 3",
+      "text": "4.4.1 Uji Normalitas"
+    },
+    {
+      "p": 786,
+      "style": "Heading 2",
+      "text": "4.5 Hasil Pengujian Hipotesis"
+    },
+    {
+      "p": 787,
+      "style": "Heading 3",
+      "text": "4.5.1 Hasil Uji Perbedaan Skor CUQ"
+    },
+    {
+      "p": 796,
+      "style": "Heading 3",
+      "text": "4.5.2 Perhitungan Effect Size (Cohen’s dz)"
+    },
+    {
+      "p": 806,
+      "style": "Heading 3",
+      "text": "4.5.3 Analisis Kontrol: Order Effect dan Counterbalancing"
+    },
+    {
+      "p": 813,
+      "style": "Heading 2",
+      "text": "4.6 Pembahasan"
+    },
+    {
+      "p": 818,
+      "style": "Heading 3",
+      "text": "4.6.1 Tingkat Usabilitas pada Chatbot Formal dan Generasi Z"
+    },
+    {
+      "p": 833,
+      "style": "Heading 3",
+      "text": "4.6.2 Perbedaan Usabilitas (CUQ) antara Chatbot Formal dan Generasi Z"
+    },
+    {
+      "p": 849,
+      "style": "Heading 3",
+      "text": "4.6.3 Aspek Usabilitas yang Paling Menonjol dan Penjelasan Teoretisnya CUQ"
+    },
+    {
+      "p": 861,
+      "style": "Heading 3",
+      "text": "4.6.4 Kontekstualisasi Temuan pada Karakteristik Komunikasi Generasi Z"
+    },
+    {
+      "p": 870,
+      "style": "Heading 3",
+      "text": "4.6.5 Implikasi Komunikasi Institusional bagi Universitas Lampung"
+    },
+    {
+      "p": 882,
+      "style": "Heading 3",
+      "text": "4.6.6 Ringkasan Temuan"
+    },
+    {
+      "p": 908,
+      "style": "Heading 1",
+      "text": "V. SIMPULAN DAN SARAN"
+    },
+    {
+      "p": 911,
+      "style": "Heading 2",
+      "text": "5.1 Simpulan"
+    },
+    {
+      "p": 919,
+      "style": "Heading 2",
+      "text": "5.2 Implikasi Teoretis"
+    },
+    {
+      "p": 928,
+      "style": "Heading 2",
+      "text": "5.3 Implikasi Praktis dan Rekomendasi Strategis"
+    },
+    {
+      "p": 931,
+      "style": "Heading 3",
+      "text": "5.3.1 Redesain Gaya Bahasa Chatbot PMB Unila"
+    },
+    {
+      "p": 941,
+      "style": "Heading 3",
+      "text": "5.3.2 Pengembangan SOP Komunikasi Chatbot"
+    },
+    {
+      "p": 954,
+      "style": "Heading 3",
+      "text": "5.3.3 Strategi Segmentasi Pesan"
+    },
+    {
+      "p": 959,
+      "style": "Heading 2",
+      "text": "5.4 Keterbatasan Penelitian"
+    },
+    {
+      "p": 969,
+      "style": "Heading 2",
+      "text": "5.5 Saran Penelitian Lanjutan"
+    },
+    {
+      "p": 985,
+      "style": "Heading 1",
+      "text": "DAFTAR PUSTAKA"
+    },
+    {
+      "p": 1060,
+      "style": "Heading 1",
+      "text": "LAMPIRAN"
+    },
+    {
+      "p": 1061,
+      "style": "Heading 2",
+      "text": "Lampiran 1. Kuesioner Penelitian"
+    },
+    {
+      "p": 1127,
+      "style": "Heading 2",
+      "text": "Lampiran 2. Ringkasan Data Cleaning dan Skoring CUQ"
+    },
+    {
+      "p": 1132,
+      "style": "Heading 2",
+      "text": "Lampiran 3. Statistik Deskriptif Skor CUQ"
+    },
+    {
+      "p": 1134,
+      "style": "Heading 2",
+      "text": "Lampiran 4. Output Uji Validitas Item CUQ"
+    },
+    {
+      "p": 1138,
+      "style": "Heading 2",
+      "text": "Lampiran 5. Output Uji Reliabilitas"
+    },
+    {
+      "p": 1140,
+      "style": "Heading 2",
+      "text": "Lampiran 6. Output Normalitas, Uji Beda, Effect Size, dan Order Effect"
+    },
+    {
+      "p": 1149,
+      "style": "Heading 2",
+      "text": "Lampiran 7. Ringkasan Analisis Klaster CUQ"
+    }
+  ],
+  "captions_count": 49,
+  "captions": [
+    {
+      "p": 415,
+      "style": "toc 1",
+      "text": "Tabel 1.1. Matriks Kesesuaian Rumusan Masalah, Tujuan, Teknik Analisis, dan Simpulan\t6"
+    },
+    {
+      "p": 416,
+      "style": "toc 1",
+      "text": "Tabel 2.1. Ringkasan Penelitian Terdahulu dan Posisi Penelitian\t9"
+    },
+    {
+      "p": 417,
+      "style": "toc 1",
+      "text": "Tabel 2.2. Posisi Teori dalam Penelitian\t10"
+    },
+    {
+      "p": 418,
+      "style": "toc 1",
+      "text": "Tabel 3.1. Tahapan Penelitian\t13"
+    },
+    {
+      "p": 419,
+      "style": "toc 1",
+      "text": "Tabel 3.2. Variabel Penelitian\t13"
+    },
+    {
+      "p": 420,
+      "style": "toc 1",
+      "text": "Tabel 3.3. Definisi Operasional Variabel\t14"
+    },
+    {
+      "p": 421,
+      "style": "toc 1",
+      "text": "Tabel 3.4. Struktur Instrumen CUQ\t16"
+    },
+    {
+      "p": 422,
+      "style": "toc 1",
+      "text": "Tabel 3.5. Kesesuaian Rumusan Masalah, Tujuan, dan Teknik Analisis\t18"
+    },
+    {
+      "p": 423,
+      "style": "toc 1",
+      "text": "Tabel 4.1 Kriteria Validasi dan Status Kelengkapan Data Responden\t21"
+    },
+    {
+      "p": 424,
+      "style": "toc 1",
+      "text": "Tabel 4.2 Profil Responden dan Urutan Pengujian\t22"
+    },
+    {
+      "p": 425,
+      "style": "toc 1",
+      "text": "Tabel 4.3 Statistik Deskriptif Perbandingan Skor Usabilitas (CUQ) Formal dan Gen-Z\t23"
+    },
+    {
+      "p": 426,
+      "style": "toc 1",
+      "text": "Tabel 4.4 Analisis Perbandingan Rata-rata Skor Berdasarkan Klaster Dimensi CUQ\t24"
+    },
+    {
+      "p": 427,
+      "style": "toc 1",
+      "text": "Tabel 4.5 Hasil Uji Reliabilitas Cronbach’s Alpha untuk Instrumen CUQ\t25"
+    },
+    {
+      "p": 428,
+      "style": "toc 1",
+      "text": "Tabel 4.6 Hasil Uji Validitas Item CUQ\t26"
+    },
+    {
+      "p": 429,
+      "style": "toc 1",
+      "text": "Tabel 4.7 Hasil Pengujian Perbedaan Skor CUQ Formal dan Gen-Z\t28"
+    },
+    {
+      "p": 430,
+      "style": "toc 1",
+      "text": "Tabel 4.8 Hasil Uji Perbedaan Skor Berdasarkan Urutan Pengujian (Order Effect)\t29"
+    },
+    {
+      "p": 431,
+      "style": "toc 1",
+      "text": "Tabel L.1. Ringkasan Data Cleaning dan Prosedur Skoring CUQ\t49"
+    },
+    {
+      "p": 432,
+      "style": "toc 1",
+      "text": "Tabel L.2. Statistik Deskriptif Skor CUQ Formal dan Gen-Z\t49"
+    },
+    {
+      "p": 433,
+      "style": "toc 1",
+      "text": "Tabel L.3. Output Uji Validitas Item CUQ dengan r tabel\t49"
+    },
+    {
+      "p": 434,
+      "style": "toc 1",
+      "text": "Tabel L.3 menunjukkan bahwa sebagian item tidak memenuhi kriteria validitas item. Karena itu, interpretasi hasil per item harus dilakukan secara hati-hati. Analisis utama tetap menggunakan skor total CUQ karena reliabilitas keseluruhan instrumen berada pada kategori reliabel.\t50"
+    },
+    {
+      "p": 435,
+      "style": "toc 1",
+      "text": "Tabel L.4. Output Uji Reliabilitas Cronbach Alpha\t50"
+    },
+    {
+      "p": 436,
+      "style": "toc 1",
+      "text": "Tabel L.5. Output Uji Normalitas Selisih Skor\t50"
+    },
+    {
+      "p": 437,
+      "style": "toc 1",
+      "text": "Tabel L.6. Output Uji Beda, Effect Size, dan Order Effect\t50"
+    },
+    {
+      "p": 438,
+      "style": "toc 1",
+      "text": "Tabel L.7. Ringkasan Perbandingan Klaster CUQ\t51"
+    },
+    {
+      "p": 485,
+      "style": "Normal",
+      "text": "Gambar 1. Konteks Daya Tampung dan Jalur Masuk PMB Unila tahun 2026 dan urgensi layanan informasi digital bagi calon mahasiswa generasi-z"
+    },
+    {
+      "p": 515,
+      "style": "Caption Tabel",
+      "text": "Tabel 1.1. Matriks Kesesuaian Rumusan Masalah, Tujuan, Teknik Analisis, dan Simpulan"
+    },
+    {
+      "p": 550,
+      "style": "Caption Tabel",
+      "text": "Tabel 2.1. Ringkasan Penelitian Terdahulu dan Posisi Penelitian"
+    },
+    {
+      "p": 563,
+      "style": "Caption Tabel",
+      "text": "Tabel 2.2. Posisi Teori dalam Penelitian"
+    },
+    {
+      "p": 605,
+      "style": "Caption Tabel",
+      "text": "Tabel 3.1. Tahapan Penelitian"
+    },
+    {
+      "p": 610,
+      "style": "Caption Tabel",
+      "text": "Tabel 3.2. Variabel Penelitian"
+    },
+    {
+      "p": 619,
+      "style": "Caption Tabel",
+      "text": "Tabel 3.3. Definisi Operasional Variabel"
+    },
+    {
+      "p": 640,
+      "style": "Caption Tabel",
+      "text": "Tabel 3.4. Struktur Instrumen CUQ"
+    },
+    {
+      "p": 660,
+      "style": "Caption Tabel",
+      "text": "Tabel 3.5. Kesesuaian Rumusan Masalah, Tujuan, dan Teknik Analisis"
+    },
+    {
+      "p": 714,
+      "style": "Caption Tabel",
+      "text": "Tabel 4.1 Kriteria Validasi dan Status Kelengkapan Data Responden"
+    },
+    {
+      "p": 720,
+      "style": "Caption Tabel",
+      "text": "Tabel 4.2 Profil Responden dan Urutan Pengujian"
+    },
+    {
+      "p": 736,
+      "style": "Caption Tabel",
+      "text": "Tabel 4.3 Statistik Deskriptif Perbandingan Skor Usabilitas (CUQ) Formal dan Gen-Z"
+    },
+    {
+      "p": 742,
+      "style": "Caption Tabel",
+      "text": "Tabel 4.4 Analisis Perbandingan Rata-rata Skor Berdasarkan Klaster Dimensi CUQ"
+    },
+    {
+      "p": 755,
+      "style": "Caption Tabel",
+      "text": "Tabel 4.5 Hasil Uji Reliabilitas Cronbach’s Alpha untuk Instrumen CUQ"
+    },
+    {
+      "p": 767,
+      "style": "Caption Tabel",
+      "text": "Tabel 4.6 Hasil Uji Validitas Item CUQ"
+    },
+    {
+      "p": 792,
+      "style": "Caption Tabel",
+      "text": "Tabel 4.7 Hasil Pengujian Perbedaan Skor CUQ Formal dan Gen-Z"
+    },
+    {
+      "p": 809,
+      "style": "Caption Tabel",
+      "text": "Tabel 4.8 Hasil Uji Perbedaan Skor Berdasarkan Urutan Pengujian (Order Effect)"
+    },
+    {
+      "p": 1128,
+      "style": "Caption Tabel",
+      "text": "Tabel L.1. Ringkasan Data Cleaning dan Prosedur Skoring CUQ"
+    },
+    {
+      "p": 1133,
+      "style": "Caption Tabel",
+      "text": "Tabel L.2. Statistik Deskriptif Skor CUQ Formal dan Gen-Z"
+    },
+    {
+      "p": 1135,
+      "style": "Caption Tabel",
+      "text": "Tabel L.3. Output Uji Validitas Item CUQ dengan r tabel"
+    },
+    {
+      "p": 1137,
+      "style": "Caption Tabel",
+      "text": "Tabel L.3 menunjukkan bahwa sebagian item tidak memenuhi kriteria validitas item. Karena itu, interpretasi hasil per item harus dilakukan secara hati-hati. Analisis utama tetap menggunakan skor total CUQ karena reliabilitas keseluruhan instrumen berada pada kategori reliabel."
+    },
+    {
+      "p": 1139,
+      "style": "Caption Tabel",
+      "text": "Tabel L.4. Output Uji Reliabilitas Cronbach Alpha"
+    },
+    {
+      "p": 1141,
+      "style": "Caption Tabel",
+      "text": "Tabel L.5. Output Uji Normalitas Selisih Skor"
+    },
+    {
+      "p": 1143,
+      "style": "Caption Tabel",
+      "text": "Tabel L.6. Output Uji Beda, Effect Size, dan Order Effect"
+    },
+    {
+      "p": 1150,
+      "style": "Caption Tabel",
+      "text": "Tabel L.7. Ringkasan Perbandingan Klaster CUQ"
+    }
+  ],
+  "wide_tables": [
+    {
+      "table": 19,
+      "rows": 17,
+      "cols": 7
+    },
+    {
+      "table": 20,
+      "rows": 17,
+      "cols": 7
+    }
+  ],
+  "empty_cell_tables": [],
+  "sections": [
+    {
+      "section": 1,
+      "top_cm": 3.0,
+      "bottom_cm": 3.0,
+      "left_cm": 4.0,
+      "right_cm": 3.0,
+      "page_width_cm": 21.0,
+      "page_height_cm": 29.7,
+      "header_cm": 1.25,
+      "footer_cm": 1.25
+    },
+    {
+      "section": 2,
+      "top_cm": 3.0,
+      "bottom_cm": 3.0,
+      "left_cm": 4.0,
+      "right_cm": 3.0,
+      "page_width_cm": 21.0,
+      "page_height_cm": 29.7,
+      "header_cm": 1.25,
+      "footer_cm": 1.25
+    },
+    {
+      "section": 3,
+      "top_cm": 3.0,
+      "bottom_cm": 3.0,
+      "left_cm": 4.0,
+      "right_cm": 3.0,
+      "page_width_cm": 21.0,
+      "page_height_cm": 29.7,
+      "header_cm": 1.25,
+      "footer_cm": 1.25
+    },
+    {
+      "section": 4,
+      "top_cm": 3.0,
+      "bottom_cm": 3.0,
+      "left_cm": 4.0,
+      "right_cm": 3.0,
+      "page_width_cm": 21.0,
+      "page_height_cm": 29.7,
+      "header_cm": 1.25,
+      "footer_cm": 1.25
+    },
+    {
+      "section": 5,
+      "top_cm": 3.0,
+      "bottom_cm": 3.0,
+      "left_cm": 4.0,
+      "right_cm": 3.0,
+      "page_width_cm": 21.0,
+      "page_height_cm": 29.7,
+      "header_cm": 1.25,
+      "footer_cm": 1.25
+    },
+    {
+      "section": 6,
+      "top_cm": 3.0,
+      "bottom_cm": 3.0,
+      "left_cm": 4.0,
+      "right_cm": 3.0,
+      "page_width_cm": 21.0,
+      "page_height_cm": 29.7,
+      "header_cm": 1.25,
+      "footer_cm": 1.25
+    },
+    {
+      "section": 7,
+      "top_cm": 3.0,
+      "bottom_cm": 3.0,
+      "left_cm": 4.0,
+      "right_cm": 3.0,
+      "page_width_cm": 21.0,
+      "page_height_cm": 29.7,
+      "header_cm": 1.25,
+      "footer_cm": 1.25
+    },
+    {
+      "section": 8,
+      "top_cm": 3.0,
+      "bottom_cm": 3.0,
+      "left_cm": 4.0,
+      "right_cm": 3.0,
+      "page_width_cm": 21.0,
+      "page_height_cm": 29.7,
+      "header_cm": 1.25,
+      "footer_cm": 1.25
+    }
+  ],
+  "field_count": 904,
+  "toc_field_present": true,
+  "issues": [
+    {
+      "severity": "WARN",
+      "category": "caption_style",
+      "location": "P415",
+      "message": "Tabel caption style bukan Caption Tabel: toc 1",
+      "text": "Tabel 1.1. Matriks Kesesuaian Rumusan Masalah, Tujuan, Teknik Analisis, dan Simpulan\t6"
+    },
+    {
+      "severity": "WARN",
+      "category": "caption_style",
+      "location": "P416",
+      "message": "Tabel caption style bukan Caption Tabel: toc 1",
+      "text": "Tabel 2.1. Ringkasan Penelitian Terdahulu dan Posisi Penelitian\t9"
+    },
+    {
+      "severity": "WARN",
+      "category": "caption_style",
+      "location": "P417",
+      "message": "Tabel caption style bukan Caption Tabel: toc 1",
+      "text": "Tabel 2.2. Posisi Teori dalam Penelitian\t10"
+    },
+    {
+      "severity": "WARN",
+      "category": "caption_style",
+      "location": "P418",
+      "message": "Tabel caption style bukan Caption Tabel: toc 1",
+      "text": "Tabel 3.1. Tahapan Penelitian\t13"
+    },
+    {
+      "severity": "WARN",
+      "category": "caption_style",
+      "location": "P419",
+      "message": "Tabel caption style bukan Caption Tabel: toc 1",
+      "text": "Tabel 3.2. Variabel Penelitian\t13"
+    },
+    {
+      "severity": "WARN",
+      "category": "caption_style",
+      "location": "P420",
+      "message": "Tabel caption style bukan Caption Tabel: toc 1",
+      "text": "Tabel 3.3. Definisi Operasional Variabel\t14"
+    },
+    {
+      "severity": "WARN",
+      "category": "caption_style",
+      "location": "P421",
+      "message": "Tabel caption style bukan Caption Tabel: toc 1",
+      "text": "Tabel 3.4. Struktur Instrumen CUQ\t16"
+    },
+    {
+      "severity": "WARN",
+      "category": "caption_style",
+      "location": "P422",
+      "message": "Tabel caption style bukan Caption Tabel: toc 1",
+      "text": "Tabel 3.5. Kesesuaian Rumusan Masalah, Tujuan, dan Teknik Analisis\t18"
+    },
+    {
+      "severity": "WARN",
+      "category": "caption_style",
+      "location": "P423",
+      "message": "Tabel caption style bukan Caption Tabel: toc 1",
+      "text": "Tabel 4.1 Kriteria Validasi dan Status Kelengkapan Data Responden\t21"
+    },
+    {
+      "severity": "WARN",
+      "category": "caption_style",
+      "location": "P424",
+      "message": "Tabel caption style bukan Caption Tabel: toc 1",
+      "text": "Tabel 4.2 Profil Responden dan Urutan Pengujian\t22"
+    },
+    {
+      "severity": "WARN",
+      "category": "caption_style",
+      "location": "P425",
+      "message": "Tabel caption style bukan Caption Tabel: toc 1",
+      "text": "Tabel 4.3 Statistik Deskriptif Perbandingan Skor Usabilitas (CUQ) Formal dan Gen-Z\t23"
+    },
+    {
+      "severity": "WARN",
+      "category": "caption_style",
+      "location": "P426",
+      "message": "Tabel caption style bukan Caption Tabel: toc 1",
+      "text": "Tabel 4.4 Analisis Perbandingan Rata-rata Skor Berdasarkan Klaster Dimensi CUQ\t24"
+    },
+    {
+      "severity": "WARN",
+      "category": "caption_style",
+      "location": "P427",
+      "message": "Tabel caption style bukan Caption Tabel: toc 1",
+      "text": "Tabel 4.5 Hasil Uji Reliabilitas Cronbach’s Alpha untuk Instrumen CUQ\t25"
+    },
+    {
+      "severity": "WARN",
+      "category": "caption_style",
+      "location": "P428",
+      "message": "Tabel caption style bukan Caption Tabel: toc 1",
+      "text": "Tabel 4.6 Hasil Uji Validitas Item CUQ\t26"
+    },
+    {
+      "severity": "WARN",
+      "category": "caption_style",
+      "location": "P429",
+      "message": "Tabel caption style bukan Caption Tabel: toc 1",
+      "text": "Tabel 4.7 Hasil Pengujian Perbedaan Skor CUQ Formal dan Gen-Z\t28"
+    },
+    {
+      "severity": "WARN",
+      "category": "caption_style",
+      "location": "P430",
+      "message": "Tabel caption style bukan Caption Tabel: toc 1",
+      "text": "Tabel 4.8 Hasil Uji Perbedaan Skor Berdasarkan Urutan Pengujian (Order Effect)\t29"
+    },
+    {
+      "severity": "WARN",
+      "category": "caption_style",
+      "location": "P431",
+      "message": "Tabel caption style bukan Caption Tabel: toc 1",
+      "text": "Tabel L.1. Ringkasan Data Cleaning dan Prosedur Skoring CUQ\t49"
+    },
+    {
+      "severity": "WARN",
+      "category": "caption_style",
+      "location": "P432",
+      "message": "Tabel caption style bukan Caption Tabel: toc 1",
+      "text": "Tabel L.2. Statistik Deskriptif Skor CUQ Formal dan Gen-Z\t49"
+    },
+    {
+      "severity": "WARN",
+      "category": "caption_style",
+      "location": "P433",
+      "message": "Tabel caption style bukan Caption Tabel: toc 1",
+      "text": "Tabel L.3. Output Uji Validitas Item CUQ dengan r tabel\t49"
+    },
+    {
+      "severity": "WARN",
+      "category": "caption_style",
+      "location": "P434",
+      "message": "Tabel caption style bukan Caption Tabel: toc 1",
+      "text": "Tabel L.3 menunjukkan bahwa sebagian item tidak memenuhi kriteria validitas item. Karena itu, interpretasi hasil per item harus dilakukan secara hati-hati. Analisis utama tetap menggunakan skor total CUQ karena reliabilitas keseluruhan instrumen berada pada kategori reliabel.\t50"
+    },
+    {
+      "severity": "WARN",
+      "category": "caption_style",
+      "location": "P435",
+      "message": "Tabel caption style bukan Caption Tabel: toc 1",
+      "text": "Tabel L.4. Output Uji Reliabilitas Cronbach Alpha\t50"
+    },
+    {
+      "severity": "WARN",
+      "category": "caption_style",
+      "location": "P436",
+      "message": "Tabel caption style bukan Caption Tabel: toc 1",
+      "text": "Tabel L.5. Output Uji Normalitas Selisih Skor\t50"
+    },
+    {
+      "severity": "WARN",
+      "category": "caption_style",
+      "location": "P437",
+      "message": "Tabel caption style bukan Caption Tabel: toc 1",
+      "text": "Tabel L.6. Output Uji Beda, Effect Size, dan Order Effect\t50"
+    },
+    {
+      "severity": "WARN",
+      "category": "caption_style",
+      "location": "P438",
+      "message": "Tabel caption style bukan Caption Tabel: toc 1",
+      "text": "Tabel L.7. Ringkasan Perbandingan Klaster CUQ\t51"
+    },
+    {
+      "severity": "WARN",
+      "category": "toc",
+      "location": "P311",
+      "message": "TOC entry tidak berakhir nomor halaman",
+      "text": "ABSTRAK\tii"
+    },
+    {
+      "severity": "WARN",
+      "category": "toc",
+      "location": "P312",
+      "message": "TOC entry tidak berakhir nomor halaman",
+      "text": "ABSTRACT\tiii"
+    },
+    {
+      "severity": "WARN",
+      "category": "toc",
+      "location": "P313",
+      "message": "TOC entry tidak berakhir nomor halaman",
+      "text": "LEMBAR PERSETUJUAN\tiv"
+    },
+    {
+      "severity": "WARN",
+      "category": "toc",
+      "location": "P314",
+      "message": "TOC entry tidak berakhir nomor halaman",
+      "text": "LEMBAR PENGESAHAN\tv"
+    },
+    {
+      "severity": "WARN",
+      "category": "toc",
+      "location": "P315",
+      "message": "TOC entry tidak berakhir nomor halaman",
+      "text": "SURAT PERNYATAAN\tvi"
+    },
+    {
+      "severity": "WARN",
+      "category": "toc",
+      "location": "P316",
+      "message": "TOC entry tidak berakhir nomor halaman",
+      "text": "RIWAYAT HIDUP\tvii"
+    },
+    {
+      "severity": "WARN",
+      "category": "toc",
+      "location": "P317",
+      "message": "TOC entry tidak berakhir nomor halaman",
+      "text": "PERSEMBAHAN\tviii"
+    },
+    {
+      "severity": "WARN",
+      "category": "toc",
+      "location": "P318",
+      "message": "TOC entry tidak berakhir nomor halaman",
+      "text": "MOTTO\tix"
+    },
+    {
+      "severity": "WARN",
+      "category": "toc",
+      "location": "P319",
+      "message": "TOC entry tidak berakhir nomor halaman",
+      "text": "SANWACANA\tx"
+    },
+    {
+      "severity": "WARN",
+      "category": "toc",
+      "location": "P320",
+      "message": "TOC entry tidak berakhir nomor halaman",
+      "text": "DAFTAR ISI\txiii"
+    },
+    {
+      "severity": "WARN",
+      "category": "toc",
+      "location": "P321",
+      "message": "TOC entry tidak berakhir nomor halaman",
+      "text": "DAFTAR TABEL\txvii"
+    },
+    {
+      "severity": "WARN",
+      "category": "toc",
+      "location": "P322",
+      "message": "TOC entry tidak berakhir nomor halaman",
+      "text": "DAFTAR GAMBAR\txix"
+    }
+  ],
+  "summary": {
+    "fail": 0,
+    "warn": 36,
+    "info": 0
+  }
+}

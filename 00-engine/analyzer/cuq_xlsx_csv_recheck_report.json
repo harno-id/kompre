@@ -1,0 +1,1613 @@
+{
+  "csv_rows": 405,
+  "xlsx_rows": 404,
+  "flat_rows": 405,
+  "flattened_csv": "D:\\DATA\\TESIS\\KOMPRE\\HARNO-KOMPRE\\00-engine\\analyzer\\cuq_csv_flattened_recheck.csv",
+  "invalid_csv": {},
+  "invalid_xlsx": {
+    "G5": 2
+  },
+  "mismatch_count_first20_each_col": 640,
+  "mismatches": [
+    {
+      "row_1based_data": 7,
+      "column": "F1",
+      "csv_value": 3.0,
+      "xlsx_value": 4.0,
+      "xlsx_No": "7",
+      "xlsx_Kode": "15"
+    },
+    {
+      "row_1based_data": 8,
+      "column": "F1",
+      "csv_value": 5.0,
+      "xlsx_value": 3.0,
+      "xlsx_No": "8",
+      "xlsx_Kode": "35"
+    },
+    {
+      "row_1based_data": 11,
+      "column": "F1",
+      "csv_value": 5.0,
+      "xlsx_value": 4.0,
+      "xlsx_No": "11",
+      "xlsx_Kode": "243"
+    },
+    {
+      "row_1based_data": 12,
+      "column": "F1",
+      "csv_value": 4.0,
+      "xlsx_value": 3.0,
+      "xlsx_No": "12",
+      "xlsx_Kode": "227"
+    },
+    {
+      "row_1based_data": 13,
+      "column": "F1",
+      "csv_value": 4.0,
+      "xlsx_value": 5.0,
+      "xlsx_No": "13",
+      "xlsx_Kode": "474"
+    },
+    {
+      "row_1based_data": 14,
+      "column": "F1",
+      "csv_value": 3.0,
+      "xlsx_value": 5.0,
+      "xlsx_No": "14",
+      "xlsx_Kode": "186"
+    },
+    {
+      "row_1based_data": 15,
+      "column": "F1",
+      "csv_value": 3.0,
+      "xlsx_value": 4.0,
+      "xlsx_No": "15",
+      "xlsx_Kode": "321"
+    },
+    {
+      "row_1based_data": 16,
+      "column": "F1",
+      "csv_value": 3.0,
+      "xlsx_value": 4.0,
+      "xlsx_No": "16",
+      "xlsx_Kode": "45"
+    },
+    {
+      "row_1based_data": 17,
+      "column": "F1",
+      "csv_value": 3.0,
+      "xlsx_value": 4.0,
+      "xlsx_No": "17",
+      "xlsx_Kode": "102"
+    },
+    {
+      "row_1based_data": 18,
+      "column": "F1",
+      "csv_value": 4.0,
+      "xlsx_value": 5.0,
+      "xlsx_No": "18",
+      "xlsx_Kode": "392"
+    },
+    {
+      "row_1based_data": 19,
+      "column": "F1",
+      "csv_value": 3.0,
+      "xlsx_value": 4.0,
+      "xlsx_No": "19",
+      "xlsx_Kode": "129"
+    },
+    {
+      "row_1based_data": 21,
+      "column": "F1",
+      "csv_value": 4.0,
+      "xlsx_value": 5.0,
+      "xlsx_No": "21",
+      "xlsx_Kode": "247"
+    },
+    {
+      "row_1based_data": 24,
+      "column": "F1",
+      "csv_value": 3.0,
+      "xlsx_value": 4.0,
+      "xlsx_No": "24",
+      "xlsx_Kode": "184"
+    },
+    {
+      "row_1based_data": 25,
+      "column": "F1",
+      "csv_value": 4.0,
+      "xlsx_value": 5.0,
+      "xlsx_No": "25",
+      "xlsx_Kode": "315"
+    },
+    {
+      "row_1based_data": 27,
+      "column": "F1",
+      "csv_value": 3.0,
+      "xlsx_value": 4.0,
+      "xlsx_No": "27",
+      "xlsx_Kode": "344"
+    },
+    {
+      "row_1based_data": 29,
+      "column": "F1",
+      "csv_value": 4.0,
+      "xlsx_value": 3.0,
+      "xlsx_No": "29",
+      "xlsx_Kode": "433"
+    },
+    {
+      "row_1based_data": 30,
+      "column": "F1",
+      "csv_value": 5.0,
+      "xlsx_value": 4.0,
+      "xlsx_No": "30",
+      "xlsx_Kode": "511"
+    },
+    {
+      "row_1based_data": 31,
+      "column": "F1",
+      "csv_value": 3.0,
+      "xlsx_value": 5.0,
+      "xlsx_No": "31",
+      "xlsx_Kode": "556"
+    },
+    {
+      "row_1based_data": 32,
+      "column": "F1",
+      "csv_value": 4.0,
+      "xlsx_value": 5.0,
+      "xlsx_No": "32",
+      "xlsx_Kode": "101"
+    },
+    {
+      "row_1based_data": 33,
+      "column": "F1",
+      "csv_value": 5.0,
+      "xlsx_value": 4.0,
+      "xlsx_No": "33",
+      "xlsx_Kode": "145"
+    },
+    {
+      "row_1based_data": 8,
+      "column": "F2",
+      "csv_value": 1.0,
+      "xlsx_value": 3.0,
+      "xlsx_No": "8",
+      "xlsx_Kode": "35"
+    },
+    {
+      "row_1based_data": 9,
+      "column": "F2",
+      "csv_value": 2.0,
+      "xlsx_value": 4.0,
+      "xlsx_No": "9",
+      "xlsx_Kode": "114"
+    },
+    {
+      "row_1based_data": 10,
+      "column": "F2",
+      "csv_value": 1.0,
+      "xlsx_value": 4.0,
+      "xlsx_No": "10",
+      "xlsx_Kode": "115"
+    },
+    {
+      "row_1based_data": 11,
+      "column": "F2",
+      "csv_value": 3.0,
+      "xlsx_value": 4.0,
+      "xlsx_No": "11",
+      "xlsx_Kode": "243"
+    },
+    {
+      "row_1based_data": 12,
+      "column": "F2",
+      "csv_value": 2.0,
+      "xlsx_value": 3.0,
+      "xlsx_No": "12",
+      "xlsx_Kode": "227"
+    },
+    {
+      "row_1based_data": 14,
+      "column": "F2",
+      "csv_value": 2.0,
+      "xlsx_value": 5.0,
+      "xlsx_No": "14",
+      "xlsx_Kode": "186"
+    },
+    {
+      "row_1based_data": 15,
+      "column": "F2",
+      "csv_value": 1.0,
+      "xlsx_value": 4.0,
+      "xlsx_No": "15",
+      "xlsx_Kode": "321"
+    },
+    {
+      "row_1based_data": 16,
+      "column": "F2",
+      "csv_value": 1.0,
+      "xlsx_value": 4.0,
+      "xlsx_No": "16",
+      "xlsx_Kode": "45"
+    },
+    {
+      "row_1based_data": 18,
+      "column": "F2",
+      "csv_value": 4.0,
+      "xlsx_value": 5.0,
+      "xlsx_No": "18",
+      "xlsx_Kode": "392"
+    },
+    {
+      "row_1based_data": 21,
+      "column": "F2",
+      "csv_value": 2.0,
+      "xlsx_value": 5.0,
+      "xlsx_No": "21",
+      "xlsx_Kode": "247"
+    },
+    {
+      "row_1based_data": 24,
+      "column": "F2",
+      "csv_value": 4.0,
+      "xlsx_value": 3.0,
+      "xlsx_No": "24",
+      "xlsx_Kode": "184"
+    },
+    {
+      "row_1based_data": 25,
+      "column": "F2",
+      "csv_value": 2.0,
+      "xlsx_value": 5.0,
+      "xlsx_No": "25",
+      "xlsx_Kode": "315"
+    },
+    {
+      "row_1based_data": 27,
+      "column": "F2",
+      "csv_value": 2.0,
+      "xlsx_value": 4.0,
+      "xlsx_No": "27",
+      "xlsx_Kode": "344"
+    },
+    {
+      "row_1based_data": 28,
+      "column": "F2",
+      "csv_value": 4.0,
+      "xlsx_value": 3.0,
+      "xlsx_No": "28",
+      "xlsx_Kode": "385"
+    },
+    {
+      "row_1based_data": 30,
+      "column": "F2",
+      "csv_value": 2.0,
+      "xlsx_value": 3.0,
+      "xlsx_No": "30",
+      "xlsx_Kode": "511"
+    },
+    {
+      "row_1based_data": 31,
+      "column": "F2",
+      "csv_value": 3.0,
+      "xlsx_value": 5.0,
+      "xlsx_No": "31",
+      "xlsx_Kode": "556"
+    },
+    {
+      "row_1based_data": 32,
+      "column": "F2",
+      "csv_value": 3.0,
+      "xlsx_value": 5.0,
+      "xlsx_No": "32",
+      "xlsx_Kode": "101"
+    },
+    {
+      "row_1based_data": 34,
+      "column": "F2",
+      "csv_value": 2.0,
+      "xlsx_value": 4.0,
+      "xlsx_No": "34",
+      "xlsx_Kode": "182"
+    },
+    {
+      "row_1based_data": 35,
+      "column": "F2",
+      "csv_value": 2.0,
+      "xlsx_value": 4.0,
+      "xlsx_No": "35",
+      "xlsx_Kode": "224"
+    },
+    {
+      "row_1based_data": 36,
+      "column": "F2",
+      "csv_value": 3.0,
+      "xlsx_value": 4.0,
+      "xlsx_No": "36",
+      "xlsx_Kode": "267"
+    },
+    {
+      "row_1based_data": 8,
+      "column": "F3",
+      "csv_value": 5.0,
+      "xlsx_value": 4.0,
+      "xlsx_No": "8",
+      "xlsx_Kode": "35"
+    },
+    {
+      "row_1based_data": 10,
+      "column": "F3",
+      "csv_value": 5.0,
+      "xlsx_value": 4.0,
+      "xlsx_No": "10",
+      "xlsx_Kode": "115"
+    },
+    {
+      "row_1based_data": 11,
+      "column": "F3",
+      "csv_value": 5.0,
+      "xlsx_value": 4.0,
+      "xlsx_No": "11",
+      "xlsx_Kode": "243"
+    },
+    {
+      "row_1based_data": 15,
+      "column": "F3",
+      "csv_value": 5.0,
+      "xlsx_value": 4.0,
+      "xlsx_No": "15",
+      "xlsx_Kode": "321"
+    },
+    {
+      "row_1based_data": 17,
+      "column": "F3",
+      "csv_value": 5.0,
+      "xlsx_value": 4.0,
+      "xlsx_No": "17",
+      "xlsx_Kode": "102"
+    },
+    {
+      "row_1based_data": 18,
+      "column": "F3",
+      "csv_value": 4.0,
+      "xlsx_value": 5.0,
+      "xlsx_No": "18",
+      "xlsx_Kode": "392"
+    },
+    {
+      "row_1based_data": 19,
+      "column": "F3",
+      "csv_value": 3.0,
+      "xlsx_value": 4.0,
+      "xlsx_No": "19",
+      "xlsx_Kode": "129"
+    },
+    {
+      "row_1based_data": 21,
+      "column": "F3",
+      "csv_value": 4.0,
+      "xlsx_value": 5.0,
+      "xlsx_No": "21",
+      "xlsx_Kode": "247"
+    },
+    {
+      "row_1based_data": 22,
+      "column": "F3",
+      "csv_value": 5.0,
+      "xlsx_value": 4.0,
+      "xlsx_No": "22",
+      "xlsx_Kode": "473"
+    },
+    {
+      "row_1based_data": 24,
+      "column": "F3",
+      "csv_value": 5.0,
+      "xlsx_value": 4.0,
+      "xlsx_No": "24",
+      "xlsx_Kode": "184"
+    },
+    {
+      "row_1based_data": 28,
+      "column": "F3",
+      "csv_value": 5.0,
+      "xlsx_value": 4.0,
+      "xlsx_No": "28",
+      "xlsx_Kode": "385"
+    },
+    {
+      "row_1based_data": 29,
+      "column": "F3",
+      "csv_value": 5.0,
+      "xlsx_value": 3.0,
+      "xlsx_No": "29",
+      "xlsx_Kode": "433"
+    },
+    {
+      "row_1based_data": 30,
+      "column": "F3",
+      "csv_value": 5.0,
+      "xlsx_value": 4.0,
+      "xlsx_No": "30",
+      "xlsx_Kode": "511"
+    },
+    {
+      "row_1based_data": 31,
+      "column": "F3",
+      "csv_value": 3.0,
+      "xlsx_value": 5.0,
+      "xlsx_No": "31",
+      "xlsx_Kode": "556"
+    },
+    {
+      "row_1based_data": 32,
+      "column": "F3",
+      "csv_value": 4.0,
+      "xlsx_value": 5.0,
+      "xlsx_No": "32",
+      "xlsx_Kode": "101"
+    },
+    {
+      "row_1based_data": 33,
+      "column": "F3",
+      "csv_value": 3.0,
+      "xlsx_value": 4.0,
+      "xlsx_No": "33",
+      "xlsx_Kode": "145"
+    },
+    {
+      "row_1based_data": 35,
+      "column": "F3",
+      "csv_value": 3.0,
+      "xlsx_value": 4.0,
+      "xlsx_No": "35",
+      "xlsx_Kode": "224"
+    },
+    {
+      "row_1based_data": 39,
+      "column": "F3",
+      "csv_value": 4.0,
+      "xlsx_value": 5.0,
+      "xlsx_No": "39",
+      "xlsx_Kode": "382"
+    },
+    {
+      "row_1based_data": 40,
+      "column": "F3",
+      "csv_value": 5.0,
+      "xlsx_value": 4.0,
+      "xlsx_No": "40",
+      "xlsx_Kode": "425"
+    },
+    {
+      "row_1based_data": 43,
+      "column": "F3",
+      "csv_value": 3.0,
+      "xlsx_value": 4.0,
+      "xlsx_No": "43",
+      "xlsx_Kode": "557"
+    },
+    {
+      "row_1based_data": 8,
+      "column": "F4",
+      "csv_value": 1.0,
+      "xlsx_value": 2.0,
+      "xlsx_No": "8",
+      "xlsx_Kode": "35"
+    },
+    {
+      "row_1based_data": 9,
+      "column": "F4",
+      "csv_value": 2.0,
+      "xlsx_value": 3.0,
+      "xlsx_No": "9",
+      "xlsx_Kode": "114"
+    },
+    {
+      "row_1based_data": 10,
+      "column": "F4",
+      "csv_value": 1.0,
+      "xlsx_value": 4.0,
+      "xlsx_No": "10",
+      "xlsx_Kode": "115"
+    },
+    {
+      "row_1based_data": 11,
+      "column": "F4",
+      "csv_value": 1.0,
+      "xlsx_value": 3.0,
+      "xlsx_No": "11",
+      "xlsx_Kode": "243"
+    },
+    {
+      "row_1based_data": 12,
+      "column": "F4",
+      "csv_value": 2.0,
+      "xlsx_value": 3.0,
+      "xlsx_No": "12",
+      "xlsx_Kode": "227"
+    },
+    {
+      "row_1based_data": 13,
+      "column": "F4",
+      "csv_value": 3.0,
+      "xlsx_value": 4.0,
+      "xlsx_No": "13",
+      "xlsx_Kode": "474"
+    },
+    {
+      "row_1based_data": 14,
+      "column": "F4",
+      "csv_value": 1.0,
+      "xlsx_value": 5.0,
+      "xlsx_No": "14",
+      "xlsx_Kode": "186"
+    },
+    {
+      "row_1based_data": 15,
+      "column": "F4",
+      "csv_value": 1.0,
+      "xlsx_value": 4.0,
+      "xlsx_No": "15",
+      "xlsx_Kode": "321"
+    },
+    {
+      "row_1based_data": 16,
+      "column": "F4",
+      "csv_value": 1.0,
+      "xlsx_value": 4.0,
+      "xlsx_No": "16",
+      "xlsx_Kode": "45"
+    },
+    {
+      "row_1based_data": 17,
+      "column": "F4",
+      "csv_value": 1.0,
+      "xlsx_value": 4.0,
+      "xlsx_No": "17",
+      "xlsx_Kode": "102"
+    },
+    {
+      "row_1based_data": 19,
+      "column": "F4",
+      "csv_value": 2.0,
+      "xlsx_value": 3.0,
+      "xlsx_No": "19",
+      "xlsx_Kode": "129"
+    },
+    {
+      "row_1based_data": 20,
+      "column": "F4",
+      "csv_value": 2.0,
+      "xlsx_value": 3.0,
+      "xlsx_No": "20",
+      "xlsx_Kode": "501"
+    },
+    {
+      "row_1based_data": 21,
+      "column": "F4",
+      "csv_value": 2.0,
+      "xlsx_value": 4.0,
+      "xlsx_No": "21",
+      "xlsx_Kode": "247"
+    },
+    {
+      "row_1based_data": 22,
+      "column": "F4",
+      "csv_value": 1.0,
+      "xlsx_value": 4.0,
+      "xlsx_No": "22",
+      "xlsx_Kode": "473"
+    },
+    {
+      "row_1based_data": 24,
+      "column": "F4",
+      "csv_value": 1.0,
+      "xlsx_value": 2.0,
+      "xlsx_No": "24",
+      "xlsx_Kode": "184"
+    },
+    {
+      "row_1based_data": 25,
+      "column": "F4",
+      "csv_value": 1.0,
+      "xlsx_value": 4.0,
+      "xlsx_No": "25",
+      "xlsx_Kode": "315"
+    },
+    {
+      "row_1based_data": 26,
+      "column": "F4",
+      "csv_value": 4.0,
+      "xlsx_value": 3.0,
+      "xlsx_No": "26",
+      "xlsx_Kode": "322"
+    },
+    {
+      "row_1based_data": 27,
+      "column": "F4",
+      "csv_value": 1.0,
+      "xlsx_value": 3.0,
+      "xlsx_No": "27",
+      "xlsx_Kode": "344"
+    },
+    {
+      "row_1based_data": 28,
+      "column": "F4",
+      "csv_value": 1.0,
+      "xlsx_value": 2.0,
+      "xlsx_No": "28",
+      "xlsx_Kode": "385"
+    },
+    {
+      "row_1based_data": 29,
+      "column": "F4",
+      "csv_value": 2.0,
+      "xlsx_value": 3.0,
+      "xlsx_No": "29",
+      "xlsx_Kode": "433"
+    },
+    {
+      "row_1based_data": 7,
+      "column": "F5",
+      "csv_value": 4.0,
+      "xlsx_value": 3.0,
+      "xlsx_No": "7",
+      "xlsx_Kode": "15"
+    },
+    {
+      "row_1based_data": 8,
+      "column": "F5",
+      "csv_value": 5.0,
+      "xlsx_value": 4.0,
+      "xlsx_No": "8",
+      "xlsx_Kode": "35"
+    },
+    {
+      "row_1based_data": 9,
+      "column": "F5",
+      "csv_value": 5.0,
+      "xlsx_value": 4.0,
+      "xlsx_No": "9",
+      "xlsx_Kode": "114"
+    },
+    {
+      "row_1based_data": 10,
+      "column": "F5",
+      "csv_value": 5.0,
+      "xlsx_value": 4.0,
+      "xlsx_No": "10",
+      "xlsx_Kode": "115"
+    },
+    {
+      "row_1based_data": 11,
+      "column": "F5",
+      "csv_value": 5.0,
+      "xlsx_value": 3.0,
+      "xlsx_No": "11",
+      "xlsx_Kode": "243"
+    },
+    {
+      "row_1based_data": 15,
+      "column": "F5",
+      "csv_value": 5.0,
+      "xlsx_value": 4.0,
+      "xlsx_No": "15",
+      "xlsx_Kode": "321"
+    },
+    {
+      "row_1based_data": 18,
+      "column": "F5",
+      "csv_value": 4.0,
+      "xlsx_value": 5.0,
+      "xlsx_No": "18",
+      "xlsx_Kode": "392"
+    },
+    {
+      "row_1based_data": 21,
+      "column": "F5",
+      "csv_value": 5.0,
+      "xlsx_value": 4.0,
+      "xlsx_No": "21",
+      "xlsx_Kode": "247"
+    },
+    {
+      "row_1based_data": 22,
+      "column": "F5",
+      "csv_value": 5.0,
+      "xlsx_value": 4.0,
+      "xlsx_No": "22",
+      "xlsx_Kode": "473"
+    },
+    {
+      "row_1based_data": 24,
+      "column": "F5",
+      "csv_value": 5.0,
+      "xlsx_value": 3.0,
+      "xlsx_No": "24",
+      "xlsx_Kode": "184"
+    },
+    {
+      "row_1based_data": 25,
+      "column": "F5",
+      "csv_value": 5.0,
+      "xlsx_value": 4.0,
+      "xlsx_No": "25",
+      "xlsx_Kode": "315"
+    },
+    {
+      "row_1based_data": 27,
+      "column": "F5",
+      "csv_value": 5.0,
+      "xlsx_value": 4.0,
+      "xlsx_No": "27",
+      "xlsx_Kode": "344"
+    },
+    {
+      "row_1based_data": 28,
+      "column": "F5",
+      "csv_value": 5.0,
+      "xlsx_value": 3.0,
+      "xlsx_No": "28",
+      "xlsx_Kode": "385"
+    },
+    {
+      "row_1based_data": 29,
+      "column": "F5",
+      "csv_value": 5.0,
+      "xlsx_value": 3.0,
+      "xlsx_No": "29",
+      "xlsx_Kode": "433"
+    },
+    {
+      "row_1based_data": 30,
+      "column": "F5",
+      "csv_value": 5.0,
+      "xlsx_value": 4.0,
+      "xlsx_No": "30",
+      "xlsx_Kode": "511"
+    },
+    {
+      "row_1based_data": 31,
+      "column": "F5",
+      "csv_value": 4.0,
+      "xlsx_value": 5.0,
+      "xlsx_No": "31",
+      "xlsx_Kode": "556"
+    },
+    {
+      "row_1based_data": 32,
+      "column": "F5",
+      "csv_value": 4.0,
+      "xlsx_value": 5.0,
+      "xlsx_No": "32",
+      "xlsx_Kode": "101"
+    },
+    {
+      "row_1based_data": 34,
+      "column": "F5",
+      "csv_value": 5.0,
+      "xlsx_value": 4.0,
+      "xlsx_No": "34",
+      "xlsx_Kode": "182"
+    },
+    {
+      "row_1based_data": 35,
+      "column": "F5",
+      "csv_value": 5.0,
+      "xlsx_value": 4.0,
+      "xlsx_No": "35",
+      "xlsx_Kode": "224"
+    },
+    {
+      "row_1based_data": 38,
+      "column": "F5",
+      "csv_value": 5.0,
+      "xlsx_value": 4.0,
+      "xlsx_No": "38",
+      "xlsx_Kode": "341"
+    },
+    {
+      "row_1based_data": 8,
+      "column": "F6",
+      "csv_value": 1.0,
+      "xlsx_value": 2.0,
+      "xlsx_No": "8",
+      "xlsx_Kode": "35"
+    },
+    {
+      "row_1based_data": 9,
+      "column": "F6",
+      "csv_value": 2.0,
+      "xlsx_value": 3.0,
+      "xlsx_No": "9",
+      "xlsx_Kode": "114"
+    },
+    {
+      "row_1based_data": 10,
+      "column": "F6",
+      "csv_value": 1.0,
+      "xlsx_value": 4.0,
+      "xlsx_No": "10",
+      "xlsx_Kode": "115"
+    },
+    {
+      "row_1based_data": 11,
+      "column": "F6",
+      "csv_value": 1.0,
+      "xlsx_value": 4.0,
+      "xlsx_No": "11",
+      "xlsx_Kode": "243"
+    },
+    {
+      "row_1based_data": 12,
+      "column": "F6",
+      "csv_value": 4.0,
+      "xlsx_value": 3.0,
+      "xlsx_No": "12",
+      "xlsx_Kode": "227"
+    },
+    {
+      "row_1based_data": 13,
+      "column": "F6",
+      "csv_value": 3.0,
+      "xlsx_value": 4.0,
+      "xlsx_No": "13",
+      "xlsx_Kode": "474"
+    },
+    {
+      "row_1based_data": 14,
+      "column": "F6",
+      "csv_value": 1.0,
+      "xlsx_value": 5.0,
+      "xlsx_No": "14",
+      "xlsx_Kode": "186"
+    },
+    {
+      "row_1based_data": 15,
+      "column": "F6",
+      "csv_value": 5.0,
+      "xlsx_value": 4.0,
+      "xlsx_No": "15",
+      "xlsx_Kode": "321"
+    },
+    {
+      "row_1based_data": 17,
+      "column": "F6",
+      "csv_value": 1.0,
+      "xlsx_value": 4.0,
+      "xlsx_No": "17",
+      "xlsx_Kode": "102"
+    },
+    {
+      "row_1based_data": 19,
+      "column": "F6",
+      "csv_value": 1.0,
+      "xlsx_value": 3.0,
+      "xlsx_No": "19",
+      "xlsx_Kode": "129"
+    },
+    {
+      "row_1based_data": 20,
+      "column": "F6",
+      "csv_value": 4.0,
+      "xlsx_value": 3.0,
+      "xlsx_No": "20",
+      "xlsx_Kode": "501"
+    },
+    {
+      "row_1based_data": 21,
+      "column": "F6",
+      "csv_value": 1.0,
+      "xlsx_value": 4.0,
+      "xlsx_No": "21",
+      "xlsx_Kode": "247"
+    },
+    {
+      "row_1based_data": 22,
+      "column": "F6",
+      "csv_value": 1.0,
+      "xlsx_value": 4.0,
+      "xlsx_No": "22",
+      "xlsx_Kode": "473"
+    },
+    {
+      "row_1based_data": 24,
+      "column": "F6",
+      "csv_value": 1.0,
+      "xlsx_value": 2.0,
+      "xlsx_No": "24",
+      "xlsx_Kode": "184"
+    },
+    {
+      "row_1based_data": 25,
+      "column": "F6",
+      "csv_value": 1.0,
+      "xlsx_value": 4.0,
+      "xlsx_No": "25",
+      "xlsx_Kode": "315"
+    },
+    {
+      "row_1based_data": 26,
+      "column": "F6",
+      "csv_value": 4.0,
+      "xlsx_value": 3.0,
+      "xlsx_No": "26",
+      "xlsx_Kode": "322"
+    },
+    {
+      "row_1based_data": 27,
+      "column": "F6",
+      "csv_value": 1.0,
+      "xlsx_value": 3.0,
+      "xlsx_No": "27",
+      "xlsx_Kode": "344"
+    },
+    {
+      "row_1based_data": 28,
+      "column": "F6",
+      "csv_value": 1.0,
+      "xlsx_value": 2.0,
+      "xlsx_No": "28",
+      "xlsx_Kode": "385"
+    },
+    {
+      "row_1based_data": 30,
+      "column": "F6",
+      "csv_value": 1.0,
+      "xlsx_value": 3.0,
+      "xlsx_No": "30",
+      "xlsx_Kode": "511"
+    },
+    {
+      "row_1based_data": 31,
+      "column": "F6",
+      "csv_value": 2.0,
+      "xlsx_value": 5.0,
+      "xlsx_No": "31",
+      "xlsx_Kode": "556"
+    },
+    {
+      "row_1based_data": 8,
+      "column": "F7",
+      "csv_value": 5.0,
+      "xlsx_value": 4.0,
+      "xlsx_No": "8",
+      "xlsx_Kode": "35"
+    },
+    {
+      "row_1based_data": 11,
+      "column": "F7",
+      "csv_value": 3.0,
+      "xlsx_value": 4.0,
+      "xlsx_No": "11",
+      "xlsx_Kode": "243"
+    },
+    {
+      "row_1based_data": 12,
+      "column": "F7",
+      "csv_value": 4.0,
+      "xlsx_value": 3.0,
+      "xlsx_No": "12",
+      "xlsx_Kode": "227"
+    },
+    {
+      "row_1based_data": 14,
+      "column": "F7",
+      "csv_value": 3.0,
+      "xlsx_value": 5.0,
+      "xlsx_No": "14",
+      "xlsx_Kode": "186"
+    },
+    {
+      "row_1based_data": 15,
+      "column": "F7",
+      "csv_value": 3.0,
+      "xlsx_value": 4.0,
+      "xlsx_No": "15",
+      "xlsx_Kode": "321"
+    },
+    {
+      "row_1based_data": 16,
+      "column": "F7",
+      "csv_value": 3.0,
+      "xlsx_value": 4.0,
+      "xlsx_No": "16",
+      "xlsx_Kode": "45"
+    },
+    {
+      "row_1based_data": 17,
+      "column": "F7",
+      "csv_value": 5.0,
+      "xlsx_value": 4.0,
+      "xlsx_No": "17",
+      "xlsx_Kode": "102"
+    },
+    {
+      "row_1based_data": 18,
+      "column": "F7",
+      "csv_value": 4.0,
+      "xlsx_value": 5.0,
+      "xlsx_No": "18",
+      "xlsx_Kode": "392"
+    },
+    {
+      "row_1based_data": 22,
+      "column": "F7",
+      "csv_value": 5.0,
+      "xlsx_value": 4.0,
+      "xlsx_No": "22",
+      "xlsx_Kode": "473"
+    },
+    {
+      "row_1based_data": 24,
+      "column": "F7",
+      "csv_value": 5.0,
+      "xlsx_value": 4.0,
+      "xlsx_No": "24",
+      "xlsx_Kode": "184"
+    },
+    {
+      "row_1based_data": 25,
+      "column": "F7",
+      "csv_value": 5.0,
+      "xlsx_value": 4.0,
+      "xlsx_No": "25",
+      "xlsx_Kode": "315"
+    },
+    {
+      "row_1based_data": 27,
+      "column": "F7",
+      "csv_value": 5.0,
+      "xlsx_value": 4.0,
+      "xlsx_No": "27",
+      "xlsx_Kode": "344"
+    },
+    {
+      "row_1based_data": 28,
+      "column": "F7",
+      "csv_value": 5.0,
+      "xlsx_value": 4.0,
+      "xlsx_No": "28",
+      "xlsx_Kode": "385"
+    },
+    {
+      "row_1based_data": 29,
+      "column": "F7",
+      "csv_value": 4.0,
+      "xlsx_value": 3.0,
+      "xlsx_No": "29",
+      "xlsx_Kode": "433"
+    },
+    {
+      "row_1based_data": 30,
+      "column": "F7",
+      "csv_value": 5.0,
+      "xlsx_value": 4.0,
+      "xlsx_No": "30",
+      "xlsx_Kode": "511"
+    },
+    {
+      "row_1based_data": 31,
+      "column": "F7",
+      "csv_value": 4.0,
+      "xlsx_value": 5.0,
+      "xlsx_No": "31",
+      "xlsx_Kode": "556"
+    },
+    {
+      "row_1based_data": 32,
+      "column": "F7",
+      "csv_value": 4.0,
+      "xlsx_value": 5.0,
+      "xlsx_No": "32",
+      "xlsx_Kode": "101"
+    },
+    {
+      "row_1based_data": 35,
+      "column": "F7",
+      "csv_value": 5.0,
+      "xlsx_value": 4.0,
+      "xlsx_No": "35",
+      "xlsx_Kode": "224"
+    },
+    {
+      "row_1based_data": 39,
+      "column": "F7",
+      "csv_value": 4.0,
+      "xlsx_value": 5.0,
+      "xlsx_No": "39",
+      "xlsx_Kode": "382"
+    },
+    {
+      "row_1based_data": 40,
+      "column": "F7",
+      "csv_value": 5.0,
+      "xlsx_value": 4.0,
+      "xlsx_No": "40",
+      "xlsx_Kode": "425"
+    },
+    {
+      "row_1based_data": 7,
+      "column": "F8",
+      "csv_value": 1.0,
+      "xlsx_value": 4.0,
+      "xlsx_No": "7",
+      "xlsx_Kode": "15"
+    },
+    {
+      "row_1based_data": 9,
+      "column": "F8",
+      "csv_value": 1.0,
+      "xlsx_value": 3.0,
+      "xlsx_No": "9",
+      "xlsx_Kode": "114"
+    },
+    {
+      "row_1based_data": 10,
+      "column": "F8",
+      "csv_value": 1.0,
+      "xlsx_value": 4.0,
+      "xlsx_No": "10",
+      "xlsx_Kode": "115"
+    },
+    {
+      "row_1based_data": 11,
+      "column": "F8",
+      "csv_value": 1.0,
+      "xlsx_value": 4.0,
+      "xlsx_No": "11",
+      "xlsx_Kode": "243"
+    },
+    {
+      "row_1based_data": 12,
+      "column": "F8",
+      "csv_value": 2.0,
+      "xlsx_value": 3.0,
+      "xlsx_No": "12",
+      "xlsx_Kode": "227"
+    },
+    {
+      "row_1based_data": 13,
+      "column": "F8",
+      "csv_value": 3.0,
+      "xlsx_value": 4.0,
+      "xlsx_No": "13",
+      "xlsx_Kode": "474"
+    },
+    {
+      "row_1based_data": 14,
+      "column": "F8",
+      "csv_value": 2.0,
+      "xlsx_value": 5.0,
+      "xlsx_No": "14",
+      "xlsx_Kode": "186"
+    },
+    {
+      "row_1based_data": 15,
+      "column": "F8",
+      "csv_value": 5.0,
+      "xlsx_value": 4.0,
+      "xlsx_No": "15",
+      "xlsx_Kode": "321"
+    },
+    {
+      "row_1based_data": 17,
+      "column": "F8",
+      "csv_value": 1.0,
+      "xlsx_value": 4.0,
+      "xlsx_No": "17",
+      "xlsx_Kode": "102"
+    },
+    {
+      "row_1based_data": 19,
+      "column": "F8",
+      "csv_value": 1.0,
+      "xlsx_value": 3.0,
+      "xlsx_No": "19",
+      "xlsx_Kode": "129"
+    },
+    {
+      "row_1based_data": 20,
+      "column": "F8",
+      "csv_value": 4.0,
+      "xlsx_value": 3.0,
+      "xlsx_No": "20",
+      "xlsx_Kode": "501"
+    },
+    {
+      "row_1based_data": 21,
+      "column": "F8",
+      "csv_value": 2.0,
+      "xlsx_value": 4.0,
+      "xlsx_No": "21",
+      "xlsx_Kode": "247"
+    },
+    {
+      "row_1based_data": 22,
+      "column": "F8",
+      "csv_value": 5.0,
+      "xlsx_value": 4.0,
+      "xlsx_No": "22",
+      "xlsx_Kode": "473"
+    },
+    {
+      "row_1based_data": 24,
+      "column": "F8",
+      "csv_value": 2.0,
+      "xlsx_value": 3.0,
+      "xlsx_No": "24",
+      "xlsx_Kode": "184"
+    },
+    {
+      "row_1based_data": 25,
+      "column": "F8",
+      "csv_value": 1.0,
+      "xlsx_value": 4.0,
+      "xlsx_No": "25",
+      "xlsx_Kode": "315"
+    },
+    {
+      "row_1based_data": 26,
+      "column": "F8",
+      "csv_value": 4.0,
+      "xlsx_value": 3.0,
+      "xlsx_No": "26",
+      "xlsx_Kode": "322"
+    },
+    {
+      "row_1based_data": 27,
+      "column": "F8",
+      "csv_value": 2.0,
+      "xlsx_value": 3.0,
+      "xlsx_No": "27",
+      "xlsx_Kode": "344"
+    },
+    {
+      "row_1based_data": 28,
+      "column": "F8",
+      "csv_value": 4.0,
+      "xlsx_value": 3.0,
+      "xlsx_No": "28",
+      "xlsx_Kode": "385"
+    },
+    {
+      "row_1based_data": 30,
+      "column": "F8",
+      "csv_value": 2.0,
+      "xlsx_value": 3.0,
+      "xlsx_No": "30",
+      "xlsx_Kode": "511"
+    },
+    {
+      "row_1based_data": 31,
+      "column": "F8",
+      "csv_value": 3.0,
+      "xlsx_value": 5.0,
+      "xlsx_No": "31",
+      "xlsx_Kode": "556"
+    },
+    {
+      "row_1based_data": 7,
+      "column": "F9",
+      "csv_value": 3.0,
+      "xlsx_value": 4.0,
+      "xlsx_No": "7",
+      "xlsx_Kode": "15"
+    },
+    {
+      "row_1based_data": 8,
+      "column": "F9",
+      "csv_value": 5.0,
+      "xlsx_value": 3.0,
+      "xlsx_No": "8",
+      "xlsx_Kode": "35"
+    },
+    {
+      "row_1based_data": 10,
+      "column": "F9",
+      "csv_value": 5.0,
+      "xlsx_value": 4.0,
+      "xlsx_No": "10",
+      "xlsx_Kode": "115"
+    },
+    {
+      "row_1based_data": 11,
+      "column": "F9",
+      "csv_value": 5.0,
+      "xlsx_value": 3.0,
+      "xlsx_No": "11",
+      "xlsx_Kode": "243"
+    },
+    {
+      "row_1based_data": 12,
+      "column": "F9",
+      "csv_value": 2.0,
+      "xlsx_value": 3.0,
+      "xlsx_No": "12",
+      "xlsx_Kode": "227"
+    },
+    {
+      "row_1based_data": 13,
+      "column": "F9",
+      "csv_value": 3.0,
+      "xlsx_value": 5.0,
+      "xlsx_No": "13",
+      "xlsx_Kode": "474"
+    },
+    {
+      "row_1based_data": 14,
+      "column": "F9",
+      "csv_value": 3.0,
+      "xlsx_value": 5.0,
+      "xlsx_No": "14",
+      "xlsx_Kode": "186"
+    },
+    {
+      "row_1based_data": 15,
+      "column": "F9",
+      "csv_value": 3.0,
+      "xlsx_value": 4.0,
+      "xlsx_No": "15",
+      "xlsx_Kode": "321"
+    },
+    {
+      "row_1based_data": 16,
+      "column": "F9",
+      "csv_value": 3.0,
+      "xlsx_value": 4.0,
+      "xlsx_No": "16",
+      "xlsx_Kode": "45"
+    },
+    {
+      "row_1based_data": 17,
+      "column": "F9",
+      "csv_value": 3.0,
+      "xlsx_value": 4.0,
+      "xlsx_No": "17",
+      "xlsx_Kode": "102"
+    },
+    {
+      "row_1based_data": 22,
+      "column": "F9",
+      "csv_value": 5.0,
+      "xlsx_value": 4.0,
+      "xlsx_No": "22",
+      "xlsx_Kode": "473"
+    },
+    {
+      "row_1based_data": 25,
+      "column": "F9",
+      "csv_value": 5.0,
+      "xlsx_value": 4.0,
+      "xlsx_No": "25",
+      "xlsx_Kode": "315"
+    },
+    {
+      "row_1based_data": 29,
+      "column": "F9",
+      "csv_value": 5.0,
+      "xlsx_value": 3.0,
+      "xlsx_No": "29",
+      "xlsx_Kode": "433"
+    },
+    {
+      "row_1based_data": 30,
+      "column": "F9",
+      "csv_value": 5.0,
+      "xlsx_value": 4.0,
+      "xlsx_No": "30",
+      "xlsx_Kode": "511"
+    },
+    {
+      "row_1based_data": 31,
+      "column": "F9",
+      "csv_value": 4.0,
+      "xlsx_value": 5.0,
+      "xlsx_No": "31",
+      "xlsx_Kode": "556"
+    },
+    {
+      "row_1based_data": 32,
+      "column": "F9",
+      "csv_value": 4.0,
+      "xlsx_value": 5.0,
+      "xlsx_No": "32",
+      "xlsx_Kode": "101"
+    },
+    {
+      "row_1based_data": 33,
+      "column": "F9",
+      "csv_value": 5.0,
+      "xlsx_value": 4.0,
+      "xlsx_No": "33",
+      "xlsx_Kode": "145"
+    },
+    {
+      "row_1based_data": 35,
+      "column": "F9",
+      "csv_value": 3.0,
+      "xlsx_value": 4.0,
+      "xlsx_No": "35",
+      "xlsx_Kode": "224"
+    },
+    {
+      "row_1based_data": 38,
+      "column": "F9",
+      "csv_value": 5.0,
+      "xlsx_value": 4.0,
+      "xlsx_No": "38",
+      "xlsx_Kode": "341"
+    },
+    {
+      "row_1based_data": 39,
+      "column": "F9",
+      "csv_value": 4.0,
+      "xlsx_value": 5.0,
+      "xlsx_No": "39",
+      "xlsx_Kode": "382"
+    },
+    {
+      "row_1based_data": 7,
+      "column": "F10",
+      "csv_value": 2.0,
+      "xlsx_value": 3.0,
+      "xlsx_No": "7",
+      "xlsx_Kode": "15"
+    },
+    {
+      "row_1based_data": 8,
+      "column": "F10",
+      "csv_value": 1.0,
+      "xlsx_value": 2.0,
+      "xlsx_No": "8",
+      "xlsx_Kode": "35"
+    },
+    {
+      "row_1based_data": 9,
+      "column": "F10",
+      "csv_value": 2.0,
+      "xlsx_value": 3.0,
+      "xlsx_No": "9",
+      "xlsx_Kode": "114"
+    },
+    {
+      "row_1based_data": 11,
+      "column": "F10",
+      "csv_value": 2.0,
+      "xlsx_value": 4.0,
+      "xlsx_No": "11",
+      "xlsx_Kode": "243"
+    },
+    {
+      "row_1based_data": 12,
+      "column": "F10",
+      "csv_value": 4.0,
+      "xlsx_value": 3.0,
+      "xlsx_No": "12",
+      "xlsx_Kode": "227"
+    },
+    {
+      "row_1based_data": 13,
+      "column": "F10",
+      "csv_value": 3.0,
+      "xlsx_value": 4.0,
+      "xlsx_No": "13",
+      "xlsx_Kode": "474"
+    },
+    {
+      "row_1based_data": 14,
+      "column": "F10",
+      "csv_value": 2.0,
+      "xlsx_value": 5.0,
+      "xlsx_No": "14",
+      "xlsx_Kode": "186"
+    },
+    {
+      "row_1based_data": 15,
+      "column": "F10",
+      "csv_value": 3.0,
+      "xlsx_value": 4.0,
+      "xlsx_No": "15",
+      "xlsx_Kode": "321"
+    },
+    {
+      "row_1based_data": 16,
+      "column": "F10",
+      "csv_value": 3.0,
+      "xlsx_value": 4.0,
+      "xlsx_No": "16",
+      "xlsx_Kode": "45"
+    },
+    {
+      "row_1based_data": 17,
+      "column": "F10",
+      "csv_value": 3.0,
+      "xlsx_value": 4.0,
+      "xlsx_No": "17",
+      "xlsx_Kode": "102"
+    },
+    {
+      "row_1based_data": 20,
+      "column": "F10",
+      "csv_value": 2.0,
+      "xlsx_value": 3.0,
+      "xlsx_No": "20",
+      "xlsx_Kode": "501"
+    },
+    {
+      "row_1based_data": 21,
+      "column": "F10",
+      "csv_value": 2.0,
+      "xlsx_value": 4.0,
+      "xlsx_No": "21",
+      "xlsx_Kode": "247"
+    },
+    {
+      "row_1based_data": 22,
+      "column": "F10",
+      "csv_value": 1.0,
+      "xlsx_value": 4.0,
+      "xlsx_No": "22",
+      "xlsx_Kode": "473"
+    },
+    {
+      "row_1based_data": 24,
+      "column": "F10",
+      "csv_value": 2.0,
+      "xlsx_value": 3.0,
+      "xlsx_No": "24",
+      "xlsx_Kode": "184"
+    },
+    {
+      "row_1based_data": 25,
+      "column": "F10",
+      "csv_value": 2.0,
+      "xlsx_value": 4.0,
+      "xlsx_No": "25",
+      "xlsx_Kode": "315"
+    },
+    {
+      "row_1based_data": 26,
+      "column": "F10",
+      "csv_value": 4.0,
+      "xlsx_value": 3.0,
+      "xlsx_No": "26",
+      "xlsx_Kode": "322"
+    },
+    {
+      "row_1based_data": 27,
+      "column": "F10",
+      "csv_value": 2.0,
+      "xlsx_value": 3.0,
+      "xlsx_No": "27",
+      "xlsx_Kode": "344"
+    },
+    {
+      "row_1based_data": 30,
+      "column": "F10",
+      "csv_value": 1.0,
+      "xlsx_value": 3.0,
+      "xlsx_No": "30",
+      "xlsx_Kode": "511"
+    },
+    {
+      "row_1based_data": 31,
+      "column": "F10",
+      "csv_value": 3.0,
+      "xlsx_value": 5.0,
+      "xlsx_No": "31",
+      "xlsx_Kode": "556"
+    },
+    {
+      "row_1based_data": 32,
+      "column": "F10",
+      "csv_value": 2.0,
+      "xlsx_value": 5.0,
+      "xlsx_No": "32",
+      "xlsx_Kode": "101"
+    }
+  ]
+}

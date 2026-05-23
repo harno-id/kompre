@@ -1,0 +1,31 @@
+# Thesis Patch Consistency Fix Log
+
+File: `D:\DATA\TESIS\KOMPRE\HARNO-KOMPRE\02-data\thesis\TESIS_HARNO_CSV_MASTER_UPDATE_WORKING_20260521-092331.docx`
+
+## P86
+**Before:**
+The results show that the average CUQ score for the formal chatbot was 72.92, while the Generation Z chatbot obtained 73.50. The mean difference of 0.57 indicates a very small difference. The paired sample t-test showed a significance value of 0.157, while the Wilcoxon test showed a significance value of 0.003. Therefore, there is no significant difference between the usability of the formal language chatbot and the Generation Z language chatbot.
+
+**After:**
+The results show that the average CUQ score for the formal chatbot was 72.92, while the Generation Z chatbot obtained 73.50. The mean difference of 0.57 indicates a very small difference. The paired sample t-test showed a significance value of 0.157, while the Wilcoxon test showed a significance value of 0.003. Therefore, the nonparametric test indicates a statistically significant difference, but the effect size is very small; consequently, the practical interpretation must remain cautious.
+
+## P713
+**Before:**
+Sebelum memasuki tahap analisis inti, dilakukan proses pembersihan data (data cleaning) dan validasi terhadap respons yang masuk. Data awal mencatat 405 entri responden. Seluruh responden menyelesaikan interaksi dengan dua kondisi chatbot (Formal dan Gen-Z) dan mengisi kuesioner CUQ secara lengkap. Pada pemeriksaan rentang skala, ditemukan dua nilai pada item G5 yang berada di luar rentang skala Likert 1–5, yaitu bernilai 0. Karena nilai tersebut tidak sesuai dengan format instrumen, keduanya dikoreksi menggunakan median valid item G5, yaitu 4, agar jumlah sampel berpasangan tetap N=405.
+
+**After:**
+Sebelum memasuki tahap analisis inti, dilakukan proses pembersihan data (data cleaning) dan validasi terhadap respons yang masuk. Data mentah CSV mencatat 405 entri responden. Seluruh responden menyelesaikan interaksi dengan dua kondisi chatbot (Formal dan Gen-Z) dan mengisi kuesioner CUQ secara lengkap. Pemeriksaan rentang skala menunjukkan seluruh nilai CUQ berada dalam rentang valid 1–5, sehingga CSV digunakan sebagai raw master analisis.
+
+## P834
+**Before:**
+Rumusan masalah kedua menanyakan apakah terdapat perbedaan tingkat usabilitas (skor CUQ) antara chatbot formal dan chatbot Generasi Z. Hasil paired sample t-test menunjukkan Sig. = 0,157, sedangkan uji Wilcoxon signed-rank sebagai uji utama karena distribusi selisih tidak normal menunjukkan Sig. = 0,003. Kedua hasil tersebut berada di atas taraf signifikansi 0,05, sehingga tidak terdapat perbedaan yang signifikan antara kedua kondisi.
+
+**After:**
+Rumusan masalah kedua menanyakan apakah terdapat perbedaan tingkat usabilitas (skor CUQ) antara chatbot formal dan chatbot Generasi Z. Hasil paired sample t-test menunjukkan Sig. = 0,157, sedangkan uji Wilcoxon signed-rank sebagai uji utama karena distribusi selisih tidak normal menunjukkan Sig. = 0,003. Dengan demikian, paired sample t-test tidak menunjukkan perbedaan rata-rata yang signifikan, tetapi Wilcoxon menunjukkan perbedaan secara nonparametrik. Karena ukuran efek sangat kecil, hasil tersebut harus ditafsirkan hati-hati dan tidak cukup untuk menyatakan keunggulan praktis yang kuat.
+
+## P883
+**Before:**
+Analisis data terhadap 405 responden menunjukkan bahwa skor CUQ chatbot formal dan chatbot Generasi Z relatif setara. Rata-rata skor formal sebesar 72,92 dan Gen-Z sebesar 73,50, dengan selisih 0,57 poin. Hasil uji perbedaan tidak signifikan dan ukuran efek sangat kecil. Temuan ini menjadi dasar bagi perumusan simpulan dan rekomendasi strategis yang lebih hati-hati pada bab selanjutnya.
+
+**After:**
+Analisis data terhadap 405 responden menunjukkan bahwa skor CUQ chatbot formal dan chatbot Generasi Z relatif setara secara praktis. Rata-rata skor formal sebesar 72,92 dan Gen-Z sebesar 73,50, dengan selisih 0,57 poin. Paired sample t-test tidak signifikan, sedangkan Wilcoxon signifikan; namun ukuran efek sangat kecil. Temuan ini menjadi dasar bagi perumusan simpulan dan rekomendasi strategis yang lebih hati-hati pada bab selanjutnya.

@@ -1,0 +1,345 @@
+"""Build lampiran reader content untuk halaman analisis-data submenu
+"CUQ - Lampiran Olah Data".
+
+Cakupan: tahap analisis 01-08 dari folder PENDALAMAN/03-olah-data.
+Output: salinan markdown + manifest.json di output/data/lampiran/.
+
+Chart curated dihardcode di manifest agar tampilan konsisten dengan dark
+academic palette dashboard (ECharts lokal sudah ada di assets/echarts/).
+"""
+from __future__ import annotations
+
+import json
+import shutil
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[2]
+SRC_DIR = ROOT / "PENDALAMAN" / "03-olah-data"
+OUT_DIR = ROOT / "00-engine" / "frontend" / "output" / "data" / "lampiran"
+
+# Stage definition: (file_md, key, label, kicker, summary, charts[])
+# - charts[] ringkas; tipe = "donut" | "bar" | "barGroup" | "barH" | "gauge"
+STAGES = [
+    {
+        "file": "01_data_cleaning.md",
+        "key": "tahap-1",
+        "label": "Tahap 1 - Data Cleaning",
+        "icon": "i-shield",
+        "kicker": "Pembersihan Data",
+        "summary": "405 responden valid; 1 anomali G5=0 dikoreksi median; straight-liner dipertahankan dengan justifikasi metodologis.",
+        "highlights": [
+            ["N final", "405 responden"],
+            ["Missing", "0 kasus"],
+            ["Anomali rentang", "1 sel (G5=0)"],
+            ["Straight-liner Formal", "60 (14,8%)"],
+            ["Straight-liner Gen-Z", "69 (17,0%)"],
+            ["Duplikat nama", "139 baris dipertahankan"],
+        ],
+        "charts": [
+            {
+                "id": "cleaning-summary",
+                "title": "Ringkasan Hasil Cleaning",
+                "type": "barH",
+                "categories": ["Missing values", "Anomali G5=0", "Straight-liner Formal", "Straight-liner Gen-Z", "Duplikat nama"],
+                "values": [0, 1, 60, 69, 139],
+                "color": "#2ea8ff",
+                "note": "Hampir tidak ada missing data; anomali G5=0 hanya 1 sel; straight-liner dan duplikat dipertahankan dengan justifikasi.",
+            },
+        ],
+    },
+    {
+        "file": "02_scoring_normalisasi.md",
+        "key": "tahap-2",
+        "label": "Tahap 2 - Skoring & Normalisasi",
+        "icon": "i-chart",
+        "kicker": "Reverse Scoring CUQ",
+        "summary": "Reverse scoring item negatif lalu normalisasi 0-100. Mayoritas (>95%) responden menilai kedua chatbot pada kategori Baik-Sangat Baik.",
+        "highlights": [
+            ["Mean Formal", "72,92"],
+            ["Mean Gen-Z", "73,50"],
+            ["Selisih mean", "+0,57 poin"],
+            ["Skor maksimum", "100"],
+            ["Item positif", "Q1, Q3, Q5, Q7, Q9, Q11, Q13, Q15"],
+            ["Item negatif", "Q2, Q4, Q6, Q8, Q10, Q12, Q14, Q16"],
+        ],
+        "charts": [
+            {
+                "id": "scoring-categories",
+                "title": "Distribusi Kategori Skor CUQ",
+                "type": "barGroup",
+                "categories": ["Rendah (0-25)", "Cukup (26-50)", "Baik (51-75)", "Sangat Baik (76-100)"],
+                "series": [
+                    {"name": "Formal", "values": [2, 13, 178, 212], "color": "#2ea8ff"},
+                    {"name": "Gen-Z",  "values": [2, 18, 167, 218], "color": "#35e2a8"},
+                ],
+                "note": "Mayoritas responden (>95%) menilai kedua chatbot pada kategori Baik atau Sangat Baik.",
+            },
+        ],
+    },
+    {
+        "file": "03_validitas_reliabilitas.md",
+        "key": "tahap-3",
+        "label": "Tahap 3 - Validitas & Reliabilitas",
+        "icon": "i-clipboard",
+        "kicker": "Uji Instrumen",
+        "summary": "16/16 item valid (r > 0,098). Cronbach Alpha sangat tinggi: Formal 0,905; Gen-Z 0,922. Q16 sedikit menarik turun reliabilitas tapi tetap dipertahankan.",
+        "highlights": [
+            ["r tabel (df=403)", "0,098"],
+            ["Item valid Formal", "16/16"],
+            ["Item valid Gen-Z", "16/16"],
+            ["Alpha Formal", "0,905"],
+            ["Alpha Gen-Z", "0,922"],
+            ["Item paling kuat", "Q12 (r=0,806/0,816)"],
+            ["Item paling lemah", "Q16 (r=0,211/0,254)"],
+        ],
+        "charts": [
+            {
+                "id": "valid-r-items",
+                "title": "Korelasi Item-Total per Item (r)",
+                "type": "barGroup",
+                "categories": ["Q1","Q2","Q3","Q4","Q5","Q6","Q7","Q8","Q9","Q10","Q11","Q12","Q13","Q14","Q15","Q16"],
+                "series": [
+                    {"name": "Formal", "values": [0.580,0.637,0.556,0.743,0.677,0.694,0.611,0.708,0.655,0.781,0.699,0.806,0.596,0.785,0.669,0.211], "color": "#2ea8ff"},
+                    {"name": "Gen-Z",  "values": [0.681,0.758,0.622,0.782,0.699,0.690,0.674,0.755,0.713,0.798,0.702,0.816,0.660,0.771,0.666,0.254], "color": "#35e2a8"},
+                ],
+                "thresholdLine": {"value": 0.098, "label": "r tabel 0,098"},
+                "note": "Seluruh 16 item lolos threshold r > 0,098. Q16 paling rendah tetapi tetap di atas batas.",
+            },
+            {
+                "id": "alpha-cronbach",
+                "title": "Cronbach Alpha (Reliabilitas)",
+                "type": "barH",
+                "categories": ["Formal", "Gen-Z"],
+                "values": [0.905, 0.922],
+                "color": "#9e72ff",
+                "thresholdLine": {"value": 0.9, "label": "Sangat Reliabel >= 0,9"},
+                "valueFormat": "decimal3",
+                "note": "Kedua kondisi melampaui 0,9 -- konsistensi internal sangat tinggi.",
+            },
+        ],
+    },
+    {
+        "file": "04_uji_normalitas.md",
+        "key": "tahap-4",
+        "label": "Tahap 4 - Uji Normalitas",
+        "icon": "i-chart",
+        "kicker": "Asumsi Statistik",
+        "summary": "Distribusi selisih TIDAK normal (Shapiro-Wilk p<0,001). 118 responden (29,1%) memiliki selisih tepat 0. Wilcoxon dipakai sebagai uji utama.",
+        "highlights": [
+            ["Shapiro-Wilk W", "0,836"],
+            ["Shapiro-Wilk p", "< 0,001"],
+            ["KS D", "0,193"],
+            ["KS p", "< 0,001"],
+            ["Skewness selisih", "-1,04"],
+            ["Kurtosis selisih", "8,13"],
+            ["Tied scores (D=0)", "118 (29,1%)"],
+        ],
+        "charts": [
+            {
+                "id": "diff-direction",
+                "title": "Arah Selisih Skor (Gen-Z - Formal)",
+                "type": "donut",
+                "items": [
+                    {"name": "Gen-Z lebih tinggi (D > 0)", "value": 174, "color": "#35e2a8"},
+                    {"name": "Sama persis (D = 0)", "value": 118, "color": "#9eb2c8"},
+                    {"name": "Formal lebih tinggi (D < 0)", "value": 113, "color": "#2ea8ff"},
+                ],
+                "note": "Hampir sepertiga responden (29,1%) memberikan skor identik untuk kedua chatbot -- penyebab utama distribusi tidak normal.",
+            },
+        ],
+    },
+    {
+        "file": "05_uji_beda_efek_order.md",
+        "key": "tahap-5",
+        "label": "Tahap 5 - Uji Beda & Effect Size",
+        "icon": "i-target",
+        "kicker": "Hipotesis Utama",
+        "summary": "Paired t-test tidak signifikan (p=0,157); Wilcoxon signifikan (p=0,003); Cohen's dz 0,070 trivial. Order effect tidak signifikan (p=0,570).",
+        "highlights": [
+            ["t-test t", "1,418"],
+            ["t-test p", "0,157"],
+            ["Wilcoxon W", "16.453,5"],
+            ["Wilcoxon p", "0,003"],
+            ["Cohen's dz", "0,070"],
+            ["Order effect p", "0,570"],
+            ["95% CI", "[-0,22 ; 1,36]"],
+        ],
+        "charts": [
+            {
+                "id": "tests-summary",
+                "title": "Ringkasan Empat Uji Statistik",
+                "type": "barGroup",
+                "categories": ["t-test p", "Wilcoxon p", "Cohen's dz", "Order p"],
+                "series": [
+                    {"name": "Nilai Hasil", "values": [0.157, 0.003, 0.070, 0.570], "color": "#f4b52d"},
+                ],
+                "thresholdLine": {"value": 0.05, "label": "alpha 0,05"},
+                "valueFormat": "decimal3",
+                "note": "Hanya Wilcoxon yang melewati ambang 0,05; effect size sangat kecil (dz=0,07) sehingga signifikansi statistik tidak diikuti makna praktis besar.",
+            },
+            {
+                "id": "ranks-distribution",
+                "title": "Distribusi Ranking Wilcoxon",
+                "type": "donut",
+                "items": [
+                    {"name": "Positive ranks (Gen-Z > Formal)", "value": 174, "color": "#35e2a8"},
+                    {"name": "Tied (dikeluarkan)", "value": 118, "color": "#9eb2c8"},
+                    {"name": "Negative ranks (Formal > Gen-Z)", "value": 113, "color": "#2ea8ff"},
+                ],
+                "note": "Wilcoxon hanya menggunakan 287 responden non-tied; rasio 174:113 (61:39) konsisten ke arah Gen-Z meskipun kecil.",
+            },
+        ],
+    },
+    {
+        "file": "06_analisis_klaster.md",
+        "key": "tahap-6",
+        "label": "Tahap 6 - Analisis Klaster",
+        "icon": "i-network",
+        "kicker": "Per-Dimensi CUQ",
+        "summary": "Tidak ada klaster pembeda dominan. Persona & Afeksi selisih terbesar (+2,27 poin); Kualitas Informasi arah terbalik (-1,25).",
+        "highlights": [
+            ["Persona & Afeksi", "+2,27 (dz=0,185)"],
+            ["Kualitas Informasi", "-1,25 (dz=-0,108)"],
+            ["Navigasi & Kemudahan", "+0,51 (n.s.)"],
+            ["Efektivitas Interaksi", "+0,76 (n.s.)"],
+            ["Item dengan selisih terbesar", "Q2 (+0,37)"],
+            ["Pola dominan", "Gen-Z unggul persona, Formal unggul informasi"],
+        ],
+        "charts": [
+            {
+                "id": "cluster-comparison",
+                "title": "Mean Skor Per Klaster (Skala 0-100)",
+                "type": "barGroup",
+                "categories": ["Persona & Afeksi", "Kualitas Informasi", "Navigasi & Kemudahan", "Efektivitas Interaksi"],
+                "series": [
+                    {"name": "Formal", "values": [72.81, 78.19, 67.42, 73.27], "color": "#2ea8ff"},
+                    {"name": "Gen-Z",  "values": [75.08, 76.94, 67.93, 74.03], "color": "#35e2a8"},
+                ],
+                "valueFormat": "decimal2",
+                "note": "Pola kompensasi: Gen-Z unggul di Persona, Formal unggul di Kualitas Informasi -- sehingga skor total hampir setara.",
+            },
+            {
+                "id": "cluster-diff",
+                "title": "Selisih Mean Per Klaster (Gen-Z - Formal)",
+                "type": "barH",
+                "categories": ["Persona & Afeksi", "Kualitas Informasi", "Navigasi & Kemudahan", "Efektivitas Interaksi"],
+                "values": [2.27, -1.25, 0.51, 0.76],
+                "color": "#f4b52d",
+                "valueFormat": "decimal2",
+                "note": "Selisih terbesar hanya 2,27 poin pada skala 0-100. Tidak ada dimensi yang menjadi pembeda kuat.",
+            },
+        ],
+    },
+    {
+        "file": "07_interpretasi_simpulan.md",
+        "key": "tahap-7",
+        "label": "Tahap 7 - Interpretasi & Simpulan",
+        "icon": "i-book",
+        "kicker": "Sintesis Temuan",
+        "summary": "Kedua chatbot relatif setara pada kategori Baik-Sangat Baik. Wilcoxon mendeteksi indikasi ringan ke Gen-Z, tetapi efek praktis trivial.",
+        "highlights": [
+            ["Jawaban RM-1", "Usabilitas relatif setara (kategori Baik-Sangat Baik)"],
+            ["Jawaban RM-2", "Indikasi perbedaan kecil (Wilcoxon), efek trivial"],
+            ["Jawaban RM-3", "Tidak ada dimensi pembeda dominan"],
+            ["Rekomendasi", "Pendekatan hibrida formal-ramah"],
+            ["Klaim aman", "Anti-overclaim Gen-Z mutlak"],
+        ],
+        "charts": [
+            {
+                "id": "rumusan-summary",
+                "title": "Status Tiga Rumusan Masalah",
+                "type": "donut",
+                "items": [
+                    {"name": "Setara (RM-1)", "value": 1, "color": "#35e2a8"},
+                    {"name": "Indikasi kecil (RM-2)", "value": 1, "color": "#f4b52d"},
+                    {"name": "Tidak ada pembeda dominan (RM-3)", "value": 1, "color": "#9e72ff"},
+                ],
+                "centerLabel": "3 RM",
+                "note": "Setiap rumusan masalah dijawab dengan posisi aman dan terukur.",
+            },
+        ],
+    },
+    {
+        "file": "08_verifikasi_vs_tesis.md",
+        "key": "tahap-8",
+        "label": "Tahap 8 - Verifikasi vs Tesis",
+        "icon": "i-check",
+        "kicker": "Cross-check Angka",
+        "summary": "Seluruh angka utama tesis (mean, t, W, p, dz) terkonfirmasi identik dengan hitung ulang dari dataset mentah. Hanya statistik normalitas dan order yang berbeda nilai (sama keputusan).",
+        "highlights": [
+            ["Mean Formal", "Identik 72,92"],
+            ["Mean Gen-Z", "Identik 73,50"],
+            ["Selisih", "Identik 0,57"],
+            ["t-statistik", "Identik 1,418"],
+            ["Wilcoxon W", "Identik 16.453,5"],
+            ["Cohen's dz", "Identik 0,070"],
+            ["Shapiro/KS angka", "Berbeda, keputusan sama"],
+            ["Order effect angka", "Berbeda, keputusan sama"],
+        ],
+        "charts": [
+            {
+                "id": "verify-status",
+                "title": "Status Verifikasi 9 Parameter Kunci",
+                "type": "donut",
+                "items": [
+                    {"name": "Identik dengan tesis", "value": 7, "color": "#35e2a8"},
+                    {"name": "Beda nilai, sama keputusan", "value": 2, "color": "#f4b52d"},
+                ],
+                "centerLabel": "9/9",
+                "note": "Seluruh angka utama dapat direproduksi. Perbedaan kecil pada statistik normalitas dan order hanya disebabkan implementasi software.",
+            },
+        ],
+    },
+]
+
+
+def build():
+    if not SRC_DIR.exists():
+        raise SystemExit(f"Folder sumber tidak ditemukan: {SRC_DIR}")
+    OUT_DIR.mkdir(parents=True, exist_ok=True)
+    print(f"Reading from: {SRC_DIR}")
+    print(f"Writing to:   {OUT_DIR}")
+
+    manifest_stages = []
+    for stage in STAGES:
+        src = SRC_DIR / stage["file"]
+        if not src.exists():
+            print(f"  MISSING: {stage['file']}")
+            continue
+        dst = OUT_DIR / stage["file"]
+        shutil.copyfile(src, dst)
+        print(f"  copied:  {stage['file']} ({dst.stat().st_size} bytes)")
+        manifest_stages.append({
+            "file": stage["file"],
+            "key": stage["key"],
+            "label": stage["label"],
+            "icon": stage["icon"],
+            "kicker": stage["kicker"],
+            "summary": stage["summary"],
+            "highlights": stage["highlights"],
+            "charts": stage["charts"],
+        })
+
+    manifest = {
+        "generated": "tahap analisis 01-08 dari PENDALAMAN/03-olah-data",
+        "source_folder": str(SRC_DIR).replace("\\", "/"),
+        "stages": manifest_stages,
+        "global": {
+            "n": 405,
+            "formal_mean": 72.9244,
+            "genz_mean": 73.4954,
+            "diff_mean": 0.571,
+            "paired_p": 0.157,
+            "wilcoxon_p": 0.003,
+            "cohens_dz": 0.0705,
+        },
+    }
+    manifest_path = OUT_DIR / "manifest.json"
+    manifest_path.write_text(json.dumps(manifest, ensure_ascii=False, indent=2), encoding="utf-8")
+    size_kb = manifest_path.stat().st_size / 1024
+    print(f"  manifest: manifest.json ({size_kb:.1f} KB, {len(manifest_stages)} stages)")
+    print(f"\nDone. {len(manifest_stages)} stages ready.")
+
+
+if __name__ == "__main__":
+    build()

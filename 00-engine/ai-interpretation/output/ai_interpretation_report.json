@@ -1,0 +1,456 @@
+{
+  "safe_core_claims": [
+    "Dataset final hasil audit sudah konsisten untuk perhitungan statistik dan narasi tesis.",
+    "Skor CUQ Gen-Z sedikit lebih tinggi secara deskriptif (73.50) daripada Formal (72.92), tetapi selisih mean hanya 0.57.",
+    "Paired t-test tidak signifikan (p = 0.157); Wilcoxon signifikan (p = 0.003) karena distribusi selisih tidak normal.",
+    "Effect size Cohen's dz = 0.070, sehingga klaim praktis harus sangat hati-hati.",
+    "Implikasi paling aman adalah segmentasi gaya bahasa chatbot, bukan penggantian total gaya formal."
+  ],
+  "theory_mapping": {
+    "CMC": "Chatbot diposisikan sebagai media komunikasi institusional; gaya bahasa menjadi isyarat sosial dalam interaksi bermedia.",
+    "TAM": "Usabilitas dan penerimaan dipahami melalui kemudahan, kejelasan, dan kebermanfaatan informasi PMB.",
+    "S-O-R": "Gaya bahasa sebagai stimulus, persepsi usabilitas sebagai organism response, skor CUQ sebagai respons terukur."
+  },
+  "professor_review_basis": [
+    "Evaluasi judul, rumusan masalah, tujuan, dan hipotesis.",
+    "Evaluasi desain penelitian, populasi, sampel, dan prosedur.",
+    "Evaluasi instrumen, validitas, reliabilitas, dan skoring.",
+    "Evaluasi analisis deskriptif, inferensial, normalitas, dan effect size.",
+    "Evaluasi interpretasi, simpulan, rekomendasi, kontribusi teori, dan batas klaim."
+  ],
+  "question_bank": [
+    {
+      "category": "Metodologi",
+      "question": "Mengapa penelitian ini memakai desain within-subject, bukan between-subject?",
+      "safe_answer": "Karena responden yang sama menilai dua kondisi chatbot, variasi individual lebih terkendali, dan perbandingan Formal versus Gen-Z lebih tepat dianalisis dengan uji berpasangan. Risiko carry-over dijawab dengan counterbalancing urutan pengujian dan uji order effect.",
+      "basis": "Skill: evaluasi desain penelitian; Tesis Bab III; Statistik order effect.",
+      "risk_level": "Tinggi"
+    },
+    {
+      "category": "Instrumen",
+      "question": "Bagaimana Anda mempertanggungjawabkan penggunaan CUQ ketika beberapa item validitas item lemah atau tidak valid?",
+      "safe_answer": "Jawaban aman: interpretasi utama memakai skor total CUQ karena reliabilitas keseluruhan tinggi, alpha Formal 0.905 dan Gen-Z 0.922. Namun, interpretasi per item atau per dimensi harus dibatasi dan tidak boleh dijadikan klaim dominan.",
+      "basis": "Skill: evaluasi instrumen, validitas, reliabilitas; Tesis Bab IV dan Lampiran validitas.",
+      "risk_level": "Tinggi"
+    },
+    {
+      "category": "Statistik",
+      "question": "Mengapa hasil paired t-test tidak signifikan, tetapi Wilcoxon signifikan?",
+      "safe_answer": "Selisih skor tidak normal, sehingga paired t-test p = 0.157 dilaporkan sebagai pembanding parametrik, sedangkan Wilcoxon p = 0.003 dipakai sebagai sinyal nonparametrik. Keduanya tetap dibaca bersama effect size yang sangat kecil.",
+      "basis": "Skill: evaluasi analisis data, uji asumsi normalitas, inferensial.",
+      "risk_level": "Tinggi"
+    },
+    {
+      "category": "Interpretasi",
+      "question": "Apakah Anda berani menyimpulkan gaya bahasa Gen-Z lebih unggul daripada gaya formal?",
+      "safe_answer": "Tidak dalam makna praktis yang kuat. Rata-rata Gen-Z 73.50 memang sedikit di atas Formal 72.92, tetapi selisihnya hanya 0.57 dan Cohen's dz 0.070, sehingga klaim yang aman adalah kecenderungan kecil, bukan superioritas praktis.",
+      "basis": "Skill: evaluasi interpretasi dan kesimpulan; Tesis Bab IV-V.",
+      "risk_level": "Tinggi"
+    },
+    {
+      "category": "Rumusan Masalah",
+      "question": "Apakah rumusan masalah, tujuan, hipotesis, dan teknik analisis sudah benar-benar linear?",
+      "safe_answer": "Linearitas dijaga dengan memetakan tiga fokus: deskripsi tingkat usabilitas, uji perbedaan Formal versus Gen-Z, dan aspek usabilitas yang menonjol. Teknik analisisnya mengikuti fokus itu: deskriptif, uji berpasangan, Wilcoxon, effect size, serta pembacaan dimensi CUQ.",
+      "basis": "Skill: evaluasi judul, rumusan masalah, tujuan, hipotesis.",
+      "risk_level": "Sedang"
+    },
+    {
+      "category": "Latar Belakang",
+      "question": "Apa celah penelitian yang paling kuat dari tesis ini?",
+      "safe_answer": "Celahnya adalah belum banyak kajian komunikasi institusional PMB yang menguji gaya bahasa chatbot secara langsung pada Generasi Z dengan instrumen usabilitas dan desain paired. Jadi kontribusinya ada pada konteks komunikasi digital institusional, bukan pada klaim bahwa satu gaya bahasa pasti terbaik.",
+      "basis": "Skill: evaluasi relevansi judul dan research gap; Tesis Bab I-II.",
+      "risk_level": "Sedang"
+    },
+    {
+      "category": "Teori",
+      "question": "Mengapa teori CMC relevan untuk penelitian chatbot PMB?",
+      "safe_answer": "CMC relevan karena chatbot diposisikan sebagai media komunikasi institusional yang memediasi interaksi calon mahasiswa dengan universitas. Gaya bahasa dilihat sebagai isyarat sosial yang dapat memengaruhi pengalaman komunikasi digital.",
+      "basis": "Tesis Bab II; Skill: konsistensi teori dan interpretasi.",
+      "risk_level": "Sedang"
+    },
+    {
+      "category": "Teori",
+      "question": "Apa fungsi TAM dalam tesis ini jika instrumen yang dipakai adalah CUQ?",
+      "safe_answer": "TAM tidak dipakai sebagai alat ukur utama, tetapi sebagai kerangka interpretif untuk memahami kemudahan, kebermanfaatan, dan penerimaan layanan informasi. Pengukuran operasional tetap memakai CUQ.",
+      "basis": "Tesis Bab II; Skill: evaluasi teori dan instrumen.",
+      "risk_level": "Sedang"
+    },
+    {
+      "category": "Teori",
+      "question": "Bagaimana S-O-R menjelaskan hubungan gaya bahasa chatbot dan skor CUQ?",
+      "safe_answer": "Gaya bahasa berperan sebagai stimulus, persepsi pengalaman pengguna sebagai organism, dan skor CUQ sebagai response terukur. Namun, karena effect size kecil, jalur S-O-R harus dibaca sebagai kerangka interpretasi, bukan bukti kausal kuat.",
+      "basis": "Tesis Bab II-IV; Skill: interpretasi data dan teori.",
+      "risk_level": "Sedang"
+    },
+    {
+      "category": "Operasionalisasi",
+      "question": "Bagaimana Anda mendefinisikan gaya bahasa Gen-Z agar tidak sekadar menjadi istilah populer?",
+      "safe_answer": "Gaya bahasa Gen-Z harus dijelaskan sebagai variasi pesan yang lebih ringkas, interaktif, ringan, dan dekat dengan kebiasaan komunikasi digital target responden. Jawaban aman perlu menegaskan bahwa label Gen-Z adalah konstruksi operasional penelitian, bukan stereotip seluruh Generasi Z.",
+      "basis": "Skill: definisi konseptual dan operasional variabel; Tesis Bab III.",
+      "risk_level": "Tinggi"
+    },
+    {
+      "category": "Operasionalisasi",
+      "question": "Apa indikator bahwa perbedaan yang diuji benar-benar gaya bahasa, bukan perbedaan konten informasi?",
+      "safe_answer": "Kedua chatbot harus menyampaikan substansi informasi PMB yang setara, sementara yang dibedakan adalah gaya penyampaian. Jika konten ikut berbeda, maka efek yang muncul tidak dapat dikaitkan secara bersih dengan gaya bahasa.",
+      "basis": "Skill: validitas desain dan kontrol variabel.",
+      "risk_level": "Tinggi"
+    },
+    {
+      "category": "Sampel",
+      "question": "Apakah 405 responden cukup dan representatif untuk Generasi Z calon pengguna PMB Unila?",
+      "safe_answer": "Jumlah 405 cukup kuat untuk analisis berpasangan dan reliabilitas instrumen. Namun, representativitas tetap harus dibatasi pada karakteristik responden penelitian, sehingga generalisasi ke seluruh Generasi Z Indonesia tidak boleh dibuat terlalu luas.",
+      "basis": "Skill: evaluasi populasi, sampel, teknik penentuan sampel.",
+      "risk_level": "Sedang"
+    },
+    {
+      "category": "Sampel",
+      "question": "Bagaimana Anda menjawab kritik bahwa sampel tidak benar-benar calon mahasiswa baru?",
+      "safe_answer": "Jawaban aman adalah menjelaskan kriteria responden sebagai Generasi Z yang relevan dengan layanan informasi PMB, lalu mengakui bahwa kedekatan dengan populasi calon mahasiswa menjadi batas generalisasi. Ini bisa menjadi saran penelitian lanjutan dengan sampel calon pendaftar aktual.",
+      "basis": "Skill: evaluasi populasi dan keterbatasan penelitian.",
+      "risk_level": "Tinggi"
+    },
+    {
+      "category": "Prosedur",
+      "question": "Apakah ada risiko efek urutan karena responden mencoba dua chatbot secara berurutan?",
+      "safe_answer": "Ada risiko carry-over, karena itu penelitian memakai counterbalancing dan menguji order effect. Hasil order effect p = 0.570, sehingga tidak ada bukti kuat bahwa urutan pengujian mengubah selisih skor.",
+      "basis": "Skill: desain eksperimen/kuasi dan kontrol bias.",
+      "risk_level": "Sedang"
+    },
+    {
+      "category": "Prosedur",
+      "question": "Apakah responden dapat mengenali tujuan penelitian dan menjadi bias dalam menilai chatbot?",
+      "safe_answer": "Kemungkinan demand characteristic perlu diakui. Jawaban aman adalah menekankan prosedur instruksi yang netral dan penggunaan dua kondisi yang dinilai oleh responden yang sama, tetapi tetap mencatat potensi bias persepsi sebagai keterbatasan.",
+      "basis": "Skill: evaluasi pengumpulan data dan bias responden.",
+      "risk_level": "Sedang"
+    },
+    {
+      "category": "Statistik",
+      "question": "Mengapa tetap melaporkan paired t-test jika data selisih tidak normal?",
+      "safe_answer": "Paired t-test tetap dilaporkan karena hipotesis awal sering diformulasikan dalam perbedaan rata-rata, tetapi interpretasi utama harus mempertimbangkan Shapiro p sangat kecil (4.36e-20) dan hasil Wilcoxon sebagai uji nonparametrik.",
+      "basis": "Skill: uji asumsi dan pelaporan inferensial.",
+      "risk_level": "Sedang"
+    },
+    {
+      "category": "Statistik",
+      "question": "Mengapa effect size lebih penting daripada sekadar p-value dalam hasil ini?",
+      "safe_answer": "Karena p-value hanya menunjukkan bukti statistik terhadap hipotesis nol, sedangkan effect size menunjukkan besar dampak. Dengan Cohen's dz 0.070, dampak praktis sangat kecil meskipun Wilcoxon signifikan.",
+      "basis": "Skill: interpretasi data ilmiah.",
+      "risk_level": "Tinggi"
+    },
+    {
+      "category": "Statistik",
+      "question": "Apakah median difference 0,00 melemahkan klaim perbedaan?",
+      "safe_answer": "Ya, median difference 0,00 menunjukkan banyak responden memberi skor yang relatif setara pada kedua kondisi. Karena itu hasil harus dibaca sebagai perbedaan kecil pada distribusi/ranking, bukan perubahan pengalaman yang besar.",
+      "basis": "Tesis Bab IV; Skill: interpretasi hasil inferensial.",
+      "risk_level": "Tinggi"
+    },
+    {
+      "category": "Instrumen",
+      "question": "Apakah CUQ tepat untuk menilai usabilitas komunikasi, bukan hanya usabilitas teknis?",
+      "safe_answer": "CUQ relevan karena memuat aspek persona, navigasi, kualitas respons, dan efektivitas interaksi. Namun, untuk kajian komunikasi yang lebih mendalam, CUQ dapat dilengkapi studi kualitatif tentang makna pesan dan pengalaman komunikasi.",
+      "basis": "Skill: evaluasi instrumen dan rekomendasi lanjutan.",
+      "risk_level": "Sedang"
+    },
+    {
+      "category": "Instrumen",
+      "question": "Mengapa item negatif perlu reverse scoring?",
+      "safe_answer": "Item negatif harus dibalik agar arah skor konsisten: skor tinggi selalu berarti usabilitas lebih baik. Tanpa reverse scoring, skor total CUQ akan bias dan dapat menyesatkan interpretasi.",
+      "basis": "Tesis Lampiran skoring CUQ; Skill: pengolahan data.",
+      "risk_level": "Sedang"
+    },
+    {
+      "category": "Validitas",
+      "question": "Apakah reliabilitas tinggi otomatis berarti instrumen valid?",
+      "safe_answer": "Tidak. Reliabilitas tinggi menunjukkan konsistensi internal, tetapi tidak otomatis membuktikan validitas konstruk. Karena itu hasil validitas item tetap dilaporkan dan interpretasi item/dimensi dilakukan hati-hati.",
+      "basis": "Skill: validitas dan reliabilitas instrumen.",
+      "risk_level": "Tinggi"
+    },
+    {
+      "category": "Validitas",
+      "question": "Bagaimana Anda menanggapi item CUQ yang korelasinya rendah tetapi alpha total tinggi?",
+      "safe_answer": "Itu menunjukkan instrumen secara total masih konsisten, tetapi beberapa item mungkin kurang selaras dengan konstruk pada konteks responden ini. Kesimpulan utama sebaiknya bertumpu pada skor total dan reliabilitas keseluruhan, bukan klaim per item.",
+      "basis": "Skill: review instrumen dan interpretasi item-total.",
+      "risk_level": "Tinggi"
+    },
+    {
+      "category": "Hasil",
+      "question": "Apa makna substantif selisih mean hanya sekitar 0,57 poin pada skala 0-100?",
+      "safe_answer": "Maknanya sangat kecil secara praktis. Selisih ini dapat menjadi sinyal preferensi minor, tetapi tidak cukup untuk merekomendasikan penggantian total gaya formal menjadi gaya Gen-Z.",
+      "basis": "Tesis Bab IV-V; Skill: interpretasi hasil dan rekomendasi.",
+      "risk_level": "Tinggi"
+    },
+    {
+      "category": "Hasil",
+      "question": "Jika semua dimensi CUQ relatif setara, aspek apa yang sebenarnya paling menonjol?",
+      "safe_answer": "Tidak ada aspek yang dapat diklaim sebagai pembeda kuat. Jawaban aman adalah menyebut semua dimensi relatif setara, sehingga rekomendasi diarahkan pada segmentasi dan penyempurnaan gaya bahasa, bukan pada satu dimensi dominan.",
+      "basis": "Tesis Bab IV; Skill: interpretasi dimensi dan simpulan.",
+      "risk_level": "Sedang"
+    },
+    {
+      "category": "Pembahasan",
+      "question": "Bagaimana menghubungkan hasil yang kecil dengan kontribusi teoretis?",
+      "safe_answer": "Kontribusinya bukan membuktikan efek besar, melainkan menunjukkan bahwa gaya bahasa sebagai isyarat komunikasi digital tidak otomatis menghasilkan perbedaan praktis besar pada usabilitas. Ini memperkaya pembahasan CMC/TAM/S-O-R secara lebih hati-hati.",
+      "basis": "Skill: kontribusi teoretis dan interpretasi.",
+      "risk_level": "Sedang"
+    },
+    {
+      "category": "Pembahasan",
+      "question": "Mengapa hasil tidak signifikan pada t-test tetap penting untuk komunikasi institusional?",
+      "safe_answer": "Karena hasil tersebut menunjukkan bahwa gaya formal tidak harus ditinggalkan. Bagi institusi, stabilitas, kejelasan, dan kredibilitas pesan tetap penting, sementara gaya Gen-Z dapat dipakai secara segmentatif.",
+      "basis": "Tesis Bab IV-V; Skill: implikasi praktis.",
+      "risk_level": "Sedang"
+    },
+    {
+      "category": "Kesimpulan",
+      "question": "Apakah simpulan sudah konsisten dengan hasil statistik?",
+      "safe_answer": "Simpulan harus menyatakan perbedaan deskriptif kecil, paired t-test tidak signifikan, Wilcoxon signifikan nonparametrik, dan effect size sangat kecil. Hindari simpulan yang menyatakan Gen-Z lebih unggul secara mutlak.",
+      "basis": "Skill: evaluasi interpretasi dan kesimpulan.",
+      "risk_level": "Tinggi"
+    },
+    {
+      "category": "Implikasi",
+      "question": "Apa rekomendasi praktis paling aman untuk Universitas Lampung?",
+      "safe_answer": "Rekomendasi aman adalah segmentasi gaya komunikasi chatbot: tetap mempertahankan gaya formal untuk informasi resmi, dan menggunakan gaya yang lebih ringan/interaktif pada konteks bantuan, orientasi, atau engagement calon mahasiswa.",
+      "basis": "Tesis Bab V; Skill: rekomendasi berbasis data.",
+      "risk_level": "Sedang"
+    },
+    {
+      "category": "Implikasi",
+      "question": "Mengapa rekomendasi bukan mengganti semua chatbot menjadi gaya Gen-Z?",
+      "safe_answer": "Karena bukti praktisnya sangat kecil. Penggantian total tidak proporsional dengan data. Segmentasi pesan lebih sesuai karena menjaga kredibilitas institusi sekaligus memberi ruang adaptasi untuk pengguna muda.",
+      "basis": "Skill: interpretasi hasil dan kebijakan komunikasi.",
+      "risk_level": "Sedang"
+    },
+    {
+      "category": "Etika",
+      "question": "Apakah penggunaan gaya bahasa Gen-Z oleh institusi berisiko manipulatif atau tidak autentik?",
+      "safe_answer": "Risiko itu ada jika gaya bahasa hanya meniru slang tanpa menjaga akurasi dan etika informasi. Jawaban aman adalah menekankan bahwa adaptasi gaya bahasa harus tetap transparan, informatif, sopan, dan sesuai identitas institusi.",
+      "basis": "Skill: evaluasi komunikasi institusional dan etika.",
+      "risk_level": "Sedang"
+    },
+    {
+      "category": "Keterbatasan",
+      "question": "Apa keterbatasan paling kritis dari penelitian ini?",
+      "safe_answer": "Keterbatasan utama adalah konteks tunggal PMB Unila, pengukuran berbasis skenario/eksposur dua kondisi, dan fokus kuantitatif CUQ. Penelitian lanjutan dapat memakai eksperimen lapangan, data perilaku, dan wawancara mendalam.",
+      "basis": "Tesis Bab V; Skill: evaluasi keterbatasan.",
+      "risk_level": "Sedang"
+    },
+    {
+      "category": "Lanjutan",
+      "question": "Riset lanjutan apa yang paling kuat setelah tesis ini?",
+      "safe_answer": "Riset lanjutan dapat berupa A/B testing chatbot PMB aktual, analisis segmentasi responden, pengukuran behavioral seperti completion rate dan waktu pencarian informasi, serta studi kualitatif pengalaman pengguna.",
+      "basis": "Skill: strategi penelitian lanjutan dan inovasi metodologi.",
+      "risk_level": "Aman"
+    },
+    {
+      "category": "Profesor",
+      "question": "Jika Anda menjadi reviewer jurnal, bagian mana yang paling mungkin diminta diperkuat?",
+      "safe_answer": "Reviewer kemungkinan meminta penguatan operasionalisasi gaya bahasa Gen-Z, kontrol kesetaraan konten dua chatbot, pelaporan validitas konstruk, dan pembahasan effect size agar klaim tidak berlebihan.",
+      "basis": "File skill level Profesor: review kritis metodologi dan standardisasi.",
+      "risk_level": "Tinggi"
+    },
+    {
+      "category": "Profesor",
+      "question": "Apa kontribusi tesis ini pada Ilmu Komunikasi, bukan hanya pada evaluasi aplikasi?",
+      "safe_answer": "Kontribusinya adalah menempatkan chatbot PMB sebagai media komunikasi institusional dan menguji bagaimana gaya bahasa sebagai strategi pesan dipersepsi dalam interaksi digital. Fokusnya bukan sekadar aplikasi, tetapi relasi gaya komunikasi, pengguna muda, dan kredibilitas institusi.",
+      "basis": "File skill Ilmu Komunikasi; Tesis Bab II dan V.",
+      "risk_level": "Tinggi"
+    },
+    {
+      "category": "Profesor",
+      "question": "Apa jawaban jika penguji menyatakan penelitian ini terlalu teknis dan kurang komunikasi?",
+      "safe_answer": "Jawaban aman: objek teknologinya adalah chatbot, tetapi variabel yang diuji adalah gaya bahasa dan pengalaman komunikasi. Teori CMC, TAM, dan S-O-R dipakai untuk menempatkan chatbot sebagai media komunikasi institusional.",
+      "basis": "File skill Ilmu Komunikasi; evaluasi kontribusi bidang.",
+      "risk_level": "Tinggi"
+    },
+    {
+      "category": "Profesor",
+      "question": "Apa standar klaim ilmiah paling penting yang harus Anda jaga saat ujian?",
+      "safe_answer": "Jaga tiga batas: jangan mengklaim superioritas Gen-Z yang kuat, jangan menggeneralisasi ke semua Generasi Z, dan jangan menjadikan signifikansi Wilcoxon sebagai bukti dampak praktis besar. Semua jawaban harus kembali ke data final audited, effect size, dan konteks PMB Unila.",
+      "basis": "File skill level Profesor: interpretasi ilmiah dan review kritis.",
+      "risk_level": "Tinggi"
+    }
+  ],
+  "slide_to_argument": [
+    {
+      "slide": 1,
+      "slide_title": "Pengaruh Gaya Bahasa Chatbot terhadap Usabilitas Informasi PMB pada Generasi Z di Universitas Lampung",
+      "section_bucket": "Cover/Identitas",
+      "thesis_refs": [
+        "ABSTRAK"
+      ],
+      "ppt_image": "D:\\DATA\\TESIS\\KOMPRE\\HARNO-KOMPRE\\00-engine\\parser\\ppt_render\\slides_png\\slide_01.png"
+    },
+    {
+      "slide": 2,
+      "slide_title": "Latar Belakang Masalah: Transformasi Komunikasi PMB",
+      "section_bucket": "Pendahuluan",
+      "thesis_refs": [
+        "I. PENDAHULUAN",
+        "1.1 \tLatar Belakang",
+        "1.2 \tRumusan Masalah",
+        "1.3 \tTujuan Penelitian"
+      ],
+      "ppt_image": "D:\\DATA\\TESIS\\KOMPRE\\HARNO-KOMPRE\\00-engine\\parser\\ppt_render\\slides_png\\slide_02.png"
+    },
+    {
+      "slide": 3,
+      "slide_title": "Kesenjangan Penelitian dan Urgensi Kajian",
+      "section_bucket": "Pendahuluan",
+      "thesis_refs": [
+        "I. PENDAHULUAN",
+        "1.1 \tLatar Belakang",
+        "1.2 \tRumusan Masalah",
+        "1.3 \tTujuan Penelitian"
+      ],
+      "ppt_image": "D:\\DATA\\TESIS\\KOMPRE\\HARNO-KOMPRE\\00-engine\\parser\\ppt_render\\slides_png\\slide_03.png"
+    },
+    {
+      "slide": 4,
+      "slide_title": "Rumusan Masalah, Tujuan, dan Kerangka Pikir",
+      "section_bucket": "Pendahuluan",
+      "thesis_refs": [
+        "I. PENDAHULUAN",
+        "1.1 \tLatar Belakang",
+        "1.2 \tRumusan Masalah",
+        "1.3 \tTujuan Penelitian"
+      ],
+      "ppt_image": "D:\\DATA\\TESIS\\KOMPRE\\HARNO-KOMPRE\\00-engine\\parser\\ppt_render\\slides_png\\slide_04.png"
+    },
+    {
+      "slide": 5,
+      "slide_title": "Konsep Utama Penelitian",
+      "section_bucket": "Konsep dan Teori",
+      "thesis_refs": [
+        "II. TINJAUAN PUSTAKA",
+        "2.2 \tLandasan Teoretis",
+        "2.3 \tChatbot sebagai Media Komunikasi Institusional",
+        "2.4 \tGaya Bahasa Chatbot dan Generasi Z",
+        "2.5 \tUsabilitas Interaksi Komunikasi dan CUQ"
+      ],
+      "ppt_image": "D:\\DATA\\TESIS\\KOMPRE\\HARNO-KOMPRE\\00-engine\\parser\\ppt_render\\slides_png\\slide_05.png"
+    },
+    {
+      "slide": 6,
+      "slide_title": "Landasan Teori: CMC, TAM, dan CUQ",
+      "section_bucket": "Konsep dan Teori",
+      "thesis_refs": [
+        "II. TINJAUAN PUSTAKA",
+        "2.2 \tLandasan Teoretis",
+        "2.3 \tChatbot sebagai Media Komunikasi Institusional",
+        "2.4 \tGaya Bahasa Chatbot dan Generasi Z",
+        "2.5 \tUsabilitas Interaksi Komunikasi dan CUQ"
+      ],
+      "ppt_image": "D:\\DATA\\TESIS\\KOMPRE\\HARNO-KOMPRE\\00-engine\\parser\\ppt_render\\slides_png\\slide_06.png"
+    },
+    {
+      "slide": 7,
+      "slide_title": "Desain Penelitian Kuantitatif",
+      "section_bucket": "Metode",
+      "thesis_refs": [
+        "III. METODE PENELITIAN",
+        "3.1 \tJenis dan Desain Penelitian",
+        "3.5 \tPopulasi, Sampel, dan Teknik Penentuan Sampel",
+        "3.6 \tInstrumen Penelitian",
+        "3.10 \tTeknik Analisis Data"
+      ],
+      "ppt_image": "D:\\DATA\\TESIS\\KOMPRE\\HARNO-KOMPRE\\00-engine\\parser\\ppt_render\\slides_png\\slide_07.png"
+    },
+    {
+      "slide": 8,
+      "slide_title": "Populasi, Sampel, Instrumen, dan Analisis",
+      "section_bucket": "Metode",
+      "thesis_refs": [
+        "III. METODE PENELITIAN",
+        "3.1 \tJenis dan Desain Penelitian",
+        "3.5 \tPopulasi, Sampel, dan Teknik Penentuan Sampel",
+        "3.6 \tInstrumen Penelitian",
+        "3.10 \tTeknik Analisis Data"
+      ],
+      "ppt_image": "D:\\DATA\\TESIS\\KOMPRE\\HARNO-KOMPRE\\00-engine\\parser\\ppt_render\\slides_png\\slide_08.png"
+    },
+    {
+      "slide": 9,
+      "slide_title": "Kesiapan Data dan Profil Responden",
+      "section_bucket": "Hasil",
+      "thesis_refs": [
+        "IV. HASIL DAN PEMBAHASAN",
+        "4.2 Deskripsi Data Penelitian",
+        "4.3 Hasil Uji Instrumen Penelitian",
+        "4.5 Hasil Pengujian Hipotesis"
+      ],
+      "ppt_image": "D:\\DATA\\TESIS\\KOMPRE\\HARNO-KOMPRE\\00-engine\\parser\\ppt_render\\slides_png\\slide_09.png"
+    },
+    {
+      "slide": 10,
+      "slide_title": "Hasil Deskriptif dan Uji Instrumen",
+      "section_bucket": "Hasil",
+      "thesis_refs": [
+        "IV. HASIL DAN PEMBAHASAN",
+        "4.2 Deskripsi Data Penelitian",
+        "4.3 Hasil Uji Instrumen Penelitian",
+        "4.5 Hasil Pengujian Hipotesis"
+      ],
+      "ppt_image": "D:\\DATA\\TESIS\\KOMPRE\\HARNO-KOMPRE\\00-engine\\parser\\ppt_render\\slides_png\\slide_10.png"
+    },
+    {
+      "slide": 11,
+      "slide_title": "Hasil Uji Beda dan Ukuran Efek",
+      "section_bucket": "Hasil",
+      "thesis_refs": [
+        "IV. HASIL DAN PEMBAHASAN",
+        "4.2 Deskripsi Data Penelitian",
+        "4.3 Hasil Uji Instrumen Penelitian",
+        "4.5 Hasil Pengujian Hipotesis"
+      ],
+      "ppt_image": "D:\\DATA\\TESIS\\KOMPRE\\HARNO-KOMPRE\\00-engine\\parser\\ppt_render\\slides_png\\slide_11.png"
+    },
+    {
+      "slide": 12,
+      "slide_title": "Makna Temuan: Tidak Signifikan Bukan Berarti Tidak Penting",
+      "section_bucket": "Pembahasan/Implikasi",
+      "thesis_refs": [
+        "4.6 Pembahasan",
+        "5.2 Implikasi Teoretis",
+        "5.3 Implikasi Praktis dan Rekomendasi Strategis"
+      ],
+      "ppt_image": "D:\\DATA\\TESIS\\KOMPRE\\HARNO-KOMPRE\\00-engine\\parser\\ppt_render\\slides_png\\slide_12.png"
+    },
+    {
+      "slide": 13,
+      "slide_title": "Implikasi Teoretis dan Praktis",
+      "section_bucket": "Pembahasan/Implikasi",
+      "thesis_refs": [
+        "4.6 Pembahasan",
+        "5.2 Implikasi Teoretis",
+        "5.3 Implikasi Praktis dan Rekomendasi Strategis"
+      ],
+      "ppt_image": "D:\\DATA\\TESIS\\KOMPRE\\HARNO-KOMPRE\\00-engine\\parser\\ppt_render\\slides_png\\slide_13.png"
+    },
+    {
+      "slide": 14,
+      "slide_title": "Simpulan Penelitian",
+      "section_bucket": "Simpulan/Saran",
+      "thesis_refs": [
+        "V. SIMPULAN DAN SARAN",
+        "5.1 Simpulan",
+        "5.4 Keterbatasan Penelitian",
+        "5.5 Saran Penelitian Lanjutan"
+      ],
+      "ppt_image": "D:\\DATA\\TESIS\\KOMPRE\\HARNO-KOMPRE\\00-engine\\parser\\ppt_render\\slides_png\\slide_14.png"
+    },
+    {
+      "slide": 15,
+      "slide_title": "Saran dan Rekomendasi",
+      "section_bucket": "Simpulan/Saran",
+      "thesis_refs": [
+        "V. SIMPULAN DAN SARAN",
+        "5.1 Simpulan",
+        "5.4 Keterbatasan Penelitian",
+        "5.5 Saran Penelitian Lanjutan"
+      ],
+      "ppt_image": "D:\\DATA\\TESIS\\KOMPRE\\HARNO-KOMPRE\\00-engine\\parser\\ppt_render\\slides_png\\slide_15.png"
+    }
+  ]
+}

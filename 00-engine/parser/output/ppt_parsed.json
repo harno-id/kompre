@@ -1,0 +1,110 @@
+{
+  "path": "D:\\DATA\\TESIS\\KOMPRE\\HARNO-KOMPRE\\02-data\\ppt\\PPT KOMPRE-HARNO.pptx",
+  "slides_count": 15,
+  "slides": [
+    {
+      "slide": 1,
+      "text_blocks": [],
+      "image": "D:\\DATA\\TESIS\\KOMPRE\\HARNO-KOMPRE\\00-engine\\parser\\ppt_render\\slides_png\\slide_01.png"
+    },
+    {
+      "slide": 2,
+      "text_blocks": [
+        "01 of 15",
+        "2 of 15"
+      ],
+      "image": "D:\\DATA\\TESIS\\KOMPRE\\HARNO-KOMPRE\\00-engine\\parser\\ppt_render\\slides_png\\slide_02.png"
+    },
+    {
+      "slide": 3,
+      "text_blocks": [
+        "3 of 15"
+      ],
+      "image": "D:\\DATA\\TESIS\\KOMPRE\\HARNO-KOMPRE\\00-engine\\parser\\ppt_render\\slides_png\\slide_03.png"
+    },
+    {
+      "slide": 4,
+      "text_blocks": [
+        "4 of 15"
+      ],
+      "image": "D:\\DATA\\TESIS\\KOMPRE\\HARNO-KOMPRE\\00-engine\\parser\\ppt_render\\slides_png\\slide_04.png"
+    },
+    {
+      "slide": 5,
+      "text_blocks": [
+        "5 of 15"
+      ],
+      "image": "D:\\DATA\\TESIS\\KOMPRE\\HARNO-KOMPRE\\00-engine\\parser\\ppt_render\\slides_png\\slide_05.png"
+    },
+    {
+      "slide": 6,
+      "text_blocks": [
+        "6 of 15"
+      ],
+      "image": "D:\\DATA\\TESIS\\KOMPRE\\HARNO-KOMPRE\\00-engine\\parser\\ppt_render\\slides_png\\slide_06.png"
+    },
+    {
+      "slide": 7,
+      "text_blocks": [
+        "7 of 15"
+      ],
+      "image": "D:\\DATA\\TESIS\\KOMPRE\\HARNO-KOMPRE\\00-engine\\parser\\ppt_render\\slides_png\\slide_07.png"
+    },
+    {
+      "slide": 8,
+      "text_blocks": [
+        "8 of 15"
+      ],
+      "image": "D:\\DATA\\TESIS\\KOMPRE\\HARNO-KOMPRE\\00-engine\\parser\\ppt_render\\slides_png\\slide_08.png"
+    },
+    {
+      "slide": 9,
+      "text_blocks": [
+        "9 of 15"
+      ],
+      "image": "D:\\DATA\\TESIS\\KOMPRE\\HARNO-KOMPRE\\00-engine\\parser\\ppt_render\\slides_png\\slide_09.png"
+    },
+    {
+      "slide": 10,
+      "text_blocks": [
+        "10 of 15"
+      ],
+      "image": "D:\\DATA\\TESIS\\KOMPRE\\HARNO-KOMPRE\\00-engine\\parser\\ppt_render\\slides_png\\slide_10.png"
+    },
+    {
+      "slide": 11,
+      "text_blocks": [
+        "11 of 15"
+      ],
+      "image": "D:\\DATA\\TESIS\\KOMPRE\\HARNO-KOMPRE\\00-engine\\parser\\ppt_render\\slides_png\\slide_11.png"
+    },
+    {
+      "slide": 12,
+      "text_blocks": [
+        "12 of 15"
+      ],
+      "image": "D:\\DATA\\TESIS\\KOMPRE\\HARNO-KOMPRE\\00-engine\\parser\\ppt_render\\slides_png\\slide_12.png"
+    },
+    {
+      "slide": 13,
+      "text_blocks": [
+        "13 of 15"
+      ],
+      "image": "D:\\DATA\\TESIS\\KOMPRE\\HARNO-KOMPRE\\00-engine\\parser\\ppt_render\\slides_png\\slide_13.png"
+    },
+    {
+      "slide": 14,
+      "text_blocks": [
+        "14 of 15"
+      ],
+      "image": "D:\\DATA\\TESIS\\KOMPRE\\HARNO-KOMPRE\\00-engine\\parser\\ppt_render\\slides_png\\slide_14.png"
+    },
+    {
+      "slide": 15,
+      "text_blocks": [
+        "15 of 15"
+      ],
+      "image": "D:\\DATA\\TESIS\\KOMPRE\\HARNO-KOMPRE\\00-engine\\parser\\ppt_render\\slides_png\\slide_15.png"
+    }
+  ]
+}

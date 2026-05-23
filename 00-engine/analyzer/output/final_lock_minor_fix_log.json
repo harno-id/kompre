@@ -1,0 +1,15 @@
+{
+  "file": "D:\\DATA\\TESIS\\KOMPRE\\HARNO-KOMPRE\\02-data\\thesis\\TESIS_HARNO_CSV_MASTER_UPDATE_WORKING_20260521-092331.docx",
+  "timestamp": "2026-05-21T09:41:06.678385",
+  "change": {
+    "location": "T21R3",
+    "before": [
+      "Nilai di luar rentang skala 1–5",
+      "Tidak ditemukan pada CSV raw master; seluruh nilai CUQ berada dalam rentang valid 1–5"
+    ],
+    "after": [
+      "Pemeriksaan rentang skala CUQ",
+      "Tidak ditemukan nilai di luar rentang pada CSV raw master; seluruh nilai CUQ valid 1–5"
+    ]
+  }
+}

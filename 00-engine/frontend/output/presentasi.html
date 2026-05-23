@@ -1,0 +1,126 @@
+﻿<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Viewer Presentasi Kompre - Harno</title>
+  <meta name="description" content="Viewer presentasi kompre berbasis slide dan data final audited.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="app.css?v=20260521-presentation">
+</head>
+<body>
+  <svg class="svg-sprite" aria-hidden="true">
+    <symbol id="i-home" viewBox="0 0 24 24"><path d="M3 10.5 12 3l9 7.5"/><path d="M5 9.5V21h14V9.5"/><path d="M9 21v-7h6v7"/></symbol>
+    <symbol id="i-doc" viewBox="0 0 24 24"><path d="M7 3h7l4 4v14H7z"/><path d="M14 3v5h5"/><path d="M9 13h6M9 17h6"/></symbol>
+    <symbol id="i-brief" viewBox="0 0 24 24"><path d="M8 7V5h8v2"/><path d="M4 7h16v13H4z"/><path d="M4 12h16"/><path d="M10 12v2h4v-2"/></symbol>
+    <symbol id="i-help" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M9.5 9a2.6 2.6 0 0 1 5 1.2c0 2-2.5 2.1-2.5 4"/><path d="M12 18h.01"/></symbol>
+    <symbol id="i-flask" viewBox="0 0 24 24"><path d="M9 3h6"/><path d="M10 3v5l-5 9a3 3 0 0 0 2.6 4.5h8.8A3 3 0 0 0 19 17l-5-9V3"/><path d="M8 15h8"/></symbol>
+    <symbol id="i-chart" viewBox="0 0 24 24"><path d="M4 20h16"/><path d="M7 16v-5"/><path d="M12 16V7"/><path d="M17 16v-9"/><path d="m6 9 5-4 4 3 4-5"/></symbol>
+    <symbol id="i-target" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="4"/><path d="m15 9 5-5"/><path d="M19 4h1v5"/></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 3 5 6v5c0 5 3 8.5 7 10 4-1.5 7-5 7-10V6z"/><path d="m9 12 2 2 4-5"/></symbol>
+    <symbol id="i-users" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3"/><path d="M3 20a6 6 0 0 1 12 0"/><circle cx="17" cy="9" r="2.5"/><path d="M15 15a5 5 0 0 1 6 5"/></symbol>
+    <symbol id="i-book" viewBox="0 0 24 24"><path d="M5 5.5A3.5 3.5 0 0 1 8.5 2H20v17H8.5A3.5 3.5 0 0 0 5 22z"/><path d="M5 5.5V22"/><path d="M8 6h8"/></symbol>
+    <symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M19.1 4.9l-1.4 1.4M6.3 17.7l-1.4 1.4"/></symbol>
+    <symbol id="i-download" viewBox="0 0 24 24"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 21h14"/></symbol>
+    <symbol id="i-expand" viewBox="0 0 24 24"><path d="M8 3H3v5"/><path d="M16 3h5v5"/><path d="M8 21H3v-5"/><path d="M16 21h5v-5"/><path d="M3 3l6 6"/><path d="M21 3l-6 6"/><path d="M3 21l6-6"/><path d="M21 21l-6-6"/></symbol>
+    <symbol id="i-note" viewBox="0 0 24 24"><path d="M6 3h12v18H6z"/><path d="M9 8h6M9 12h6M9 16h4"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12 4 4L19 6"/></symbol>
+        <symbol id="i-cog" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 1 1-4 0v-.09a1.65 1.65 0 0 0-1-1.51 1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 1 1 0-4h.09a1.65 1.65 0 0 0 1.51-1 1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33h.01a1.65 1.65 0 0 0 1-1.51V3a2 2 0 1 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82v.01a1.65 1.65 0 0 0 1.51 1H21a2 2 0 1 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></symbol>
+  </svg>
+
+  <div class="app-shell">
+    <aside class="sidebar" aria-label="Navigasi presentasi">
+      <div class="brand-block">
+        <div class="brand-mark">KA</div>
+        <div>
+          <strong>Kompre</strong>
+          <b>Assistant</b>
+        </div>
+      </div>
+
+      <nav class="nav-list">
+        <a href="index.html"><svg><use href="#i-home"></use></svg>Beranda</a>
+        <a href="tesis-viewer.html"><svg><use href="#i-doc"></use></svg>Ringkasan Tesis</a>
+        <a class="active" href="presentasi.html"><svg><use href="#i-brief"></use></svg>Presentasi <span class="pill">PPT</span></a>
+        <a href="teori-konsep.html"><svg><use href="#i-book"></use></svg>Teori & Konsep</a>
+        <a href="metodologi.html"><svg><use href="#i-flask"></use></svg>Metodologi</a>
+        <a href="analisis-data.html"><svg><use href="#i-chart"></use></svg>Analisis Data</a>
+        <a href="implikasi-saran.html"><svg><use href="#i-target"></use></svg>Implikasi & Saran</a>
+        <a href="simulasi-kompre.html"><svg><use href="#i-brief"></use></svg>Simulasi Kompre</a>
+        <a href="jawaban-aman.html"><svg><use href="#i-shield"></use></svg>Penyusun Jawaban <span class="pill">Baru</span></a>
+        <a href="laporan-ekspor.html"><svg><use href="#i-doc"></use></svg>Laporan & Ekspor</a>
+        <a href="index.html#overview"><svg><use href="#i-cog"></use></svg>Pengaturan</a>
+      </nav>
+
+      <section class="research-card">
+        <h3>Info Presentasi</h3>
+        <div id="presentationInfo"></div>
+      </section>
+    </aside>
+
+    <main class="presentation-content">
+      <header class="presentation-topbar">
+        <div>
+          <h1>VIEWER PRESENTASI KOMPRE</h1>
+          <p>Pantau alur presentasi dan poin penting setiap slide.</p>
+        </div>
+        <div class="analysis-actions">
+          <button id="downloadPresentation" class="action-btn" type="button"><svg><use href="#i-download"></use></svg>Unduh PDF</button>
+          <button id="toggleNotes" class="action-btn" type="button"><svg><use href="#i-note"></use></svg>Sembunyikan Presenter Notes</button>
+          <button id="fullscreenBtn" class="action-btn" type="button"><svg><use href="#i-expand"></use></svg>Layar Penuh</button>
+        </div>
+      </header>
+
+      <section class="panel presentation-summary">
+        <article class="presentation-stat blue"><svg><use href="#i-brief"></use></svg><span>Total Slide</span><strong id="slideTotal">15</strong><small>slide</small></article>
+        <article class="presentation-stat cyan"><svg><use href="#i-sun"></use></svg><span>Total Durasi</span><strong id="durationLabel">10-15</strong><small>menit</small></article>
+        <article class="presentation-stat green"><svg><use href="#i-book"></use></svg><span>Topik Utama</span><strong id="topicCount">5</strong><small>bagian</small></article>
+        <article class="presentation-stat gold"><svg><use href="#i-target"></use></svg><span>Fokus Penelitian</span><strong id="focusLabel">Gaya Bahasa Chatbot</strong></article>
+        <article class="presentation-stat purple"><svg><use href="#i-flask"></use></svg><span>Metode</span><strong id="methodLabel">Kuantitatif</strong></article>
+        <article class="presentation-stat green"><svg><use href="#i-chart"></use></svg><span>Hasil Utama</span><strong id="resultLabel">Efek kecil</strong></article>
+        <div class="presentation-advice"><svg><use href="#i-help"></use></svg><span id="safeAdvice">Memuat saran aman...</span></div>
+      </section>
+
+      <section class="presentation-workspace">
+        <aside class="panel slide-list-panel">
+          <h2>Daftar Slide <span id="slideListTotal">(15)</span></h2>
+          <div id="slideList" class="slide-list"></div>
+        </aside>
+
+        <section class="panel slide-viewer-panel">
+          <div class="slide-viewer-head">
+            <span id="slideBadge" class="slide-badge">Pendahuluan</span>
+            <strong id="slideCounter">1 / 15</strong>
+          </div>
+          <div id="slideStage" class="slide-stage"></div>
+          <h2 id="slideTitle" class="current-slide-title">Slide</h2>
+          <div class="slide-controls">
+            <button id="prevSlide" class="action-btn" type="button">&lt; Slide Sebelumnya</button>
+            <div class="slide-progress-track"><i id="slideProgress"></i></div>
+            <span id="slideCenterCounter">Slide 1 dari 15</span>
+            <button id="nextSlide" class="action-btn primary" type="button">Slide Berikutnya &gt;</button>
+          </div>
+          <div class="section-jump-row">
+            <span>Lompat ke Bagian</span>
+            <div id="sectionJump" class="section-jump"></div>
+          </div>
+        </section>
+
+        <aside class="presentation-side">
+          <article class="panel points-panel">
+            <h2>Poin Pembahasan</h2>
+            <ul id="talkingPoints" class="talking-points"></ul>
+          </article>
+          <article class="panel notes-panel">
+            <h2>Catatan Penyaji</h2>
+            <ul id="speakerNotes" class="speaker-notes"></ul>
+          </article>
+        </aside>
+      </section>
+    </main>
+  </div>
+  <script src="presentasi.js?v=20260521-presentation"></script>
+</body>
+</html>

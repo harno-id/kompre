@@ -1,0 +1,94 @@
+{
+  "checks": [
+    {
+      "check": "Heading I. PENDAHULUAN",
+      "status": "PASS"
+    },
+    {
+      "check": "Heading II. TINJAUAN PUSTAKA",
+      "status": "PASS"
+    },
+    {
+      "check": "Heading III. METODE PENELITIAN",
+      "status": "PASS"
+    },
+    {
+      "check": "Heading IV. HASIL DAN PEMBAHASAN",
+      "status": "PASS"
+    },
+    {
+      "check": "Heading V. SIMPULAN DAN SARAN",
+      "status": "PASS"
+    },
+    {
+      "check": "Coverage Rumusan Masalah",
+      "status": "PASS"
+    },
+    {
+      "check": "Coverage Tujuan Penelitian",
+      "status": "PASS"
+    },
+    {
+      "check": "Coverage Instrumen Penelitian",
+      "status": "PASS"
+    },
+    {
+      "check": "Coverage Uji Reliabilitas",
+      "status": "PASS"
+    },
+    {
+      "check": "Coverage Uji Validitas",
+      "status": "PASS"
+    },
+    {
+      "check": "Coverage Uji Normalitas",
+      "status": "PASS"
+    },
+    {
+      "check": "Coverage Effect Size",
+      "status": "PASS"
+    },
+    {
+      "check": "Coverage Order Effect",
+      "status": "PASS"
+    },
+    {
+      "check": "Coverage Simpulan",
+      "status": "PASS"
+    },
+    {
+      "check": "Stat value present: N 405 / CSV master",
+      "status": "PASS",
+      "value": "405"
+    },
+    {
+      "check": "Stat value present: Formal mean 72.92",
+      "status": "PASS",
+      "value": "72.92"
+    },
+    {
+      "check": "Stat value present: GenZ mean 73.50",
+      "status": "PASS",
+      "value": "73.50"
+    },
+    {
+      "check": "Stat value present: paired p 0.157",
+      "status": "PASS",
+      "value": "0.157"
+    },
+    {
+      "check": "Stat value present: wilcoxon p 0.003",
+      "status": "PASS",
+      "value": "0.003"
+    },
+    {
+      "check": "Paparan slide count 15",
+      "status": "PASS",
+      "value": 15
+    }
+  ],
+  "pass": 20,
+  "warn": 0,
+  "update_required": 0,
+  "fail": 0
+}

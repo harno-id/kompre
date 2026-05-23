@@ -1,0 +1,18 @@
+{
+  "thesis": {
+    "path": "D:\\DATA\\TESIS\\KOMPRE\\HARNO-KOMPRE\\02-data\\thesis\\TESIS_HARNO_CSV_MASTER_LOCKED_20260521-095322.docx",
+    "paragraph_count": 1153,
+    "nonempty_blocks": 558,
+    "tables_count": 27
+  },
+  "paparan": {
+    "path": "D:\\DATA\\TESIS\\KOMPRE\\HARNO-KOMPRE\\02-data\\paparan\\NASKAH_PAPARAN_KOMPRE_HARNO_CSV_MASTER_UPDATE_WORKING_20260521-095618.docx",
+    "paragraph_count": 125,
+    "nonempty_blocks": 125,
+    "tables_count": 2
+  },
+  "ppt": {
+    "path": "D:\\DATA\\TESIS\\KOMPRE\\HARNO-KOMPRE\\02-data\\ppt\\PPT KOMPRE-HARNO.pptx",
+    "slides_count": 15
+  }
+}

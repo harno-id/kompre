@@ -1,0 +1,12 @@
+{
+  "file": "D:\\DATA\\TESIS\\KOMPRE\\HARNO-KOMPRE\\02-data\\thesis\\TESIS_HARNO_CSV_MASTER_UPDATE_WORKING_20260521-092331.docx",
+  "timestamp": "2026-05-21T09:31:39.750900",
+  "changes": [
+    {
+      "location": "T26R2C3",
+      "before": "404",
+      "after": "df = 404",
+      "reason": "Clarify remaining 404 is degrees of freedom, not respondent count."
+    }
+  ]
+}

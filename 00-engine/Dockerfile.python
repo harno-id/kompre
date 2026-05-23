@@ -1,0 +1,20 @@
+FROM python:3.11-slim
+
+ENV PYTHONDONTWRITEBYTECODE=1 \
+    PYTHONUNBUFFERED=1 \
+    PIP_NO_CACHE_DIR=1
+
+WORKDIR /workspace
+
+RUN apt-get update \
+    && apt-get install -y --no-install-recommends \
+       libreoffice \
+       poppler-utils \
+       fonts-dejavu \
+       fonts-liberation \
+    && rm -rf /var/lib/apt/lists/*
+
+COPY 00-engine/requirements.txt /tmp/requirements.txt
+RUN pip install -r /tmp/requirements.txt
+
+CMD ["python", "00-engine/run_pipeline.py"]

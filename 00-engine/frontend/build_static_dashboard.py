@@ -1,0 +1,173 @@
+from __future__ import annotations
+
+import subprocess
+import sys
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[2]
+OUT = ROOT / "00-engine" / "frontend" / "output"
+OUT.mkdir(parents=True, exist_ok=True)
+
+subprocess.run([sys.executable, str(ROOT / "00-engine/frontend/build_dashboard_data.py")], cwd=ROOT, check=True)
+
+index_html = """<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dashboard Kompre Harno</title>
+  <meta name="description" content="Dashboard persiapan kompre Harno berbasis data final audited.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="app.css?v=20260521-question-cleanup">
+</head>
+<body>
+  <svg class="svg-sprite" aria-hidden="true">
+    <symbol id="i-home" viewBox="0 0 24 24"><path d="M3 10.5 12 3l9 7.5"/><path d="M5 9.5V21h14V9.5"/><path d="M9 21v-7h6v7"/></symbol>
+    <symbol id="i-doc" viewBox="0 0 24 24"><path d="M7 3h7l4 4v14H7z"/><path d="M14 3v5h5"/><path d="M9 13h6M9 17h6"/></symbol>
+    <symbol id="i-brief" viewBox="0 0 24 24"><path d="M8 7V5h8v2"/><path d="M4 7h16v13H4z"/><path d="M4 12h16"/><path d="M10 12v2h4v-2"/></symbol>
+    <symbol id="i-help" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M9.5 9a2.6 2.6 0 0 1 5 1.2c0 2-2.5 2.1-2.5 4"/><path d="M12 18h.01"/></symbol>
+    <symbol id="i-flask" viewBox="0 0 24 24"><path d="M9 3h6"/><path d="M10 3v5l-5 9a3 3 0 0 0 2.6 4.5h8.8A3 3 0 0 0 19 17l-5-9V3"/><path d="M8 15h8"/></symbol>
+    <symbol id="i-chart" viewBox="0 0 24 24"><path d="M4 20h16"/><path d="M7 16v-5"/><path d="M12 16V7"/><path d="M17 16v-9"/><path d="m6 9 5-4 4 3 4-5"/></symbol>
+    <symbol id="i-target" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="4"/><path d="m15 9 5-5"/><path d="M19 4h1v5"/></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 3 5 6v5c0 5 3 8.5 7 10 4-1.5 7-5 7-10V6z"/><path d="m9 12 2 2 4-5"/></symbol>
+    <symbol id="i-users" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3"/><path d="M3 20a6 6 0 0 1 12 0"/><circle cx="17" cy="9" r="2.5"/><path d="M15 15a5 5 0 0 1 6 5"/></symbol>
+    <symbol id="i-clipboard" viewBox="0 0 24 24"><path d="M9 4h6l1 2h3v15H5V6h3z"/><path d="M9 4v3h6V4"/><path d="M8 12h8M8 16h8"/></symbol>
+    <symbol id="i-trend" viewBox="0 0 24 24"><path d="M4 19V5"/><path d="M4 19h16"/><path d="m7 15 4-4 3 3 5-7"/><path d="M16 7h3v3"/></symbol>
+    <symbol id="i-book" viewBox="0 0 24 24"><path d="M5 5.5A3.5 3.5 0 0 1 8.5 2H20v17H8.5A3.5 3.5 0 0 0 5 22z"/><path d="M5 5.5V22"/><path d="M8 6h8"/></symbol>
+    <symbol id="i-network" viewBox="0 0 24 24"><circle cx="12" cy="5" r="2"/><circle cx="5" cy="19" r="2"/><circle cx="19" cy="19" r="2"/><path d="M12 7v5"/><path d="M12 12H5v5"/><path d="M12 12h7v5"/></symbol>
+    <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m16.5 16.5 4 4"/></symbol>
+    <symbol id="i-bell" viewBox="0 0 24 24"><path d="M18 9a6 6 0 0 0-12 0c0 7-3 7-3 9h18c0-2-3-2-3-9"/><path d="M10 21h4"/></symbol>
+    <symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M19.1 4.9l-1.4 1.4M6.3 17.7l-1.4 1.4"/></symbol>
+    <symbol id="i-download" viewBox="0 0 24 24"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 21h14"/></symbol>
+    <symbol id="i-cog" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 1 1-4 0v-.09a1.65 1.65 0 0 0-1-1.51 1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 1 1 0-4h.09a1.65 1.65 0 0 0 1.51-1 1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33h.01a1.65 1.65 0 0 0 1-1.51V3a2 2 0 1 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82v.01a1.65 1.65 0 0 0 1.51 1H21a2 2 0 1 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></symbol>
+  </svg>
+
+  <div class="app-shell">
+    <aside class="sidebar" aria-label="Navigasi dashboard">
+      <div class="brand-block">
+        <div class="brand-mark">KA</div>
+        <div>
+          <strong>Kompre</strong>
+          <b>Assistant</b>
+        </div>
+      </div>
+
+      <nav class="nav-list">
+        <a class="active" href="index.html"><svg><use href="#i-home"></use></svg>Beranda</a>
+        <a href="tesis-viewer.html"><svg><use href="#i-doc"></use></svg>Ringkasan Tesis</a>
+        <a href="presentasi.html"><svg><use href="#i-brief"></use></svg>Presentasi <span class="pill">PPT</span></a>
+        <a href="teori-konsep.html"><svg><use href="#i-book"></use></svg>Teori & Konsep</a>
+        <a href="metodologi.html"><svg><use href="#i-flask"></use></svg>Metodologi</a>
+        <a href="analisis-data.html"><svg><use href="#i-chart"></use></svg>Analisis Data</a>
+        <a href="implikasi-saran.html"><svg><use href="#i-target"></use></svg>Implikasi & Saran</a>
+        <a href="simulasi-kompre.html"><svg><use href="#i-brief"></use></svg>Simulasi Kompre</a>
+        <a href="jawaban-aman.html"><svg><use href="#i-shield"></use></svg>Penyusun Jawaban <span class="pill">Baru</span></a>
+        <a href="laporan-ekspor.html"><svg><use href="#i-doc"></use></svg>Laporan & Ekspor</a>
+        <a href="index.html#overview"><svg><use href="#i-cog"></use></svg>Pengaturan</a>
+      </nav>
+
+      <section class="research-card">
+        <h3>Info Penelitian</h3>
+        <div id="researchInfo"></div>
+      </section>
+
+    </aside>
+
+    <main class="main-content">
+      <header class="topbar">
+        <div>
+          <h1>Dashboard</h1>
+          <p>Ringkasan Analisis & Persiapan Ujian Komprehensif</p>
+        </div>
+        <div class="top-actions">
+          <button id="themeToggle" class="icon-only" type="button" aria-label="Mode tampilan"><svg><use href="#i-sun"></use></svg></button>
+          <button class="icon-only notify" type="button" aria-label="Notifikasi"><svg><use href="#i-bell"></use></svg><i>3</i></button>
+          <div class="user-chip"><span class="avatar">H</span><span><b>Harno</b><small>Mahasiswa</small></span></div>
+          <button id="exportPdfBtn" class="action-btn" type="button"><svg><use href="#i-download"></use></svg>Ekspor PDF</button>
+          <a class="action-btn" href="#questions"><svg><use href="#i-book"></use></svg>Panduan Kompre</a>
+        </div>
+      </header>
+
+      <section id="overview" class="metric-grid" aria-label="Metrik utama">
+        <article class="metric-card blue">
+          <span class="metric-icon"><svg><use href="#i-users"></use></svg></span>
+          <div><span>Responden</span><strong data-field="project.n">405</strong><small>Generasi Z</small></div>
+        </article>
+        <article class="metric-card green">
+          <span class="metric-icon"><svg><use href="#i-clipboard"></use></svg></span>
+          <div><span>Instrumen</span><strong>CUQ</strong><small>Chatbot Usability Questionnaire</small></div>
+        </article>
+        <article class="metric-card purple">
+          <span class="metric-icon"><svg><use href="#i-trend"></use></svg></span>
+          <div><span>Metode Analisis</span><strong>Paired t-test</strong><small>Wilcoxon, Cohen's d.</small></div>
+        </article>
+        <article class="metric-card gold">
+          <span class="metric-icon"><svg><use href="#i-target"></use></svg></span>
+          <div><span>Hasil Utama</span><strong>Tidak kuat</strong><small>Efek sangat kecil</small></div>
+        </article>
+        <article class="metric-card cyan">
+          <span class="metric-icon"><svg><use href="#i-shield"></use></svg></span>
+          <div><span>Tingkat Keyakinan</span><strong>Aman</strong><small>Netral dan faktual.</small></div>
+        </article>
+      </section>
+
+      <section class="overview-grid">
+        <article class="panel analysis-panel">
+          <h2>Alur Analisis Penelitian</h2>
+          <div class="flow-steps">
+            <div class="step blue"><span class="step-badge"><svg><use href="#i-doc"></use></svg></span><h3>1. Input Dokumen</h3><p>Dokumen tesis, paparan, PPT, dan dataset penelitian.</p></div>
+            <div class="step green"><span class="step-badge"><svg><use href="#i-search"></use></svg></span><h3>2. Ekstraksi & Koding</h3><p>Variabel, konsep, tabel, dan temuan penting.</p></div>
+            <div class="step purple"><span class="step-badge"><svg><use href="#i-chart"></use></svg></span><h3>3. Analisis Kuantitatif</h3><p>t-test, Wilcoxon, reliabilitas, dan efek.</p></div>
+            <div class="step gold"><span class="step-badge"><svg><use href="#i-target"></use></svg></span><h3>4. Sintesis Temuan</h3><p>Interpretasi, implikasi, dan narasi aman.</p></div>
+            <div class="step cyan"><span class="step-badge"><svg><use href="#i-book"></use></svg></span><h3>5. Persiapan Kompre</h3><p>Potensi pertanyaan dan jawaban komprehensif.</p></div>
+          </div>
+          <div class="summary-strip">
+            <span class="spark"><svg><use href="#i-shield"></use></svg></span>
+            <div><b>Ringkasan Singkat</b><p>Skor Gen-Z sedikit lebih tinggi secara deskriptif, tetapi paired t-test tidak signifikan dan effect size sangat kecil.</p></div>
+          </div>
+        </article>
+
+        <article class="panel quick-panel">
+          <h2>Quick Access</h2>
+          <div class="quick-grid">
+            <a class="quick-card" href="#overview"><span><svg><use href="#i-book"></use></svg></span><div><b>Latar Belakang</b><small>Konsep, teori, dan penelitian terdahulu.</small></div></a>
+            <a class="quick-card" href="metodologi.html"><span><svg><use href="#i-flask"></use></svg></span><div><b>Metodologi</b><small>Desain, sampel, instrumen, dan analisis.</small></div></a>
+            <a class="quick-card" href="analisis-data.html"><span><svg><use href="#i-chart"></use></svg></span><div><b>Hasil</b><small>Temuan statistik, tabel, grafik, dan ringkasan.</small></div></a>
+            <a class="quick-card" href="implikasi-saran.html"><span><svg><use href="#i-target"></use></svg></span><div><b>Implikasi</b><small>Implikasi teoretis, praktis, dan rekomendasi.</small></div></a>
+            <a class="wide-link" href="teori-konsep.html"><svg><use href="#i-network"></use></svg>Lihat Peta Konsep Penelitian</a>
+          </div>
+        </article>
+      </section>
+
+      <section id="questions" class="panel question-panel">
+        <div class="question-head">
+          <h2>Potensi Pertanyaan Ujian Komprehensif</h2>
+          <div class="question-toolbar">
+            <label class="search-wrap"><svg><use href="#i-search"></use></svg><input id="questionSearch" type="search" placeholder="Cari pertanyaan..."></label>
+            <select id="levelFilter" aria-label="Filter tingkat keyakinan"><option>Semua Tingkat</option></select>
+          </div>
+        </div>
+        <div id="questionTabs" class="tab-row"></div>
+        <div id="questionList" class="question-list"></div>
+      </section>
+    </main>
+  </div>
+  <div id="answerPopover" class="answer-backdrop" aria-hidden="true">
+    <article class="answer-modal" role="dialog" aria-modal="true" aria-labelledby="answerQuestion">
+      <button id="answerClose" class="answer-close" type="button" aria-label="Tutup jawaban">x</button>
+      <span id="answerCategory" class="answer-category">Kategori</span>
+      <h3 id="answerQuestion">Pertanyaan</h3>
+      <p id="answerText">Jawaban aman.</p>
+      <small id="answerBasis">Basis data dan teori.</small>
+      <a id="answerDetailLink" class="answer-detail-link" href="detail-pertanyaan.html?q=0">Buka Detail Pertanyaan</a>
+    </article>
+  </div>
+  <script src="app.js?v=20260521-question-cleanup"></script>
+</body>
+</html>
+"""
+
+(OUT / "index.html").write_text(index_html, encoding="utf-8")
+print(OUT / "index.html")

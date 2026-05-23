@@ -1,0 +1,1696 @@
+{
+  "files": {
+    "thesis": {
+      "path": "d:\\DATA\\TESIS\\KOMPRE\\HARNO-KOMPRE\\02-data\\thesis\\TESIS_HARNO_FORMATTED_UNILA.docx",
+      "size": 1096787,
+      "stats": {
+        "paragraphs_or_blocks": 1153,
+        "nonempty_blocks": 558,
+        "chars": 80572,
+        "words": 11156,
+        "top_terms": [
+          [
+            "chatbot",
+            247
+          ],
+          [
+            "komunikasi",
+            172
+          ],
+          [
+            "bahasa",
+            152
+          ],
+          [
+            "generasi",
+            116
+          ],
+          [
+            "penelitian",
+            113
+          ],
+          [
+            "dalam",
+            98
+          ],
+          [
+            "sebagai",
+            95
+          ],
+          [
+            "dengan",
+            93
+          ],
+          [
+            "usabilitas",
+            91
+          ],
+          [
+            "formal",
+            91
+          ],
+          [
+            "lampung",
+            79
+          ],
+          [
+            "tidak",
+            76
+          ],
+          [
+            "untuk",
+            75
+          ],
+          [
+            "universitas",
+            71
+          ],
+          [
+            "informasi",
+            67
+          ],
+          [
+            "responden",
+            59
+          ],
+          [
+            "tabel",
+            58
+          ],
+          [
+            "secara",
+            57
+          ],
+          [
+            "interaksi",
+            56
+          ],
+          [
+            "hasil",
+            52
+          ]
+        ]
+      },
+      "styles": [
+        [
+          "Normal",
+          717
+        ],
+        [
+          "List Paragraph",
+          122
+        ],
+        [
+          "Body Text",
+          89
+        ],
+        [
+          "toc 1",
+          43
+        ],
+        [
+          "toc 2",
+          39
+        ],
+        [
+          "Heading 2",
+          39
+        ],
+        [
+          "toc 3",
+          29
+        ],
+        [
+          "Heading 3",
+          29
+        ],
+        [
+          "Caption Tabel",
+          26
+        ],
+        [
+          "Heading 1",
+          19
+        ],
+        [
+          "Tabel Caption",
+          1
+        ]
+      ],
+      "headings": [
+        {
+          "style": "Heading 1",
+          "text": "ABSTRAK"
+        },
+        {
+          "style": "Heading 1",
+          "text": "ABSTRACT"
+        },
+        {
+          "style": "Heading 1",
+          "text": "LEMBAR PERSETUJUAN"
+        },
+        {
+          "style": "Heading 1",
+          "text": "LEMBAR PENGESAHAN"
+        },
+        {
+          "style": "Heading 1",
+          "text": "SURAT PERNYATAAN"
+        },
+        {
+          "style": "Heading 1",
+          "text": "RIWAYAT HIDUP"
+        },
+        {
+          "style": "Heading 1",
+          "text": "PERSEMBAHAN"
+        },
+        {
+          "style": "Heading 1",
+          "text": "MOTTO"
+        },
+        {
+          "style": "Heading 1",
+          "text": "SANWACANA"
+        },
+        {
+          "style": "Heading 1",
+          "text": "DAFTAR ISI"
+        },
+        {
+          "style": "Heading 1",
+          "text": "DAFTAR TABEL"
+        },
+        {
+          "style": "Heading 1",
+          "text": "DAFTAR GAMBAR"
+        },
+        {
+          "style": "Heading 1",
+          "text": "I. PENDAHULUAN"
+        },
+        {
+          "style": "Heading 2",
+          "text": "1.1 \tLatar Belakang"
+        },
+        {
+          "style": "Heading 2",
+          "text": "1.2 \tRumusan Masalah"
+        },
+        {
+          "style": "Heading 2",
+          "text": "1.3 \tTujuan Penelitian"
+        },
+        {
+          "style": "Heading 2",
+          "text": "1.4 \tManfaat Penelitian"
+        },
+        {
+          "style": "Heading 1",
+          "text": "II. TINJAUAN PUSTAKA"
+        },
+        {
+          "style": "Heading 2",
+          "text": "2.1 \tPenelitian Terdahulu dan Celah Penelitian"
+        },
+        {
+          "style": "Heading 2",
+          "text": "2.2 \tLandasan Teoretis"
+        },
+        {
+          "style": "Heading 2",
+          "text": "2.3 \tChatbot sebagai Media Komunikasi Institusional"
+        },
+        {
+          "style": "Heading 2",
+          "text": "2.4 \tGaya Bahasa Chatbot dan Generasi Z"
+        },
+        {
+          "style": "Heading 2",
+          "text": "2.5 \tUsabilitas Interaksi Komunikasi dan CUQ"
+        },
+        {
+          "style": "Heading 2",
+          "text": "2.6 \tKerangka Pemikiran dan Hipotesis Penelitian"
+        },
+        {
+          "style": "Heading 1",
+          "text": "III. METODE PENELITIAN"
+        },
+        {
+          "style": "Heading 2",
+          "text": "3.1 \tJenis dan Desain Penelitian"
+        },
+        {
+          "style": "Heading 2",
+          "text": "3.2 \tLokasi dan Waktu Penelitian"
+        },
+        {
+          "style": "Heading 2",
+          "text": "3.3 \tVariabel Penelitian"
+        },
+        {
+          "style": "Heading 2",
+          "text": "3.4 \tDefinisi Konseptual dan Operasional Variabel"
+        },
+        {
+          "style": "Heading 2",
+          "text": "3.5 \tPopulasi, Sampel, dan Teknik Penentuan Sampel"
+        },
+        {
+          "style": "Heading 3",
+          "text": "3.5.1 Populasi"
+        },
+        {
+          "style": "Heading 3",
+          "text": "3.5.2 Sampel"
+        },
+        {
+          "style": "Heading 3",
+          "text": "3.5.3 Teknik Penentuan Sampel"
+        },
+        {
+          "style": "Heading 2",
+          "text": "3.6 \tInstrumen Penelitian"
+        },
+        {
+          "style": "Heading 2",
+          "text": "3.7 \tProsedur Pengumpulan Data"
+        },
+        {
+          "style": "Heading 2",
+          "text": "3.8 Teknik Pengolahan Data"
+        },
+        {
+          "style": "Heading 2",
+          "text": "3.9 \tUji Kualitas Instrumen"
+        },
+        {
+          "style": "Heading 3",
+          "text": "3.9.1 Uji Validitas"
+        },
+        {
+          "style": "Heading 3",
+          "text": "3.9.2 Uji Reliabilitas"
+        },
+        {
+          "style": "Heading 2",
+          "text": "3.10 \tTeknik Analisis Data"
+        },
+        {
+          "style": "Heading 2",
+          "text": "3.11 \tKriteria Pengujian Hipotesis"
+        },
+        {
+          "style": "Heading 1",
+          "text": "IV. HASIL DAN PEMBAHASAN"
+        },
+        {
+          "style": "Heading 2",
+          "text": "4.1 Deskripsi Umum Layanan Chatbot PMB Universitas Lampung"
+        },
+        {
+          "style": "Heading 3",
+          "text": "4.1.1 Profil Universitas Lampung dan Layanan PMB"
+        },
+        {
+          "style": "Heading 3",
+          "text": "4.1.2 Gambaran Implementasi Chatbot PMB"
+        },
+        {
+          "style": "Heading 3",
+          "text": "4.1.3 Karakter Layanan Informasi Berbasis Percakapan"
+        },
+        {
+          "style": "Heading 3",
+          "text": "4.1.4 Tujuan Penggunaan Chatbot PMB"
+        },
+        {
+          "style": "Heading 2",
+          "text": "4.2 Deskripsi Data Penelitian"
+        },
+        {
+          "style": "Heading 3",
+          "text": "4.2.1 Persiapan Data dan Justifikasi Akademik Ukuran Sampel"
+        },
+        {
+          "style": "Heading 3",
+          "text": "4.2.2 Karakteristik Responden"
+        },
+        {
+          "style": "Heading 3",
+          "text": "4.2.3 Deskripsi Skor CUQ Kondisi Chatbot Gaya Bahasa Formal"
+        },
+        {
+          "style": "Heading 3",
+          "text": "4.2.4 Deskripsi Skor CUQ Kondisi Chatbot Gaya Bahasa Generasi Z"
+        },
+        {
+          "style": "Heading 3",
+          "text": "4.2.5 Analisis Dimensi Usabilitas Interaksi Komunikasi Berdasarkan CUQ"
+        },
+        {
+          "style": "Heading 2",
+          "text": "4.3 Hasil Uji Instrumen Penelitian"
+        },
+        {
+          "style": "Heading 3",
+          "text": "4.3.1 Uji Reliabilitas"
+        },
+        {
+          "style": "Heading 3",
+          "text": "4.3.2 Uji Validitas"
+        },
+        {
+          "style": "Heading 2",
+          "text": "4.4 Uji Prasyarat Analisis"
+        },
+        {
+          "style": "Heading 3",
+          "text": "4.4.1 Uji Normalitas"
+        },
+        {
+          "style": "Heading 2",
+          "text": "4.5 Hasil Pengujian Hipotesis"
+        },
+        {
+          "style": "Heading 3",
+          "text": "4.5.1 Hasil Uji Perbedaan Skor CUQ"
+        },
+        {
+          "style": "Heading 3",
+          "text": "4.5.2 Perhitungan Effect Size (Cohen’s dz)"
+        },
+        {
+          "style": "Heading 3",
+          "text": "4.5.3 Analisis Kontrol: Order Effect dan Counterbalancing"
+        },
+        {
+          "style": "Heading 2",
+          "text": "4.6 Pembahasan"
+        },
+        {
+          "style": "Heading 3",
+          "text": "4.6.1 Tingkat Usabilitas pada Chatbot Formal dan Generasi Z"
+        },
+        {
+          "style": "Heading 3",
+          "text": "4.6.2 Perbedaan Usabilitas (CUQ) antara Chatbot Formal dan Generasi Z"
+        },
+        {
+          "style": "Heading 3",
+          "text": "4.6.3 Aspek Usabilitas yang Paling Menonjol dan Penjelasan Teoretisnya CUQ"
+        },
+        {
+          "style": "Heading 3",
+          "text": "4.6.4 Kontekstualisasi Temuan pada Karakteristik Komunikasi Generasi Z"
+        },
+        {
+          "style": "Heading 3",
+          "text": "4.6.5 Implikasi Komunikasi Institusional bagi Universitas Lampung"
+        },
+        {
+          "style": "Heading 3",
+          "text": "4.6.6 Ringkasan Temuan"
+        },
+        {
+          "style": "Heading 1",
+          "text": "V. SIMPULAN DAN SARAN"
+        },
+        {
+          "style": "Heading 2",
+          "text": "5.1 Simpulan"
+        },
+        {
+          "style": "Heading 2",
+          "text": "5.2 Implikasi Teoretis"
+        },
+        {
+          "style": "Heading 2",
+          "text": "5.3 Implikasi Praktis dan Rekomendasi Strategis"
+        },
+        {
+          "style": "Heading 3",
+          "text": "5.3.1 Redesain Gaya Bahasa Chatbot PMB Unila"
+        },
+        {
+          "style": "Heading 3",
+          "text": "5.3.2 Pengembangan SOP Komunikasi Chatbot"
+        },
+        {
+          "style": "Heading 3",
+          "text": "5.3.3 Strategi Segmentasi Pesan"
+        },
+        {
+          "style": "Heading 2",
+          "text": "5.4 Keterbatasan Penelitian"
+        },
+        {
+          "style": "Heading 2",
+          "text": "5.5 Saran Penelitian Lanjutan"
+        },
+        {
+          "style": "Heading 1",
+          "text": "DAFTAR PUSTAKA"
+        },
+        {
+          "style": "Heading 1",
+          "text": "LAMPIRAN"
+        }
+      ],
+      "tables_count": 27,
+      "tables": [
+        {
+          "index": 1,
+          "rows": 5,
+          "cols": 3,
+          "sample": [
+            [
+              "Judul Tesis",
+              ":",
+              "PENGARUH GAYA BAHASA CHATBOT TERHADAP USABILITAS INTERAKSI KOMUNIKASI INFORMASI "
+            ],
+            [
+              "Nama Mahasiswa",
+              ":",
+              "Harno"
+            ],
+            [
+              "Nomor Pokok Mahasiswa",
+              ":",
+              "2226031036"
+            ]
+          ]
+        },
+        {
+          "index": 2,
+          "rows": 1,
+          "cols": 2,
+          "sample": [
+            [
+              "Prof. Dr. Andy Cory Wardhani, M.Si.\nNIP 1962 07161988 031 001",
+              "Dr. Eng. Ir. Mardiana, S.T, M.T.\nNIP 1972 03161999 032 002"
+            ]
+          ]
+        },
+        {
+          "index": 3,
+          "rows": 4,
+          "cols": 4,
+          "sample": [
+            [
+              "Rumusan Masalah",
+              "Tujuan Penelitian",
+              "Teknik Analisis",
+              "Output"
+            ],
+            [
+              "Tingkat usabilitas chatbot formal dan Generasi Z",
+              "Mendeskripsikan tingkat usabilitas masing-masing chatbot",
+              "Statistik deskriptif skor CUQ",
+              "Mean, median, SD, minimum, maksimum"
+            ],
+            [
+              "Perbedaan tingkat usabilitas antara dua gaya bahasa",
+              "Menguji perbedaan skor CUQ pada responden yang sama",
+              "Uji normalitas selisih skor dan paired sample t-test",
+              "t, df, Sig. (2-tailed), keputusan hipotesis"
+            ]
+          ]
+        },
+        {
+          "index": 4,
+          "rows": 6,
+          "cols": 4,
+          "sample": [
+            [
+              "Peneliti",
+              "Fokus Penelitian",
+              "Temuan Utama",
+              "Posisi Penelitian Ini"
+            ],
+            [
+              "Holmes et al. (2019)",
+              "Pengembangan CUQ untuk mengukur usabilitas chatbot",
+              "CUQ dapat digunakan untuk mengevaluasi pengalaman pengguna chatbot",
+              "CUQ digunakan sebagai instrumen untuk mengukur usabilitas interaksi komunikasi c"
+            ],
+            [
+              "Xu et al. (2017)",
+              "Chatbot dalam layanan pelanggan digital",
+              "Respons chatbot memengaruhi kenyamanan dan kepuasan pengguna",
+              "Menempatkan gaya respons sebagai bagian dari strategi komunikasi institusional"
+            ]
+          ]
+        },
+        {
+          "index": 5,
+          "rows": 5,
+          "cols": 3,
+          "sample": [
+            [
+              "Lapisan Teori",
+              "Teori/Konsep",
+              "Fungsi dalam Penelitian"
+            ],
+            [
+              "Grand theory",
+              "Computer-Mediated Communication (CMC)",
+              "Menjelaskan chatbot sebagai komunikasi bermedia dan gaya bahasa sebagai isyarat "
+            ],
+            [
+              "Middle theory",
+              "Technology Acceptance Model (TAM)",
+              "Menjelaskan penerimaan pengguna melalui persepsi kemudahan dan kebermanfaatan"
+            ]
+          ]
+        },
+        {
+          "index": 6,
+          "rows": 8,
+          "cols": 3,
+          "sample": [
+            [
+              "Tahap",
+              "Kegiatan",
+              "Output"
+            ],
+            [
+              "1",
+              "Identifikasi masalah dan penetapan fokus penelitian",
+              "Rumusan masalah dan tujuan penelitian"
+            ],
+            [
+              "2",
+              "Studi pustaka dan penyusunan kerangka teori",
+              "Kerangka CMC, TAM, S-O-R, dan CUQ"
+            ]
+          ]
+        },
+        {
+          "index": 7,
+          "rows": 3,
+          "cols": 4,
+          "sample": [
+            [
+              "Variabel",
+              "Bentuk Operasional",
+              "Indikator Utama",
+              "Skala/Output"
+            ],
+            [
+              "X: Gaya bahasa chatbot",
+              "Dua kondisi perlakuan: formal dan Generasi Z",
+              "Diksi, tone, tingkat formalitas, sapaan, struktur respons",
+              "Kondisi perlakuan"
+            ],
+            [
+              "Y: Usabilitas interaksi komunikasi",
+              "Persepsi responden setelah berinteraksi dengan chatbot",
+              "Kemudahan, kejelasan, efisiensi, kenyamanan/kepuasan",
+              "Skor CUQ 0-100"
+            ]
+          ]
+        },
+        {
+          "index": 8,
+          "rows": 3,
+          "cols": 4,
+          "sample": [
+            [
+              "Variabel",
+              "Definisi Operasional",
+              "Indikator",
+              "Instrumen"
+            ],
+            [
+              "Gaya bahasa chatbot",
+              "Cara chatbot menyampaikan pesan PMB dalam dua variasi gaya bahasa",
+              "Formalitas, diksi, sapaan, tone, struktur respons",
+              "Skenario chatbot formal dan Gen-Z"
+            ],
+            [
+              "Usabilitas interaksi komunikasi",
+              "Penilaian responden terhadap kualitas interaksi dengan chatbot setelah menggunak",
+              "Kemudahan, kejelasan, efisiensi, persona/afeksi, kepuasan",
+              "Chatbot Usability Questionnaire (CUQ)"
+            ]
+          ]
+        },
+        {
+          "index": 9,
+          "rows": 7,
+          "cols": 2,
+          "sample": [
+            [
+              "Aspek",
+              "Ketentuan"
+            ],
+            [
+              "Jumlah item",
+              "16 butir pernyataan"
+            ],
+            [
+              "Skala respons",
+              "Likert 1-5"
+            ]
+          ]
+        },
+        {
+          "index": 10,
+          "rows": 6,
+          "cols": 4,
+          "sample": [
+            [
+              "Rumusan Masalah",
+              "Tujuan",
+              "Teknik Analisis",
+              "Output"
+            ],
+            [
+              "Tingkat usabilitas chatbot formal dan Gen-Z",
+              "Mendeskripsikan skor usabilitas tiap kondisi",
+              "Statistik deskriptif",
+              "Mean, SD, median, minimum, maksimum"
+            ],
+            [
+              "Perbedaan skor CUQ formal dan Gen-Z",
+              "Menguji perbedaan pada responden yang sama",
+              "Uji normalitas selisih; paired sample t-test/Wilcoxon",
+              "t, df, p-value, keputusan hipotesis"
+            ]
+          ]
+        },
+        {
+          "index": 11,
+          "rows": 5,
+          "cols": 3,
+          "sample": [
+            [
+              "Kriteria Validasi Data",
+              "Status",
+              "Jumlah"
+            ],
+            [
+              "Total data masuk",
+              "Terverifikasi",
+              "404"
+            ],
+            [
+              "Kelengkapan CUQ Formal dan Gen-Z",
+              "Lengkap",
+              "404"
+            ]
+          ]
+        },
+        {
+          "index": 12,
+          "rows": 7,
+          "cols": 4,
+          "sample": [
+            [
+              "Variabel Profil",
+              "Kategori",
+              "Frekuensi",
+              "Persentase (%)"
+            ],
+            [
+              "",
+              "Perempuan",
+              "209",
+              "51,7%"
+            ],
+            [
+              "",
+              "Laki-laki",
+              "195",
+              "48,3%"
+            ]
+          ]
+        },
+        {
+          "index": 13,
+          "rows": 7,
+          "cols": 3,
+          "sample": [
+            [
+              "Indikator Statistik",
+              "Chatbot Gaya Formal",
+              "Chatbot Gaya Gen-Z"
+            ],
+            [
+              "N",
+              "404",
+              "404"
+            ],
+            [
+              "Mean (Rata-rata)",
+              "54,59",
+              "54,70"
+            ]
+          ]
+        },
+        {
+          "index": 14,
+          "rows": 5,
+          "cols": 5,
+          "sample": [
+            [
+              "Klaster Usabilitas",
+              "Deskripsi Komunikasi",
+              "Mean Formal",
+              "Mean Gen-Z",
+              "Selisih"
+            ],
+            [
+              "Persona & Afeksi",
+              "Kepribadian, keramahan, dan kesan non-robotik (Q1-Q4)",
+              "3,18",
+              "3,19",
+              "+0,00"
+            ],
+            [
+              "Navigasi & Kemudahan",
+              "Kemudahan berpindah menu dan alur interaksi (Q7-Q8, Q15-Q16)",
+              "3,17",
+              "3,18",
+              "+0,01"
+            ]
+          ]
+        },
+        {
+          "index": 15,
+          "rows": 3,
+          "cols": 4,
+          "sample": [
+            [
+              "Kondisi Pengujian",
+              "Jumlah Item",
+              "Cronbach’s Alpha",
+              "Interpretasi"
+            ],
+            [
+              "Chatbot Gaya Formal",
+              "16",
+              "0,866",
+              "Reliabel"
+            ],
+            [
+              "Chatbot Gaya Gen-Z",
+              "16",
+              "0,890",
+              "Reliabel"
+            ]
+          ]
+        },
+        {
+          "index": 16,
+          "rows": 17,
+          "cols": 5,
+          "sample": [
+            [
+              "Item",
+              "r hitung Formal",
+              "Keputusan Formal",
+              "r hitung Gen-Z",
+              "Keputusan Gen-Z"
+            ],
+            [
+              "CUQ 1",
+              "0,060",
+              "Tidak valid",
+              "0,196",
+              "Valid"
+            ],
+            [
+              "CUQ 2",
+              "0,754",
+              "Valid",
+              "0,887",
+              "Valid"
+            ]
+          ]
+        },
+        {
+          "index": 17,
+          "rows": 3,
+          "cols": 6,
+          "sample": [
+            [
+              "Uji",
+              "Statistik",
+              "df/N",
+              "Mean/Median Diff",
+              "Sig."
+            ],
+            [
+              "Paired sample t-test",
+              "t = 1,010",
+              "df = 403",
+              "0,11",
+              "0,313"
+            ],
+            [
+              "Wilcoxon signed-rank",
+              "W = 351",
+              "N nonzero = 44",
+              "0,00",
+              "0,091"
+            ]
+          ]
+        },
+        {
+          "index": 18,
+          "rows": 3,
+          "cols": 5,
+          "sample": [
+            [
+              "Urutan Pengujian",
+              "N",
+              "Mean Difference",
+              "t-value",
+              "Sig."
+            ],
+            [
+              "Kelompok A (Formal → Gen-Z)",
+              "205",
+              "0,11",
+              "-0,015",
+              "0,988"
+            ],
+            [
+              "Kelompok B (Gen-Z → Formal)",
+              "199",
+              "0,11",
+              "-0,015",
+              "0,988"
+            ]
+          ]
+        },
+        {
+          "index": 19,
+          "rows": 17,
+          "cols": 7,
+          "sample": [
+            [
+              "No",
+              "Pernyataan",
+              "1",
+              "2",
+              "3"
+            ],
+            [
+              "1",
+              "Kepribadian chatbot terasa realistis dan menarik",
+              "☐",
+              "☐",
+              "☐"
+            ],
+            [
+              "2",
+              "Chatbot terasa terlalu kaku atau robotik",
+              "☐",
+              "☐",
+              "☐"
+            ]
+          ]
+        },
+        {
+          "index": 20,
+          "rows": 17,
+          "cols": 7,
+          "sample": [
+            [
+              "No",
+              "Pernyataan",
+              "1",
+              "2",
+              "3"
+            ],
+            [
+              "1",
+              "Kepribadian chatbot terasa realistis dan menarik",
+              "☐",
+              "☐",
+              "☐"
+            ],
+            [
+              "2",
+              "Chatbot terasa terlalu kaku atau robotik",
+              "☐",
+              "☐",
+              "☐"
+            ]
+          ]
+        }
+      ]
+    },
+    "paparan": {
+      "path": "d:\\DATA\\TESIS\\KOMPRE\\HARNO-KOMPRE\\02-data\\paparan\\NASKAH_PAPARAN_KOMPRE_HARNO_FINAL.docx",
+      "size": 42736,
+      "stats": {
+        "paragraphs_or_blocks": 125,
+        "nonempty_blocks": 125,
+        "chars": 14911,
+        "words": 2028,
+        "top_terms": [
+          [
+            "chatbot",
+            40
+          ],
+          [
+            "tidak",
+            37
+          ],
+          [
+            "slide",
+            32
+          ],
+          [
+            "penelitian",
+            31
+          ],
+          [
+            "komunikasi",
+            29
+          ],
+          [
+            "bahasa",
+            26
+          ],
+          [
+            "formal",
+            25
+          ],
+          [
+            "sebagai",
+            25
+          ],
+          [
+            "usabilitas",
+            23
+          ],
+          [
+            "karena",
+            18
+          ],
+          [
+            "narasi",
+            16
+          ],
+          [
+            "tampil",
+            15
+          ],
+          [
+            "lisan",
+            15
+          ],
+          [
+            "generasi",
+            14
+          ],
+          [
+            "dengan",
+            14
+          ],
+          [
+            "hasil",
+            12
+          ],
+          [
+            "media",
+            12
+          ],
+          [
+            "secara",
+            12
+          ],
+          [
+            "digunakan",
+            12
+          ],
+          [
+            "untuk",
+            12
+          ]
+        ]
+      },
+      "styles": [
+        [
+          "Normal",
+          105
+        ],
+        [
+          "Heading 2",
+          15
+        ],
+        [
+          "Heading 1",
+          5
+        ]
+      ],
+      "headings": [
+        {
+          "style": "Heading 1",
+          "text": "A. Peta Struktur Paparan"
+        },
+        {
+          "style": "Heading 1",
+          "text": "B. Naskah Narasi per Slide"
+        },
+        {
+          "style": "Heading 2",
+          "text": "Slide 1 — Pengaruh Gaya Bahasa Chatbot terhadap Usabilitas Informasi PMB pada Generasi Z di Universitas Lampung"
+        },
+        {
+          "style": "Heading 2",
+          "text": "Slide 2 — Latar Belakang Masalah: Transformasi Komunikasi PMB"
+        },
+        {
+          "style": "Heading 2",
+          "text": "Slide 3 — Kesenjangan Penelitian dan Urgensi Kajian"
+        },
+        {
+          "style": "Heading 2",
+          "text": "Slide 4 — Rumusan Masalah, Tujuan, dan Kerangka Pikir"
+        },
+        {
+          "style": "Heading 2",
+          "text": "Slide 5 — Konsep Utama Penelitian"
+        },
+        {
+          "style": "Heading 2",
+          "text": "Slide 6 — Landasan Teori: CMC, TAM, dan CUQ"
+        },
+        {
+          "style": "Heading 2",
+          "text": "Slide 7 — Desain Penelitian Kuantitatif"
+        },
+        {
+          "style": "Heading 2",
+          "text": "Slide 8 — Populasi, Sampel, Instrumen, dan Analisis"
+        },
+        {
+          "style": "Heading 2",
+          "text": "Slide 9 — Kesiapan Data dan Profil Responden"
+        },
+        {
+          "style": "Heading 2",
+          "text": "Slide 10 — Hasil Deskriptif dan Uji Instrumen"
+        },
+        {
+          "style": "Heading 2",
+          "text": "Slide 11 — Hasil Uji Beda dan Ukuran Efek"
+        },
+        {
+          "style": "Heading 2",
+          "text": "Slide 12 — Makna Temuan: Tidak Signifikan Bukan Berarti Tidak Penting"
+        },
+        {
+          "style": "Heading 2",
+          "text": "Slide 13 — Implikasi Teoretis dan Praktis"
+        },
+        {
+          "style": "Heading 2",
+          "text": "Slide 14 — Simpulan Penelitian"
+        },
+        {
+          "style": "Heading 2",
+          "text": "Slide 15 — Saran dan Rekomendasi"
+        },
+        {
+          "style": "Heading 1",
+          "text": "C. Penekanan Khusus untuk Komposisi Penguji"
+        },
+        {
+          "style": "Heading 1",
+          "text": "D. Jawaban Singkat untuk Pertanyaan Kritis"
+        },
+        {
+          "style": "Heading 1",
+          "text": "E. Kalimat Penutup"
+        }
+      ],
+      "tables_count": 2,
+      "tables": [
+        {
+          "index": 1,
+          "rows": 7,
+          "cols": 3,
+          "sample": [
+            [
+              "Slide",
+              "Bagian",
+              "Isi"
+            ],
+            [
+              "1",
+              "Cover",
+              "Identitas dan fokus penelitian"
+            ],
+            [
+              "2-4",
+              "Pendahuluan",
+              "LBM 2 slide; rumusan, tujuan, dan kerangka pikir 1 slide"
+            ]
+          ]
+        },
+        {
+          "index": 2,
+          "rows": 4,
+          "cols": 2,
+          "sample": [
+            [
+              "Penguji",
+              "Penekanan Jawaban"
+            ],
+            [
+              "Penguji doktor komunikasi ahli kuantitatif",
+              "Tekankan validitas logika metode: desain within-subject, data berpasangan, rever"
+            ],
+            [
+              "Bapak Profesor Ilmu Komunikasi",
+              "Tekankan kontribusi konseptual: chatbot diposisikan sebagai media komunikasi ins"
+            ]
+          ]
+        }
+      ]
+    },
+    "ppt": {
+      "path": "d:\\DATA\\TESIS\\KOMPRE\\HARNO-KOMPRE\\02-data\\ppt\\PPT KOMPRE-HARNO.pptx",
+      "size": 20799750,
+      "slides_count": 15,
+      "stats": {
+        "paragraphs_or_blocks": 15,
+        "nonempty_blocks": 15,
+        "chars": 126,
+        "words": 45,
+        "top_terms": []
+      },
+      "slides": [
+        {
+          "slide": 1,
+          "text_blocks": 0,
+          "texts": []
+        },
+        {
+          "slide": 2,
+          "text_blocks": 2,
+          "texts": [
+            "01 of 15",
+            "2 of 15"
+          ]
+        },
+        {
+          "slide": 3,
+          "text_blocks": 1,
+          "texts": [
+            "3 of 15"
+          ]
+        },
+        {
+          "slide": 4,
+          "text_blocks": 1,
+          "texts": [
+            "4 of 15"
+          ]
+        },
+        {
+          "slide": 5,
+          "text_blocks": 1,
+          "texts": [
+            "5 of 15"
+          ]
+        },
+        {
+          "slide": 6,
+          "text_blocks": 1,
+          "texts": [
+            "6 of 15"
+          ]
+        },
+        {
+          "slide": 7,
+          "text_blocks": 1,
+          "texts": [
+            "7 of 15"
+          ]
+        },
+        {
+          "slide": 8,
+          "text_blocks": 1,
+          "texts": [
+            "8 of 15"
+          ]
+        },
+        {
+          "slide": 9,
+          "text_blocks": 1,
+          "texts": [
+            "9 of 15"
+          ]
+        },
+        {
+          "slide": 10,
+          "text_blocks": 1,
+          "texts": [
+            "10 of 15"
+          ]
+        },
+        {
+          "slide": 11,
+          "text_blocks": 1,
+          "texts": [
+            "11 of 15"
+          ]
+        },
+        {
+          "slide": 12,
+          "text_blocks": 1,
+          "texts": [
+            "12 of 15"
+          ]
+        },
+        {
+          "slide": 13,
+          "text_blocks": 1,
+          "texts": [
+            "13 of 15"
+          ]
+        },
+        {
+          "slide": 14,
+          "text_blocks": 1,
+          "texts": [
+            "14 of 15"
+          ]
+        },
+        {
+          "slide": 15,
+          "text_blocks": 1,
+          "texts": [
+            "15 of 15"
+          ]
+        }
+      ]
+    },
+    "cuq": {
+      "path": "d:\\DATA\\TESIS\\KOMPRE\\HARNO-KOMPRE\\02-data\\cuq\\CUQ Data mentah.xlsx",
+      "size": 60313,
+      "sheets_count": 1,
+      "sheets": [
+        {
+          "name": "Sheet1",
+          "rows": 405,
+          "nonempty_rows": 405,
+          "max_cols": 37,
+          "headers": [
+            "No",
+            "Kode",
+            "JK",
+            "Usia",
+            "Urutan",
+            "F1",
+            "F2",
+            "F3",
+            "F4",
+            "F5",
+            "F6",
+            "F7",
+            "F8",
+            "F9",
+            "F10",
+            "F11",
+            "F12",
+            "F13",
+            "F14",
+            "F15",
+            "F16",
+            "G1",
+            "G2",
+            "G3",
+            "G4",
+            "G5",
+            "G6",
+            "G7",
+            "G8",
+            "G9",
+            "G10",
+            "G11",
+            "G12",
+            "G13",
+            "G14",
+            "G15",
+            "G16"
+          ],
+          "sample": [
+            [
+              "No",
+              "Kode",
+              "JK",
+              "Usia",
+              "Urutan",
+              "F1",
+              "F2",
+              "F3",
+              "F4",
+              "F5"
+            ],
+            [
+              1,
+              346,
+              "P",
+              18,
+              "F→G",
+              4,
+              4,
+              4,
+              3,
+              4
+            ],
+            [
+              2,
+              403,
+              "L",
+              17,
+              "F→G",
+              5,
+              5,
+              5,
+              5,
+              5
+            ],
+            [
+              3,
+              251,
+              "P",
+              18,
+              "F→G",
+              5,
+              2,
+              4,
+              1,
+              5
+            ],
+            [
+              4,
+              124,
+              "L",
+              17,
+              "F→G",
+              3,
+              3,
+              4,
+              3,
+              3
+            ]
+          ],
+          "numeric_columns": [
+            {
+              "col": 1,
+              "header": "No",
+              "n": 404,
+              "min": 1.0,
+              "max": 404.0,
+              "mean": 202.5
+            },
+            {
+              "col": 2,
+              "header": "Kode",
+              "n": 404,
+              "min": 15.0,
+              "max": 575.0,
+              "mean": 323.7129
+            },
+            {
+              "col": 4,
+              "header": "Usia",
+              "n": 404,
+              "min": 17.0,
+              "max": 18.0,
+              "mean": 17.7475
+            },
+            {
+              "col": 6,
+              "header": "F1",
+              "n": 404,
+              "min": 3.0,
+              "max": 5.0,
+              "mean": 4.0347
+            },
+            {
+              "col": 7,
+              "header": "F2",
+              "n": 404,
+              "min": 2.0,
+              "max": 5.0,
+              "mean": 3.7178
+            },
+            {
+              "col": 8,
+              "header": "F3",
+              "n": 404,
+              "min": 3.0,
+              "max": 5.0,
+              "mean": 4.0396
+            },
+            {
+              "col": 9,
+              "header": "F4",
+              "n": 404,
+              "min": 1.0,
+              "max": 5.0,
+              "mean": 3.6188
+            },
+            {
+              "col": 10,
+              "header": "F5",
+              "n": 404,
+              "min": 3.0,
+              "max": 5.0,
+              "mean": 3.995
+            },
+            {
+              "col": 11,
+              "header": "F6",
+              "n": 404,
+              "min": 1.0,
+              "max": 5.0,
+              "mean": 3.6287
+            },
+            {
+              "col": 12,
+              "header": "F7",
+              "n": 404,
+              "min": 3.0,
+              "max": 5.0,
+              "mean": 4.0297
+            },
+            {
+              "col": 13,
+              "header": "F8",
+              "n": 404,
+              "min": 1.0,
+              "max": 5.0,
+              "mean": 3.6634
+            },
+            {
+              "col": 14,
+              "header": "F9",
+              "n": 404,
+              "min": 3.0,
+              "max": 5.0,
+              "mean": 4.0099
+            },
+            {
+              "col": 15,
+              "header": "F10",
+              "n": 404,
+              "min": 2.0,
+              "max": 5.0,
+              "mean": 3.6584
+            },
+            {
+              "col": 16,
+              "header": "F11",
+              "n": 404,
+              "min": 3.0,
+              "max": 5.0,
+              "mean": 4.0347
+            },
+            {
+              "col": 17,
+              "header": "F12",
+              "n": 404,
+              "min": 1.0,
+              "max": 5.0,
+              "mean": 3.6386
+            },
+            {
+              "col": 18,
+              "header": "F13",
+              "n": 404,
+              "min": 3.0,
+              "max": 5.0,
+              "mean": 4.0099
+            },
+            {
+              "col": 19,
+              "header": "F14",
+              "n": 404,
+              "min": 1.0,
+              "max": 5.0,
+              "mean": 3.6238
+            },
+            {
+              "col": 20,
+              "header": "F15",
+              "n": 404,
+              "min": 3.0,
+              "max": 5.0,
+              "mean": 4.0396
+            },
+            {
+              "col": 21,
+              "header": "F16",
+              "n": 404,
+              "min": 3.0,
+              "max": 5.0,
+              "mean": 3.7079
+            },
+            {
+              "col": 22,
+              "header": "G1",
+              "n": 404,
+              "min": 3.0,
+              "max": 5.0,
+              "mean": 4.0099
+            },
+            {
+              "col": 23,
+              "header": "G2",
+              "n": 404,
+              "min": 1.0,
+              "max": 5.0,
+              "mean": 3.6238
+            },
+            {
+              "col": 24,
+              "header": "G3",
+              "n": 404,
+              "min": 2.0,
+              "max": 5.0,
+              "mean": 3.9802
+            },
+            {
+              "col": 25,
+              "header": "G4",
+              "n": 404,
+              "min": 1.0,
+              "max": 5.0,
+              "mean": 3.6139
+            },
+            {
+              "col": 26,
+              "header": "G5",
+              "n": 404,
+              "min": 0.0,
+              "max": 5.0,
+              "mean": 3.9752
+            },
+            {
+              "col": 27,
+              "header": "G6",
+              "n": 404,
+              "min": 1.0,
+              "max": 5.0,
+              "mean": 3.6188
+            },
+            {
+              "col": 28,
+              "header": "G7",
+              "n": 404,
+              "min": 3.0,
+              "max": 5.0,
+              "mean": 4.0
+            },
+            {
+              "col": 29,
+              "header": "G8",
+              "n": 404,
+              "min": 1.0,
+              "max": 5.0,
+              "mean": 3.6337
+            },
+            {
+              "col": 30,
+              "header": "G9",
+              "n": 404,
+              "min": 3.0,
+              "max": 5.0,
+              "mean": 3.9851
+            },
+            {
+              "col": 31,
+              "header": "G10",
+              "n": 404,
+              "min": 1.0,
+              "max": 5.0,
+              "mean": 3.6139
+            },
+            {
+              "col": 32,
+              "header": "G11",
+              "n": 404,
+              "min": 2.0,
+              "max": 5.0,
+              "mean": 3.995
+            },
+            {
+              "col": 33,
+              "header": "G12",
+              "n": 404,
+              "min": 1.0,
+              "max": 5.0,
+              "mean": 3.6089
+            },
+            {
+              "col": 34,
+              "header": "G13",
+              "n": 404,
+              "min": 2.0,
+              "max": 5.0,
+              "mean": 3.995
+            },
+            {
+              "col": 35,
+              "header": "G14",
+              "n": 404,
+              "min": 1.0,
+              "max": 5.0,
+              "mean": 3.604
+            },
+            {
+              "col": 36,
+              "header": "G15",
+              "n": 404,
+              "min": 2.0,
+              "max": 5.0,
+              "mean": 3.9802
+            },
+            {
+              "col": 37,
+              "header": "G16",
+              "n": 404,
+              "min": 1.0,
+              "max": 5.0,
+              "mean": 3.6188
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

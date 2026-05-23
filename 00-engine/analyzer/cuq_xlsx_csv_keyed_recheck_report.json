@@ -1,0 +1,1108 @@
+{
+  "csv_rows": 405,
+  "xlsx_rows": 404,
+  "csv_unique_kode": 328,
+  "xlsx_unique_kode": 204,
+  "merge_counts": {
+    "right_only": 276,
+    "both": 249,
+    "left_only": 194
+  },
+  "invalid_xlsx": [
+    {
+      "No": 1,
+      "Kode": 346,
+      "column": "G5",
+      "value": 0
+    },
+    {
+      "No": 206,
+      "Kode": 134,
+      "column": "G5",
+      "value": 0
+    }
+  ],
+  "mismatch_count": 6634,
+  "mismatches_first200": [
+    {
+      "Kode": 1,
+      "merge": "right_only"
+    },
+    {
+      "Kode": 2,
+      "merge": "right_only"
+    },
+    {
+      "Kode": 3,
+      "merge": "right_only"
+    },
+    {
+      "Kode": 4,
+      "merge": "right_only"
+    },
+    {
+      "Kode": 5,
+      "merge": "right_only"
+    },
+    {
+      "Kode": 6,
+      "merge": "right_only"
+    },
+    {
+      "Kode": 6,
+      "merge": "right_only"
+    },
+    {
+      "Kode": 7,
+      "merge": "right_only"
+    },
+    {
+      "Kode": 7,
+      "merge": "right_only"
+    },
+    {
+      "Kode": 8,
+      "merge": "right_only"
+    },
+    {
+      "Kode": 8,
+      "merge": "right_only"
+    },
+    {
+      "Kode": 9,
+      "merge": "right_only"
+    },
+    {
+      "Kode": 10,
+      "merge": "right_only"
+    },
+    {
+      "Kode": 11,
+      "merge": "right_only"
+    },
+    {
+      "Kode": 11,
+      "merge": "right_only"
+    },
+    {
+      "Kode": 11,
+      "merge": "right_only"
+    },
+    {
+      "Kode": 15,
+      "column": "JK",
+      "xlsx": "P",
+      "csv": "L"
+    },
+    {
+      "Kode": 15,
+      "column": "F1",
+      "xlsx": 4.0,
+      "csv": 3.0
+    },
+    {
+      "Kode": 15,
+      "column": "F2",
+      "xlsx": 3.0,
+      "csv": 2.0
+    },
+    {
+      "Kode": 15,
+      "column": "F3",
+      "xlsx": 4.0,
+      "csv": 3.0
+    },
+    {
+      "Kode": 15,
+      "column": "F4",
+      "xlsx": 2.0,
+      "csv": 4.0
+    },
+    {
+      "Kode": 15,
+      "column": "F6",
+      "xlsx": 2.0,
+      "csv": 4.0
+    },
+    {
+      "Kode": 15,
+      "column": "F8",
+      "xlsx": 4.0,
+      "csv": 2.0
+    },
+    {
+      "Kode": 15,
+      "column": "F9",
+      "xlsx": 4.0,
+      "csv": 3.0
+    },
+    {
+      "Kode": 15,
+      "column": "F12",
+      "xlsx": 2.0,
+      "csv": 4.0
+    },
+    {
+      "Kode": 15,
+      "column": "F13",
+      "xlsx": 4.0,
+      "csv": 3.0
+    },
+    {
+      "Kode": 15,
+      "column": "F14",
+      "xlsx": 2.0,
+      "csv": 3.0
+    },
+    {
+      "Kode": 15,
+      "column": "F16",
+      "xlsx": 4.0,
+      "csv": 3.0
+    },
+    {
+      "Kode": 15,
+      "column": "G2",
+      "xlsx": 3.0,
+      "csv": 4.0
+    },
+    {
+      "Kode": 15,
+      "column": "G3",
+      "xlsx": 4.0,
+      "csv": 5.0
+    },
+    {
+      "Kode": 15,
+      "column": "G4",
+      "xlsx": 2.0,
+      "csv": 4.0
+    },
+    {
+      "Kode": 15,
+      "column": "G5",
+      "xlsx": 3.0,
+      "csv": 4.0
+    },
+    {
+      "Kode": 15,
+      "column": "G6",
+      "xlsx": 2.0,
+      "csv": 5.0
+    },
+    {
+      "Kode": 15,
+      "column": "G7",
+      "xlsx": 4.0,
+      "csv": 5.0
+    },
+    {
+      "Kode": 15,
+      "column": "G8",
+      "xlsx": 3.0,
+      "csv": 4.0
+    },
+    {
+      "Kode": 15,
+      "column": "G10",
+      "xlsx": 2.0,
+      "csv": 4.0
+    },
+    {
+      "Kode": 15,
+      "column": "G11",
+      "xlsx": 4.0,
+      "csv": 5.0
+    },
+    {
+      "Kode": 15,
+      "column": "G12",
+      "xlsx": 2.0,
+      "csv": 5.0
+    },
+    {
+      "Kode": 15,
+      "column": "G13",
+      "xlsx": 4.0,
+      "csv": 3.0
+    },
+    {
+      "Kode": 15,
+      "column": "G14",
+      "xlsx": 2.0,
+      "csv": 4.0
+    },
+    {
+      "Kode": 15,
+      "column": "G16",
+      "xlsx": 2.0,
+      "csv": 5.0
+    },
+    {
+      "Kode": 21,
+      "merge": "right_only"
+    },
+    {
+      "Kode": 23,
+      "merge": "right_only"
+    },
+    {
+      "Kode": 26,
+      "merge": "right_only"
+    },
+    {
+      "Kode": 27,
+      "merge": "right_only"
+    },
+    {
+      "Kode": 28,
+      "merge": "right_only"
+    },
+    {
+      "Kode": 30,
+      "merge": "right_only"
+    },
+    {
+      "Kode": 31,
+      "merge": "right_only"
+    },
+    {
+      "Kode": 33,
+      "merge": "right_only"
+    },
+    {
+      "Kode": 35,
+      "column": "G16",
+      "xlsx": 2.0,
+      "csv": 5.0
+    },
+    {
+      "Kode": 37,
+      "merge": "right_only"
+    },
+    {
+      "Kode": 38,
+      "merge": "right_only"
+    },
+    {
+      "Kode": 39,
+      "merge": "right_only"
+    },
+    {
+      "Kode": 40,
+      "merge": "right_only"
+    },
+    {
+      "Kode": 41,
+      "merge": "right_only"
+    },
+    {
+      "Kode": 42,
+      "merge": "right_only"
+    },
+    {
+      "Kode": 43,
+      "merge": "right_only"
+    },
+    {
+      "Kode": 44,
+      "merge": "right_only"
+    },
+    {
+      "Kode": 45,
+      "column": "F1",
+      "xlsx": 4.0,
+      "csv": 3.0
+    },
+    {
+      "Kode": 45,
+      "column": "F2",
+      "xlsx": 4.0,
+      "csv": 3.0
+    },
+    {
+      "Kode": 45,
+      "column": "F3",
+      "xlsx": 4.0,
+      "csv": 3.0
+    },
+    {
+      "Kode": 45,
+      "column": "F4",
+      "xlsx": 4.0,
+      "csv": 3.0
+    },
+    {
+      "Kode": 45,
+      "column": "F5",
+      "xlsx": 4.0,
+      "csv": 3.0
+    },
+    {
+      "Kode": 45,
+      "column": "F6",
+      "xlsx": 4.0,
+      "csv": 3.0
+    },
+    {
+      "Kode": 45,
+      "column": "F7",
+      "xlsx": 4.0,
+      "csv": 3.0
+    },
+    {
+      "Kode": 45,
+      "column": "F8",
+      "xlsx": 4.0,
+      "csv": 3.0
+    },
+    {
+      "Kode": 45,
+      "column": "F9",
+      "xlsx": 4.0,
+      "csv": 3.0
+    },
+    {
+      "Kode": 45,
+      "column": "F10",
+      "xlsx": 4.0,
+      "csv": 3.0
+    },
+    {
+      "Kode": 45,
+      "column": "F11",
+      "xlsx": 4.0,
+      "csv": 3.0
+    },
+    {
+      "Kode": 45,
+      "column": "F12",
+      "xlsx": 4.0,
+      "csv": 3.0
+    },
+    {
+      "Kode": 45,
+      "column": "F13",
+      "xlsx": 4.0,
+      "csv": 3.0
+    },
+    {
+      "Kode": 45,
+      "column": "F14",
+      "xlsx": 4.0,
+      "csv": 3.0
+    },
+    {
+      "Kode": 45,
+      "column": "F15",
+      "xlsx": 4.0,
+      "csv": 3.0
+    },
+    {
+      "Kode": 45,
+      "column": "F16",
+      "xlsx": 4.0,
+      "csv": 3.0
+    },
+    {
+      "Kode": 45,
+      "column": "G1",
+      "xlsx": 4.0,
+      "csv": 3.0
+    },
+    {
+      "Kode": 45,
+      "column": "G2",
+      "xlsx": 4.0,
+      "csv": 3.0
+    },
+    {
+      "Kode": 45,
+      "column": "G3",
+      "xlsx": 4.0,
+      "csv": 3.0
+    },
+    {
+      "Kode": 45,
+      "column": "G4",
+      "xlsx": 4.0,
+      "csv": 3.0
+    },
+    {
+      "Kode": 45,
+      "column": "G5",
+      "xlsx": 4.0,
+      "csv": 3.0
+    },
+    {
+      "Kode": 45,
+      "column": "G6",
+      "xlsx": 4.0,
+      "csv": 3.0
+    },
+    {
+      "Kode": 45,
+      "column": "G7",
+      "xlsx": 4.0,
+      "csv": 3.0
+    },
+    {
+      "Kode": 45,
+      "column": "G8",
+      "xlsx": 4.0,
+      "csv": 3.0
+    },
+    {
+      "Kode": 45,
+      "column": "G9",
+      "xlsx": 4.0,
+      "csv": 3.0
+    },
+    {
+      "Kode": 45,
+      "column": "G10",
+      "xlsx": 4.0,
+      "csv": 3.0
+    },
+    {
+      "Kode": 45,
+      "column": "G11",
+      "xlsx": 4.0,
+      "csv": 3.0
+    },
+    {
+      "Kode": 45,
+      "column": "G12",
+      "xlsx": 4.0,
+      "csv": 3.0
+    },
+    {
+      "Kode": 45,
+      "column": "G13",
+      "xlsx": 4.0,
+      "csv": 3.0
+    },
+    {
+      "Kode": 45,
+      "column": "G14",
+      "xlsx": 4.0,
+      "csv": 3.0
+    },
+    {
+      "Kode": 45,
+      "column": "G15",
+      "xlsx": 4.0,
+      "csv": 3.0
+    },
+    {
+      "Kode": 45,
+      "column": "G16",
+      "xlsx": 4.0,
+      "csv": 3.0
+    },
+    {
+      "Kode": 45,
+      "column": "Urutan",
+      "xlsx": "G→F",
+      "csv": "F→G"
+    },
+    {
+      "Kode": 45,
+      "column": "F1",
+      "xlsx": 4.0,
+      "csv": 3.0
+    },
+    {
+      "Kode": 45,
+      "column": "F2",
+      "xlsx": 4.0,
+      "csv": 3.0
+    },
+    {
+      "Kode": 45,
+      "column": "F3",
+      "xlsx": 4.0,
+      "csv": 3.0
+    },
+    {
+      "Kode": 45,
+      "column": "F4",
+      "xlsx": 4.0,
+      "csv": 3.0
+    },
+    {
+      "Kode": 45,
+      "column": "F5",
+      "xlsx": 4.0,
+      "csv": 3.0
+    },
+    {
+      "Kode": 45,
+      "column": "F6",
+      "xlsx": 4.0,
+      "csv": 3.0
+    },
+    {
+      "Kode": 45,
+      "column": "F7",
+      "xlsx": 4.0,
+      "csv": 3.0
+    },
+    {
+      "Kode": 45,
+      "column": "F8",
+      "xlsx": 4.0,
+      "csv": 3.0
+    },
+    {
+      "Kode": 45,
+      "column": "F9",
+      "xlsx": 4.0,
+      "csv": 3.0
+    },
+    {
+      "Kode": 45,
+      "column": "F10",
+      "xlsx": 4.0,
+      "csv": 3.0
+    },
+    {
+      "Kode": 45,
+      "column": "F11",
+      "xlsx": 4.0,
+      "csv": 3.0
+    },
+    {
+      "Kode": 45,
+      "column": "F12",
+      "xlsx": 4.0,
+      "csv": 3.0
+    },
+    {
+      "Kode": 45,
+      "column": "F13",
+      "xlsx": 4.0,
+      "csv": 3.0
+    },
+    {
+      "Kode": 45,
+      "column": "F14",
+      "xlsx": 4.0,
+      "csv": 3.0
+    },
+    {
+      "Kode": 45,
+      "column": "F15",
+      "xlsx": 4.0,
+      "csv": 3.0
+    },
+    {
+      "Kode": 45,
+      "column": "F16",
+      "xlsx": 4.0,
+      "csv": 3.0
+    },
+    {
+      "Kode": 45,
+      "column": "G1",
+      "xlsx": 4.0,
+      "csv": 3.0
+    },
+    {
+      "Kode": 45,
+      "column": "G2",
+      "xlsx": 4.0,
+      "csv": 3.0
+    },
+    {
+      "Kode": 45,
+      "column": "G3",
+      "xlsx": 4.0,
+      "csv": 3.0
+    },
+    {
+      "Kode": 45,
+      "column": "G4",
+      "xlsx": 4.0,
+      "csv": 3.0
+    },
+    {
+      "Kode": 45,
+      "column": "G5",
+      "xlsx": 4.0,
+      "csv": 3.0
+    },
+    {
+      "Kode": 45,
+      "column": "G6",
+      "xlsx": 4.0,
+      "csv": 3.0
+    },
+    {
+      "Kode": 45,
+      "column": "G7",
+      "xlsx": 4.0,
+      "csv": 3.0
+    },
+    {
+      "Kode": 45,
+      "column": "G8",
+      "xlsx": 4.0,
+      "csv": 3.0
+    },
+    {
+      "Kode": 45,
+      "column": "G9",
+      "xlsx": 4.0,
+      "csv": 3.0
+    },
+    {
+      "Kode": 45,
+      "column": "G10",
+      "xlsx": 4.0,
+      "csv": 3.0
+    },
+    {
+      "Kode": 45,
+      "column": "G11",
+      "xlsx": 4.0,
+      "csv": 3.0
+    },
+    {
+      "Kode": 45,
+      "column": "G12",
+      "xlsx": 4.0,
+      "csv": 3.0
+    },
+    {
+      "Kode": 45,
+      "column": "G13",
+      "xlsx": 4.0,
+      "csv": 3.0
+    },
+    {
+      "Kode": 45,
+      "column": "G14",
+      "xlsx": 4.0,
+      "csv": 3.0
+    },
+    {
+      "Kode": 45,
+      "column": "G15",
+      "xlsx": 4.0,
+      "csv": 3.0
+    },
+    {
+      "Kode": 45,
+      "column": "G16",
+      "xlsx": 4.0,
+      "csv": 3.0
+    },
+    {
+      "Kode": 47,
+      "merge": "right_only"
+    },
+    {
+      "Kode": 49,
+      "merge": "right_only"
+    },
+    {
+      "Kode": 49,
+      "merge": "right_only"
+    },
+    {
+      "Kode": 51,
+      "merge": "right_only"
+    },
+    {
+      "Kode": 52,
+      "merge": "right_only"
+    },
+    {
+      "Kode": 55,
+      "column": "JK",
+      "xlsx": "L",
+      "csv": "P"
+    },
+    {
+      "Kode": 55,
+      "column": "Usia",
+      "xlsx": 18.0,
+      "csv": 17.0
+    },
+    {
+      "Kode": 55,
+      "column": "F1",
+      "xlsx": 3.0,
+      "csv": 4.0
+    },
+    {
+      "Kode": 55,
+      "column": "F3",
+      "xlsx": 3.0,
+      "csv": 4.0
+    },
+    {
+      "Kode": 55,
+      "column": "F4",
+      "xlsx": 3.0,
+      "csv": 2.0
+    },
+    {
+      "Kode": 55,
+      "column": "F5",
+      "xlsx": 3.0,
+      "csv": 5.0
+    },
+    {
+      "Kode": 55,
+      "column": "F6",
+      "xlsx": 3.0,
+      "csv": 1.0
+    },
+    {
+      "Kode": 55,
+      "column": "F7",
+      "xlsx": 3.0,
+      "csv": 4.0
+    },
+    {
+      "Kode": 55,
+      "column": "F9",
+      "xlsx": 3.0,
+      "csv": 5.0
+    },
+    {
+      "Kode": 55,
+      "column": "F11",
+      "xlsx": 3.0,
+      "csv": 5.0
+    },
+    {
+      "Kode": 55,
+      "column": "F12",
+      "xlsx": 3.0,
+      "csv": 1.0
+    },
+    {
+      "Kode": 55,
+      "column": "F13",
+      "xlsx": 3.0,
+      "csv": 5.0
+    },
+    {
+      "Kode": 55,
+      "column": "F14",
+      "xlsx": 3.0,
+      "csv": 1.0
+    },
+    {
+      "Kode": 55,
+      "column": "F15",
+      "xlsx": 3.0,
+      "csv": 5.0
+    },
+    {
+      "Kode": 55,
+      "column": "F16",
+      "xlsx": 3.0,
+      "csv": 5.0
+    },
+    {
+      "Kode": 55,
+      "column": "G1",
+      "xlsx": 3.0,
+      "csv": 5.0
+    },
+    {
+      "Kode": 55,
+      "column": "G5",
+      "xlsx": 3.0,
+      "csv": 5.0
+    },
+    {
+      "Kode": 55,
+      "column": "G7",
+      "xlsx": 3.0,
+      "csv": 5.0
+    },
+    {
+      "Kode": 55,
+      "column": "G9",
+      "xlsx": 3.0,
+      "csv": 5.0
+    },
+    {
+      "Kode": 55,
+      "column": "G11",
+      "xlsx": 3.0,
+      "csv": 5.0
+    },
+    {
+      "Kode": 55,
+      "column": "G12",
+      "xlsx": 3.0,
+      "csv": 1.0
+    },
+    {
+      "Kode": 55,
+      "column": "G13",
+      "xlsx": 3.0,
+      "csv": 5.0
+    },
+    {
+      "Kode": 55,
+      "column": "G15",
+      "xlsx": 3.0,
+      "csv": 5.0
+    },
+    {
+      "Kode": 55,
+      "column": "G16",
+      "xlsx": 3.0,
+      "csv": 5.0
+    },
+    {
+      "Kode": 55,
+      "column": "JK",
+      "xlsx": "L",
+      "csv": "P"
+    },
+    {
+      "Kode": 55,
+      "column": "Usia",
+      "xlsx": 18.0,
+      "csv": 17.0
+    },
+    {
+      "Kode": 55,
+      "column": "Urutan",
+      "xlsx": "G→F",
+      "csv": "F→G"
+    },
+    {
+      "Kode": 55,
+      "column": "F1",
+      "xlsx": 3.0,
+      "csv": 4.0
+    },
+    {
+      "Kode": 55,
+      "column": "F3",
+      "xlsx": 3.0,
+      "csv": 4.0
+    },
+    {
+      "Kode": 55,
+      "column": "F4",
+      "xlsx": 3.0,
+      "csv": 2.0
+    },
+    {
+      "Kode": 55,
+      "column": "F5",
+      "xlsx": 3.0,
+      "csv": 5.0
+    },
+    {
+      "Kode": 55,
+      "column": "F6",
+      "xlsx": 3.0,
+      "csv": 1.0
+    },
+    {
+      "Kode": 55,
+      "column": "F7",
+      "xlsx": 3.0,
+      "csv": 4.0
+    },
+    {
+      "Kode": 55,
+      "column": "F9",
+      "xlsx": 3.0,
+      "csv": 5.0
+    },
+    {
+      "Kode": 55,
+      "column": "F11",
+      "xlsx": 3.0,
+      "csv": 5.0
+    },
+    {
+      "Kode": 55,
+      "column": "F12",
+      "xlsx": 3.0,
+      "csv": 1.0
+    },
+    {
+      "Kode": 55,
+      "column": "F13",
+      "xlsx": 3.0,
+      "csv": 5.0
+    },
+    {
+      "Kode": 55,
+      "column": "F14",
+      "xlsx": 3.0,
+      "csv": 1.0
+    },
+    {
+      "Kode": 55,
+      "column": "F15",
+      "xlsx": 3.0,
+      "csv": 5.0
+    },
+    {
+      "Kode": 55,
+      "column": "F16",
+      "xlsx": 3.0,
+      "csv": 5.0
+    },
+    {
+      "Kode": 55,
+      "column": "G1",
+      "xlsx": 3.0,
+      "csv": 5.0
+    },
+    {
+      "Kode": 55,
+      "column": "G5",
+      "xlsx": 3.0,
+      "csv": 5.0
+    },
+    {
+      "Kode": 55,
+      "column": "G7",
+      "xlsx": 3.0,
+      "csv": 5.0
+    },
+    {
+      "Kode": 55,
+      "column": "G9",
+      "xlsx": 3.0,
+      "csv": 5.0
+    },
+    {
+      "Kode": 55,
+      "column": "G11",
+      "xlsx": 3.0,
+      "csv": 5.0
+    },
+    {
+      "Kode": 55,
+      "column": "G12",
+      "xlsx": 3.0,
+      "csv": 1.0
+    },
+    {
+      "Kode": 55,
+      "column": "G13",
+      "xlsx": 3.0,
+      "csv": 5.0
+    },
+    {
+      "Kode": 55,
+      "column": "G15",
+      "xlsx": 3.0,
+      "csv": 5.0
+    },
+    {
+      "Kode": 55,
+      "column": "G16",
+      "xlsx": 3.0,
+      "csv": 5.0
+    },
+    {
+      "Kode": 56,
+      "merge": "right_only"
+    },
+    {
+      "Kode": 57,
+      "merge": "right_only"
+    },
+    {
+      "Kode": 57,
+      "merge": "right_only"
+    },
+    {
+      "Kode": 58,
+      "merge": "right_only"
+    },
+    {
+      "Kode": 59,
+      "merge": "right_only"
+    },
+    {
+      "Kode": 60,
+      "merge": "right_only"
+    },
+    {
+      "Kode": 61,
+      "merge": "right_only"
+    },
+    {
+      "Kode": 62,
+      "merge": "right_only"
+    },
+    {
+      "Kode": 64,
+      "merge": "right_only"
+    },
+    {
+      "Kode": 65,
+      "merge": "right_only"
+    },
+    {
+      "Kode": 66,
+      "merge": "right_only"
+    },
+    {
+      "Kode": 66,
+      "merge": "right_only"
+    },
+    {
+      "Kode": 68,
+      "merge": "right_only"
+    },
+    {
+      "Kode": 69,
+      "merge": "right_only"
+    },
+    {
+      "Kode": 70,
+      "merge": "right_only"
+    },
+    {
+      "Kode": 70,
+      "merge": "right_only"
+    },
+    {
+      "Kode": 74,
+      "merge": "right_only"
+    },
+    {
+      "Kode": 76,
+      "merge": "right_only"
+    },
+    {
+      "Kode": 77,
+      "merge": "right_only"
+    },
+    {
+      "Kode": 79,
+      "merge": "right_only"
+    },
+    {
+      "Kode": 81,
+      "merge": "right_only"
+    },
+    {
+      "Kode": 81,
+      "merge": "right_only"
+    },
+    {
+      "Kode": 82,
+      "merge": "right_only"
+    }
+  ]
+}

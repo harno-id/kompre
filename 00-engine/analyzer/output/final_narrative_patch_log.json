@@ -1,0 +1,22 @@
+{
+  "file": "D:\\DATA\\TESIS\\KOMPRE\\HARNO-KOMPRE\\02-data\\thesis\\TESIS_HARNO_CSV_MASTER_UPDATE_WORKING_20260521-092331.docx",
+  "timestamp": "2026-05-21T09:40:44.778633",
+  "changes": [
+    {
+      "location": "P915",
+      "before": "2. Tidak terdapat perbedaan yang signifikan antara tingkat usabilitas interaksi komunikasi chatbot bergaya bahasa formal dan chatbot bergaya bahasa Generasi Z. Hasil paired sample t-test menunjukkan Sig. = 0,157, dan uji Wilcoxon signed-rank sebagai uji utama menunjukkan Sig. = 0,003. Dengan demikian, H0 tidak ditolak berdasarkan paired sample t-test, tetapi ditolak berdasarkan Wilcoxon signed-rank test. Karena ukuran efek sangat kecil, H1 didukung secara statistik nonparametrik namun lemah secara praktis.",
+      "after": "2. Hasil pengujian menunjukkan bahwa paired sample t-test tidak menemukan perbedaan rata-rata yang signifikan antara tingkat usabilitas interaksi komunikasi chatbot bergaya bahasa formal dan chatbot bergaya bahasa Generasi Z (Sig. = 0,157). Namun, karena distribusi selisih skor tidak normal, uji Wilcoxon signed-rank digunakan sebagai acuan nonparametrik dan menunjukkan hasil signifikan (Sig. = 0,003). Dengan demikian, terdapat indikasi perbedaan secara nonparametrik, tetapi ukuran efek Cohen’s dz sebesar 0,070 menunjukkan bahwa perbedaan tersebut sangat kecil secara praktis. Oleh karena itu, temuan ini perlu ditafsirkan secara hati-hati dan tidak cukup untuk menyatakan keunggulan praktis yang kuat pada salah satu gaya bahasa chatbot."
+    },
+    {
+      "location": "T21R3",
+      "before": [
+        "Nilai di luar rentang skala 1–5",
+        "2 sel pada item G5 bernilai 0"
+      ],
+      "after": [
+        "Nilai di luar rentang skala 1–5",
+        "Tidak ditemukan pada CSV raw master; seluruh nilai CUQ berada dalam rentang valid 1–5"
+      ]
+    }
+  ]
+}

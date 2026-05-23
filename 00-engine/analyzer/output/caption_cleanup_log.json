@@ -1,0 +1,58 @@
+{
+  "file": "D:\\DATA\\TESIS\\KOMPRE\\HARNO-KOMPRE\\02-data\\thesis\\TESIS_HARNO_CSV_MASTER_UPDATE_WORKING_20260521-092331.docx",
+  "timestamp": "2026-05-21T09:50:43.041683",
+  "changes": [
+    {
+      "location": "P516",
+      "before": {
+        "p": 516,
+        "style": "Caption Tabel",
+        "text": ""
+      },
+      "after": {
+        "p": 516,
+        "style": "Normal",
+        "text": ""
+      }
+    },
+    {
+      "location": "P551",
+      "before": {
+        "p": 551,
+        "style": "Caption Tabel",
+        "text": ""
+      },
+      "after": {
+        "p": 551,
+        "style": "Normal",
+        "text": ""
+      }
+    },
+    {
+      "location": "P791",
+      "before": {
+        "p": 791,
+        "style": "Tabel Caption",
+        "text": ""
+      },
+      "after": {
+        "p": 791,
+        "style": "Normal",
+        "text": ""
+      }
+    },
+    {
+      "location": "P792",
+      "before": {
+        "p": 792,
+        "style": "Caption Tabel",
+        "text": "Tabel 4.7 Hasil Pengujian Perbedaan Skor CUQ Formal dan Gen-Z"
+      },
+      "after": {
+        "p": 792,
+        "style": "Caption Tabel",
+        "text": "Tabel 4.7 Hasil Pengujian Perbedaan Skor CUQ Formal dan Gen-Z"
+      }
+    }
+  ]
+}

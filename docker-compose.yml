@@ -1,0 +1,66 @@
+services:
+  parser:
+    build:
+      context: .
+      dockerfile: 00-engine/Dockerfile.python
+    working_dir: /workspace
+    volumes:
+      - ./:/workspace
+    command: python 00-engine/parser/run_parser.py
+
+  analyzer:
+    build:
+      context: .
+      dockerfile: 00-engine/Dockerfile.python
+    working_dir: /workspace
+    volumes:
+      - ./:/workspace
+    command: python 00-engine/analyzer/run_analyzer.py
+
+  skill-checker:
+    build:
+      context: .
+      dockerfile: 00-engine/Dockerfile.python
+    working_dir: /workspace
+    volumes:
+      - ./:/workspace
+    command: python 00-engine/skill-checker/run_skill_checker.py
+
+  ai-interpretation:
+    build:
+      context: .
+      dockerfile: 00-engine/Dockerfile.python
+    working_dir: /workspace
+    volumes:
+      - ./:/workspace
+    command: python 00-engine/ai-interpretation/run_ai_interpretation.py
+
+  database:
+    build:
+      context: .
+      dockerfile: 00-engine/Dockerfile.python
+    working_dir: /workspace
+    volumes:
+      - ./:/workspace
+    command: python 00-engine/database/run_database.py
+
+  pipeline:
+    build:
+      context: .
+      dockerfile: 00-engine/Dockerfile.python
+    working_dir: /workspace
+    volumes:
+      - ./:/workspace
+    command: python 00-engine/run_pipeline.py
+    profiles:
+      - pipeline
+
+  frontend:
+    image: nginx:1.27-alpine
+    working_dir: /usr/share/nginx/html
+    volumes:
+      - ./00-engine/frontend/output:/usr/share/nginx/html:ro
+    ports:
+      - "8088:80"
+    profiles:
+      - frontend

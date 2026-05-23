@@ -1,0 +1,1469 @@
+{
+  "working_copy": "D:\\DATA\\TESIS\\KOMPRE\\HARNO-KOMPRE\\02-data\\thesis\\TESIS_HARNO_CSV_MASTER_UPDATE_WORKING_20260521-092331.docx",
+  "matches": [
+    {
+      "type": "paragraph",
+      "index": 64,
+      "style": "Normal",
+      "text": "Penelitian ini menggunakan pendekatan kuantitatif dengan desain komparatif-eksplanatif dan model within-subject. Responden berjumlah 404 orang Generasi Z sebagai target layanan informasi PMB Universitas Lampung. Setiap responden berinteraksi dengan dua kondisi chatbot, yaitu gaya bahasa formal dan gaya bahasa Generasi Z, kemudian mengisi instrumen Chatbot Usability Questionnaire (CUQ). Data dianalisis menggunakan statistik deskriptif, uji validitas, uji reliabilitas, uji normalitas, paired sample t-test, uji Wilcoxon, dan ukuran efek Cohen’s dz."
+    },
+    {
+      "type": "paragraph",
+      "index": 65,
+      "style": "Normal",
+      "text": "Hasil penelitian menunjukkan rata-rata skor CUQ chatbot formal sebesar 54,59 dan chatbot Generasi Z sebesar 54,70. Selisih rata-rata 0,11 menunjukkan perbedaan yang sangat kecil. Hasil paired sample t-test menunjukkan nilai signifikansi 0,313, sedangkan uji Wilcoxon sebesar 0,091. Dengan demikian, tidak terdapat perbedaan signifikan antara usabilitas chatbot bergaya bahasa formal dan chatbot bergaya bahasa Generasi Z."
+    },
+    {
+      "type": "paragraph",
+      "index": 85,
+      "style": "Normal",
+      "text": "This study employed a quantitative approach with a comparative-explanatory design and a within-subject model. The respondents consisted of 404 Generation Z individuals as the target users of Universitas Lampung’s New Student Admission information service. Each respondent interacted with two chatbot conditions, namely the formal language style and the Generation Z language style, and then completed the Chatbot Usability Questionnaire (CUQ). The data were analyzed using descriptive statistics, validity testing, reliability testing, normality testing, paired sample t-test, Wilcoxon test, and Cohen’s dz effect size."
+    },
+    {
+      "type": "paragraph",
+      "index": 86,
+      "style": "Normal",
+      "text": "The results show that the average CUQ score for the formal chatbot was 54.59, while the Generation Z chatbot obtained 54.70. The mean difference of 0.11 indicates a very small difference. The paired sample t-test showed a significance value of 0.313, while the Wilcoxon test showed a significance value of 0.091. Therefore, there is no significant difference between the usability of the formal language chatbot and the Generation Z language chatbot."
+    },
+    {
+      "type": "paragraph",
+      "index": 333,
+      "style": "toc 2",
+      "text": "2.5 Usabilitas Interaksi Komunikasi dan CUQ\t11"
+    },
+    {
+      "type": "paragraph",
+      "index": 348,
+      "style": "toc 3",
+      "text": "3.9.1 Uji Validitas\t17"
+    },
+    {
+      "type": "paragraph",
+      "index": 349,
+      "style": "toc 3",
+      "text": "3.9.2 Uji Reliabilitas\t18"
+    },
+    {
+      "type": "paragraph",
+      "index": 361,
+      "style": "toc 3",
+      "text": "4.2.3 Deskripsi Skor CUQ Kondisi Chatbot Gaya Bahasa Formal\t23"
+    },
+    {
+      "type": "paragraph",
+      "index": 362,
+      "style": "toc 3",
+      "text": "4.2.4 Deskripsi Skor CUQ Kondisi Chatbot Gaya Bahasa Generasi Z\t23"
+    },
+    {
+      "type": "paragraph",
+      "index": 363,
+      "style": "toc 3",
+      "text": "4.2.5 Analisis Dimensi Usabilitas Interaksi Komunikasi Berdasarkan CUQ\t24"
+    },
+    {
+      "type": "paragraph",
+      "index": 365,
+      "style": "toc 3",
+      "text": "4.3.1 Uji Reliabilitas\t25"
+    },
+    {
+      "type": "paragraph",
+      "index": 366,
+      "style": "toc 3",
+      "text": "4.3.2 Uji Validitas\t26"
+    },
+    {
+      "type": "paragraph",
+      "index": 368,
+      "style": "toc 3",
+      "text": "4.4.1 Uji Normalitas\t27"
+    },
+    {
+      "type": "paragraph",
+      "index": 370,
+      "style": "toc 3",
+      "text": "4.5.1 Hasil Uji Perbedaan Skor CUQ\t27"
+    },
+    {
+      "type": "paragraph",
+      "index": 371,
+      "style": "toc 3",
+      "text": "4.5.2 Perhitungan Effect Size (Cohen’s dz)\t28"
+    },
+    {
+      "type": "paragraph",
+      "index": 375,
+      "style": "toc 3",
+      "text": "4.6.2 Perbedaan Usabilitas (CUQ) antara Chatbot Formal dan Generasi Z\t31"
+    },
+    {
+      "type": "paragraph",
+      "index": 376,
+      "style": "toc 3",
+      "text": "4.6.3 Aspek Usabilitas yang Paling Menonjol dan Penjelasan Teoretisnya CUQ\t32"
+    },
+    {
+      "type": "paragraph",
+      "index": 392,
+      "style": "toc 2",
+      "text": "Lampiran 2. Ringkasan Data Cleaning dan Skoring CUQ\t49"
+    },
+    {
+      "type": "paragraph",
+      "index": 393,
+      "style": "toc 2",
+      "text": "Lampiran 3. Statistik Deskriptif Skor CUQ\t49"
+    },
+    {
+      "type": "paragraph",
+      "index": 394,
+      "style": "toc 2",
+      "text": "Lampiran 4. Output Uji Validitas Item CUQ\t49"
+    },
+    {
+      "type": "paragraph",
+      "index": 395,
+      "style": "toc 2",
+      "text": "Lampiran 5. Output Uji Reliabilitas\t50"
+    },
+    {
+      "type": "paragraph",
+      "index": 396,
+      "style": "toc 2",
+      "text": "Lampiran 6. Output Normalitas, Uji Beda, Effect Size, dan Order Effect\t50"
+    },
+    {
+      "type": "paragraph",
+      "index": 397,
+      "style": "toc 2",
+      "text": "Lampiran 7. Ringkasan Analisis Klaster CUQ\t51"
+    },
+    {
+      "type": "paragraph",
+      "index": 421,
+      "style": "toc 1",
+      "text": "Tabel 3.4. Struktur Instrumen CUQ\t16"
+    },
+    {
+      "type": "paragraph",
+      "index": 425,
+      "style": "toc 1",
+      "text": "Tabel 4.3 Statistik Deskriptif Perbandingan Skor Usabilitas (CUQ) Formal dan Gen-Z\t23"
+    },
+    {
+      "type": "paragraph",
+      "index": 426,
+      "style": "toc 1",
+      "text": "Tabel 4.4 Analisis Perbandingan Rata-rata Skor Berdasarkan Klaster Dimensi CUQ\t24"
+    },
+    {
+      "type": "paragraph",
+      "index": 427,
+      "style": "toc 1",
+      "text": "Tabel 4.5 Hasil Uji Reliabilitas Cronbach’s Alpha untuk Instrumen CUQ\t25"
+    },
+    {
+      "type": "paragraph",
+      "index": 428,
+      "style": "toc 1",
+      "text": "Tabel 4.6 Hasil Uji Validitas Item CUQ\t26"
+    },
+    {
+      "type": "paragraph",
+      "index": 429,
+      "style": "toc 1",
+      "text": "Tabel 4.7 Hasil Pengujian Perbedaan Skor CUQ Formal dan Gen-Z\t28"
+    },
+    {
+      "type": "paragraph",
+      "index": 431,
+      "style": "toc 1",
+      "text": "Tabel L.1. Ringkasan Data Cleaning dan Prosedur Skoring CUQ\t49"
+    },
+    {
+      "type": "paragraph",
+      "index": 432,
+      "style": "toc 1",
+      "text": "Tabel L.2. Statistik Deskriptif Skor CUQ Formal dan Gen-Z\t49"
+    },
+    {
+      "type": "paragraph",
+      "index": 433,
+      "style": "toc 1",
+      "text": "Tabel L.3. Output Uji Validitas Item CUQ dengan r tabel\t49"
+    },
+    {
+      "type": "paragraph",
+      "index": 434,
+      "style": "toc 1",
+      "text": "Tabel L.3 menunjukkan bahwa sebagian item tidak memenuhi kriteria validitas item. Karena itu, interpretasi hasil per item harus dilakukan secara hati-hati. Analisis utama tetap menggunakan skor total CUQ karena reliabilitas keseluruhan instrumen berada pada kategori reliabel.\t50"
+    },
+    {
+      "type": "paragraph",
+      "index": 435,
+      "style": "toc 1",
+      "text": "Tabel L.4. Output Uji Reliabilitas Cronbach Alpha\t50"
+    },
+    {
+      "type": "paragraph",
+      "index": 436,
+      "style": "toc 1",
+      "text": "Tabel L.5. Output Uji Normalitas Selisih Skor\t50"
+    },
+    {
+      "type": "paragraph",
+      "index": 438,
+      "style": "toc 1",
+      "text": "Tabel L.7. Ringkasan Perbandingan Klaster CUQ\t51"
+    },
+    {
+      "type": "paragraph",
+      "index": 531,
+      "style": "List Paragraph",
+      "text": "Menguatkan pendekatan kuantitatif dalam penelitian komunikasi melalui pemanfaatan instrumen terstandar Chatbot Usability Questionnaire (CUQ)."
+    },
+    {
+      "type": "paragraph",
+      "index": 541,
+      "style": "Normal",
+      "text": "Penelitian ini menggunakan tinjauan pustaka secara fungsional, yaitu teori dan penelitian terdahulu tidak ditempatkan sebagai kumpulan kutipan, tetapi sebagai dasar untuk membangun argumentasi penelitian. Fokus tinjauan pustaka diarahkan pada tiga hal: chatbot sebagai media komunikasi institusional, gaya bahasa sebagai strategi penyampaian pesan, dan usabilitas interaksi komunikasi sebagai respons khalayak yang diukur menggunakan Chatbot Usability Questionnaire (CUQ)."
+    },
+    {
+      "type": "paragraph",
+      "index": 544,
+      "style": "Normal",
+      "text": "Kajian mengenai chatbot menunjukkan bahwa chatbot tidak hanya dapat dipahami sebagai perangkat teknis, tetapi juga sebagai media komunikasi berbasis percakapan. Holmes et al. (2019) mengembangkan CUQ untuk mengukur usabilitas chatbot berdasarkan persepsi pengguna. Xu et al. (2017) menunjukkan bahwa pola respons chatbot memengaruhi kenyamanan pengguna. Clarizia et al. (2018) menempatkan chatbot sebagai sistem pendukung informasi pendidikan. Dalam konteks komunikasi digital, penelitian tentang Generasi Z menekankan pentingnya pesan yang cepat, jelas, interaktif, dan sesuai dengan gaya komunikasi pengguna muda."
+    },
+    {
+      "type": "paragraph",
+      "index": 575,
+      "style": "Heading 2",
+      "text": "2.5 \tUsabilitas Interaksi Komunikasi dan CUQ"
+    },
+    {
+      "type": "paragraph",
+      "index": 578,
+      "style": "Normal",
+      "text": "CUQ digunakan karena instrumen ini dirancang untuk mengevaluasi conversational user interface. Instrumen CUQ terdiri atas 16 item dengan kombinasi pernyataan positif dan negatif. Item negatif dibalik melalui reverse scoring agar seluruh skor memiliki arah interpretasi yang sama: semakin tinggi skor, semakin tinggi usabilitas yang dipersepsikan. Skor akhir dinormalisasi ke rentang 0–100."
+    },
+    {
+      "type": "paragraph",
+      "index": 581,
+      "style": "Normal",
+      "text": "Berdasarkan tinjauan pustaka, penelitian ini menempatkan gaya bahasa chatbot sebagai variabel bebas yang dibedakan menjadi dua kondisi, yaitu gaya bahasa formal dan gaya bahasa Generasi Z. Variabel terikatnya adalah usabilitas interaksi komunikasi yang diukur menggunakan skor CUQ. Responden yang sama menilai kedua kondisi sehingga desain penelitian menggunakan within-subject atau repeated measures."
+    },
+    {
+      "type": "paragraph",
+      "index": 583,
+      "style": "Normal",
+      "text": "Alur konseptual penelitian adalah: gaya bahasa chatbot sebagai stimulus komunikasi, persepsi pengguna sebagai proses penerimaan pesan, dan skor CUQ sebagai respons usabilitas. Jika gaya bahasa memberikan pengaruh terhadap pengalaman komunikasi pengguna, maka skor CUQ pada kedua kondisi akan berbeda secara signifikan."
+    },
+    {
+      "type": "paragraph",
+      "index": 585,
+      "style": "Normal",
+      "text": "Hipotesis penelitian dirumuskan sebagai berikut: H0 menyatakan tidak terdapat perbedaan rata-rata skor CUQ antara chatbot bergaya bahasa formal dan chatbot bergaya bahasa Generasi Z pada Generasi Z di Universitas Lampung. H1 menyatakan terdapat perbedaan rata-rata skor CUQ antara chatbot bergaya bahasa formal dan chatbot bergaya bahasa Generasi Z pada Generasi Z di Universitas Lampung."
+    },
+    {
+      "type": "paragraph",
+      "index": 597,
+      "style": "Normal",
+      "text": "Secara operasional, penelitian ini menggunakan desain within-subject atau repeated measures. Setiap responden berinteraksi dengan dua kondisi chatbot, kemudian mengisi instrumen Chatbot Usability Questionnaire (CUQ) untuk masing-masing kondisi. Pengaturan urutan interaksi dilakukan melalui counterbalancing agar hasil penilaian tidak dipengaruhi oleh chatbot yang dicoba terlebih dahulu."
+    },
+    {
+      "type": "paragraph",
+      "index": 628,
+      "style": "Normal",
+      "text": "Sampel penelitian adalah bagian dari populasi yang memenuhi kriteria operasional dan bersedia mengikuti seluruh prosedur penelitian, yaitu berinteraksi dengan chatbot bergaya bahasa formal dan chatbot bergaya bahasa Generasi Z, kemudian mengisi instrumen CUQ pada masing-masing kondisi. Jumlah sampel akhir yang dianalisis adalah 404 responden dengan data berpasangan lengkap."
+    },
+    {
+      "type": "paragraph",
+      "index": 630,
+      "style": "Normal",
+      "text": "Karena jumlah populasi target secara pasti tidak diketahui, penentuan ukuran sampel minimum mengacu pada kebutuhan analisis uji beda berpasangan. Pada desain paired sample t-test, kebutuhan minimum sampel ditentukan berdasarkan taraf signifikansi, power, dan asumsi effect size. Dengan taraf signifikansi 0,05, power 0,80, dan asumsi effect size sedang (Cohen's dz sekitar 0,40-0,50), kebutuhan minimum sampel berada pada kisaran kurang lebih 32-49 responden. Jumlah sampel aktual sebanyak 404 responden melampaui kebutuhan minimum tersebut sehingga memadai untuk analisis statistik dan meningkatkan presisi estimasi."
+    },
+    {
+      "type": "paragraph",
+      "index": 633,
+      "style": "Normal",
+      "text": "Penentuan responden dilakukan dengan memperhatikan kesesuaian terhadap kriteria populasi dan kelengkapan partisipasi dalam prosedur eksperimen. Responden yang dianalisis adalah responden yang memenuhi kriteria usia/status sebagai target PMB, menyelesaikan dua kondisi interaksi chatbot, serta memiliki data CUQ lengkap pada kedua kondisi. Kriteria kelayakan responden digunakan untuk memastikan kesesuaian sampel dengan tujuan penelitian, sedangkan analisis utama tetap dilakukan secara kuantitatif melalui perbandingan skor pada responden yang sama."
+    },
+    {
+      "type": "paragraph",
+      "index": 636,
+      "style": "Normal",
+      "text": "Instrumen utama penelitian ini adalah Chatbot Usability Questionnaire (CUQ) yang digunakan untuk mengukur persepsi pengguna terhadap usabilitas chatbot. CUQ terdiri atas 16 butir pernyataan yang mencakup item positif dan item negatif. Item negatif dibalik skornya melalui reverse scoring agar seluruh item memiliki arah interpretasi yang sama, yaitu semakin tinggi skor menunjukkan semakin tinggi persepsi usabilitas."
+    },
+    {
+      "type": "paragraph",
+      "index": 638,
+      "style": "Normal",
+      "text": "Skala pengukuran menggunakan skala Likert 1-5. Setelah reverse scoring, skor tiap item dikonversi menjadi rentang 0-4 dan dijumlahkan. Skor total kemudian dinormalisasi ke rentang 0-100 dengan rumus: skor CUQ = (jumlah skor item / 64) x 100. Prosedur ini dilakukan secara terpisah untuk kondisi chatbot formal dan chatbot Generasi Z."
+    },
+    {
+      "type": "paragraph",
+      "index": 640,
+      "style": "Caption Tabel",
+      "text": "Tabel 3.4. Struktur Instrumen CUQ"
+    },
+    {
+      "type": "paragraph",
+      "index": 643,
+      "style": "Normal",
+      "text": "Pengumpulan data dilakukan melalui prosedur berurutan. Pertama, responden diberi penjelasan mengenai tujuan penelitian dan tata cara interaksi dengan chatbot. Kedua, responden berinteraksi dengan dua kondisi chatbot, yaitu chatbot bergaya bahasa formal dan chatbot bergaya bahasa Generasi Z. Ketiga, setelah menggunakan masing-masing chatbot, responden mengisi kuesioner CUQ sesuai pengalaman pada kondisi tersebut."
+    },
+    {
+      "type": "paragraph",
+      "index": 648,
+      "style": "Normal",
+      "text": "Pengolahan data dilakukan melalui tahap editing, coding, cleaning, reverse scoring, dan normalisasi skor. Editing dilakukan untuk memeriksa kelengkapan data. Coding dilakukan untuk mengubah jawaban responden ke dalam format numerik. Cleaning dilakukan untuk memastikan tidak terdapat data kosong pada variabel utama. Reverse scoring diterapkan pada item negatif CUQ. Setelah itu, skor CUQ dihitung dan dinormalisasi ke rentang 0-100."
+    },
+    {
+      "type": "paragraph",
+      "index": 651,
+      "style": "Heading 3",
+      "text": "3.9.1 Uji Validitas"
+    },
+    {
+      "type": "paragraph",
+      "index": 652,
+      "style": "Normal",
+      "text": "Uji validitas dilakukan untuk memastikan setiap butir CUQ mengukur konstruk usabilitas interaksi komunikasi. Validitas butir diuji menggunakan korelasi item-total terkoreksi (Corrected Item-Total Correlation) atau korelasi Pearson antara skor item dan skor total. Item dinyatakan valid apabila nilai korelasi memenuhi kriteria minimal r >= 0,30 dan/atau signifikan pada taraf 0,05. Uji validitas dilakukan terpisah pada data CUQ kondisi formal dan kondisi Generasi Z."
+    },
+    {
+      "type": "paragraph",
+      "index": 654,
+      "style": "Heading 3",
+      "text": "3.9.2 Uji Reliabilitas"
+    },
+    {
+      "type": "paragraph",
+      "index": 655,
+      "style": "Normal",
+      "text": "Uji reliabilitas dilakukan untuk menilai konsistensi internal instrumen. Reliabilitas dianalisis menggunakan Cronbach's Alpha. Instrumen dinyatakan reliabel apabila nilai Alpha >= 0,70. Reliabilitas dihitung secara terpisah untuk penilaian pada chatbot formal dan chatbot Generasi Z."
+    },
+    {
+      "type": "paragraph",
+      "index": 658,
+      "style": "Normal",
+      "text": "Teknik analisis data disusun berdasarkan rumusan masalah dan tujuan penelitian. Analisis deskriptif digunakan untuk menggambarkan tingkat usabilitas masing-masing chatbot. Uji normalitas dilakukan terhadap distribusi selisih skor CUQ formal dan CUQ Generasi Z. Apabila asumsi normalitas terpenuhi, pengujian perbedaan dilakukan menggunakan paired sample t-test. Apabila asumsi normalitas tidak terpenuhi, analisis dapat dilanjutkan dengan Wilcoxon signed-rank test sebagai alternatif nonparametrik."
+    },
+    {
+      "type": "paragraph",
+      "index": 665,
+      "style": "Normal",
+      "text": "Hipotesis statistik dalam penelitian ini dirumuskan sebagai berikut: H0 menyatakan tidak terdapat perbedaan rata-rata skor CUQ antara chatbot bergaya bahasa formal dan chatbot bergaya bahasa Generasi Z pada responden yang sama. H1 menyatakan terdapat perbedaan rata-rata skor CUQ antara chatbot bergaya bahasa formal dan chatbot bergaya bahasa Generasi Z pada responden yang sama."
+    },
+    {
+      "type": "paragraph",
+      "index": 667,
+      "style": "Normal",
+      "text": "Kriteria pengambilan keputusan adalah: jika nilai signifikansi p < 0,05, maka H0 ditolak dan H1 diterima; jika p >= 0,05, maka H0 tidak ditolak. Besarnya perbedaan dilaporkan menggunakan Cohen's dz dengan interpretasi umum: sekitar 0,20 sebagai efek kecil, sekitar 0,50 sebagai efek sedang, dan sekitar 0,80 sebagai efek besar."
+    },
+    {
+      "type": "paragraph",
+      "index": 697,
+      "style": "Normal",
+      "text": "Penyampaian informasi institusional dalam era digital menuntut adanya adaptasi strategi pesan yang tidak hanya akurat secara substansi, tetapi juga relevan secara psikologis dan sosiologis bagi khalayak sasarannya. Bab ini menyajikan temuan empiris dari penelitian yang mengkaji bagaimana dua variasi gaya bahasa chatbot—Formal dan Gaya Generasi Z—memengaruhi persepsi usabilitas informasi Penerimaan Mahasiswa Baru (PMB) di lingkungan Universitas Lampung. Melalui pendekatan kuantitatif eksplanatif dengan desain within-subject, data yang diperoleh dari 404 responden dianalisis untuk menjawab rumusan masalah mengenai tingkat usabilitas, perbedaan efektivitas komunikasi, serta dimensi interaksi yang paling dominan dalam membentuk pengalaman pengguna."
+    },
+    {
+      "type": "paragraph",
+      "index": 709,
+      "style": "Normal",
+      "text": "Tujuan penggunaan chatbot PMB adalah meningkatkan aksesibilitas informasi PMB, mempercepat respons, dan memperbaiki pengalaman komunikasi pengguna melalui interaksi yang mudah dipahami. Oleh karena itu, evaluasi usabilitas komunikasi melalui instrumen CUQ menjadi relevan untuk menilai kualitas interaksi dan dampak variasi gaya bahasa terhadap pengalaman pengguna Generasi Z."
+    },
+    {
+      "type": "paragraph",
+      "index": 713,
+      "style": "Normal",
+      "text": "Sebelum memasuki tahap analisis inti, dilakukan proses pembersihan data (data cleaning) dan validasi terhadap respons yang masuk. Data awal mencatat 404 entri responden. Seluruh responden menyelesaikan interaksi dengan dua kondisi chatbot (Formal dan Gen-Z) dan mengisi kuesioner CUQ secara lengkap. Pada pemeriksaan rentang skala, ditemukan dua nilai pada item G5 yang berada di luar rentang skala Likert 1–5, yaitu bernilai 0. Karena nilai tersebut tidak sesuai dengan format instrumen, keduanya dikoreksi menggunakan median valid item G5, yaitu 4, agar jumlah sampel berpasangan tetap N=404."
+    },
+    {
+      "type": "paragraph",
+      "index": 716,
+      "style": "Normal",
+      "text": "Jumlah sampel akhir yang dianalisis adalah 404 responden. Jumlah ini telah melampaui kebutuhan minimum untuk analisis uji beda berpasangan dan cukup memadai untuk menggambarkan pola persepsi responden pada dua kondisi chatbot. Namun, karena hasil akhir ditentukan oleh distribusi selisih skor dan besaran efek, interpretasi statistik tetap didasarkan pada nilai signifikansi, ukuran efek, serta uji prasyarat yang dihitung dari dataset aktual."
+    },
+    {
+      "type": "paragraph",
+      "index": 729,
+      "style": "Normal",
+      "text": "Dengan demikian, deskripsi responden digunakan sebagai konteks komposisi sampel, sedangkan pengujian utama tetap difokuskan pada perbandingan skor CUQ antara dua kondisi gaya bahasa chatbot pada responden yang sama."
+    },
+    {
+      "type": "paragraph",
+      "index": 731,
+      "style": "Heading 3",
+      "text": "4.2.3 Deskripsi Skor CUQ Kondisi Chatbot Gaya Bahasa Formal"
+    },
+    {
+      "type": "paragraph",
+      "index": 732,
+      "style": "Normal",
+      "text": "Langkah selanjutnya adalah menghitung skor usabilitas yang dinormalisasi ke rentang 0–100 sesuai dengan panduan skoring CUQ. Perhitungan dilakukan dengan membalik skor pada item-item negatif (2, 4, 6, 8, 10, 12, 14, 16) sehingga skor tinggi selalu merepresentasikan usabilitas yang lebih baik."
+    },
+    {
+      "type": "paragraph",
+      "index": 734,
+      "style": "Heading 3",
+      "text": "4.2.4 Deskripsi Skor CUQ Kondisi Chatbot Gaya Bahasa Generasi Z"
+    },
+    {
+      "type": "paragraph",
+      "index": 736,
+      "style": "Caption Tabel",
+      "text": "Tabel 4.3 Statistik Deskriptif Perbandingan Skor Usabilitas (CUQ) Formal dan Gen-Z"
+    },
+    {
+      "type": "paragraph",
+      "index": 738,
+      "style": "Normal",
+      "text": "Secara deskriptif, rata-rata skor CUQ chatbot bergaya bahasa formal adalah 54,59 dengan standar deviasi 6,59, sedangkan rata-rata skor CUQ chatbot bergaya bahasa Generasi Z adalah 54,70 dengan standar deviasi 7,21. Selisih rata-rata kedua kondisi hanya sebesar 0,11 poin pada skala 0–100. Dengan demikian, berdasarkan dataset aktual, perbedaan deskriptif antara kedua gaya bahasa sangat kecil dan belum cukup untuk menyatakan bahwa salah satu gaya bahasa memiliki tingkat usabilitas yang lebih tinggi secara substantif."
+    },
+    {
+      "type": "paragraph",
+      "index": 740,
+      "style": "Heading 3",
+      "text": "4.2.5 Analisis Dimensi Usabilitas Interaksi Komunikasi Berdasarkan CUQ"
+    },
+    {
+      "type": "paragraph",
+      "index": 741,
+      "style": "Normal",
+      "text": "Untuk mendalami aspek mana yang paling menonjol, dilakukan analisis pada klaster dimensi komunikasi yang menyusun instrumen CUQ. Dimensi ini dipetakan berdasarkan logika Computer-Mediated Communication (isyarat teks) dan Technology Acceptance Model (kemudahan dan kegunaan)."
+    },
+    {
+      "type": "paragraph",
+      "index": 742,
+      "style": "Caption Tabel",
+      "text": "Tabel 4.4 Analisis Perbandingan Rata-rata Skor Berdasarkan Klaster Dimensi CUQ"
+    },
+    {
+      "type": "paragraph",
+      "index": 747,
+      "style": "Normal",
+      "text": "Analisis klaster menunjukkan bahwa rata-rata skor setiap dimensi pada chatbot formal dan chatbot Generasi Z relatif berdekatan. Selisih terbesar hanya berada pada kisaran 0,01 poin pada skala 1–5 setelah penyesuaian item negatif. Hal ini menunjukkan bahwa tidak terdapat satu dimensi CUQ yang secara jelas mendominasi sebagai pembeda kuat antara kedua gaya bahasa."
+    },
+    {
+      "type": "paragraph",
+      "index": 752,
+      "style": "Normal",
+      "text": "Evaluasi terhadap kualitas instrumen dilakukan untuk memastikan bahwa Chatbot Usability Questionnaire (CUQ) yang telah diterjemahkan ke dalam Bahasa Indonesia tetap memiliki konsistensi internal yang baik. Uji reliabilitas dilakukan secara terpisah untuk penilaian pada chatbot gaya Formal dan gaya Gen-Z."
+    },
+    {
+      "type": "paragraph",
+      "index": 754,
+      "style": "Heading 3",
+      "text": "4.3.1 Uji Reliabilitas"
+    },
+    {
+      "type": "paragraph",
+      "index": 755,
+      "style": "Caption Tabel",
+      "text": "Tabel 4.5 Hasil Uji Reliabilitas Cronbach’s Alpha untuk Instrumen CUQ"
+    },
+    {
+      "type": "paragraph",
+      "index": 757,
+      "style": "Normal",
+      "text": "Nilai Cronbach’s Alpha setelah penyesuaian item negatif adalah 0,866 pada chatbot formal dan 0,890 pada chatbot Generasi Z. Keduanya berada di atas batas umum 0,70, sehingga instrumen CUQ memiliki konsistensi internal yang"
+    },
+    {
+      "type": "paragraph",
+      "index": 761,
+      "style": "Normal",
+      "text": "memadai untuk digunakan dalam analisis. Namun, hasil validitas item tetap perlu dilaporkan secara terpisah karena reliabilitas yang baik tidak selalu berarti semua item memiliki korelasi item-total yang kuat."
+    },
+    {
+      "type": "paragraph",
+      "index": 763,
+      "style": "Heading 3",
+      "text": "4.3.2 Uji Validitas"
+    },
+    {
+      "type": "paragraph",
+      "index": 764,
+      "style": "Normal",
+      "text": "Uji validitas dilakukan terhadap 16 item CUQ pada dua kondisi pengujian, yaitu chatbot bergaya bahasa formal dan chatbot bergaya bahasa Generasi Z. Pelaporan validitas perlu menampilkan nilai korelasi item-total atau r hitung setiap item agar pembaca dapat menilai kelayakan instrumen secara transparan."
+    },
+    {
+      "type": "paragraph",
+      "index": 766,
+      "style": "Normal",
+      "text": "Nilai r hitung pada Tabel 4.6 dihitung dari dataset mentah 404 responden setelah proses pembalikan skor item negatif CUQ. Kriteria keputusan menggunakan perbandingan r hitung dengan r tabel pada N=404, yaitu sekitar 0,098 pada taraf signifikansi 0,05. Item dengan r hitung lebih besar daripada r tabel dinyatakan valid, sedangkan item di bawah r tabel perlu ditafsirkan secara hati-hati."
+    },
+    {
+      "type": "paragraph",
+      "index": 767,
+      "style": "Caption Tabel",
+      "text": "Tabel 4.6 Hasil Uji Validitas Item CUQ"
+    },
+    {
+      "type": "paragraph",
+      "index": 772,
+      "style": "Normal",
+      "text": "Hasil validitas menunjukkan bahwa tidak seluruh butir CUQ memenuhi kriteria validitas item pada kedua kondisi pengujian. Pada kondisi formal, item CUQ 1, CUQ 3, CUQ 5, CUQ 7, CUQ 9, dan CUQ 13 memiliki nilai r hitung di bawah r tabel, sedangkan pada kondisi Gen-Z item CUQ 3, CUQ 5, CUQ 7, CUQ 9, dan CUQ 15 berada di bawah kriteria. Temuan ini perlu ditafsirkan secara hati-hati karena beberapa item positif memiliki variasi jawaban yang sangat kecil, sehingga korelasi item-total menjadi rendah meskipun reliabilitas keseluruhan instrumen tetap tinggi."
+    },
+    {
+      "type": "paragraph",
+      "index": 774,
+      "style": "Normal",
+      "text": "Dengan mempertimbangkan bahwa CUQ merupakan instrumen baku yang dirancang secara seimbang antara item positif dan negatif, analisis utama tetap menggunakan skor total CUQ 16 item setelah reverse scoring dan normalisasi 0–100. Namun, keterbatasan validitas pada beberapa butir dilaporkan secara transparan dan menjadi dasar kehati-hatian dalam menafsirkan hasil, terutama pada analisis per item atau per klaster dimensi."
+    },
+    {
+      "type": "paragraph",
+      "index": 779,
+      "style": "Heading 3",
+      "text": "4.4.1 Uji Normalitas"
+    },
+    {
+      "type": "paragraph",
+      "index": 780,
+      "style": "Normal",
+      "text": "Uji normalitas dilakukan terhadap selisih skor CUQ Gen-Z dan Formal. Hasil uji Shapiro-Wilk menunjukkan W = 0,337 dengan p < 0,001, dan uji Kolmogorov-Smirnov terhadap skor terstandar menunjukkan p < 0,001. Karena p < 0,05, distribusi selisih skor tidak normal. Oleh karena itu, uji Wilcoxon signed-rank digunakan sebagai pengujian nonparametrik utama, sedangkan paired sample t-test tetap dilaporkan sebagai informasi pembanding."
+    },
+    {
+      "type": "paragraph",
+      "index": 787,
+      "style": "Heading 3",
+      "text": "4.5.1 Hasil Uji Perbedaan Skor CUQ"
+    },
+    {
+      "type": "paragraph",
+      "index": 789,
+      "style": "Normal",
+      "text": "H0: Tidak ada perbedaan rata-rata skor usabilitas (CUQ) antara gaya bahasa Formal dan Gen-Z."
+    },
+    {
+      "type": "paragraph",
+      "index": 790,
+      "style": "Normal",
+      "text": "H1: Terdapat perbedaan signifikan rata-rata skor usabilitas (CUQ) antara gaya bahasa Formal dan Gen-Z."
+    },
+    {
+      "type": "paragraph",
+      "index": 792,
+      "style": "Caption Tabel",
+      "text": "Tabel 4.7 Hasil Pengujian Perbedaan Skor CUQ Formal dan Gen-Z"
+    },
+    {
+      "type": "paragraph",
+      "index": 794,
+      "style": "Normal",
+      "text": "Hasil paired sample t-test menunjukkan t(403) = 1,010 dengan Sig. = 0,313, sehingga tidak terdapat perbedaan rata-rata yang signifikan antara skor CUQ chatbot formal dan chatbot Generasi Z. Karena asumsi normalitas tidak terpenuhi, hasil Wilcoxon signed-rank test digunakan sebagai acuan utama. Uji Wilcoxon juga menunjukkan Sig. = 0,091, sehingga H0 tidak ditolak."
+    },
+    {
+      "type": "paragraph",
+      "index": 796,
+      "style": "Heading 3",
+      "text": "4.5.2 Perhitungan Effect Size (Cohen’s dz)"
+    },
+    {
+      "type": "paragraph",
+      "index": 804,
+      "style": "Normal",
+      "text": "Nilai Cohen’s dz sebesar 0,050 menunjukkan efek yang sangat kecil/trivial. Artinya, perbedaan rata-rata skor CUQ antara chatbot formal dan chatbot Generasi Z secara praktis sangat lemah."
+    },
+    {
+      "type": "paragraph",
+      "index": 807,
+      "style": "Normal",
+      "text": "Sesuai dengan prosedur desain within-subject, peneliti melakukan counterbalancing dengan membagi responden ke dalam dua urutan pengujian (Formal  GenZ dan GenZ  Formal). Untuk memastikan bahwa tidak ada bias urutan, dilakukan uji beda (Independent t-test) terhadap selisih skor CUQ antar kedua kelompok urutan tersebut."
+    },
+    {
+      "type": "paragraph",
+      "index": 811,
+      "style": "Normal",
+      "text": "Nilai Sig. uji order effect sebesar 0,988 (p > 0,05) menunjukkan bahwa tidak ada perbedaan selisih skor CUQ berdasarkan urutan pengujian. Dengan demikian, urutan responden mencoba chatbot formal atau chatbot Generasi Z tidak memengaruhi hasil secara signifikan."
+    },
+    {
+      "type": "paragraph",
+      "index": 819,
+      "style": "Normal",
+      "text": "Rumusan masalah pertama menanyakan bagaimana tingkat usabilitas interaksi komunikasi informasi PMB pada chatbot bergaya bahasa formal dan chatbot bergaya bahasa Generasi Z. Temuan deskriptif menunjukkan bahwa skor rata-rata kedua kondisi relatif berdekatan. Chatbot formal memperoleh rata-rata skor CUQ 54,59, sedangkan chatbot Generasi Z memperoleh rata-rata 54,70. Selisih rata-rata sebesar 0,11 poin menunjukkan bahwa secara deskriptif kedua gaya bahasa memberikan pengalaman usabilitas yang hampir setara pada responden penelitian."
+    },
+    {
+      "type": "paragraph",
+      "index": 833,
+      "style": "Heading 3",
+      "text": "4.6.2 Perbedaan Usabilitas (CUQ) antara Chatbot Formal dan Generasi Z"
+    },
+    {
+      "type": "paragraph",
+      "index": 834,
+      "style": "Normal",
+      "text": "Rumusan masalah kedua menanyakan apakah terdapat perbedaan tingkat usabilitas (skor CUQ) antara chatbot formal dan chatbot Generasi Z. Hasil paired sample t-test menunjukkan Sig. = 0,313, sedangkan uji Wilcoxon signed-rank sebagai uji utama karena distribusi selisih tidak normal menunjukkan Sig. = 0,091. Kedua hasil tersebut berada di atas taraf signifikansi 0,05, sehingga tidak terdapat perbedaan yang signifikan antara kedua kondisi."
+    },
+    {
+      "type": "paragraph",
+      "index": 836,
+      "style": "Normal",
+      "text": "Ukuran efek Cohen’s dz sebesar 0,050 termasuk kategori sangat kecil/trivial. Uji kontrol order effect juga menghasilkan Sig. = 0,988 (p > 0,05), sehingga hasil tidak dipengaruhi oleh urutan pengujian. Dengan demikian, secara empiris belum terdapat cukup bukti untuk menyimpulkan bahwa chatbot bergaya Generasi Z memberikan usabilitas komunikasi yang lebih tinggi dibandingkan chatbot formal."
+    },
+    {
+      "type": "paragraph",
+      "index": 849,
+      "style": "Heading 3",
+      "text": "4.6.3 Aspek Usabilitas yang Paling Menonjol dan Penjelasan Teoretisnya CUQ"
+    },
+    {
+      "type": "paragraph",
+      "index": 850,
+      "style": "Normal",
+      "text": "Sejalan dengan tujuan penelitian ketiga, analisis per-dimensi CUQ menunjukkan bahwa tidak ada aspek usabilitas yang menjadi pembeda dominan. Seluruh klaster dimensi memiliki selisih yang sangat kecil antara chatbot formal dan chatbot Generasi Z. Dengan demikian, aspek persona dan afeksi, navigasi, kualitas informasi, serta efektivitas interaksi perlu diperlakukan sebagai aspek yang relatif setara dalam menjelaskan pengalaman responden."
+    },
+    {
+      "type": "paragraph",
+      "index": 852,
+      "style": "Normal",
+      "text": "Dalam kerangka CMC, gaya bahasa tetap dapat dipahami sebagai isyarat sosial (social cues). Namun, hasil penelitian ini menunjukkan bahwa keberadaan isyarat sosial tersebut belum cukup kuat untuk menghasilkan perbedaan skor CUQ yang signifikan. Dalam lensa TAM, gaya bahasa hanya merupakan salah satu faktor yang mungkin memengaruhi persepsi kemudahan dan kebermanfaatan, bukan faktor tunggal."
+    },
+    {
+      "type": "paragraph",
+      "index": 857,
+      "style": "Normal",
+      "text": "Respons (R): Hasil akhir berupa penilaian usabilitas yang dituangkan dalam skor CUQ."
+    },
+    {
+      "type": "paragraph",
+      "index": 859,
+      "style": "Normal",
+      "text": "Dengan demikian, jalur S-O-R dalam penelitian ini perlu dibaca secara lebih hati-hati. Stimulus berupa variasi gaya bahasa memang diberikan, tetapi respons berupa skor CUQ tidak menunjukkan perbedaan signifikan. Hal ini mengindikasikan bahwa organisme atau persepsi pengguna mungkin dipengaruhi oleh faktor lain di luar variasi gaya bahasa, seperti kualitas isi jawaban, pengalaman sebelumnya dengan chatbot, atau kebiasaan responden dalam menjawab kuesioner."
+    },
+    {
+      "type": "paragraph",
+      "index": 883,
+      "style": "Normal",
+      "text": "Analisis data terhadap 404 responden menunjukkan bahwa skor CUQ chatbot formal dan chatbot Generasi Z relatif setara. Rata-rata skor formal sebesar 54,59 dan Gen-Z sebesar 54,70, dengan selisih 0,11 poin. Hasil uji perbedaan tidak signifikan dan ukuran efek sangat kecil. Temuan ini menjadi dasar bagi perumusan simpulan dan rekomendasi strategis yang lebih hati-hati pada bab selanjutnya."
+    },
+    {
+      "type": "paragraph",
+      "index": 913,
+      "style": "Normal",
+      "text": "1. Tingkat usabilitas interaksi komunikasi pada chatbot bergaya bahasa formal dan chatbot bergaya bahasa Generasi Z relatif setara. Chatbot formal memperoleh skor CUQ rata-rata 54,59, sedangkan chatbot Generasi Z memperoleh skor rata-rata 54,70. Selisih rata-rata hanya 0,11 poin pada skala 0–100, sehingga tidak cukup kuat untuk menyatakan adanya keunggulan deskriptif yang substantif pada salah satu gaya bahasa."
+    },
+    {
+      "type": "paragraph",
+      "index": 915,
+      "style": "Normal",
+      "text": "2. Tidak terdapat perbedaan yang signifikan antara tingkat usabilitas interaksi komunikasi chatbot bergaya bahasa formal dan chatbot bergaya bahasa Generasi Z. Hasil paired sample t-test menunjukkan Sig. = 0,313, dan uji Wilcoxon signed-rank sebagai uji utama menunjukkan Sig. = 0,091. Dengan demikian, H0 tidak ditolak dan H1 tidak didukung oleh data."
+    },
+    {
+      "type": "paragraph",
+      "index": 917,
+      "style": "Normal",
+      "text": "3. Tidak terdapat aspek usabilitas yang paling menonjol sebagai pembeda kuat antara kedua kondisi. Analisis klaster CUQ menunjukkan bahwa persona dan afeksi, navigasi dan kemudahan, kualitas informasi, serta efektivitas interaksi memiliki selisih yang sangat kecil. Oleh karena itu, perbedaan gaya bahasa belum terbukti menjadi faktor dominan dalam membentuk persepsi usabilitas responden."
+    },
+    {
+      "type": "paragraph",
+      "index": 963,
+      "style": "List Paragraph",
+      "text": "Keterbatasan Instrumen CUQ: Meskipun CUQ sangat baik dalam mengukur usabilitas, instrumen ini belum mendalami aspek psikologis yang lebih dalam seperti tingkat kepercayaan (trust) atau empati yang dirasakan pengguna secara spesifik."
+    },
+    {
+      "type": "paragraph",
+      "index": 1022,
+      "style": "Normal",
+      "text": "ResearchGate. n.d.. \"A Cross-Cultural Adaptation of Chatbot Usability Questionnaire (CUQ): Indonesian Version\". Diakses 3 Februari 2026. https://www.researchgate.net/publication/355458549_A_Cross-"
+    },
+    {
+      "type": "paragraph",
+      "index": 1088,
+      "style": "List Paragraph",
+      "text": "Form Kuesioner Chatbot Usability Questionnaire (CUQ)"
+    },
+    {
+      "type": "paragraph",
+      "index": 1090,
+      "style": "List Paragraph",
+      "text": "Berikut adalah pernyataan terkait pengalaman Anda setelah berinteraksi dengan chatbot PMB Universitas Lampung. Kuesioner CUQ diisi dua kali: (1) setelah menggunakan chatbot gaya bahasa formal dan (2) setelah menggunakan chatbot gaya bahasa Generasi Z."
+    },
+    {
+      "type": "paragraph",
+      "index": 1103,
+      "style": "Normal",
+      "text": "Bagian 1 — CUQ untuk Chatbot Gaya Bahasa Formal"
+    },
+    {
+      "type": "paragraph",
+      "index": 1106,
+      "style": "Normal",
+      "text": "Bagian 2 — CUQ untuk Chatbot Gaya Bahasa Generasi Z"
+    },
+    {
+      "type": "paragraph",
+      "index": 1125,
+      "style": "Normal",
+      "text": "Lampiran ini melengkapi bukti proses analisis kuantitatif sesuai masukan dosen pembahas. Output diringkas dari dataset mentah CUQ 404 responden dan file pengolahan statistik. Dataset lengkap dan lembar kerja perhitungan dapat dilampirkan sebagai berkas Excel pendukung."
+    },
+    {
+      "type": "paragraph",
+      "index": 1127,
+      "style": "Heading 2",
+      "text": "Lampiran 2. Ringkasan Data Cleaning dan Skoring CUQ"
+    },
+    {
+      "type": "paragraph",
+      "index": 1128,
+      "style": "Caption Tabel",
+      "text": "Tabel L.1. Ringkasan Data Cleaning dan Prosedur Skoring CUQ"
+    },
+    {
+      "type": "paragraph",
+      "index": 1130,
+      "style": "Normal",
+      "text": "Berdasarkan pemeriksaan data, terdapat dua nilai di luar rentang skala 1–5 pada item G5. Nilai tersebut dikoreksi menggunakan median valid item G5 agar jumlah responden berpasangan tetap 404. Proses skoring dilakukan setelah item negatif dibalik, kemudian skor total dinormalisasi ke rentang 0–100."
+    },
+    {
+      "type": "paragraph",
+      "index": 1132,
+      "style": "Heading 2",
+      "text": "Lampiran 3. Statistik Deskriptif Skor CUQ"
+    },
+    {
+      "type": "paragraph",
+      "index": 1133,
+      "style": "Caption Tabel",
+      "text": "Tabel L.2. Statistik Deskriptif Skor CUQ Formal dan Gen-Z"
+    },
+    {
+      "type": "paragraph",
+      "index": 1134,
+      "style": "Heading 2",
+      "text": "Lampiran 4. Output Uji Validitas Item CUQ"
+    },
+    {
+      "type": "paragraph",
+      "index": 1135,
+      "style": "Caption Tabel",
+      "text": "Tabel L.3. Output Uji Validitas Item CUQ dengan r tabel"
+    },
+    {
+      "type": "paragraph",
+      "index": 1137,
+      "style": "Caption Tabel",
+      "text": "Tabel L.3 menunjukkan bahwa sebagian item tidak memenuhi kriteria validitas item. Karena itu, interpretasi hasil per item harus dilakukan secara hati-hati. Analisis utama tetap menggunakan skor total CUQ karena reliabilitas keseluruhan instrumen berada pada kategori reliabel."
+    },
+    {
+      "type": "paragraph",
+      "index": 1138,
+      "style": "Heading 2",
+      "text": "Lampiran 5. Output Uji Reliabilitas"
+    },
+    {
+      "type": "paragraph",
+      "index": 1139,
+      "style": "Caption Tabel",
+      "text": "Tabel L.4. Output Uji Reliabilitas Cronbach Alpha"
+    },
+    {
+      "type": "paragraph",
+      "index": 1140,
+      "style": "Heading 2",
+      "text": "Lampiran 6. Output Normalitas, Uji Beda, Effect Size, dan Order Effect"
+    },
+    {
+      "type": "paragraph",
+      "index": 1141,
+      "style": "Caption Tabel",
+      "text": "Tabel L.5. Output Uji Normalitas Selisih Skor"
+    },
+    {
+      "type": "paragraph",
+      "index": 1145,
+      "style": "Normal",
+      "text": "Distribusi selisih skor tidak normal, sehingga hasil Wilcoxon signed-rank test digunakan sebagai acuan utama. Paired sample t-test tetap dilaporkan sebagai informasi pembanding. Kedua uji menunjukkan hasil tidak signifikan. Nilai Cohen’s dz sebesar 0,050 menunjukkan efek sangat kecil, sedangkan order effect tidak signifikan, sehingga urutan pengujian tidak memengaruhi hasil secara berarti."
+    },
+    {
+      "type": "paragraph",
+      "index": 1149,
+      "style": "Heading 2",
+      "text": "Lampiran 7. Ringkasan Analisis Klaster CUQ"
+    },
+    {
+      "type": "paragraph",
+      "index": 1150,
+      "style": "Caption Tabel",
+      "text": "Tabel L.7. Ringkasan Perbandingan Klaster CUQ"
+    },
+    {
+      "type": "paragraph",
+      "index": 1152,
+      "style": "Normal",
+      "text": "Selisih rata-rata antarklaster sangat kecil, yaitu 0,00 sampai 0,01 pada skala 1–5 setelah penyesuaian item negatif. Dengan demikian, tidak ada klaster CUQ yang dapat dinyatakan sebagai pembeda dominan antara chatbot formal dan chatbot Generasi Z."
+    },
+    {
+      "type": "table",
+      "index": 3,
+      "rows": 4,
+      "cols": 4,
+      "sample": [
+        [
+          "Rumusan Masalah",
+          "Tujuan Penelitian",
+          "Teknik Analisis",
+          "Output"
+        ],
+        [
+          "Tingkat usabilitas chatbot formal dan Generasi Z",
+          "Mendeskripsikan tingkat usabilitas masing-masing chatbot",
+          "Statistik deskriptif skor CUQ",
+          "Mean, median, SD, minimum, maksimum"
+        ],
+        [
+          "Perbedaan tingkat usabilitas antara dua gaya bahasa",
+          "Menguji perbedaan skor CUQ pada responden yang sama",
+          "Uji normalitas selisih skor dan paired sample t-test",
+          "t, df, Sig. (2-tailed), keputusan hipotesis"
+        ],
+        [
+          "Aspek usabilitas paling menonjol",
+          "Mengidentifikasi dimensi/klaster CUQ yang paling membedakan dua kondisi",
+          "Analisis deskriptif item/klaster CUQ",
+          "Dimensi dengan selisih skor terbesar"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "index": 4,
+      "rows": 6,
+      "cols": 4,
+      "sample": [
+        [
+          "Peneliti",
+          "Fokus Penelitian",
+          "Temuan Utama",
+          "Posisi Penelitian Ini"
+        ],
+        [
+          "Holmes et al. (2019)",
+          "Pengembangan CUQ untuk mengukur usabilitas chatbot",
+          "CUQ dapat digunakan untuk mengevaluasi pengalaman pengguna chatbot",
+          "CUQ digunakan sebagai instrumen untuk mengukur usabilitas interaksi komunikasi chatbot PMB"
+        ],
+        [
+          "Xu et al. (2017)",
+          "Chatbot dalam layanan pelanggan digital",
+          "Respons chatbot memengaruhi kenyamanan dan kepuasan pengguna",
+          "Menempatkan gaya respons sebagai bagian dari strategi komunikasi institusional"
+        ],
+        [
+          "Clarizia et al. (2018)",
+          "Chatbot sebagai sistem informasi pendidikan",
+          "Chatbot membantu akses informasi dan keterlibatan mahasiswa",
+          "Menggunakan konteks layanan informasi PMB perguruan tinggi"
+        ],
+        [
+          "Sari dan Nugroho (2022)",
+          "Karakteristik komunikasi Generasi Z",
+          "Generasi Z menyukai komunikasi cepat, ringkas, dan interaktif",
+          "Menguji gaya bahasa Generasi Z sebagai variasi pesan chatbot"
+        ],
+        [
+          "Putri (2023)",
+          "Gaya bahasa chatbot dan persepsi pengguna",
+          "Gaya bahasa dapat memengaruhi kenyamanan interaksi",
+          "Menguji secara empiris perbedaan skor CUQ antara gaya formal dan Gen-Z"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "index": 5,
+      "rows": 5,
+      "cols": 3,
+      "sample": [
+        [
+          "Lapisan Teori",
+          "Teori/Konsep",
+          "Fungsi dalam Penelitian"
+        ],
+        [
+          "Grand theory",
+          "Computer-Mediated Communication (CMC)",
+          "Menjelaskan chatbot sebagai komunikasi bermedia dan gaya bahasa sebagai isyarat tekstual"
+        ],
+        [
+          "Middle theory",
+          "Technology Acceptance Model (TAM)",
+          "Menjelaskan penerimaan pengguna melalui persepsi kemudahan dan kebermanfaatan"
+        ],
+        [
+          "Model efek",
+          "Stimulus–Organism–Response (S–O–R)",
+          "Menjelaskan alur gaya bahasa → persepsi pengguna → usabilitas"
+        ],
+        [
+          "Instrumen operasional",
+          "Chatbot Usability Questionnaire (CUQ)",
+          "Mengukur respons usabilitas chatbot berbasis persepsi pengguna"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "index": 6,
+      "rows": 8,
+      "cols": 3,
+      "sample": [
+        [
+          "Tahap",
+          "Kegiatan",
+          "Output"
+        ],
+        [
+          "1",
+          "Identifikasi masalah dan penetapan fokus penelitian",
+          "Rumusan masalah dan tujuan penelitian"
+        ],
+        [
+          "2",
+          "Studi pustaka dan penyusunan kerangka teori",
+          "Kerangka CMC, TAM, S-O-R, dan CUQ"
+        ],
+        [
+          "3",
+          "Penyusunan skenario chatbot dan instrumen CUQ",
+          "Instrumen dan skenario siap uji"
+        ],
+        [
+          "4",
+          "Pengumpulan data responden",
+          "Dataset CUQ Formal dan CUQ Gen-Z"
+        ],
+        [
+          "5",
+          "Pengolahan data dan reverse scoring",
+          "Skor CUQ 0-100"
+        ],
+        [
+          "6",
+          "Uji validitas, reliabilitas, normalitas, dan hipotesis",
+          "Output statistik"
+        ],
+        [
+          "7",
+          "Penyusunan hasil, pembahasan, simpulan, dan saran",
+          "Naskah tesis revisi"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "index": 7,
+      "rows": 3,
+      "cols": 4,
+      "sample": [
+        [
+          "Variabel",
+          "Bentuk Operasional",
+          "Indikator Utama",
+          "Skala/Output"
+        ],
+        [
+          "X: Gaya bahasa chatbot",
+          "Dua kondisi perlakuan: formal dan Generasi Z",
+          "Diksi, tone, tingkat formalitas, sapaan, struktur respons",
+          "Kondisi perlakuan"
+        ],
+        [
+          "Y: Usabilitas interaksi komunikasi",
+          "Persepsi responden setelah berinteraksi dengan chatbot",
+          "Kemudahan, kejelasan, efisiensi, kenyamanan/kepuasan",
+          "Skor CUQ 0-100"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "index": 8,
+      "rows": 3,
+      "cols": 4,
+      "sample": [
+        [
+          "Variabel",
+          "Definisi Operasional",
+          "Indikator",
+          "Instrumen"
+        ],
+        [
+          "Gaya bahasa chatbot",
+          "Cara chatbot menyampaikan pesan PMB dalam dua variasi gaya bahasa",
+          "Formalitas, diksi, sapaan, tone, struktur respons",
+          "Skenario chatbot formal dan Gen-Z"
+        ],
+        [
+          "Usabilitas interaksi komunikasi",
+          "Penilaian responden terhadap kualitas interaksi dengan chatbot setelah menggunakan masing-masing kondisi",
+          "Kemudahan, kejelasan, efisiensi, persona/afeksi, kepuasan",
+          "Chatbot Usability Questionnaire (CUQ)"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "index": 10,
+      "rows": 6,
+      "cols": 4,
+      "sample": [
+        [
+          "Rumusan Masalah",
+          "Tujuan",
+          "Teknik Analisis",
+          "Output"
+        ],
+        [
+          "Tingkat usabilitas chatbot formal dan Gen-Z",
+          "Mendeskripsikan skor usabilitas tiap kondisi",
+          "Statistik deskriptif",
+          "Mean, SD, median, minimum, maksimum"
+        ],
+        [
+          "Perbedaan skor CUQ formal dan Gen-Z",
+          "Menguji perbedaan pada responden yang sama",
+          "Uji normalitas selisih; paired sample t-test/Wilcoxon",
+          "t, df, p-value, keputusan hipotesis"
+        ],
+        [
+          "Aspek usabilitas paling menonjol",
+          "Mengidentifikasi dimensi paling membedakan dua kondisi",
+          "Analisis deskriptif item/klaster CUQ",
+          "Dimensi dengan selisih skor terbesar"
+        ],
+        [
+          "Besar perbedaan",
+          "Menilai kekuatan efek gaya bahasa",
+          "Cohen's dz",
+          "Kategori efek kecil/sedang/besar"
+        ],
+        [
+          "Bias urutan",
+          "Memastikan hasil tidak dipengaruhi urutan pengujian",
+          "Independent sample t-test terhadap selisih skor berdasarkan urutan",
+          "p-value order effect"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "index": 11,
+      "rows": 5,
+      "cols": 3,
+      "sample": [
+        [
+          "Kriteria Validasi Data",
+          "Status",
+          "Jumlah"
+        ],
+        [
+          "Total data masuk",
+          "Terverifikasi",
+          "404"
+        ],
+        [
+          "Kelengkapan CUQ Formal dan Gen-Z",
+          "Lengkap",
+          "404"
+        ],
+        [
+          "Validasi rentang skala CUQ",
+          "2 nilai G5 di luar rentang 1–5; dikoreksi median item (4)",
+          "2 sel"
+        ],
+        [
+          "Sampel final untuk analisis",
+          "Valid",
+          "404"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "index": 13,
+      "rows": 7,
+      "cols": 3,
+      "sample": [
+        [
+          "Indikator Statistik",
+          "Chatbot Gaya Formal",
+          "Chatbot Gaya Gen-Z"
+        ],
+        [
+          "N",
+          "404",
+          "404"
+        ],
+        [
+          "Mean (Rata-rata)",
+          "54,59",
+          "54,70"
+        ],
+        [
+          "Standar Deviasi (SD)",
+          "6,59",
+          "7,21"
+        ],
+        [
+          "Median",
+          "50,00",
+          "50,00"
+        ],
+        [
+          "Skor Minimum",
+          "50,00",
+          "42,19"
+        ],
+        [
+          "Skor Maksimum",
+          "87,50",
+          "98,44"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "index": 15,
+      "rows": 3,
+      "cols": 4,
+      "sample": [
+        [
+          "Kondisi Pengujian",
+          "Jumlah Item",
+          "Cronbach’s Alpha",
+          "Interpretasi"
+        ],
+        [
+          "Chatbot Gaya Formal",
+          "16",
+          "0,866",
+          "Reliabel"
+        ],
+        [
+          "Chatbot Gaya Gen-Z",
+          "16",
+          "0,890",
+          "Reliabel"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "index": 16,
+      "rows": 17,
+      "cols": 5,
+      "sample": [
+        [
+          "Item",
+          "r hitung Formal",
+          "Keputusan Formal",
+          "r hitung Gen-Z",
+          "Keputusan Gen-Z"
+        ],
+        [
+          "CUQ 1",
+          "0,060",
+          "Tidak valid",
+          "0,196",
+          "Valid"
+        ],
+        [
+          "CUQ 2",
+          "0,754",
+          "Valid",
+          "0,887",
+          "Valid"
+        ],
+        [
+          "CUQ 3",
+          "0,035",
+          "Tidak valid",
+          "-0,028",
+          "Tidak valid"
+        ],
+        [
+          "CUQ 4",
+          "0,867",
+          "Valid",
+          "0,881",
+          "Valid"
+        ],
+        [
+          "CUQ 5",
+          "-0,081",
+          "Tidak valid",
+          "0,060",
+          "Tidak valid"
+        ],
+        [
+          "CUQ 6",
+          "0,867",
+          "Valid",
+          "0,827",
+          "Valid"
+        ],
+        [
+          "CUQ 7",
+          "0,052",
+          "Tidak valid",
+          "0,022",
+          "Tidak valid"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "index": 17,
+      "rows": 3,
+      "cols": 6,
+      "sample": [
+        [
+          "Uji",
+          "Statistik",
+          "df/N",
+          "Mean/Median Diff",
+          "Sig.",
+          "Keputusan"
+        ],
+        [
+          "Paired sample t-test",
+          "t = 1,010",
+          "df = 403",
+          "0,11",
+          "0,313",
+          "Tidak signifikan"
+        ],
+        [
+          "Wilcoxon signed-rank",
+          "W = 351",
+          "N nonzero = 44",
+          "0,00",
+          "0,091",
+          "Tidak signifikan"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "index": 21,
+      "rows": 6,
+      "cols": 2,
+      "sample": [
+        [
+          "Aspek",
+          "Keterangan"
+        ],
+        [
+          "Jumlah data masuk",
+          "404"
+        ],
+        [
+          "Nilai di luar rentang skala 1–5",
+          "2 sel pada item G5 bernilai 0"
+        ],
+        [
+          "Perlakuan data cleaning",
+          "Nilai G5=0 dikoreksi dengan median valid item G5, yaitu 4"
+        ],
+        [
+          "Skoring CUQ",
+          "Item positif: skor-1; item negatif: 5-skor; total x 100/64"
+        ],
+        [
+          "Item negatif",
+          "2, 4, 6, 8, 10, 12, 14, 16"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "index": 22,
+      "rows": 7,
+      "cols": 3,
+      "sample": [
+        [
+          "Indikator",
+          "Formal",
+          "Gen-Z"
+        ],
+        [
+          "N",
+          "404",
+          "404"
+        ],
+        [
+          "Mean",
+          "54.59",
+          "54.70"
+        ],
+        [
+          "SD",
+          "6.59",
+          "7.21"
+        ],
+        [
+          "Median",
+          "50",
+          "50"
+        ],
+        [
+          "Minimum",
+          "50",
+          "42.19"
+        ],
+        [
+          "Maksimum",
+          "87.50",
+          "98.44"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "index": 23,
+      "rows": 17,
+      "cols": 6,
+      "sample": [
+        [
+          "Item",
+          "r Formal",
+          "Keputusan Formal",
+          "r Gen-Z",
+          "Keputusan Gen-Z",
+          "r tabel"
+        ],
+        [
+          "CUQ 1",
+          "0.060",
+          "Tidak valid",
+          "0.196",
+          "Valid",
+          "0.098"
+        ],
+        [
+          "CUQ 2",
+          "0.754",
+          "Valid",
+          "0.887",
+          "Valid",
+          "0.098"
+        ],
+        [
+          "CUQ 3",
+          "0.035",
+          "Tidak valid",
+          "-0.028",
+          "Tidak valid",
+          "0.098"
+        ],
+        [
+          "CUQ 4",
+          "0.867",
+          "Valid",
+          "0.881",
+          "Valid",
+          "0.098"
+        ],
+        [
+          "CUQ 5",
+          "-0.081",
+          "Tidak valid",
+          "0.060",
+          "Tidak valid",
+          "0.098"
+        ],
+        [
+          "CUQ 6",
+          "0.867",
+          "Valid",
+          "0.827",
+          "Valid",
+          "0.098"
+        ],
+        [
+          "CUQ 7",
+          "0.052",
+          "Tidak valid",
+          "0.022",
+          "Tidak valid",
+          "0.098"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "index": 24,
+      "rows": 3,
+      "cols": 4,
+      "sample": [
+        [
+          "Kondisi",
+          "Jumlah Item",
+          "Cronbach Alpha",
+          "Interpretasi"
+        ],
+        [
+          "Formal",
+          "16",
+          "0.866",
+          "Reliabel"
+        ],
+        [
+          "Gen-Z",
+          "16",
+          "0.890",
+          "Reliabel"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "index": 26,
+      "rows": 5,
+      "cols": 6,
+      "sample": [
+        [
+          "Uji",
+          "Statistik",
+          "df/N",
+          "Mean/Median Diff",
+          "p-value",
+          "Keputusan"
+        ],
+        [
+          "Paired sample t-test",
+          "1.010",
+          "403",
+          "0.108",
+          "0.313",
+          "Tidak signifikan"
+        ],
+        [
+          "Wilcoxon signed-rank",
+          "351",
+          "N nonzero=44",
+          "0",
+          "0.091",
+          "Tidak signifikan"
+        ],
+        [
+          "Cohen's dz",
+          "0.050",
+          "N=404",
+          "-",
+          "-",
+          "Efek sangat kecil/trivial"
+        ],
+        [
+          "Order effect Welch t",
+          "-0.015",
+          "401.200",
+          "-",
+          "0.988",
+          "Tidak signifikan"
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "file": "D:\\DATA\\TESIS\\KOMPRE\\HARNO-KOMPRE\\02-data\\thesis\\TESIS_HARNO_CSV_MASTER_UPDATE_WORKING_20260521-092331.docx",
+  "items": [
+    {
+      "location": "P65",
+      "category": "WILCOXON_SIGNIFICANT_CONTEXT",
+      "severity": "INFO",
+      "text": "Hasil penelitian menunjukkan rata-rata skor CUQ chatbot formal sebesar 72,92 dan chatbot Generasi Z sebesar 73,50. Selisih rata-rata 0,57 menunjukkan perbedaan yang sangat kecil. Hasil paired sample t-test menunjukkan nilai signifikansi 0,157, sedangkan uji Wilcoxon sebesar 0,003. Dengan demikian, terdapat perbedaan signifikan berdasarkan uji Wilcoxon, tetapi besaran efeknya sangat kecil sehingga interpretasi praktis tetap harus hati-hati antara chatbot bergaya bahasa formal dan chatbot bergaya bahasa Generasi Z."
+    },
+    {
+      "location": "P65",
+      "category": "PAIRED_NOT_SIGNIFICANT_CONTEXT",
+      "severity": "INFO",
+      "text": "Hasil penelitian menunjukkan rata-rata skor CUQ chatbot formal sebesar 72,92 dan chatbot Generasi Z sebesar 73,50. Selisih rata-rata 0,57 menunjukkan perbedaan yang sangat kecil. Hasil paired sample t-test menunjukkan nilai signifikansi 0,157, sedangkan uji Wilcoxon sebesar 0,003. Dengan demikian, terdapat perbedaan signifikan berdasarkan uji Wilcoxon, tetapi besaran efeknya sangat kecil sehingga interpretasi praktis tetap harus hati-hati antara chatbot bergaya bahasa formal dan chatbot bergaya bahasa Generasi Z."
+    },
+    {
+      "location": "P65",
+      "category": "EFFECT_SMALL_CONTEXT",
+      "severity": "INFO",
+      "text": "Hasil penelitian menunjukkan rata-rata skor CUQ chatbot formal sebesar 72,92 dan chatbot Generasi Z sebesar 73,50. Selisih rata-rata 0,57 menunjukkan perbedaan yang sangat kecil. Hasil paired sample t-test menunjukkan nilai signifikansi 0,157, sedangkan uji Wilcoxon sebesar 0,003. Dengan demikian, terdapat perbedaan signifikan berdasarkan uji Wilcoxon, tetapi besaran efeknya sangat kecil sehingga interpretasi praktis tetap harus hati-hati antara chatbot bergaya bahasa formal dan chatbot bergaya bahasa Generasi Z."
+    },
+    {
+      "location": "P794",
+      "category": "WILCOXON_SIGNIFICANT_CONTEXT",
+      "severity": "INFO",
+      "text": "Hasil paired sample t-test menunjukkan t(404) = 1,418 dengan Sig. = 0,157, sehingga tidak terdapat perbedaan rata-rata yang signifikan berdasarkan paired sample t-test antara skor CUQ chatbot formal dan chatbot Generasi Z. Karena asumsi normalitas tidak terpenuhi, hasil Wilcoxon signed-rank test digunakan sebagai acuan utama. Uji Wilcoxon menunjukkan Sig. = 0,003, sehingga terdapat perbedaan secara nonparametrik. Namun, besaran efek yang sangat kecil membuat interpretasi praktis tetap hati-hati."
+    },
+    {
+      "location": "P794",
+      "category": "PAIRED_NOT_SIGNIFICANT_CONTEXT",
+      "severity": "INFO",
+      "text": "Hasil paired sample t-test menunjukkan t(404) = 1,418 dengan Sig. = 0,157, sehingga tidak terdapat perbedaan rata-rata yang signifikan berdasarkan paired sample t-test antara skor CUQ chatbot formal dan chatbot Generasi Z. Karena asumsi normalitas tidak terpenuhi, hasil Wilcoxon signed-rank test digunakan sebagai acuan utama. Uji Wilcoxon menunjukkan Sig. = 0,003, sehingga terdapat perbedaan secara nonparametrik. Namun, besaran efek yang sangat kecil membuat interpretasi praktis tetap hati-hati."
+    },
+    {
+      "location": "P794",
+      "category": "EFFECT_SMALL_CONTEXT",
+      "severity": "INFO",
+      "text": "Hasil paired sample t-test menunjukkan t(404) = 1,418 dengan Sig. = 0,157, sehingga tidak terdapat perbedaan rata-rata yang signifikan berdasarkan paired sample t-test antara skor CUQ chatbot formal dan chatbot Generasi Z. Karena asumsi normalitas tidak terpenuhi, hasil Wilcoxon signed-rank test digunakan sebagai acuan utama. Uji Wilcoxon menunjukkan Sig. = 0,003, sehingga terdapat perbedaan secara nonparametrik. Namun, besaran efek yang sangat kecil membuat interpretasi praktis tetap hati-hati."
+    },
+    {
+      "location": "P804",
+      "category": "EFFECT_SMALL_CONTEXT",
+      "severity": "INFO",
+      "text": "Nilai Cohen’s dz sebesar 0,070 menunjukkan efek yang sangat kecil/trivial. Artinya, perbedaan rata-rata skor CUQ antara chatbot formal dan chatbot Generasi Z secara praktis sangat lemah."
+    },
+    {
+      "location": "P834",
+      "category": "WILCOXON_SIGNIFICANT_CONTEXT",
+      "severity": "INFO",
+      "text": "Rumusan masalah kedua menanyakan apakah terdapat perbedaan tingkat usabilitas (skor CUQ) antara chatbot formal dan chatbot Generasi Z. Hasil paired sample t-test menunjukkan Sig. = 0,157, sedangkan uji Wilcoxon signed-rank sebagai uji utama karena distribusi selisih tidak normal menunjukkan Sig. = 0,003. Dengan demikian, paired sample t-test tidak menunjukkan perbedaan rata-rata yang signifikan, tetapi Wilcoxon menunjukkan perbedaan secara nonparametrik. Karena ukuran efek sangat kecil, hasil tersebut harus ditafsirkan hati-hati dan tidak cukup untuk menyatakan keunggulan praktis yang kuat."
+    },
+    {
+      "location": "P834",
+      "category": "PAIRED_NOT_SIGNIFICANT_CONTEXT",
+      "severity": "INFO",
+      "text": "Rumusan masalah kedua menanyakan apakah terdapat perbedaan tingkat usabilitas (skor CUQ) antara chatbot formal dan chatbot Generasi Z. Hasil paired sample t-test menunjukkan Sig. = 0,157, sedangkan uji Wilcoxon signed-rank sebagai uji utama karena distribusi selisih tidak normal menunjukkan Sig. = 0,003. Dengan demikian, paired sample t-test tidak menunjukkan perbedaan rata-rata yang signifikan, tetapi Wilcoxon menunjukkan perbedaan secara nonparametrik. Karena ukuran efek sangat kecil, hasil tersebut harus ditafsirkan hati-hati dan tidak cukup untuk menyatakan keunggulan praktis yang kuat."
+    },
+    {
+      "location": "P834",
+      "category": "EFFECT_SMALL_CONTEXT",
+      "severity": "INFO",
+      "text": "Rumusan masalah kedua menanyakan apakah terdapat perbedaan tingkat usabilitas (skor CUQ) antara chatbot formal dan chatbot Generasi Z. Hasil paired sample t-test menunjukkan Sig. = 0,157, sedangkan uji Wilcoxon signed-rank sebagai uji utama karena distribusi selisih tidak normal menunjukkan Sig. = 0,003. Dengan demikian, paired sample t-test tidak menunjukkan perbedaan rata-rata yang signifikan, tetapi Wilcoxon menunjukkan perbedaan secara nonparametrik. Karena ukuran efek sangat kecil, hasil tersebut harus ditafsirkan hati-hati dan tidak cukup untuk menyatakan keunggulan praktis yang kuat."
+    },
+    {
+      "location": "P836",
+      "category": "EFFECT_SMALL_CONTEXT",
+      "severity": "INFO",
+      "text": "Ukuran efek Cohen’s dz sebesar 0,070 termasuk kategori sangat kecil/trivial. Uji kontrol order effect juga menghasilkan Sig. = 0,988 (p > 0,05), sehingga hasil tidak dipengaruhi oleh urutan pengujian. Dengan demikian, secara empiris belum terdapat cukup bukti untuk menyimpulkan bahwa chatbot bergaya Generasi Z memberikan usabilitas komunikasi yang lebih tinggi dibandingkan chatbot formal."
+    },
+    {
+      "location": "P883",
+      "category": "EFFECT_SMALL_CONTEXT",
+      "severity": "INFO",
+      "text": "Analisis data terhadap 405 responden menunjukkan bahwa skor CUQ chatbot formal dan chatbot Generasi Z relatif setara secara praktis. Rata-rata skor formal sebesar 72,92 dan Gen-Z sebesar 73,50, dengan selisih 0,57 poin. Paired sample t-test tidak signifikan, sedangkan Wilcoxon signifikan; namun ukuran efek sangat kecil. Temuan ini menjadi dasar bagi perumusan simpulan dan rekomendasi strategis yang lebih hati-hati pada bab selanjutnya."
+    },
+    {
+      "location": "P915",
+      "category": "WILCOXON_SIGNIFICANT_CONTEXT",
+      "severity": "INFO",
+      "text": "2. Hasil pengujian menunjukkan bahwa paired sample t-test tidak menemukan perbedaan rata-rata yang signifikan antara tingkat usabilitas interaksi komunikasi chatbot bergaya bahasa formal dan chatbot bergaya bahasa Generasi Z (Sig. = 0,157). Namun, karena distribusi selisih skor tidak normal, uji Wilcoxon signed-rank digunakan sebagai acuan nonparametrik dan menunjukkan hasil signifikan (Sig. = 0,003). Dengan demikian, terdapat indikasi perbedaan secara nonparametrik, tetapi ukuran efek Cohen’s dz sebesar 0,070 menunjukkan bahwa perbedaan tersebut sangat kecil secara praktis. Oleh karena itu, temuan ini perlu ditafsirkan secara hati-hati dan tidak cukup untuk menyatakan keunggulan praktis yang kuat pada salah satu gaya bahasa chatbot."
+    },
+    {
+      "location": "P915",
+      "category": "PAIRED_NOT_SIGNIFICANT_CONTEXT",
+      "severity": "INFO",
+      "text": "2. Hasil pengujian menunjukkan bahwa paired sample t-test tidak menemukan perbedaan rata-rata yang signifikan antara tingkat usabilitas interaksi komunikasi chatbot bergaya bahasa formal dan chatbot bergaya bahasa Generasi Z (Sig. = 0,157). Namun, karena distribusi selisih skor tidak normal, uji Wilcoxon signed-rank digunakan sebagai acuan nonparametrik dan menunjukkan hasil signifikan (Sig. = 0,003). Dengan demikian, terdapat indikasi perbedaan secara nonparametrik, tetapi ukuran efek Cohen’s dz sebesar 0,070 menunjukkan bahwa perbedaan tersebut sangat kecil secara praktis. Oleh karena itu, temuan ini perlu ditafsirkan secara hati-hati dan tidak cukup untuk menyatakan keunggulan praktis yang kuat pada salah satu gaya bahasa chatbot."
+    },
+    {
+      "location": "P915",
+      "category": "EFFECT_SMALL_CONTEXT",
+      "severity": "INFO",
+      "text": "2. Hasil pengujian menunjukkan bahwa paired sample t-test tidak menemukan perbedaan rata-rata yang signifikan antara tingkat usabilitas interaksi komunikasi chatbot bergaya bahasa formal dan chatbot bergaya bahasa Generasi Z (Sig. = 0,157). Namun, karena distribusi selisih skor tidak normal, uji Wilcoxon signed-rank digunakan sebagai acuan nonparametrik dan menunjukkan hasil signifikan (Sig. = 0,003). Dengan demikian, terdapat indikasi perbedaan secara nonparametrik, tetapi ukuran efek Cohen’s dz sebesar 0,070 menunjukkan bahwa perbedaan tersebut sangat kecil secara praktis. Oleh karena itu, temuan ini perlu ditafsirkan secara hati-hati dan tidak cukup untuk menyatakan keunggulan praktis yang kuat pada salah satu gaya bahasa chatbot."
+    },
+    {
+      "location": "P917",
+      "category": "EFFECT_SMALL_CONTEXT",
+      "severity": "INFO",
+      "text": "3. Tidak terdapat aspek usabilitas yang paling menonjol sebagai pembeda kuat antara kedua kondisi. Analisis klaster CUQ menunjukkan bahwa persona dan afeksi, navigasi dan kemudahan, kualitas informasi, serta efektivitas interaksi memiliki selisih yang sangat kecil. Oleh karena itu, perbedaan gaya bahasa belum terbukti menjadi faktor dominan dalam membentuk persepsi usabilitas responden."
+    },
+    {
+      "location": "P1145",
+      "category": "EFFECT_SMALL_CONTEXT",
+      "severity": "INFO",
+      "text": "Distribusi selisih skor tidak normal, sehingga hasil Wilcoxon signed-rank test digunakan sebagai acuan utama. Paired sample t-test tetap dilaporkan sebagai informasi pembanding. Paired sample t-test tidak signifikan, sedangkan Wilcoxon signed-rank test signifikan. Perbedaan ini ditafsirkan hati-hati karena ukuran efek sangat kecil. Nilai Cohen’s dz sebesar 0,070 menunjukkan efek sangat kecil, sedangkan order effect tidak signifikan, sehingga urutan pengujian tidak memengaruhi hasil secara berarti."
+    },
+    {
+      "location": "T17R2",
+      "category": "PAIRED_NOT_SIGNIFICANT_CONTEXT",
+      "severity": "INFO",
+      "text": "Paired sample t-test | t = 1,418 | df = 404 | 0,57 | 0,157 | Tidak signifikan"
+    },
+    {
+      "location": "T17R3",
+      "category": "WILCOXON_SIGNIFICANT_CONTEXT",
+      "severity": "INFO",
+      "text": "Wilcoxon signed-rank | W = 16453,5 | N nonzero = 331 | 0,00 | 0,003 | Signifikan; efek sangat kecil"
+    },
+    {
+      "location": "T17R3",
+      "category": "EFFECT_SMALL_CONTEXT",
+      "severity": "INFO",
+      "text": "Wilcoxon signed-rank | W = 16453,5 | N nonzero = 331 | 0,00 | 0,003 | Signifikan; efek sangat kecil"
+    },
+    {
+      "location": "T26R2",
+      "category": "PAIRED_NOT_SIGNIFICANT_CONTEXT",
+      "severity": "INFO",
+      "text": "Paired sample t-test | 1,418 | df = 404 | 0,57 | 0,157 | Tidak signifikan"
+    },
+    {
+      "location": "T26R3",
+      "category": "WILCOXON_SIGNIFICANT_CONTEXT",
+      "severity": "INFO",
+      "text": "Wilcoxon signed-rank | 16453,5 | N nonzero = 331 | 0,00 | 0,003 | Signifikan; efek sangat kecil"
+    },
+    {
+      "location": "T26R3",
+      "category": "EFFECT_SMALL_CONTEXT",
+      "severity": "INFO",
+      "text": "Wilcoxon signed-rank | 16453,5 | N nonzero = 331 | 0,00 | 0,003 | Signifikan; efek sangat kecil"
+    },
+    {
+      "location": "T26R4",
+      "category": "EFFECT_SMALL_CONTEXT",
+      "severity": "INFO",
+      "text": "Cohen's dz | 0.070 | N=405 | - | - | Efek sangat kecil/trivial"
+    }
+  ],
+  "contradictions": [],
+  "counts": {
+    "items": 24,
+    "contradictions": 0
+  }
+}

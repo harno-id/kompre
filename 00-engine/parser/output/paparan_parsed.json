@@ -1,0 +1,700 @@
+{
+  "path": "D:\\DATA\\TESIS\\KOMPRE\\HARNO-KOMPRE\\02-data\\paparan\\NASKAH_PAPARAN_KOMPRE_HARNO_CSV_MASTER_UPDATE_WORKING_20260521-095618.docx",
+  "paragraph_count": 125,
+  "nonempty_blocks": 125,
+  "tables_count": 2,
+  "blocks": [
+    {
+      "index": 1,
+      "style": "Normal",
+      "text": "NASKAH PAPARAN UJIAN AKHIR/KOMPRE"
+    },
+    {
+      "index": 2,
+      "style": "Normal",
+      "text": "Pengaruh Gaya Bahasa Chatbot terhadap Usabilitas Informasi PMB pada Generasi Z di Universitas Lampung"
+    },
+    {
+      "index": 3,
+      "style": "Normal",
+      "text": "Format paparan: 15 slide sesuai arahan: Cover 1; Pendahuluan 3; Bab II 2; Bab III 2; Bab IV 5; Bab V 2. Durasi ideal 10-15 menit."
+    },
+    {
+      "index": 4,
+      "style": "Heading 1",
+      "text": "A. Peta Struktur Paparan"
+    },
+    {
+      "index": 5,
+      "style": "Heading 1",
+      "text": "B. Naskah Narasi per Slide"
+    },
+    {
+      "index": 6,
+      "style": "Heading 2",
+      "text": "Slide 1 — Pengaruh Gaya Bahasa Chatbot terhadap Usabilitas Informasi PMB pada Generasi Z di Universitas Lampung"
+    },
+    {
+      "index": 7,
+      "style": "Normal",
+      "text": "Poin tampil di slide:"
+    },
+    {
+      "index": 8,
+      "style": "Normal",
+      "text": "• HARNO"
+    },
+    {
+      "index": 9,
+      "style": "Normal",
+      "text": "• Magister Ilmu Komunikasi, FISIP Universitas Lampung"
+    },
+    {
+      "index": 10,
+      "style": "Normal",
+      "text": "• Fokus: komunikasi digital, chatbot PMB, Generasi Z, CUQ"
+    },
+    {
+      "index": 11,
+      "style": "Normal",
+      "text": "Narasi lisan: Assalamu'alaikum warahmatullahi wabarakatuh. Terima kasih kepada Ketua Sidang, Bapak/Ibu Penguji, dan Pembimbing. Pada paparan ini saya menyampaikan hasil penelitian tentang pengaruh gaya bahasa chatbot terhadap usabilitas informasi PMB pada Generasi Z di Universitas Lampung. Fokus penelitian ini bukan menilai kecanggihan teknis chatbot, melainkan menilai pengalaman komunikasi pengguna terhadap dua gaya bahasa chatbot, yaitu formal dan Generasi Z."
+    },
+    {
+      "index": 12,
+      "style": "Heading 2",
+      "text": "Slide 2 — Latar Belakang Masalah: Transformasi Komunikasi PMB"
+    },
+    {
+      "index": 13,
+      "style": "Normal",
+      "text": "Poin tampil di slide:"
+    },
+    {
+      "index": 14,
+      "style": "Normal",
+      "text": "• PMB Unila membutuhkan layanan informasi cepat, konsisten, dan mudah diakses."
+    },
+    {
+      "index": 15,
+      "style": "Normal",
+      "text": "• Calon mahasiswa didominasi Generasi Z yang terbiasa dengan komunikasi berbasis teks dan respons cepat."
+    },
+    {
+      "index": 16,
+      "style": "Normal",
+      "text": "• Chatbot menjadi media komunikasi interaktif antara institusi dan calon mahasiswa."
+    },
+    {
+      "index": 17,
+      "style": "Normal",
+      "text": "• Masalah komunikasi tidak hanya pada teknologi, tetapi juga pada cara pesan disampaikan."
+    },
+    {
+      "index": 18,
+      "style": "Normal",
+      "text": "Narasi lisan: Latar belakang penelitian ini dimulai dari perubahan layanan informasi PMB. Universitas tidak hanya dituntut menyediakan informasi yang benar, tetapi juga menyampaikannya melalui media yang cepat, konsisten, dan nyaman bagi calon mahasiswa. Karena calon mahasiswa saat ini didominasi Generasi Z, maka gaya komunikasi menjadi penting. Chatbot dalam penelitian ini diposisikan sebagai media komunikasi institusional berbasis percakapan."
+    },
+    {
+      "index": 19,
+      "style": "Heading 2",
+      "text": "Slide 3 — Kesenjangan Penelitian dan Urgensi Kajian"
+    },
+    {
+      "index": 20,
+      "style": "Normal",
+      "text": "Poin tampil di slide:"
+    },
+    {
+      "index": 21,
+      "style": "Normal",
+      "text": "• Kajian chatbot banyak berfokus pada performa teknis, akurasi sistem, dan otomasi layanan."
+    },
+    {
+      "index": 22,
+      "style": "Normal",
+      "text": "• Kajian Ilmu Komunikasi perlu melihat chatbot sebagai media pesan dan pengalaman interaksi."
+    },
+    {
+      "index": 23,
+      "style": "Normal",
+      "text": "• Belum banyak penelitian yang membandingkan gaya bahasa formal dan gaya Generasi Z dalam konteks chatbot PMB."
+    },
+    {
+      "index": 24,
+      "style": "Normal",
+      "text": "• Penelitian ini menguji apakah variasi gaya bahasa menghasilkan perbedaan usabilitas berdasarkan skor CUQ."
+    },
+    {
+      "index": 25,
+      "style": "Normal",
+      "text": "Narasi lisan: Kesenjangan penelitian terletak pada fokus kajian. Banyak penelitian chatbot menitikberatkan pada sisi teknis, sedangkan penelitian ini melihat chatbot sebagai media komunikasi. Pertanyaan utamanya bukan apakah chatbot mampu bekerja secara teknis, tetapi apakah gaya bahasa yang berbeda menghasilkan pengalaman usabilitas komunikasi yang berbeda bagi Generasi Z."
+    },
+    {
+      "index": 26,
+      "style": "Heading 2",
+      "text": "Slide 4 — Rumusan Masalah, Tujuan, dan Kerangka Pikir"
+    },
+    {
+      "index": 27,
+      "style": "Normal",
+      "text": "Poin tampil di slide:"
+    },
+    {
+      "index": 28,
+      "style": "Normal",
+      "text": "• RM1: Bagaimana tingkat usabilitas chatbot formal dan chatbot Gen-Z?"
+    },
+    {
+      "index": 29,
+      "style": "Normal",
+      "text": "• RM2: Apakah terdapat perbedaan tingkat usabilitas keduanya?"
+    },
+    {
+      "index": 30,
+      "style": "Normal",
+      "text": "• RM3: Aspek usabilitas apa yang paling menonjol?"
+    },
+    {
+      "index": 31,
+      "style": "Normal",
+      "text": "• Kerangka pikir: Gaya bahasa chatbot → persepsi pengguna → skor usabilitas CUQ."
+    },
+    {
+      "index": 32,
+      "style": "Normal",
+      "text": "Narasi lisan: Rumusan masalah disusun menjadi tiga agar sejajar dengan tujuan, analisis, hasil, dan simpulan. Pertama, mendeskripsikan tingkat usabilitas masing-masing chatbot. Kedua, menguji apakah terdapat perbedaan skor CUQ antara chatbot formal dan Gen-Z. Ketiga, mengidentifikasi aspek usabilitas yang paling menonjol. Kerangka pikirnya menempatkan gaya bahasa sebagai stimulus pesan, persepsi pengguna sebagai proses, dan skor CUQ sebagai respons terukur."
+    },
+    {
+      "index": 33,
+      "style": "Heading 2",
+      "text": "Slide 5 — Konsep Utama Penelitian"
+    },
+    {
+      "index": 34,
+      "style": "Normal",
+      "text": "Poin tampil di slide:"
+    },
+    {
+      "index": 35,
+      "style": "Normal",
+      "text": "• Chatbot: media komunikasi digital berbasis percakapan."
+    },
+    {
+      "index": 36,
+      "style": "Normal",
+      "text": "• Gaya bahasa: strategi penyampaian pesan formal atau akrab/Gen-Z."
+    },
+    {
+      "index": 37,
+      "style": "Normal",
+      "text": "• Generasi Z: khalayak digital dengan preferensi komunikasi cepat dan interaktif."
+    },
+    {
+      "index": 38,
+      "style": "Normal",
+      "text": "• Usabilitas komunikasi: persepsi kemudahan, kejelasan, efisiensi, kenyamanan, dan kepuasan."
+    },
+    {
+      "index": 39,
+      "style": "Normal",
+      "text": "Narasi lisan: Konsep utama penelitian terdiri dari chatbot sebagai media komunikasi, gaya bahasa sebagai strategi pengemasan pesan, Generasi Z sebagai khalayak sasaran, dan usabilitas sebagai pengalaman komunikasi pengguna. Dengan batasan ini, penelitian tetap berada dalam ranah Ilmu Komunikasi, bukan penelitian rekayasa sistem."
+    },
+    {
+      "index": 40,
+      "style": "Heading 2",
+      "text": "Slide 6 — Landasan Teori: CMC, TAM, dan CUQ"
+    },
+    {
+      "index": 41,
+      "style": "Normal",
+      "text": "Poin tampil di slide:"
+    },
+    {
+      "index": 42,
+      "style": "Normal",
+      "text": "• CMC menjelaskan komunikasi bermedia dan pentingnya isyarat tekstual dalam membentuk persepsi."
+    },
+    {
+      "index": 43,
+      "style": "Normal",
+      "text": "• TAM digunakan sebagai lensa penjelas penerimaan teknologi melalui kemudahan dan kebermanfaatan."
+    },
+    {
+      "index": 44,
+      "style": "Normal",
+      "text": "• CUQ digunakan sebagai instrumen pengukuran usabilitas chatbot berbasis persepsi pengguna."
+    },
+    {
+      "index": 45,
+      "style": "Normal",
+      "text": "• Posisi teori: CMC sebagai payung komunikasi, TAM sebagai penjelas, CUQ sebagai alat ukur."
+    },
+    {
+      "index": 46,
+      "style": "Normal",
+      "text": "Narasi lisan: Teori yang digunakan adalah Computer-Mediated Communication sebagai teori utama karena komunikasi berlangsung melalui media digital. TAM digunakan sebagai lensa untuk menjelaskan penerimaan pengguna terhadap media, terutama kemudahan dan kebermanfaatan. Sementara itu, CUQ digunakan sebagai instrumen untuk mengukur usabilitas chatbot. Dengan demikian, teori dan instrumen saling terhubung."
+    },
+    {
+      "index": 47,
+      "style": "Heading 2",
+      "text": "Slide 7 — Desain Penelitian Kuantitatif"
+    },
+    {
+      "index": 48,
+      "style": "Normal",
+      "text": "Poin tampil di slide:"
+    },
+    {
+      "index": 49,
+      "style": "Normal",
+      "text": "• Jenis: kuantitatif komparatif-eksplanatif."
+    },
+    {
+      "index": 50,
+      "style": "Normal",
+      "text": "• Desain: within-subject/repeated measures."
+    },
+    {
+      "index": 51,
+      "style": "Normal",
+      "text": "• Setiap responden mencoba dua chatbot: formal dan Gen-Z."
+    },
+    {
+      "index": 52,
+      "style": "Normal",
+      "text": "• Counterbalancing digunakan untuk mengurangi bias urutan pengujian."
+    },
+    {
+      "index": 53,
+      "style": "Normal",
+      "text": "Narasi lisan: Metode penelitian menggunakan pendekatan kuantitatif komparatif-eksplanatif. Desain yang digunakan adalah within-subject atau repeated measures, karena responden yang sama menilai dua kondisi chatbot. Desain ini dipilih agar perbandingan lebih terkontrol karena perbedaan individu antarresponden dapat ditekan. Untuk mengurangi bias urutan, digunakan counterbalancing."
+    },
+    {
+      "index": 54,
+      "style": "Heading 2",
+      "text": "Slide 8 — Populasi, Sampel, Instrumen, dan Analisis"
+    },
+    {
+      "index": 55,
+      "style": "Normal",
+      "text": "Poin tampil di slide:"
+    },
+    {
+      "index": 56,
+      "style": "Normal",
+      "text": "• Populasi: Generasi Z target layanan informasi PMB Unila 2026."
+    },
+    {
+      "index": 57,
+      "style": "Normal",
+      "text": "• Sampel akhir: 405 responden dengan data berpasangan lengkap."
+    },
+    {
+      "index": 58,
+      "style": "Normal",
+      "text": "• Instrumen: Chatbot Usability Questionnaire/CUQ, 16 item, skala Likert 1–5."
+    },
+    {
+      "index": 59,
+      "style": "Normal",
+      "text": "• Analisis: deskriptif, validitas, reliabilitas, normalitas, paired t-test, Wilcoxon, effect size, dan order effect."
+    },
+    {
+      "index": 60,
+      "style": "Normal",
+      "text": "Narasi lisan: Populasi penelitian dibatasi secara operasional pada Generasi Z yang menjadi target layanan informasi PMB Unila 2026. Sampel akhir sebanyak 405 responden dengan data berpasangan lengkap. Instrumen yang digunakan adalah CUQ dengan 16 item. Karena terdapat item positif dan negatif, dilakukan reverse scoring dan normalisasi skor ke rentang 0 sampai 100. Analisis meliputi statistik deskriptif, validitas, reliabilitas, normalitas, uji beda, effect size, dan order effect."
+    },
+    {
+      "index": 61,
+      "style": "Heading 2",
+      "text": "Slide 9 — Kesiapan Data dan Profil Responden"
+    },
+    {
+      "index": 62,
+      "style": "Normal",
+      "text": "Poin tampil di slide:"
+    },
+    {
+      "index": 63,
+      "style": "Normal",
+      "text": "• Data masuk dan dianalisis: 405 responden."
+    },
+    {
+      "index": 64,
+      "style": "Normal",
+      "text": "• Ditemukan 2 nilai di luar rentang skala pada item G5; dikoreksi dengan median valid item."
+    },
+    {
+      "index": 65,
+      "style": "Normal",
+      "text": "• Mayoritas responden berada pada kelompok usia calon pendaftar perguruan tinggi."
+    },
+    {
+      "index": 66,
+      "style": "Normal",
+      "text": "• Data dinilai layak karena seluruh responden memiliki skor berpasangan formal dan Gen-Z."
+    },
+    {
+      "index": 67,
+      "style": "Normal",
+      "text": "Narasi lisan: Pada tahap data cleaning, terdapat 404 data responden yang dianalisis. Ditemukan dua nilai di luar rentang skala pada item G5, bernilai 0, padahal skala valid adalah 1 sampai 5. Nilai tersebut dikoreksi dengan median valid item agar jumlah sampel tetap 404. Seluruh responden memiliki data berpasangan untuk chatbot formal dan Gen-Z, sehingga layak dianalisis dengan desain within-subject."
+    },
+    {
+      "index": 68,
+      "style": "Heading 2",
+      "text": "Slide 10 — Hasil Deskriptif dan Uji Instrumen"
+    },
+    {
+      "index": 69,
+      "style": "Normal",
+      "text": "Poin tampil di slide:"
+    },
+    {
+      "index": 70,
+      "style": "Normal",
+      "text": "• Mean CUQ formal: 72,92; SD: 16,95."
+    },
+    {
+      "index": 71,
+      "style": "Normal",
+      "text": "• Mean CUQ Gen-Z: 73,50; SD: 18,50."
+    },
+    {
+      "index": 72,
+      "style": "Normal",
+      "text": "• Selisih rata-rata: 0,57 poin pada skala 0–100."
+    },
+    {
+      "index": 73,
+      "style": "Normal",
+      "text": "• Reliabilitas tinggi: alpha formal 0,905; alpha Gen-Z 0,922."
+    },
+    {
+      "index": 74,
+      "style": "Normal",
+      "text": "Narasi lisan: Hasil deskriptif menunjukkan rata-rata skor CUQ chatbot formal sebesar 72,92, sedangkan chatbot Gen-Z sebesar 73,50. Selisihnya hanya 0,57 poin pada skala 0 sampai 100. Artinya, secara deskriptif keduanya relatif setara. Reliabilitas instrumen tergolong baik, dengan Cronbach alpha 0,905 pada formal dan 0,922 pada Gen-Z. Namun beberapa item validitas perlu dijelaskan hati-hati karena korelasi item-totalnya rendah."
+    },
+    {
+      "index": 75,
+      "style": "Heading 2",
+      "text": "Slide 11 — Hasil Uji Beda dan Ukuran Efek"
+    },
+    {
+      "index": 76,
+      "style": "Normal",
+      "text": "Poin tampil di slide:"
+    },
+    {
+      "index": 77,
+      "style": "Normal",
+      "text": "• Normalitas selisih skor tidak terpenuhi; Wilcoxon digunakan sebagai acuan utama."
+    },
+    {
+      "index": 78,
+      "style": "Normal",
+      "text": "• Paired sample t-test: p = 0,157, tidak signifikan."
+    },
+    {
+      "index": 79,
+      "style": "Normal",
+      "text": "• Wilcoxon signed-rank: p = 0,003, signifikan secara nonparametrik, tetapi efek sangat kecil."
+    },
+    {
+      "index": 80,
+      "style": "Normal",
+      "text": "• Cohen’s dz = 0,070, efek sangat kecil/trivial. Order effect: p = 0,988."
+    },
+    {
+      "index": 81,
+      "style": "Normal",
+      "text": "Narasi lisan: Uji normalitas menunjukkan selisih skor tidak berdistribusi normal, sehingga Wilcoxon signed-rank digunakan sebagai acuan utama, sementara paired t-test tetap dilaporkan sebagai pembanding. Paired t-test menghasilkan p = 0,157 atau tidak signifikan, sedangkan Wilcoxon menghasilkan p = 0,003 atau signifikan secara nonparametrik. Namun, effect size Cohen’s dz sebesar 0,070 menunjukkan efek sangat kecil. Karena itu, temuan ditafsirkan hati-hati dan tidak cukup untuk menyatakan keunggulan praktis yang kuat. Order effect juga tidak signifikan, sehingga urutan pengujian tidak memengaruhi hasil."
+    },
+    {
+      "index": 82,
+      "style": "Heading 2",
+      "text": "Slide 12 — Makna Temuan: Tidak Signifikan Bukan Berarti Tidak Penting"
+    },
+    {
+      "index": 83,
+      "style": "Normal",
+      "text": "Poin tampil di slide:"
+    },
+    {
+      "index": 84,
+      "style": "Normal",
+      "text": "• Data tidak mendukung klaim bahwa gaya Gen-Z lebih unggul secara statistik."
+    },
+    {
+      "index": 85,
+      "style": "Normal",
+      "text": "• Usabilitas kedua gaya bahasa relatif setara pada responden penelitian."
+    },
+    {
+      "index": 86,
+      "style": "Normal",
+      "text": "• Temuan menunjukkan bahwa akurasi, kejelasan, dan konsistensi informasi tetap faktor utama."
+    },
+    {
+      "index": 87,
+      "style": "Normal",
+      "text": "• Secara komunikasi, adaptasi gaya bahasa perlu dilakukan secara proporsional, bukan berlebihan."
+    },
+    {
+      "index": 88,
+      "style": "Normal",
+      "text": "Narasi lisan: Temuan utama penelitian ini adalah tidak adanya perbedaan signifikan antara chatbot formal dan Gen-Z. Ini bukan berarti gaya bahasa tidak penting, tetapi data tidak cukup mendukung klaim bahwa gaya Gen-Z lebih unggul secara statistik. Secara komunikasi, hasil ini menunjukkan bahwa adaptasi bahasa perlu dilakukan secara proporsional. Gaya yang lebih akrab dapat dipertimbangkan, tetapi tidak boleh mengorbankan kejelasan, akurasi, dan kredibilitas informasi PMB."
+    },
+    {
+      "index": 89,
+      "style": "Heading 2",
+      "text": "Slide 13 — Implikasi Teoretis dan Praktis"
+    },
+    {
+      "index": 90,
+      "style": "Normal",
+      "text": "Poin tampil di slide:"
+    },
+    {
+      "index": 91,
+      "style": "Normal",
+      "text": "• CMC: isyarat tekstual penting, tetapi efeknya bergantung pada konteks dan substansi pesan."
+    },
+    {
+      "index": 92,
+      "style": "Normal",
+      "text": "• TAM: kemudahan dan kebermanfaatan tidak hanya ditentukan oleh gaya bahasa."
+    },
+    {
+      "index": 93,
+      "style": "Normal",
+      "text": "• Untuk Unila: chatbot perlu semi-formal, jelas, ramah, dan konsisten."
+    },
+    {
+      "index": 94,
+      "style": "Normal",
+      "text": "• Untuk aspek teknis: evaluasi komunikasi perlu dilengkapi pengujian sistem, log percakapan, dan performa respons."
+    },
+    {
+      "index": 95,
+      "style": "Normal",
+      "text": "Narasi lisan: Secara teoretis, hasil ini memperkaya CMC dan TAM karena menunjukkan bahwa isyarat bahasa memang relevan, tetapi tidak otomatis menghasilkan perbedaan usabilitas yang signifikan. Secara praktis, Unila dapat menggunakan gaya semi-formal: tetap ramah dan mudah dipahami, tetapi menjaga kredibilitas institusional. Untuk penguji dari bidang informatika atau elektro, perlu ditegaskan bahwa penelitian ini tidak menguji performa teknis AI, sehingga penelitian lanjutan dapat menambahkan analisis log, akurasi jawaban, waktu respons, dan error handling."
+    },
+    {
+      "index": 96,
+      "style": "Heading 2",
+      "text": "Slide 14 — Simpulan Penelitian"
+    },
+    {
+      "index": 97,
+      "style": "Normal",
+      "text": "Poin tampil di slide:"
+    },
+    {
+      "index": 98,
+      "style": "Normal",
+      "text": "• Tingkat usabilitas chatbot formal dan Gen-Z relatif setara."
+    },
+    {
+      "index": 99,
+      "style": "Normal",
+      "text": "• Paired t-test tidak signifikan, sedangkan Wilcoxon signifikan secara nonparametrik; efek praktis sangat kecil."
+    },
+    {
+      "index": 100,
+      "style": "Normal",
+      "text": "• Aspek usabilitas per klaster tidak menunjukkan pembeda dominan."
+    },
+    {
+      "index": 101,
+      "style": "Normal",
+      "text": "• Hipotesis alternatif didukung secara nonparametrik, tetapi dukungan praktisnya sangat lemah karena effect size sangat kecil."
+    },
+    {
+      "index": 102,
+      "style": "Normal",
+      "text": "Narasi lisan: Simpulan penelitian disusun sesuai rumusan masalah. Pertama, tingkat usabilitas kedua chatbot relatif setara secara praktis. Kedua, paired t-test tidak menunjukkan perbedaan rata-rata yang signifikan, sedangkan Wilcoxon menunjukkan perbedaan signifikan secara nonparametrik. Namun, ukuran efek sangat kecil sehingga hasilnya harus ditafsirkan hati-hati dan tidak cukup untuk menyatakan keunggulan praktis yang kuat. Ketiga, analisis klaster tidak menunjukkan aspek usabilitas yang menjadi pembeda dominan."
+    },
+    {
+      "index": 103,
+      "style": "Heading 2",
+      "text": "Slide 15 — Saran dan Rekomendasi"
+    },
+    {
+      "index": 104,
+      "style": "Normal",
+      "text": "Poin tampil di slide:"
+    },
+    {
+      "index": 105,
+      "style": "Normal",
+      "text": "• Gunakan gaya bahasa semi-formal: ramah, jelas, ringkas, tetapi tetap kredibel."
+    },
+    {
+      "index": 106,
+      "style": "Normal",
+      "text": "• Prioritaskan akurasi informasi PMB, kejelasan alur, dan konsistensi respons chatbot."
+    },
+    {
+      "index": 107,
+      "style": "Normal",
+      "text": "• Evaluasi chatbot berikutnya perlu menggabungkan CUQ, trust, kepuasan, log percakapan, dan waktu respons."
+    },
+    {
+      "index": 108,
+      "style": "Normal",
+      "text": "• Penelitian lanjutan dapat menggunakan eksperimen longitudinal atau A/B testing pada layanan PMB aktual."
+    },
+    {
+      "index": 109,
+      "style": "Normal",
+      "text": "Narasi lisan: Saran penelitian diarahkan pada strategi komunikasi dan pengembangan layanan. Unila tidak harus memilih ekstrem formal atau Gen-Z, melainkan gaya semi-formal yang ramah, jelas, dan kredibel. Evaluasi selanjutnya dapat menggabungkan ukuran komunikasi dan teknis, seperti trust, kepuasan, log percakapan, waktu respons, dan akurasi jawaban. Dengan demikian, chatbot PMB dapat menjadi media komunikasi institusional yang lebih efektif."
+    },
+    {
+      "index": 110,
+      "style": "Heading 1",
+      "text": "C. Penekanan Khusus untuk Komposisi Penguji"
+    },
+    {
+      "index": 111,
+      "style": "Heading 1",
+      "text": "D. Jawaban Singkat untuk Pertanyaan Kritis"
+    },
+    {
+      "index": 112,
+      "style": "Normal",
+      "text": "Pertanyaan: Mengapa hasil tidak signifikan?"
+    },
+    {
+      "index": 113,
+      "style": "Normal",
+      "text": "Jawaban: Karena berdasarkan dataset aktual, perbedaan rata-rata skor CUQ formal dan Gen-Z hanya 0,57 poin pada skala 0-100. Uji statistik juga menunjukkan p > 0,05 dan effect size sangat kecil. Karena itu, penelitian tidak boleh mengklaim Gen-Z lebih unggul."
+    },
+    {
+      "index": 114,
+      "style": "Normal",
+      "text": "Pertanyaan: Apakah penelitian menjadi gagal karena hipotesis tidak terbukti?"
+    },
+    {
+      "index": 115,
+      "style": "Normal",
+      "text": "Jawaban: Tidak. Dalam penelitian kuantitatif, hipotesis yang tidak didukung data tetap merupakan temuan ilmiah. Justru hasil ini penting karena mencegah rekomendasi yang berlebihan dan menunjukkan bahwa gaya bahasa bukan satu-satunya faktor pembentuk usabilitas chatbot."
+    },
+    {
+      "index": 116,
+      "style": "Normal",
+      "text": "Pertanyaan: Mengapa memakai Wilcoxon?"
+    },
+    {
+      "index": 117,
+      "style": "Normal",
+      "text": "Jawaban: Karena distribusi selisih skor tidak normal. Paired sample t-test tetap dilaporkan sebagai pembanding, tetapi Wilcoxon digunakan sebagai acuan utama karena lebih sesuai ketika asumsi normalitas tidak terpenuhi."
+    },
+    {
+      "index": 118,
+      "style": "Normal",
+      "text": "Pertanyaan: Bagaimana menjelaskan item validitas yang tidak semuanya valid?"
+    },
+    {
+      "index": 119,
+      "style": "Normal",
+      "text": "Jawaban: Beberapa item memiliki korelasi item-total rendah karena jawaban responden cenderung homogen atau item tersebut menangkap aspek khusus. Namun, reliabilitas total tetap tinggi. Karena itu, interpretasi dilakukan hati-hati dengan menekankan skor total CUQ dan tidak mengklaim semua item sebagai indikator kuat."
+    },
+    {
+      "index": 120,
+      "style": "Normal",
+      "text": "Pertanyaan: Apa kontribusi untuk Ilmu Komunikasi?"
+    },
+    {
+      "index": 121,
+      "style": "Normal",
+      "text": "Jawaban: Penelitian ini menempatkan chatbot sebagai media komunikasi institusional dan menunjukkan bahwa strategi bahasa dalam media digital harus diuji secara empiris. Kontribusinya adalah memberikan batasan berbasis data terhadap asumsi bahwa gaya bahasa Gen-Z pasti lebih efektif."
+    },
+    {
+      "index": 122,
+      "style": "Normal",
+      "text": "Pertanyaan: Apa kontribusi untuk pengembangan chatbot?"
+    },
+    {
+      "index": 123,
+      "style": "Normal",
+      "text": "Jawaban: Rekomendasinya adalah gaya semi-formal yang ramah, ringkas, jelas, dan tetap kredibel. Pengembangan teknis berikutnya perlu menguji log percakapan, waktu respons, akurasi jawaban, dan error handling."
+    },
+    {
+      "index": 124,
+      "style": "Heading 1",
+      "text": "E. Kalimat Penutup"
+    },
+    {
+      "index": 125,
+      "style": "Normal",
+      "text": "Kalimat penutup yang disarankan: Berdasarkan hasil penelitian ini, saya menyimpulkan bahwa gaya bahasa formal dan gaya bahasa Generasi Z menghasilkan tingkat usabilitas yang relatif setara dalam konteks chatbot PMB Unila. Oleh karena itu, rekomendasi penelitian ini bukan mengganti seluruh bahasa formal menjadi bahasa Gen-Z, tetapi menggunakan gaya semi-formal yang ramah, jelas, konsisten, dan tetap menjaga kredibilitas institusi. Terima kasih, saya siap menerima masukan dan pertanyaan dari Bapak/Ibu Penguji."
+    }
+  ],
+  "tables": [
+    {
+      "index": 1,
+      "rows": 7,
+      "cols": 3,
+      "data": [
+        [
+          "Slide",
+          "Bagian",
+          "Isi"
+        ],
+        [
+          "1",
+          "Cover",
+          "Identitas dan fokus penelitian"
+        ],
+        [
+          "2-4",
+          "Pendahuluan",
+          "LBM 2 slide; rumusan, tujuan, dan kerangka pikir 1 slide"
+        ],
+        [
+          "5-6",
+          "Bab II",
+          "Konsep 1 slide; teori 1 slide"
+        ],
+        [
+          "7-8",
+          "Bab III",
+          "Desain penelitian dan metode analisis"
+        ],
+        [
+          "9-13",
+          "Bab IV",
+          "Hasil 3 slide; pembahasan 2 slide"
+        ],
+        [
+          "14-15",
+          "Bab V",
+          "Simpulan 1 slide; saran 1 slide"
+        ]
+      ]
+    },
+    {
+      "index": 2,
+      "rows": 4,
+      "cols": 2,
+      "data": [
+        [
+          "Penguji",
+          "Penekanan Jawaban"
+        ],
+        [
+          "Penguji doktor komunikasi ahli kuantitatif",
+          "Tekankan validitas logika metode: desain within-subject, data berpasangan, reverse scoring CUQ, normalisasi skor 0-100, reliabilitas tinggi, uji normalitas tidak terpenuhi sehingga Wilcoxon dijadikan acuan utama. Jangan mengklaim pengaruh signifikan karena p-value tidak mendukung."
+        ],
+        [
+          "Bapak Profesor Ilmu Komunikasi",
+          "Tekankan kontribusi konseptual: chatbot diposisikan sebagai media komunikasi institusional, gaya bahasa sebagai strategi pesan, dan hasil menunjukkan adaptasi bahasa perlu proporsional. Temuan tidak signifikan tetap bernilai karena membatasi klaim dan memberi rekomendasi berbasis data."
+        ],
+        [
+          "Ibu Dr dari Informatika/Elektro",
+          "Tekankan batas penelitian: penelitian ini tidak mengukur akurasi algoritma, NLP, latensi, atau performa sistem. Fokusnya adalah persepsi usabilitas pengguna. Rekomendasi lanjutan adalah menggabungkan CUQ dengan log percakapan, waktu respons, error handling, dan akurasi jawaban."
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3849 @@
+{
+  "generated_at": "2026-05-21T20:32:03",
+  "project": {
+    "title": "Academic Defense Command Center",
+    "subtitle": "Dashboard Kompre Harno: tesis, paparan, PPT, CUQ, teori, dan Q&A aman",
+    "source_of_truth": "D:\\DATA\\TESIS\\KOMPRE\\HARNO-KOMPRE\\02-data\\cuq\\cuq_responses_rows.csv",
+    "n": 405,
+    "locked_thesis_docx": "D:\\DATA\\TESIS\\KOMPRE\\HARNO-KOMPRE\\02-data\\thesis\\TESIS_HARNO_CSV_MASTER_LOCKED_20260521-095322.docx",
+    "locked_thesis_pdf": "D:\\DATA\\TESIS\\KOMPRE\\HARNO-KOMPRE\\02-data\\thesis\\pdf\\TESIS_HARNO_CSV_MASTER_LOCKED_20260521-095322.pdf",
+    "updated_paparan": "D:\\DATA\\TESIS\\KOMPRE\\HARNO-KOMPRE\\02-data\\paparan\\NASKAH_PAPARAN_KOMPRE_HARNO_CSV_MASTER_UPDATE_WORKING_20260521-095618.docx",
+    "data_policy": "CSV CUQ FINAL sebagai source of truth; Excel/Docx tidak dipakai untuk kalkulasi dashboard."
+  },
+  "status": {
+    "csv_master": "LOCKED SOURCE",
+    "thesis": "DOCX LOCKED + PDF EXPORTED",
+    "paparan": "DATA PATCHED - READY FOR LOCK",
+    "audit": "STATISTICS PASS / NARRATIVE CLEAN",
+    "frontend": "STATIC DASHBOARD BUILD"
+  },
+  "statistics": {
+    "formal_mean": 72.92438271604938,
+    "formal_sd": 16.952311088989262,
+    "genz_mean": 73.49537037037037,
+    "genz_sd": 18.49925881622997,
+    "mean_diff": 0.5709876543209876,
+    "paired_t": 1.4177896164732753,
+    "paired_df": 404,
+    "paired_p": 0.15702300938753744,
+    "wilcoxon_statistic": 16453.5,
+    "wilcoxon_p": 0.002674078986330494,
+    "wilcoxon_nonzero_n": 287,
+    "cohens_dz": 0.07045053244950215,
+    "shapiro_w": 0.8355539608350975,
+    "shapiro_p": 4.3606492223348477e-20,
+    "formal_alpha": 0.9047537407503443,
+    "genz_alpha": 0.9220683722449164,
+    "missing_cells": 0,
+    "out_of_range_cells": 0,
+    "order_effect_p": 0.5701655283040615
+  },
+  "profile": {
+    "jk_counts": {
+      "P": 275,
+      "L": 130
+    },
+    "usia_counts": {
+      "7": 1,
+      "16": 8,
+      "17": 266,
+      "18": 126,
+      "19": 4
+    },
+    "urutan_counts": {
+      "F→G": 283,
+      "G→F": 122
+    }
+  },
+  "cuq_dimensions": {
+    "source": "D:\\DATA\\TESIS\\KOMPRE\\HARNO-KOMPRE\\02-data\\cuq\\cuq_responses_rows.csv",
+    "items": [
+      {
+        "dimension": "Persona",
+        "formal_mean": 72.80864197530865,
+        "formal_sd": 17.851983653868587,
+        "genz_mean": 75.07716049382717,
+        "genz_sd": 20.310424327956547,
+        "diff": 2.268518518518519,
+        "summary": "Gen-Z lebih tinggi deskriptif"
+      },
+      {
+        "dimension": "Navigasi",
+        "formal_mean": 74.64506172839506,
+        "formal_sd": 19.547578241809045,
+        "genz_mean": 73.8425925925926,
+        "genz_sd": 20.78492317883491,
+        "diff": -0.8024691358024683,
+        "summary": "Formal lebih tinggi deskriptif"
+      },
+      {
+        "dimension": "Kualitas",
+        "formal_mean": 76.48148148148148,
+        "formal_sd": 19.942153140503326,
+        "genz_mean": 76.01851851851852,
+        "genz_sd": 21.107557368206447,
+        "diff": -0.4629629629629619,
+        "summary": "Formal lebih tinggi deskriptif"
+      },
+      {
+        "dimension": "Efektivitas",
+        "formal_mean": 67.76234567901234,
+        "formal_sd": 17.09486517891979,
+        "genz_mean": 69.04320987654322,
+        "genz_sd": 17.595935896310344,
+        "diff": 1.2808641975308745,
+        "summary": "Gen-Z lebih tinggi deskriptif"
+      }
+    ]
+  },
+  "analysis_data": {
+    "source": "D:\\DATA\\TESIS\\KOMPRE\\HARNO-KOMPRE\\02-data\\cuq\\cuq_responses_rows.csv",
+    "pairs": [
+      {
+        "index": 1,
+        "respondent_id": 346,
+        "formal": 60.938,
+        "genz": 62.5,
+        "diff": 1.562
+      },
+      {
+        "index": 2,
+        "respondent_id": 403,
+        "formal": 50.0,
+        "genz": 51.562,
+        "diff": 1.562
+      },
+      {
+        "index": 3,
+        "respondent_id": 251,
+        "formal": 81.25,
+        "genz": 76.562,
+        "diff": -4.688
+      },
+      {
+        "index": 4,
+        "respondent_id": 124,
+        "formal": 51.562,
+        "genz": 50.0,
+        "diff": -1.562
+      },
+      {
+        "index": 5,
+        "respondent_id": 575,
+        "formal": 87.5,
+        "genz": 93.75,
+        "diff": 6.25
+      },
+      {
+        "index": 6,
+        "respondent_id": 315,
+        "formal": 64.062,
+        "genz": 67.188,
+        "diff": 3.125
+      },
+      {
+        "index": 7,
+        "respondent_id": 35,
+        "formal": 68.75,
+        "genz": 67.188,
+        "diff": -1.562
+      },
+      {
+        "index": 8,
+        "respondent_id": 212,
+        "formal": 100.0,
+        "genz": 100.0,
+        "diff": 0.0
+      },
+      {
+        "index": 9,
+        "respondent_id": 530,
+        "formal": 76.562,
+        "genz": 78.125,
+        "diff": 1.562
+      },
+      {
+        "index": 10,
+        "respondent_id": 328,
+        "formal": 84.375,
+        "genz": 85.938,
+        "diff": 1.562
+      },
+      {
+        "index": 11,
+        "respondent_id": 490,
+        "formal": 90.625,
+        "genz": 92.188,
+        "diff": 1.562
+      },
+      {
+        "index": 12,
+        "respondent_id": 26,
+        "formal": 57.812,
+        "genz": 59.375,
+        "diff": 1.562
+      },
+      {
+        "index": 13,
+        "respondent_id": 220,
+        "formal": 64.062,
+        "genz": 65.625,
+        "diff": 1.562
+      },
+      {
+        "index": 14,
+        "respondent_id": 66,
+        "formal": 78.125,
+        "genz": 79.688,
+        "diff": 1.562
+      },
+      {
+        "index": 15,
+        "respondent_id": 362,
+        "formal": 62.5,
+        "genz": 59.375,
+        "diff": -3.125
+      },
+      {
+        "index": 16,
+        "respondent_id": 62,
+        "formal": 59.375,
+        "genz": 67.188,
+        "diff": 7.812
+      },
+      {
+        "index": 17,
+        "respondent_id": 27,
+        "formal": 71.875,
+        "genz": 89.062,
+        "diff": 17.188
+      },
+      {
+        "index": 18,
+        "respondent_id": 210,
+        "formal": 48.438,
+        "genz": 45.312,
+        "diff": -3.125
+      },
+      {
+        "index": 19,
+        "respondent_id": 81,
+        "formal": 71.875,
+        "genz": 50.0,
+        "diff": -21.875
+      },
+      {
+        "index": 20,
+        "respondent_id": 445,
+        "formal": 64.062,
+        "genz": 67.188,
+        "diff": 3.125
+      },
+      {
+        "index": 21,
+        "respondent_id": 215,
+        "formal": 73.438,
+        "genz": 84.375,
+        "diff": 10.938
+      },
+      {
+        "index": 22,
+        "respondent_id": 318,
+        "formal": 81.25,
+        "genz": 73.438,
+        "diff": -7.812
+      },
+      {
+        "index": 23,
+        "respondent_id": 142,
+        "formal": 50.0,
+        "genz": 50.0,
+        "diff": 0.0
+      },
+      {
+        "index": 24,
+        "respondent_id": 426,
+        "formal": 76.562,
+        "genz": 73.438,
+        "diff": -3.125
+      },
+      {
+        "index": 25,
+        "respondent_id": 557,
+        "formal": 89.062,
+        "genz": 87.5,
+        "diff": -1.562
+      },
+      {
+        "index": 26,
+        "respondent_id": 531,
+        "formal": 50.0,
+        "genz": 50.0,
+        "diff": 0.0
+      },
+      {
+        "index": 27,
+        "respondent_id": 134,
+        "formal": 81.25,
+        "genz": 84.375,
+        "diff": 3.125
+      },
+      {
+        "index": 28,
+        "respondent_id": 60,
+        "formal": 73.438,
+        "genz": 78.125,
+        "diff": 4.688
+      },
+      {
+        "index": 29,
+        "respondent_id": 220,
+        "formal": 73.438,
+        "genz": 67.188,
+        "diff": -6.25
+      },
+      {
+        "index": 30,
+        "respondent_id": 235,
+        "formal": 92.188,
+        "genz": 79.688,
+        "diff": -12.5
+      },
+      {
+        "index": 31,
+        "respondent_id": 550,
+        "formal": 57.812,
+        "genz": 50.0,
+        "diff": -7.812
+      },
+      {
+        "index": 32,
+        "respondent_id": 394,
+        "formal": 71.875,
+        "genz": 81.25,
+        "diff": 9.375
+      },
+      {
+        "index": 33,
+        "respondent_id": 245,
+        "formal": 65.625,
+        "genz": 100.0,
+        "diff": 34.375
+      },
+      {
+        "index": 34,
+        "respondent_id": 255,
+        "formal": 81.25,
+        "genz": 76.562,
+        "diff": -4.688
+      },
+      {
+        "index": 35,
+        "respondent_id": 169,
+        "formal": 76.562,
+        "genz": 75.0,
+        "diff": -1.562
+      },
+      {
+        "index": 36,
+        "respondent_id": 407,
+        "formal": 68.75,
+        "genz": 71.875,
+        "diff": 3.125
+      },
+      {
+        "index": 37,
+        "respondent_id": 433,
+        "formal": 81.25,
+        "genz": 82.812,
+        "diff": 1.562
+      },
+      {
+        "index": 38,
+        "respondent_id": 140,
+        "formal": 96.875,
+        "genz": 96.875,
+        "diff": 0.0
+      },
+      {
+        "index": 39,
+        "respondent_id": 170,
+        "formal": 84.375,
+        "genz": 100.0,
+        "diff": 15.625
+      },
+      {
+        "index": 40,
+        "respondent_id": 479,
+        "formal": 100.0,
+        "genz": 100.0,
+        "diff": 0.0
+      },
+      {
+        "index": 41,
+        "respondent_id": 476,
+        "formal": 75.0,
+        "genz": 73.438,
+        "diff": -1.562
+      },
+      {
+        "index": 42,
+        "respondent_id": 457,
+        "formal": 81.25,
+        "genz": 73.438,
+        "diff": -7.812
+      },
+      {
+        "index": 43,
+        "respondent_id": 8,
+        "formal": 68.75,
+        "genz": 71.875,
+        "diff": 3.125
+      },
+      {
+        "index": 44,
+        "respondent_id": 146,
+        "formal": 50.0,
+        "genz": 50.0,
+        "diff": 0.0
+      },
+      {
+        "index": 45,
+        "respondent_id": 329,
+        "formal": 89.062,
+        "genz": 96.875,
+        "diff": 7.812
+      },
+      {
+        "index": 46,
+        "respondent_id": 142,
+        "formal": 50.0,
+        "genz": 50.0,
+        "diff": 0.0
+      },
+      {
+        "index": 47,
+        "respondent_id": 145,
+        "formal": 50.0,
+        "genz": 50.0,
+        "diff": 0.0
+      },
+      {
+        "index": 48,
+        "respondent_id": 51,
+        "formal": 92.188,
+        "genz": 85.938,
+        "diff": -6.25
+      },
+      {
+        "index": 49,
+        "respondent_id": 285,
+        "formal": 67.188,
+        "genz": 82.812,
+        "diff": 15.625
+      },
+      {
+        "index": 50,
+        "respondent_id": 304,
+        "formal": 50.0,
+        "genz": 50.0,
+        "diff": 0.0
+      },
+      {
+        "index": 51,
+        "respondent_id": 115,
+        "formal": 62.5,
+        "genz": 62.5,
+        "diff": 0.0
+      },
+      {
+        "index": 52,
+        "respondent_id": 222,
+        "formal": 68.75,
+        "genz": 67.188,
+        "diff": -1.562
+      },
+      {
+        "index": 53,
+        "respondent_id": 64,
+        "formal": 87.5,
+        "genz": 78.125,
+        "diff": -9.375
+      },
+      {
+        "index": 54,
+        "respondent_id": 522,
+        "formal": 85.938,
+        "genz": 89.062,
+        "diff": 3.125
+      },
+      {
+        "index": 55,
+        "respondent_id": 508,
+        "formal": 51.562,
+        "genz": 50.0,
+        "diff": -1.562
+      },
+      {
+        "index": 56,
+        "respondent_id": 263,
+        "formal": 93.75,
+        "genz": 96.875,
+        "diff": 3.125
+      },
+      {
+        "index": 57,
+        "respondent_id": 529,
+        "formal": 93.75,
+        "genz": 100.0,
+        "diff": 6.25
+      },
+      {
+        "index": 58,
+        "respondent_id": 486,
+        "formal": 57.812,
+        "genz": 60.938,
+        "diff": 3.125
+      },
+      {
+        "index": 59,
+        "respondent_id": 423,
+        "formal": 95.312,
+        "genz": 100.0,
+        "diff": 4.688
+      },
+      {
+        "index": 60,
+        "respondent_id": 504,
+        "formal": 64.062,
+        "genz": 62.5,
+        "diff": -1.562
+      },
+      {
+        "index": 61,
+        "respondent_id": 143,
+        "formal": 79.688,
+        "genz": 85.938,
+        "diff": 6.25
+      },
+      {
+        "index": 62,
+        "respondent_id": 107,
+        "formal": 75.0,
+        "genz": 84.375,
+        "diff": 9.375
+      },
+      {
+        "index": 63,
+        "respondent_id": 405,
+        "formal": 28.125,
+        "genz": 20.312,
+        "diff": -7.812
+      },
+      {
+        "index": 64,
+        "respondent_id": 151,
+        "formal": 50.0,
+        "genz": 50.0,
+        "diff": 0.0
+      },
+      {
+        "index": 65,
+        "respondent_id": 182,
+        "formal": 96.875,
+        "genz": 100.0,
+        "diff": 3.125
+      },
+      {
+        "index": 66,
+        "respondent_id": 419,
+        "formal": 65.625,
+        "genz": 64.062,
+        "diff": -1.562
+      },
+      {
+        "index": 67,
+        "respondent_id": 44,
+        "formal": 50.0,
+        "genz": 50.0,
+        "diff": 0.0
+      },
+      {
+        "index": 68,
+        "respondent_id": 178,
+        "formal": 81.25,
+        "genz": 81.25,
+        "diff": 0.0
+      },
+      {
+        "index": 69,
+        "respondent_id": 1,
+        "formal": 78.125,
+        "genz": 78.125,
+        "diff": 0.0
+      },
+      {
+        "index": 70,
+        "respondent_id": 330,
+        "formal": 68.75,
+        "genz": 89.062,
+        "diff": 20.312
+      },
+      {
+        "index": 71,
+        "respondent_id": 381,
+        "formal": 82.812,
+        "genz": 75.0,
+        "diff": -7.812
+      },
+      {
+        "index": 72,
+        "respondent_id": 374,
+        "formal": 76.562,
+        "genz": 90.625,
+        "diff": 14.062
+      },
+      {
+        "index": 73,
+        "respondent_id": 232,
+        "formal": 89.062,
+        "genz": 81.25,
+        "diff": -7.812
+      },
+      {
+        "index": 74,
+        "respondent_id": 233,
+        "formal": 75.0,
+        "genz": 71.875,
+        "diff": -3.125
+      },
+      {
+        "index": 75,
+        "respondent_id": 49,
+        "formal": 71.875,
+        "genz": 76.562,
+        "diff": 4.688
+      },
+      {
+        "index": 76,
+        "respondent_id": 81,
+        "formal": 93.75,
+        "genz": 50.0,
+        "diff": -43.75
+      },
+      {
+        "index": 77,
+        "respondent_id": 421,
+        "formal": 70.312,
+        "genz": 59.375,
+        "diff": -10.938
+      },
+      {
+        "index": 78,
+        "respondent_id": 430,
+        "formal": 81.25,
+        "genz": 81.25,
+        "diff": 0.0
+      },
+      {
+        "index": 79,
+        "respondent_id": 111,
+        "formal": 100.0,
+        "genz": 100.0,
+        "diff": 0.0
+      },
+      {
+        "index": 80,
+        "respondent_id": 4,
+        "formal": 60.938,
+        "genz": 65.625,
+        "diff": 4.688
+      },
+      {
+        "index": 81,
+        "respondent_id": 428,
+        "formal": 90.625,
+        "genz": 89.062,
+        "diff": -1.562
+      },
+      {
+        "index": 82,
+        "respondent_id": 173,
+        "formal": 53.125,
+        "genz": 50.0,
+        "diff": -3.125
+      },
+      {
+        "index": 83,
+        "respondent_id": 57,
+        "formal": 78.125,
+        "genz": 65.625,
+        "diff": -12.5
+      },
+      {
+        "index": 84,
+        "respondent_id": 350,
+        "formal": 50.0,
+        "genz": 50.0,
+        "diff": 0.0
+      },
+      {
+        "index": 85,
+        "respondent_id": 289,
+        "formal": 89.062,
+        "genz": 93.75,
+        "diff": 4.688
+      },
+      {
+        "index": 86,
+        "respondent_id": 97,
+        "formal": 81.25,
+        "genz": 79.688,
+        "diff": -1.562
+      },
+      {
+        "index": 87,
+        "respondent_id": 439,
+        "formal": 64.062,
+        "genz": 64.062,
+        "diff": 0.0
+      },
+      {
+        "index": 88,
+        "respondent_id": 70,
+        "formal": 65.625,
+        "genz": 50.0,
+        "diff": -15.625
+      },
+      {
+        "index": 89,
+        "respondent_id": 417,
+        "formal": 81.25,
+        "genz": 75.0,
+        "diff": -6.25
+      },
+      {
+        "index": 90,
+        "respondent_id": 140,
+        "formal": 93.75,
+        "genz": 96.875,
+        "diff": 3.125
+      },
+      {
+        "index": 91,
+        "respondent_id": 301,
+        "formal": 79.688,
+        "genz": 42.188,
+        "diff": -37.5
+      },
+      {
+        "index": 92,
+        "respondent_id": 234,
+        "formal": 76.562,
+        "genz": 79.688,
+        "diff": 3.125
+      },
+      {
+        "index": 93,
+        "respondent_id": 157,
+        "formal": 93.75,
+        "genz": 93.75,
+        "diff": 0.0
+      },
+      {
+        "index": 94,
+        "respondent_id": 579,
+        "formal": 98.438,
+        "genz": 98.438,
+        "diff": 0.0
+      },
+      {
+        "index": 95,
+        "respondent_id": 285,
+        "formal": 84.375,
+        "genz": 93.75,
+        "diff": 9.375
+      },
+      {
+        "index": 96,
+        "respondent_id": 38,
+        "formal": 87.5,
+        "genz": 87.5,
+        "diff": 0.0
+      },
+      {
+        "index": 97,
+        "respondent_id": 364,
+        "formal": 35.938,
+        "genz": 32.812,
+        "diff": -3.125
+      },
+      {
+        "index": 98,
+        "respondent_id": 285,
+        "formal": 62.5,
+        "genz": 79.688,
+        "diff": 17.188
+      },
+      {
+        "index": 99,
+        "respondent_id": 125,
+        "formal": 67.188,
+        "genz": 50.0,
+        "diff": -17.188
+      },
+      {
+        "index": 100,
+        "respondent_id": 472,
+        "formal": 85.938,
+        "genz": 93.75,
+        "diff": 7.812
+      },
+      {
+        "index": 101,
+        "respondent_id": 440,
+        "formal": 81.25,
+        "genz": 87.5,
+        "diff": 6.25
+      },
+      {
+        "index": 102,
+        "respondent_id": 329,
+        "formal": 90.625,
+        "genz": 90.625,
+        "diff": 0.0
+      },
+      {
+        "index": 103,
+        "respondent_id": 290,
+        "formal": 96.875,
+        "genz": 100.0,
+        "diff": 3.125
+      },
+      {
+        "index": 104,
+        "respondent_id": 264,
+        "formal": 82.812,
+        "genz": 76.562,
+        "diff": -6.25
+      },
+      {
+        "index": 105,
+        "respondent_id": 7,
+        "formal": 79.688,
+        "genz": 54.688,
+        "diff": -25.0
+      },
+      {
+        "index": 106,
+        "respondent_id": 582,
+        "formal": 50.0,
+        "genz": 50.0,
+        "diff": 0.0
+      },
+      {
+        "index": 107,
+        "respondent_id": 267,
+        "formal": 53.125,
+        "genz": 51.562,
+        "diff": -1.562
+      },
+      {
+        "index": 108,
+        "respondent_id": 263,
+        "formal": 100.0,
+        "genz": 100.0,
+        "diff": 0.0
+      },
+      {
+        "index": 109,
+        "respondent_id": 201,
+        "formal": 78.125,
+        "genz": 90.625,
+        "diff": 12.5
+      },
+      {
+        "index": 110,
+        "respondent_id": 209,
+        "formal": 89.062,
+        "genz": 92.188,
+        "diff": 3.125
+      },
+      {
+        "index": 111,
+        "respondent_id": 335,
+        "formal": 53.125,
+        "genz": 50.0,
+        "diff": -3.125
+      },
+      {
+        "index": 112,
+        "respondent_id": 250,
+        "formal": 81.25,
+        "genz": 71.875,
+        "diff": -9.375
+      },
+      {
+        "index": 113,
+        "respondent_id": 199,
+        "formal": 65.625,
+        "genz": 60.938,
+        "diff": -4.688
+      },
+      {
+        "index": 114,
+        "respondent_id": 108,
+        "formal": 51.562,
+        "genz": 50.0,
+        "diff": -1.562
+      },
+      {
+        "index": 115,
+        "respondent_id": 541,
+        "formal": 76.562,
+        "genz": 78.125,
+        "diff": 1.562
+      },
+      {
+        "index": 116,
+        "respondent_id": 85,
+        "formal": 92.188,
+        "genz": 92.188,
+        "diff": 0.0
+      },
+      {
+        "index": 117,
+        "respondent_id": 30,
+        "formal": 93.75,
+        "genz": 95.312,
+        "diff": 1.562
+      },
+      {
+        "index": 118,
+        "respondent_id": 342,
+        "formal": 65.625,
+        "genz": 73.438,
+        "diff": 7.812
+      },
+      {
+        "index": 119,
+        "respondent_id": 208,
+        "formal": 84.375,
+        "genz": 87.5,
+        "diff": 3.125
+      },
+      {
+        "index": 120,
+        "respondent_id": 363,
+        "formal": 85.938,
+        "genz": 85.938,
+        "diff": 0.0
+      },
+      {
+        "index": 121,
+        "respondent_id": 174,
+        "formal": 81.25,
+        "genz": 85.938,
+        "diff": 4.688
+      },
+      {
+        "index": 122,
+        "respondent_id": 153,
+        "formal": 50.0,
+        "genz": 50.0,
+        "diff": 0.0
+      },
+      {
+        "index": 123,
+        "respondent_id": 302,
+        "formal": 57.812,
+        "genz": 45.312,
+        "diff": -12.5
+      },
+      {
+        "index": 124,
+        "respondent_id": 579,
+        "formal": 95.312,
+        "genz": 98.438,
+        "diff": 3.125
+      },
+      {
+        "index": 125,
+        "respondent_id": 43,
+        "formal": 50.0,
+        "genz": 50.0,
+        "diff": 0.0
+      },
+      {
+        "index": 126,
+        "respondent_id": 398,
+        "formal": 67.188,
+        "genz": 64.062,
+        "diff": -3.125
+      },
+      {
+        "index": 127,
+        "respondent_id": 360,
+        "formal": 79.688,
+        "genz": 82.812,
+        "diff": 3.125
+      },
+      {
+        "index": 128,
+        "respondent_id": 212,
+        "formal": 100.0,
+        "genz": 100.0,
+        "diff": 0.0
+      },
+      {
+        "index": 129,
+        "respondent_id": 561,
+        "formal": 100.0,
+        "genz": 100.0,
+        "diff": 0.0
+      },
+      {
+        "index": 130,
+        "respondent_id": 341,
+        "formal": 62.5,
+        "genz": 57.812,
+        "diff": -4.688
+      },
+      {
+        "index": 131,
+        "respondent_id": 28,
+        "formal": 68.75,
+        "genz": 68.75,
+        "diff": 0.0
+      },
+      {
+        "index": 132,
+        "respondent_id": 42,
+        "formal": 79.688,
+        "genz": 75.0,
+        "diff": -4.688
+      },
+      {
+        "index": 133,
+        "respondent_id": 189,
+        "formal": 59.375,
+        "genz": 56.25,
+        "diff": -3.125
+      },
+      {
+        "index": 134,
+        "respondent_id": 227,
+        "formal": 96.875,
+        "genz": 100.0,
+        "diff": 3.125
+      },
+      {
+        "index": 135,
+        "respondent_id": 562,
+        "formal": 50.0,
+        "genz": 89.062,
+        "diff": 39.062
+      },
+      {
+        "index": 136,
+        "respondent_id": 284,
+        "formal": 78.125,
+        "genz": 87.5,
+        "diff": 9.375
+      },
+      {
+        "index": 137,
+        "respondent_id": 511,
+        "formal": 59.375,
+        "genz": 50.0,
+        "diff": -9.375
+      },
+      {
+        "index": 138,
+        "respondent_id": 469,
+        "formal": 75.0,
+        "genz": 76.562,
+        "diff": 1.562
+      },
+      {
+        "index": 139,
+        "respondent_id": 425,
+        "formal": 76.562,
+        "genz": 76.562,
+        "diff": 0.0
+      },
+      {
+        "index": 140,
+        "respondent_id": 88,
+        "formal": 50.0,
+        "genz": 50.0,
+        "diff": 0.0
+      },
+      {
+        "index": 141,
+        "respondent_id": 23,
+        "formal": 64.062,
+        "genz": 64.062,
+        "diff": 0.0
+      },
+      {
+        "index": 142,
+        "respondent_id": 21,
+        "formal": 53.125,
+        "genz": 64.062,
+        "diff": 10.938
+      },
+      {
+        "index": 143,
+        "respondent_id": 265,
+        "formal": 71.875,
+        "genz": 78.125,
+        "diff": 6.25
+      },
+      {
+        "index": 144,
+        "respondent_id": 447,
+        "formal": 81.25,
+        "genz": 76.562,
+        "diff": -4.688
+      },
+      {
+        "index": 145,
+        "respondent_id": 146,
+        "formal": 65.625,
+        "genz": 62.5,
+        "diff": -3.125
+      },
+      {
+        "index": 146,
+        "respondent_id": 435,
+        "formal": 82.812,
+        "genz": 82.812,
+        "diff": 0.0
+      },
+      {
+        "index": 147,
+        "respondent_id": 345,
+        "formal": 50.0,
+        "genz": 50.0,
+        "diff": 0.0
+      },
+      {
+        "index": 148,
+        "respondent_id": 191,
+        "formal": 85.938,
+        "genz": 87.5,
+        "diff": 1.562
+      },
+      {
+        "index": 149,
+        "respondent_id": 152,
+        "formal": 84.375,
+        "genz": 90.625,
+        "diff": 6.25
+      },
+      {
+        "index": 150,
+        "respondent_id": 7,
+        "formal": 89.062,
+        "genz": 70.312,
+        "diff": -18.75
+      },
+      {
+        "index": 151,
+        "respondent_id": 501,
+        "formal": 95.312,
+        "genz": 100.0,
+        "diff": 4.688
+      },
+      {
+        "index": 152,
+        "respondent_id": 375,
+        "formal": 56.25,
+        "genz": 62.5,
+        "diff": 6.25
+      },
+      {
+        "index": 153,
+        "respondent_id": 229,
+        "formal": 50.0,
+        "genz": 50.0,
+        "diff": 0.0
+      },
+      {
+        "index": 154,
+        "respondent_id": 49,
+        "formal": 95.312,
+        "genz": 92.188,
+        "diff": -3.125
+      },
+      {
+        "index": 155,
+        "respondent_id": 142,
+        "formal": 50.0,
+        "genz": 50.0,
+        "diff": 0.0
+      },
+      {
+        "index": 156,
+        "respondent_id": 563,
+        "formal": 82.812,
+        "genz": 90.625,
+        "diff": 7.812
+      },
+      {
+        "index": 157,
+        "respondent_id": 191,
+        "formal": 79.688,
+        "genz": 79.688,
+        "diff": 0.0
+      },
+      {
+        "index": 158,
+        "respondent_id": 224,
+        "formal": 62.5,
+        "genz": 64.062,
+        "diff": 1.562
+      },
+      {
+        "index": 159,
+        "respondent_id": 577,
+        "formal": 98.438,
+        "genz": 98.438,
+        "diff": 0.0
+      },
+      {
+        "index": 160,
+        "respondent_id": 352,
+        "formal": 90.625,
+        "genz": 92.188,
+        "diff": 1.562
+      },
+      {
+        "index": 161,
+        "respondent_id": 537,
+        "formal": 92.188,
+        "genz": 93.75,
+        "diff": 1.562
+      },
+      {
+        "index": 162,
+        "respondent_id": 249,
+        "formal": 100.0,
+        "genz": 100.0,
+        "diff": 0.0
+      },
+      {
+        "index": 163,
+        "respondent_id": 295,
+        "formal": 75.0,
+        "genz": 75.0,
+        "diff": 0.0
+      },
+      {
+        "index": 164,
+        "respondent_id": 5,
+        "formal": 81.25,
+        "genz": 79.688,
+        "diff": -1.562
+      },
+      {
+        "index": 165,
+        "respondent_id": 33,
+        "formal": 67.188,
+        "genz": 81.25,
+        "diff": 14.062
+      },
+      {
+        "index": 166,
+        "respondent_id": 402,
+        "formal": 59.375,
+        "genz": 65.625,
+        "diff": 6.25
+      },
+      {
+        "index": 167,
+        "respondent_id": 423,
+        "formal": 95.312,
+        "genz": 100.0,
+        "diff": 4.688
+      },
+      {
+        "index": 168,
+        "respondent_id": 291,
+        "formal": 51.562,
+        "genz": 57.812,
+        "diff": 6.25
+      },
+      {
+        "index": 169,
+        "respondent_id": 336,
+        "formal": 70.312,
+        "genz": 78.125,
+        "diff": 7.812
+      },
+      {
+        "index": 170,
+        "respondent_id": 212,
+        "formal": 98.438,
+        "genz": 100.0,
+        "diff": 1.562
+      },
+      {
+        "index": 171,
+        "respondent_id": 221,
+        "formal": 78.125,
+        "genz": 81.25,
+        "diff": 3.125
+      },
+      {
+        "index": 172,
+        "respondent_id": 9,
+        "formal": 78.125,
+        "genz": 82.812,
+        "diff": 4.688
+      },
+      {
+        "index": 173,
+        "respondent_id": 147,
+        "formal": 70.312,
+        "genz": 81.25,
+        "diff": 10.938
+      },
+      {
+        "index": 174,
+        "respondent_id": 543,
+        "formal": 92.188,
+        "genz": 93.75,
+        "diff": 1.562
+      },
+      {
+        "index": 175,
+        "respondent_id": 8,
+        "formal": 81.25,
+        "genz": 65.625,
+        "diff": -15.625
+      },
+      {
+        "index": 176,
+        "respondent_id": 207,
+        "formal": 73.438,
+        "genz": 76.562,
+        "diff": 3.125
+      },
+      {
+        "index": 177,
+        "respondent_id": 159,
+        "formal": 85.938,
+        "genz": 85.938,
+        "diff": 0.0
+      },
+      {
+        "index": 178,
+        "respondent_id": 194,
+        "formal": 78.125,
+        "genz": 76.562,
+        "diff": -1.562
+      },
+      {
+        "index": 179,
+        "respondent_id": 47,
+        "formal": 73.438,
+        "genz": 76.562,
+        "diff": 3.125
+      },
+      {
+        "index": 180,
+        "respondent_id": 86,
+        "formal": 95.312,
+        "genz": 95.312,
+        "diff": 0.0
+      },
+      {
+        "index": 181,
+        "respondent_id": 305,
+        "formal": 50.0,
+        "genz": 50.0,
+        "diff": 0.0
+      },
+      {
+        "index": 182,
+        "respondent_id": 128,
+        "formal": 54.688,
+        "genz": 50.0,
+        "diff": -4.688
+      },
+      {
+        "index": 183,
+        "respondent_id": 427,
+        "formal": 76.562,
+        "genz": 73.438,
+        "diff": -3.125
+      },
+      {
+        "index": 184,
+        "respondent_id": 40,
+        "formal": 78.125,
+        "genz": 89.062,
+        "diff": 10.938
+      },
+      {
+        "index": 185,
+        "respondent_id": 69,
+        "formal": 75.0,
+        "genz": 84.375,
+        "diff": 9.375
+      },
+      {
+        "index": 186,
+        "respondent_id": 65,
+        "formal": 78.125,
+        "genz": 79.688,
+        "diff": 1.562
+      },
+      {
+        "index": 187,
+        "respondent_id": 297,
+        "formal": 50.0,
+        "genz": 50.0,
+        "diff": 0.0
+      },
+      {
+        "index": 188,
+        "respondent_id": 3,
+        "formal": 51.562,
+        "genz": 59.375,
+        "diff": 7.812
+      },
+      {
+        "index": 189,
+        "respondent_id": 229,
+        "formal": 54.688,
+        "genz": 50.0,
+        "diff": -4.688
+      },
+      {
+        "index": 190,
+        "respondent_id": 181,
+        "formal": 90.625,
+        "genz": 92.188,
+        "diff": 1.562
+      },
+      {
+        "index": 191,
+        "respondent_id": 332,
+        "formal": 93.75,
+        "genz": 93.75,
+        "diff": 0.0
+      },
+      {
+        "index": 192,
+        "respondent_id": 11,
+        "formal": 85.938,
+        "genz": 46.875,
+        "diff": -39.062
+      },
+      {
+        "index": 193,
+        "respondent_id": 281,
+        "formal": 73.438,
+        "genz": 75.0,
+        "diff": 1.562
+      },
+      {
+        "index": 194,
+        "respondent_id": 168,
+        "formal": 84.375,
+        "genz": 76.562,
+        "diff": -7.812
+      },
+      {
+        "index": 195,
+        "respondent_id": 348,
+        "formal": 50.0,
+        "genz": 50.0,
+        "diff": 0.0
+      },
+      {
+        "index": 196,
+        "respondent_id": 567,
+        "formal": 50.0,
+        "genz": 50.0,
+        "diff": 0.0
+      },
+      {
+        "index": 197,
+        "respondent_id": 208,
+        "formal": 100.0,
+        "genz": 100.0,
+        "diff": 0.0
+      },
+      {
+        "index": 198,
+        "respondent_id": 114,
+        "formal": 50.0,
+        "genz": 50.0,
+        "diff": 0.0
+      },
+      {
+        "index": 199,
+        "respondent_id": 294,
+        "formal": 90.625,
+        "genz": 100.0,
+        "diff": 9.375
+      },
+      {
+        "index": 200,
+        "respondent_id": 110,
+        "formal": 79.688,
+        "genz": 82.812,
+        "diff": 3.125
+      },
+      {
+        "index": 201,
+        "respondent_id": 218,
+        "formal": 50.0,
+        "genz": 51.562,
+        "diff": 1.562
+      },
+      {
+        "index": 202,
+        "respondent_id": 489,
+        "formal": 81.25,
+        "genz": 90.625,
+        "diff": 9.375
+      },
+      {
+        "index": 203,
+        "respondent_id": 420,
+        "formal": 46.875,
+        "genz": 56.25,
+        "diff": 9.375
+      },
+      {
+        "index": 204,
+        "respondent_id": 535,
+        "formal": 92.188,
+        "genz": 93.75,
+        "diff": 1.562
+      },
+      {
+        "index": 205,
+        "respondent_id": 348,
+        "formal": 50.0,
+        "genz": 50.0,
+        "diff": 0.0
+      },
+      {
+        "index": 206,
+        "respondent_id": 99,
+        "formal": 65.625,
+        "genz": 75.0,
+        "diff": 9.375
+      },
+      {
+        "index": 207,
+        "respondent_id": 231,
+        "formal": 96.875,
+        "genz": 98.438,
+        "diff": 1.562
+      },
+      {
+        "index": 208,
+        "respondent_id": 399,
+        "formal": 70.312,
+        "genz": 73.438,
+        "diff": 3.125
+      },
+      {
+        "index": 209,
+        "respondent_id": 247,
+        "formal": 57.812,
+        "genz": 60.938,
+        "diff": 3.125
+      },
+      {
+        "index": 210,
+        "respondent_id": 171,
+        "formal": 100.0,
+        "genz": 100.0,
+        "diff": 0.0
+      },
+      {
+        "index": 211,
+        "respondent_id": 174,
+        "formal": 85.938,
+        "genz": 87.5,
+        "diff": 1.562
+      },
+      {
+        "index": 212,
+        "respondent_id": 57,
+        "formal": 53.125,
+        "genz": 64.062,
+        "diff": 10.938
+      },
+      {
+        "index": 213,
+        "respondent_id": 532,
+        "formal": 45.312,
+        "genz": 46.875,
+        "diff": 1.562
+      },
+      {
+        "index": 214,
+        "respondent_id": 6,
+        "formal": 78.125,
+        "genz": 45.312,
+        "diff": -32.812
+      },
+      {
+        "index": 215,
+        "respondent_id": 205,
+        "formal": 50.0,
+        "genz": 50.0,
+        "diff": 0.0
+      },
+      {
+        "index": 216,
+        "respondent_id": 142,
+        "formal": 50.0,
+        "genz": 50.0,
+        "diff": 0.0
+      },
+      {
+        "index": 217,
+        "respondent_id": 581,
+        "formal": 50.0,
+        "genz": 50.0,
+        "diff": 0.0
+      },
+      {
+        "index": 218,
+        "respondent_id": 398,
+        "formal": 50.0,
+        "genz": 50.0,
+        "diff": 0.0
+      },
+      {
+        "index": 219,
+        "respondent_id": 314,
+        "formal": 70.312,
+        "genz": 75.0,
+        "diff": 4.688
+      },
+      {
+        "index": 220,
+        "respondent_id": 237,
+        "formal": 87.5,
+        "genz": 95.312,
+        "diff": 7.812
+      },
+      {
+        "index": 221,
+        "respondent_id": 210,
+        "formal": 50.0,
+        "genz": 50.0,
+        "diff": 0.0
+      },
+      {
+        "index": 222,
+        "respondent_id": 565,
+        "formal": 71.875,
+        "genz": 73.438,
+        "diff": 1.562
+      },
+      {
+        "index": 223,
+        "respondent_id": 154,
+        "formal": 56.25,
+        "genz": 54.688,
+        "diff": -1.562
+      },
+      {
+        "index": 224,
+        "respondent_id": 509,
+        "formal": 62.5,
+        "genz": 56.25,
+        "diff": -6.25
+      },
+      {
+        "index": 225,
+        "respondent_id": 179,
+        "formal": 89.062,
+        "genz": 92.188,
+        "diff": 3.125
+      },
+      {
+        "index": 226,
+        "respondent_id": 287,
+        "formal": 85.938,
+        "genz": 89.062,
+        "diff": 3.125
+      },
+      {
+        "index": 227,
+        "respondent_id": 496,
+        "formal": 64.062,
+        "genz": 67.188,
+        "diff": 3.125
+      },
+      {
+        "index": 228,
+        "respondent_id": 198,
+        "formal": 60.938,
+        "genz": 65.625,
+        "diff": 4.688
+      },
+      {
+        "index": 229,
+        "respondent_id": 201,
+        "formal": 79.688,
+        "genz": 76.562,
+        "diff": -3.125
+      },
+      {
+        "index": 230,
+        "respondent_id": 400,
+        "formal": 76.562,
+        "genz": 96.875,
+        "diff": 20.312
+      },
+      {
+        "index": 231,
+        "respondent_id": 37,
+        "formal": 100.0,
+        "genz": 100.0,
+        "diff": 0.0
+      },
+      {
+        "index": 232,
+        "respondent_id": 378,
+        "formal": 87.5,
+        "genz": 92.188,
+        "diff": 4.688
+      },
+      {
+        "index": 233,
+        "respondent_id": 253,
+        "formal": 87.5,
+        "genz": 84.375,
+        "diff": -3.125
+      },
+      {
+        "index": 234,
+        "respondent_id": 579,
+        "formal": 98.438,
+        "genz": 98.438,
+        "diff": 0.0
+      },
+      {
+        "index": 235,
+        "respondent_id": 547,
+        "formal": 23.438,
+        "genz": 25.0,
+        "diff": 1.562
+      },
+      {
+        "index": 236,
+        "respondent_id": 457,
+        "formal": 87.5,
+        "genz": 75.0,
+        "diff": -12.5
+      },
+      {
+        "index": 237,
+        "respondent_id": 206,
+        "formal": 50.0,
+        "genz": 50.0,
+        "diff": 0.0
+      },
+      {
+        "index": 238,
+        "respondent_id": 383,
+        "formal": 70.312,
+        "genz": 68.75,
+        "diff": -1.562
+      },
+      {
+        "index": 239,
+        "respondent_id": 535,
+        "formal": 93.75,
+        "genz": 93.75,
+        "diff": 0.0
+      },
+      {
+        "index": 240,
+        "respondent_id": 422,
+        "formal": 81.25,
+        "genz": 93.75,
+        "diff": 12.5
+      },
+      {
+        "index": 241,
+        "respondent_id": 225,
+        "formal": 87.5,
+        "genz": 87.5,
+        "diff": 0.0
+      },
+      {
+        "index": 242,
+        "respondent_id": 334,
+        "formal": 70.312,
+        "genz": 71.875,
+        "diff": 1.562
+      },
+      {
+        "index": 243,
+        "respondent_id": 206,
+        "formal": 50.0,
+        "genz": 50.0,
+        "diff": 0.0
+      },
+      {
+        "index": 244,
+        "respondent_id": 408,
+        "formal": 79.688,
+        "genz": 93.75,
+        "diff": 14.062
+      },
+      {
+        "index": 245,
+        "respondent_id": 107,
+        "formal": 82.812,
+        "genz": 90.625,
+        "diff": 7.812
+      },
+      {
+        "index": 246,
+        "respondent_id": 287,
+        "formal": 84.375,
+        "genz": 84.375,
+        "diff": 0.0
+      },
+      {
+        "index": 247,
+        "respondent_id": 126,
+        "formal": 81.25,
+        "genz": 82.812,
+        "diff": 1.562
+      },
+      {
+        "index": 248,
+        "respondent_id": 236,
+        "formal": 62.5,
+        "genz": 62.5,
+        "diff": 0.0
+      },
+      {
+        "index": 249,
+        "respondent_id": 456,
+        "formal": 50.0,
+        "genz": 50.0,
+        "diff": 0.0
+      },
+      {
+        "index": 250,
+        "respondent_id": 450,
+        "formal": 84.375,
+        "genz": 87.5,
+        "diff": 3.125
+      },
+      {
+        "index": 251,
+        "respondent_id": 418,
+        "formal": 78.125,
+        "genz": 93.75,
+        "diff": 15.625
+      },
+      {
+        "index": 252,
+        "respondent_id": 387,
+        "formal": 76.562,
+        "genz": 75.0,
+        "diff": -1.562
+      },
+      {
+        "index": 253,
+        "respondent_id": 214,
+        "formal": 85.938,
+        "genz": 84.375,
+        "diff": -1.562
+      },
+      {
+        "index": 254,
+        "respondent_id": 140,
+        "formal": 96.875,
+        "genz": 98.438,
+        "diff": 1.562
+      },
+      {
+        "index": 255,
+        "respondent_id": 370,
+        "formal": 70.312,
+        "genz": 71.875,
+        "diff": 1.562
+      },
+      {
+        "index": 256,
+        "respondent_id": 109,
+        "formal": 89.062,
+        "genz": 89.062,
+        "diff": 0.0
+      },
+      {
+        "index": 257,
+        "respondent_id": 237,
+        "formal": 76.562,
+        "genz": 78.125,
+        "diff": 1.562
+      },
+      {
+        "index": 258,
+        "respondent_id": 82,
+        "formal": 79.688,
+        "genz": 75.0,
+        "diff": -4.688
+      },
+      {
+        "index": 259,
+        "respondent_id": 55,
+        "formal": 78.125,
+        "genz": 71.875,
+        "diff": -6.25
+      },
+      {
+        "index": 260,
+        "respondent_id": 171,
+        "formal": 90.625,
+        "genz": 90.625,
+        "diff": 0.0
+      },
+      {
+        "index": 261,
+        "respondent_id": 204,
+        "formal": 100.0,
+        "genz": 100.0,
+        "diff": 0.0
+      },
+      {
+        "index": 262,
+        "respondent_id": 553,
+        "formal": 50.0,
+        "genz": 50.0,
+        "diff": 0.0
+      },
+      {
+        "index": 263,
+        "respondent_id": 294,
+        "formal": 100.0,
+        "genz": 100.0,
+        "diff": 0.0
+      },
+      {
+        "index": 264,
+        "respondent_id": 254,
+        "formal": 76.562,
+        "genz": 81.25,
+        "diff": 4.688
+      },
+      {
+        "index": 265,
+        "respondent_id": 258,
+        "formal": 79.688,
+        "genz": 79.688,
+        "diff": 0.0
+      },
+      {
+        "index": 266,
+        "respondent_id": 256,
+        "formal": 70.312,
+        "genz": 68.75,
+        "diff": -1.562
+      },
+      {
+        "index": 267,
+        "respondent_id": 553,
+        "formal": 67.188,
+        "genz": 71.875,
+        "diff": 4.688
+      },
+      {
+        "index": 268,
+        "respondent_id": 580,
+        "formal": 82.812,
+        "genz": 93.75,
+        "diff": 10.938
+      },
+      {
+        "index": 269,
+        "respondent_id": 79,
+        "formal": 81.25,
+        "genz": 82.812,
+        "diff": 1.562
+      },
+      {
+        "index": 270,
+        "respondent_id": 6,
+        "formal": 93.75,
+        "genz": 93.75,
+        "diff": 0.0
+      },
+      {
+        "index": 271,
+        "respondent_id": 382,
+        "formal": 84.375,
+        "genz": 87.5,
+        "diff": 3.125
+      },
+      {
+        "index": 272,
+        "respondent_id": 269,
+        "formal": 62.5,
+        "genz": 60.938,
+        "diff": -1.562
+      },
+      {
+        "index": 273,
+        "respondent_id": 2,
+        "formal": 50.0,
+        "genz": 50.0,
+        "diff": 0.0
+      },
+      {
+        "index": 274,
+        "respondent_id": 553,
+        "formal": 50.0,
+        "genz": 50.0,
+        "diff": 0.0
+      },
+      {
+        "index": 275,
+        "respondent_id": 70,
+        "formal": 39.062,
+        "genz": 57.812,
+        "diff": 18.75
+      },
+      {
+        "index": 276,
+        "respondent_id": 551,
+        "formal": 93.75,
+        "genz": 93.75,
+        "diff": 0.0
+      },
+      {
+        "index": 277,
+        "respondent_id": 404,
+        "formal": 93.75,
+        "genz": 71.875,
+        "diff": -21.875
+      },
+      {
+        "index": 278,
+        "respondent_id": 144,
+        "formal": 90.625,
+        "genz": 93.75,
+        "diff": 3.125
+      },
+      {
+        "index": 279,
+        "respondent_id": 106,
+        "formal": 89.062,
+        "genz": 100.0,
+        "diff": 10.938
+      },
+      {
+        "index": 280,
+        "respondent_id": 497,
+        "formal": 79.688,
+        "genz": 78.125,
+        "diff": -1.562
+      },
+      {
+        "index": 281,
+        "respondent_id": 107,
+        "formal": 79.688,
+        "genz": 75.0,
+        "diff": -4.688
+      },
+      {
+        "index": 282,
+        "respondent_id": 159,
+        "formal": 78.125,
+        "genz": 95.312,
+        "diff": 17.188
+      },
+      {
+        "index": 283,
+        "respondent_id": 510,
+        "formal": 50.0,
+        "genz": 50.0,
+        "diff": 0.0
+      },
+      {
+        "index": 284,
+        "respondent_id": 203,
+        "formal": 100.0,
+        "genz": 89.062,
+        "diff": -10.938
+      },
+      {
+        "index": 285,
+        "respondent_id": 377,
+        "formal": 76.562,
+        "genz": 75.0,
+        "diff": -1.562
+      },
+      {
+        "index": 286,
+        "respondent_id": 124,
+        "formal": 50.0,
+        "genz": 50.0,
+        "diff": 0.0
+      },
+      {
+        "index": 287,
+        "respondent_id": 560,
+        "formal": 67.188,
+        "genz": 62.5,
+        "diff": -4.688
+      },
+      {
+        "index": 288,
+        "respondent_id": 84,
+        "formal": 82.812,
+        "genz": 81.25,
+        "diff": -1.562
+      },
+      {
+        "index": 289,
+        "respondent_id": 359,
+        "formal": 50.0,
+        "genz": 50.0,
+        "diff": 0.0
+      },
+      {
+        "index": 290,
+        "respondent_id": 188,
+        "formal": 50.0,
+        "genz": 50.0,
+        "diff": 0.0
+      },
+      {
+        "index": 291,
+        "respondent_id": 166,
+        "formal": 79.688,
+        "genz": 81.25,
+        "diff": 1.562
+      },
+      {
+        "index": 292,
+        "respondent_id": 292,
+        "formal": 70.312,
+        "genz": 67.188,
+        "diff": -3.125
+      },
+      {
+        "index": 293,
+        "respondent_id": 555,
+        "formal": 76.562,
+        "genz": 81.25,
+        "diff": 4.688
+      },
+      {
+        "index": 294,
+        "respondent_id": 465,
+        "formal": 85.938,
+        "genz": 85.938,
+        "diff": 0.0
+      },
+      {
+        "index": 295,
+        "respondent_id": 58,
+        "formal": 87.5,
+        "genz": 84.375,
+        "diff": -3.125
+      },
+      {
+        "index": 296,
+        "respondent_id": 41,
+        "formal": 59.375,
+        "genz": 67.188,
+        "diff": 7.812
+      },
+      {
+        "index": 297,
+        "respondent_id": 56,
+        "formal": 62.5,
+        "genz": 65.625,
+        "diff": 3.125
+      },
+      {
+        "index": 298,
+        "respondent_id": 286,
+        "formal": 75.0,
+        "genz": 84.375,
+        "diff": 9.375
+      },
+      {
+        "index": 299,
+        "respondent_id": 59,
+        "formal": 70.312,
+        "genz": 78.125,
+        "diff": 7.812
+      },
+      {
+        "index": 300,
+        "respondent_id": 306,
+        "formal": 50.0,
+        "genz": 50.0,
+        "diff": 0.0
+      },
+      {
+        "index": 301,
+        "respondent_id": 11,
+        "formal": 93.75,
+        "genz": 93.75,
+        "diff": 0.0
+      },
+      {
+        "index": 302,
+        "respondent_id": 77,
+        "formal": 62.5,
+        "genz": 60.938,
+        "diff": -1.562
+      },
+      {
+        "index": 303,
+        "respondent_id": 436,
+        "formal": 100.0,
+        "genz": 100.0,
+        "diff": 0.0
+      },
+      {
+        "index": 304,
+        "respondent_id": 203,
+        "formal": 96.875,
+        "genz": 67.188,
+        "diff": -29.688
+      },
+      {
+        "index": 305,
+        "respondent_id": 164,
+        "formal": 85.938,
+        "genz": 92.188,
+        "diff": 6.25
+      },
+      {
+        "index": 306,
+        "respondent_id": 68,
+        "formal": 50.0,
+        "genz": 50.0,
+        "diff": 0.0
+      },
+      {
+        "index": 307,
+        "respondent_id": 170,
+        "formal": 100.0,
+        "genz": 100.0,
+        "diff": 0.0
+      },
+      {
+        "index": 308,
+        "respondent_id": 333,
+        "formal": 50.0,
+        "genz": 50.0,
+        "diff": 0.0
+      },
+      {
+        "index": 309,
+        "respondent_id": 332,
+        "formal": 93.75,
+        "genz": 93.75,
+        "diff": 0.0
+      },
+      {
+        "index": 310,
+        "respondent_id": 15,
+        "formal": 53.125,
+        "genz": 46.875,
+        "diff": -6.25
+      },
+      {
+        "index": 311,
+        "respondent_id": 521,
+        "formal": 75.0,
+        "genz": 81.25,
+        "diff": 6.25
+      },
+      {
+        "index": 312,
+        "respondent_id": 129,
+        "formal": 60.938,
+        "genz": 56.25,
+        "diff": -4.688
+      },
+      {
+        "index": 313,
+        "respondent_id": 248,
+        "formal": 51.562,
+        "genz": 45.312,
+        "diff": -6.25
+      },
+      {
+        "index": 314,
+        "respondent_id": 479,
+        "formal": 100.0,
+        "genz": 100.0,
+        "diff": 0.0
+      },
+      {
+        "index": 315,
+        "respondent_id": 52,
+        "formal": 87.5,
+        "genz": 92.188,
+        "diff": 4.688
+      },
+      {
+        "index": 316,
+        "respondent_id": 113,
+        "formal": 20.312,
+        "genz": 20.312,
+        "diff": 0.0
+      },
+      {
+        "index": 317,
+        "respondent_id": 462,
+        "formal": 56.25,
+        "genz": 48.438,
+        "diff": -7.812
+      },
+      {
+        "index": 318,
+        "respondent_id": 202,
+        "formal": 92.188,
+        "genz": 90.625,
+        "diff": -1.562
+      },
+      {
+        "index": 319,
+        "respondent_id": 401,
+        "formal": 98.438,
+        "genz": 100.0,
+        "diff": 1.562
+      },
+      {
+        "index": 320,
+        "respondent_id": 133,
+        "formal": 50.0,
+        "genz": 50.0,
+        "diff": 0.0
+      },
+      {
+        "index": 321,
+        "respondent_id": 266,
+        "formal": 65.625,
+        "genz": 76.562,
+        "diff": 10.938
+      },
+      {
+        "index": 322,
+        "respondent_id": 45,
+        "formal": 50.0,
+        "genz": 50.0,
+        "diff": 0.0
+      },
+      {
+        "index": 323,
+        "respondent_id": 492,
+        "formal": 50.0,
+        "genz": 50.0,
+        "diff": 0.0
+      },
+      {
+        "index": 324,
+        "respondent_id": 165,
+        "formal": 62.5,
+        "genz": 59.375,
+        "diff": -3.125
+      },
+      {
+        "index": 325,
+        "respondent_id": 235,
+        "formal": 89.062,
+        "genz": 85.938,
+        "diff": -3.125
+      },
+      {
+        "index": 326,
+        "respondent_id": 162,
+        "formal": 92.188,
+        "genz": 96.875,
+        "diff": 4.688
+      },
+      {
+        "index": 327,
+        "respondent_id": 367,
+        "formal": 82.812,
+        "genz": 87.5,
+        "diff": 4.688
+      },
+      {
+        "index": 328,
+        "respondent_id": 217,
+        "formal": 67.188,
+        "genz": 70.312,
+        "diff": 3.125
+      },
+      {
+        "index": 329,
+        "respondent_id": 88,
+        "formal": 50.0,
+        "genz": 50.0,
+        "diff": 0.0
+      },
+      {
+        "index": 330,
+        "respondent_id": 455,
+        "formal": 50.0,
+        "genz": 50.0,
+        "diff": 0.0
+      },
+      {
+        "index": 331,
+        "respondent_id": 234,
+        "formal": 68.75,
+        "genz": 78.125,
+        "diff": 9.375
+      },
+      {
+        "index": 332,
+        "respondent_id": 66,
+        "formal": 71.875,
+        "genz": 64.062,
+        "diff": -7.812
+      },
+      {
+        "index": 333,
+        "respondent_id": 369,
+        "formal": 48.438,
+        "genz": 71.875,
+        "diff": 23.438
+      },
+      {
+        "index": 334,
+        "respondent_id": 172,
+        "formal": 84.375,
+        "genz": 100.0,
+        "diff": 15.625
+      },
+      {
+        "index": 335,
+        "respondent_id": 98,
+        "formal": 64.062,
+        "genz": 60.938,
+        "diff": -3.125
+      },
+      {
+        "index": 336,
+        "respondent_id": 531,
+        "formal": 65.625,
+        "genz": 48.438,
+        "diff": -17.188
+      },
+      {
+        "index": 337,
+        "respondent_id": 376,
+        "formal": 50.0,
+        "genz": 50.0,
+        "diff": 0.0
+      },
+      {
+        "index": 338,
+        "respondent_id": 454,
+        "formal": 70.312,
+        "genz": 73.438,
+        "diff": 3.125
+      },
+      {
+        "index": 339,
+        "respondent_id": 321,
+        "formal": 67.188,
+        "genz": 31.25,
+        "diff": -35.938
+      },
+      {
+        "index": 340,
+        "respondent_id": 431,
+        "formal": 89.062,
+        "genz": 90.625,
+        "diff": 1.562
+      },
+      {
+        "index": 341,
+        "respondent_id": 290,
+        "formal": 100.0,
+        "genz": 100.0,
+        "diff": 0.0
+      },
+      {
+        "index": 342,
+        "respondent_id": 223,
+        "formal": 76.562,
+        "genz": 79.688,
+        "diff": 3.125
+      },
+      {
+        "index": 343,
+        "respondent_id": 270,
+        "formal": 67.188,
+        "genz": 71.875,
+        "diff": 4.688
+      },
+      {
+        "index": 344,
+        "respondent_id": 218,
+        "formal": 60.938,
+        "genz": 53.125,
+        "diff": -7.812
+      },
+      {
+        "index": 345,
+        "respondent_id": 209,
+        "formal": 68.75,
+        "genz": 70.312,
+        "diff": 1.562
+      },
+      {
+        "index": 346,
+        "respondent_id": 551,
+        "formal": 37.5,
+        "genz": 26.562,
+        "diff": -10.938
+      },
+      {
+        "index": 347,
+        "respondent_id": 578,
+        "formal": 37.5,
+        "genz": 26.562,
+        "diff": -10.938
+      },
+      {
+        "index": 348,
+        "respondent_id": 221,
+        "formal": 70.312,
+        "genz": 82.812,
+        "diff": 12.5
+      },
+      {
+        "index": 349,
+        "respondent_id": 564,
+        "formal": 95.312,
+        "genz": 100.0,
+        "diff": 4.688
+      },
+      {
+        "index": 350,
+        "respondent_id": 425,
+        "formal": 76.562,
+        "genz": 79.688,
+        "diff": 3.125
+      },
+      {
+        "index": 351,
+        "respondent_id": 10,
+        "formal": 81.25,
+        "genz": 67.188,
+        "diff": -14.062
+      },
+      {
+        "index": 352,
+        "respondent_id": 128,
+        "formal": 50.0,
+        "genz": 48.438,
+        "diff": -1.562
+      },
+      {
+        "index": 353,
+        "respondent_id": 576,
+        "formal": 71.875,
+        "genz": 82.812,
+        "diff": 10.938
+      },
+      {
+        "index": 354,
+        "respondent_id": 216,
+        "formal": 82.812,
+        "genz": 85.938,
+        "diff": 3.125
+      },
+      {
+        "index": 355,
+        "respondent_id": 213,
+        "formal": 50.0,
+        "genz": 50.0,
+        "diff": 0.0
+      },
+      {
+        "index": 356,
+        "respondent_id": 173,
+        "formal": 56.25,
+        "genz": 57.812,
+        "diff": 1.562
+      },
+      {
+        "index": 357,
+        "respondent_id": 397,
+        "formal": 90.625,
+        "genz": 95.312,
+        "diff": 4.688
+      },
+      {
+        "index": 358,
+        "respondent_id": 536,
+        "formal": 48.438,
+        "genz": 45.312,
+        "diff": -3.125
+      },
+      {
+        "index": 359,
+        "respondent_id": 300,
+        "formal": 56.25,
+        "genz": 53.125,
+        "diff": -3.125
+      },
+      {
+        "index": 360,
+        "respondent_id": 146,
+        "formal": 79.688,
+        "genz": 82.812,
+        "diff": 3.125
+      },
+      {
+        "index": 361,
+        "respondent_id": 316,
+        "formal": 67.188,
+        "genz": 67.188,
+        "diff": 0.0
+      },
+      {
+        "index": 362,
+        "respondent_id": 289,
+        "formal": 85.938,
+        "genz": 85.938,
+        "diff": 0.0
+      },
+      {
+        "index": 363,
+        "respondent_id": 231,
+        "formal": 100.0,
+        "genz": 100.0,
+        "diff": 0.0
+      },
+      {
+        "index": 364,
+        "respondent_id": 39,
+        "formal": 64.062,
+        "genz": 60.938,
+        "diff": -3.125
+      },
+      {
+        "index": 365,
+        "respondent_id": 443,
+        "formal": 71.875,
+        "genz": 71.875,
+        "diff": 0.0
+      },
+      {
+        "index": 366,
+        "respondent_id": 361,
+        "formal": 70.312,
+        "genz": 79.688,
+        "diff": 9.375
+      },
+      {
+        "index": 367,
+        "respondent_id": 205,
+        "formal": 50.0,
+        "genz": 50.0,
+        "diff": 0.0
+      },
+      {
+        "index": 368,
+        "respondent_id": 564,
+        "formal": 100.0,
+        "genz": 100.0,
+        "diff": 0.0
+      },
+      {
+        "index": 369,
+        "respondent_id": 61,
+        "formal": 81.25,
+        "genz": 87.5,
+        "diff": 6.25
+      },
+      {
+        "index": 370,
+        "respondent_id": 252,
+        "formal": 84.375,
+        "genz": 82.812,
+        "diff": -1.562
+      },
+      {
+        "index": 371,
+        "respondent_id": 527,
+        "formal": 75.0,
+        "genz": 85.938,
+        "diff": 10.938
+      },
+      {
+        "index": 372,
+        "respondent_id": 405,
+        "formal": 82.812,
+        "genz": 84.375,
+        "diff": 1.562
+      },
+      {
+        "index": 373,
+        "respondent_id": 572,
+        "formal": 89.062,
+        "genz": 87.5,
+        "diff": -1.562
+      },
+      {
+        "index": 374,
+        "respondent_id": 514,
+        "formal": 50.0,
+        "genz": 50.0,
+        "diff": 0.0
+      },
+      {
+        "index": 375,
+        "respondent_id": 219,
+        "formal": 75.0,
+        "genz": 79.688,
+        "diff": 4.688
+      },
+      {
+        "index": 376,
+        "respondent_id": 83,
+        "formal": 93.75,
+        "genz": 100.0,
+        "diff": 6.25
+      },
+      {
+        "index": 377,
+        "respondent_id": 127,
+        "formal": 81.25,
+        "genz": 82.812,
+        "diff": 1.562
+      },
+      {
+        "index": 378,
+        "respondent_id": 187,
+        "formal": 50.0,
+        "genz": 50.0,
+        "diff": 0.0
+      },
+      {
+        "index": 379,
+        "respondent_id": 263,
+        "formal": 100.0,
+        "genz": 100.0,
+        "diff": 0.0
+      },
+      {
+        "index": 380,
+        "respondent_id": 155,
+        "formal": 65.625,
+        "genz": 50.0,
+        "diff": -15.625
+      },
+      {
+        "index": 381,
+        "respondent_id": 146,
+        "formal": 71.875,
+        "genz": 73.438,
+        "diff": 1.562
+      },
+      {
+        "index": 382,
+        "respondent_id": 485,
+        "formal": 54.688,
+        "genz": 50.0,
+        "diff": -4.688
+      },
+      {
+        "index": 383,
+        "respondent_id": 293,
+        "formal": 93.75,
+        "genz": 93.75,
+        "diff": 0.0
+      },
+      {
+        "index": 384,
+        "respondent_id": 298,
+        "formal": 71.875,
+        "genz": 67.188,
+        "diff": -4.688
+      },
+      {
+        "index": 385,
+        "respondent_id": 467,
+        "formal": 50.0,
+        "genz": 50.0,
+        "diff": 0.0
+      },
+      {
+        "index": 386,
+        "respondent_id": 461,
+        "formal": 93.75,
+        "genz": 87.5,
+        "diff": -6.25
+      },
+      {
+        "index": 387,
+        "respondent_id": 215,
+        "formal": 70.312,
+        "genz": 65.625,
+        "diff": -4.688
+      },
+      {
+        "index": 388,
+        "respondent_id": 76,
+        "formal": 93.75,
+        "genz": 100.0,
+        "diff": 6.25
+      },
+      {
+        "index": 389,
+        "respondent_id": 303,
+        "formal": 50.0,
+        "genz": 50.0,
+        "diff": 0.0
+      },
+      {
+        "index": 390,
+        "respondent_id": 316,
+        "formal": 70.312,
+        "genz": 67.188,
+        "diff": -3.125
+      },
+      {
+        "index": 391,
+        "respondent_id": 452,
+        "formal": 89.062,
+        "genz": 92.188,
+        "diff": 3.125
+      },
+      {
+        "index": 392,
+        "respondent_id": 142,
+        "formal": 50.0,
+        "genz": 50.0,
+        "diff": 0.0
+      },
+      {
+        "index": 393,
+        "respondent_id": 438,
+        "formal": 48.438,
+        "genz": 48.438,
+        "diff": 0.0
+      },
+      {
+        "index": 394,
+        "respondent_id": 296,
+        "formal": 42.188,
+        "genz": 51.562,
+        "diff": 9.375
+      },
+      {
+        "index": 395,
+        "respondent_id": 259,
+        "formal": 100.0,
+        "genz": 100.0,
+        "diff": 0.0
+      },
+      {
+        "index": 396,
+        "respondent_id": 391,
+        "formal": 76.562,
+        "genz": 85.938,
+        "diff": 9.375
+      },
+      {
+        "index": 397,
+        "respondent_id": 498,
+        "formal": 50.0,
+        "genz": 50.0,
+        "diff": 0.0
+      },
+      {
+        "index": 398,
+        "respondent_id": 31,
+        "formal": 50.0,
+        "genz": 50.0,
+        "diff": 0.0
+      },
+      {
+        "index": 399,
+        "respondent_id": 74,
+        "formal": 45.312,
+        "genz": 50.0,
+        "diff": 4.688
+      },
+      {
+        "index": 400,
+        "respondent_id": 158,
+        "formal": 79.688,
+        "genz": 82.812,
+        "diff": 3.125
+      },
+      {
+        "index": 401,
+        "respondent_id": 11,
+        "formal": 92.188,
+        "genz": 93.75,
+        "diff": 1.562
+      },
+      {
+        "index": 402,
+        "respondent_id": 143,
+        "formal": 82.812,
+        "genz": 93.75,
+        "diff": 10.938
+      },
+      {
+        "index": 403,
+        "respondent_id": 305,
+        "formal": 50.0,
+        "genz": 50.0,
+        "diff": 0.0
+      },
+      {
+        "index": 404,
+        "respondent_id": 167,
+        "formal": 57.812,
+        "genz": 65.625,
+        "diff": 7.812
+      },
+      {
+        "index": 405,
+        "respondent_id": 498,
+        "formal": 50.0,
+        "genz": 50.0,
+        "diff": 0.0
+      }
+    ]
+  },
+  "safe_core_claims": [
+    "Dataset final hasil audit sudah konsisten untuk perhitungan statistik dan narasi tesis.",
+    "Skor CUQ Gen-Z sedikit lebih tinggi secara deskriptif (73.50) daripada Formal (72.92), tetapi selisih mean hanya 0.57.",
+    "Paired t-test tidak signifikan (p = 0.157); Wilcoxon signifikan (p = 0.003) karena distribusi selisih tidak normal.",
+    "Effect size Cohen's dz = 0.070, sehingga klaim praktis harus sangat hati-hati.",
+    "Implikasi paling aman adalah segmentasi gaya bahasa chatbot, bukan penggantian total gaya formal."
+  ],
+  "theory_mapping": {
+    "CMC": "Chatbot diposisikan sebagai media komunikasi institusional; gaya bahasa menjadi isyarat sosial dalam interaksi bermedia.",
+    "TAM": "Usabilitas dan penerimaan dipahami melalui kemudahan, kejelasan, dan kebermanfaatan informasi PMB.",
+    "S-O-R": "Gaya bahasa sebagai stimulus, persepsi usabilitas sebagai organism response, skor CUQ sebagai respons terukur."
+  },
+  "questions": [
+    {
+      "category": "Metodologi",
+      "question": "Mengapa penelitian ini memakai desain within-subject, bukan between-subject?",
+      "safe_answer": "Karena responden yang sama menilai dua kondisi chatbot, variasi individual lebih terkendali, dan perbandingan Formal versus Gen-Z lebih tepat dianalisis dengan uji berpasangan. Risiko carry-over dijawab dengan counterbalancing urutan pengujian dan uji order effect.",
+      "basis": "Skill: evaluasi desain penelitian; Tesis Bab III; Statistik order effect.",
+      "risk_level": "Tinggi"
+    },
+    {
+      "category": "Instrumen",
+      "question": "Bagaimana Anda mempertanggungjawabkan penggunaan CUQ ketika beberapa item validitas item lemah atau tidak valid?",
+      "safe_answer": "Jawaban aman: interpretasi utama memakai skor total CUQ karena reliabilitas keseluruhan tinggi, alpha Formal 0.905 dan Gen-Z 0.922. Namun, interpretasi per item atau per dimensi harus dibatasi dan tidak boleh dijadikan klaim dominan.",
+      "basis": "Skill: evaluasi instrumen, validitas, reliabilitas; Tesis Bab IV dan Lampiran validitas.",
+      "risk_level": "Tinggi"
+    },
+    {
+      "category": "Statistik",
+      "question": "Mengapa hasil paired t-test tidak signifikan, tetapi Wilcoxon signifikan?",
+      "safe_answer": "Selisih skor tidak normal, sehingga paired t-test p = 0.157 dilaporkan sebagai pembanding parametrik, sedangkan Wilcoxon p = 0.003 dipakai sebagai sinyal nonparametrik. Keduanya tetap dibaca bersama effect size yang sangat kecil.",
+      "basis": "Skill: evaluasi analisis data, uji asumsi normalitas, inferensial.",
+      "risk_level": "Tinggi"
+    },
+    {
+      "category": "Interpretasi",
+      "question": "Apakah Anda berani menyimpulkan gaya bahasa Gen-Z lebih unggul daripada gaya formal?",
+      "safe_answer": "Tidak dalam makna praktis yang kuat. Rata-rata Gen-Z 73.50 memang sedikit di atas Formal 72.92, tetapi selisihnya hanya 0.57 dan Cohen's dz 0.070, sehingga klaim yang aman adalah kecenderungan kecil, bukan superioritas praktis.",
+      "basis": "Skill: evaluasi interpretasi dan kesimpulan; Tesis Bab IV-V.",
+      "risk_level": "Tinggi"
+    },
+    {
+      "category": "Rumusan Masalah",
+      "question": "Apakah rumusan masalah, tujuan, hipotesis, dan teknik analisis sudah benar-benar linear?",
+      "safe_answer": "Linearitas dijaga dengan memetakan tiga fokus: deskripsi tingkat usabilitas, uji perbedaan Formal versus Gen-Z, dan aspek usabilitas yang menonjol. Teknik analisisnya mengikuti fokus itu: deskriptif, uji berpasangan, Wilcoxon, effect size, serta pembacaan dimensi CUQ.",
+      "basis": "Skill: evaluasi judul, rumusan masalah, tujuan, hipotesis.",
+      "risk_level": "Sedang"
+    },
+    {
+      "category": "Latar Belakang",
+      "question": "Apa celah penelitian yang paling kuat dari tesis ini?",
+      "safe_answer": "Celahnya adalah belum banyak kajian komunikasi institusional PMB yang menguji gaya bahasa chatbot secara langsung pada Generasi Z dengan instrumen usabilitas dan desain paired. Jadi kontribusinya ada pada konteks komunikasi digital institusional, bukan pada klaim bahwa satu gaya bahasa pasti terbaik.",
+      "basis": "Skill: evaluasi relevansi judul dan research gap; Tesis Bab I-II.",
+      "risk_level": "Sedang"
+    },
+    {
+      "category": "Teori",
+      "question": "Mengapa teori CMC relevan untuk penelitian chatbot PMB?",
+      "safe_answer": "CMC relevan karena chatbot diposisikan sebagai media komunikasi institusional yang memediasi interaksi calon mahasiswa dengan universitas. Gaya bahasa dilihat sebagai isyarat sosial yang dapat memengaruhi pengalaman komunikasi digital.",
+      "basis": "Tesis Bab II; Skill: konsistensi teori dan interpretasi.",
+      "risk_level": "Sedang"
+    },
+    {
+      "category": "Teori",
+      "question": "Apa fungsi TAM dalam tesis ini jika instrumen yang dipakai adalah CUQ?",
+      "safe_answer": "TAM tidak dipakai sebagai alat ukur utama, tetapi sebagai kerangka interpretif untuk memahami kemudahan, kebermanfaatan, dan penerimaan layanan informasi. Pengukuran operasional tetap memakai CUQ.",
+      "basis": "Tesis Bab II; Skill: evaluasi teori dan instrumen.",
+      "risk_level": "Sedang"
+    },
+    {
+      "category": "Teori",
+      "question": "Bagaimana S-O-R menjelaskan hubungan gaya bahasa chatbot dan skor CUQ?",
+      "safe_answer": "Gaya bahasa berperan sebagai stimulus, persepsi pengalaman pengguna sebagai organism, dan skor CUQ sebagai response terukur. Namun, karena effect size kecil, jalur S-O-R harus dibaca sebagai kerangka interpretasi, bukan bukti kausal kuat.",
+      "basis": "Tesis Bab II-IV; Skill: interpretasi data dan teori.",
+      "risk_level": "Sedang"
+    },
+    {
+      "category": "Operasionalisasi",
+      "question": "Bagaimana Anda mendefinisikan gaya bahasa Gen-Z agar tidak sekadar menjadi istilah populer?",
+      "safe_answer": "Gaya bahasa Gen-Z harus dijelaskan sebagai variasi pesan yang lebih ringkas, interaktif, ringan, dan dekat dengan kebiasaan komunikasi digital target responden. Jawaban aman perlu menegaskan bahwa label Gen-Z adalah konstruksi operasional penelitian, bukan stereotip seluruh Generasi Z.",
+      "basis": "Skill: definisi konseptual dan operasional variabel; Tesis Bab III.",
+      "risk_level": "Tinggi"
+    },
+    {
+      "category": "Operasionalisasi",
+      "question": "Apa indikator bahwa perbedaan yang diuji benar-benar gaya bahasa, bukan perbedaan konten informasi?",
+      "safe_answer": "Kedua chatbot harus menyampaikan substansi informasi PMB yang setara, sementara yang dibedakan adalah gaya penyampaian. Jika konten ikut berbeda, maka efek yang muncul tidak dapat dikaitkan secara bersih dengan gaya bahasa.",
+      "basis": "Skill: validitas desain dan kontrol variabel.",
+      "risk_level": "Tinggi"
+    },
+    {
+      "category": "Sampel",
+      "question": "Apakah 405 responden cukup dan representatif untuk Generasi Z calon pengguna PMB Unila?",
+      "safe_answer": "Jumlah 405 cukup kuat untuk analisis berpasangan dan reliabilitas instrumen. Namun, representativitas tetap harus dibatasi pada karakteristik responden penelitian, sehingga generalisasi ke seluruh Generasi Z Indonesia tidak boleh dibuat terlalu luas.",
+      "basis": "Skill: evaluasi populasi, sampel, teknik penentuan sampel.",
+      "risk_level": "Sedang"
+    },
+    {
+      "category": "Sampel",
+      "question": "Bagaimana Anda menjawab kritik bahwa sampel tidak benar-benar calon mahasiswa baru?",
+      "safe_answer": "Jawaban aman adalah menjelaskan kriteria responden sebagai Generasi Z yang relevan dengan layanan informasi PMB, lalu mengakui bahwa kedekatan dengan populasi calon mahasiswa menjadi batas generalisasi. Ini bisa menjadi saran penelitian lanjutan dengan sampel calon pendaftar aktual.",
+      "basis": "Skill: evaluasi populasi dan keterbatasan penelitian.",
+      "risk_level": "Tinggi"
+    },
+    {
+      "category": "Prosedur",
+      "question": "Apakah ada risiko efek urutan karena responden mencoba dua chatbot secara berurutan?",
+      "safe_answer": "Ada risiko carry-over, karena itu penelitian memakai counterbalancing dan menguji order effect. Hasil order effect p = 0.570, sehingga tidak ada bukti kuat bahwa urutan pengujian mengubah selisih skor.",
+      "basis": "Skill: desain eksperimen/kuasi dan kontrol bias.",
+      "risk_level": "Sedang"
+    },
+    {
+      "category": "Prosedur",
+      "question": "Apakah responden dapat mengenali tujuan penelitian dan menjadi bias dalam menilai chatbot?",
+      "safe_answer": "Kemungkinan demand characteristic perlu diakui. Jawaban aman adalah menekankan prosedur instruksi yang netral dan penggunaan dua kondisi yang dinilai oleh responden yang sama, tetapi tetap mencatat potensi bias persepsi sebagai keterbatasan.",
+      "basis": "Skill: evaluasi pengumpulan data dan bias responden.",
+      "risk_level": "Sedang"
+    },
+    {
+      "category": "Statistik",
+      "question": "Mengapa tetap melaporkan paired t-test jika data selisih tidak normal?",
+      "safe_answer": "Paired t-test tetap dilaporkan karena hipotesis awal sering diformulasikan dalam perbedaan rata-rata, tetapi interpretasi utama harus mempertimbangkan Shapiro p sangat kecil (4.36e-20) dan hasil Wilcoxon sebagai uji nonparametrik.",
+      "basis": "Skill: uji asumsi dan pelaporan inferensial.",
+      "risk_level": "Sedang"
+    },
+    {
+      "category": "Statistik",
+      "question": "Mengapa effect size lebih penting daripada sekadar p-value dalam hasil ini?",
+      "safe_answer": "Karena p-value hanya menunjukkan bukti statistik terhadap hipotesis nol, sedangkan effect size menunjukkan besar dampak. Dengan Cohen's dz 0.070, dampak praktis sangat kecil meskipun Wilcoxon signifikan.",
+      "basis": "Skill: interpretasi data ilmiah.",
+      "risk_level": "Tinggi"
+    },
+    {
+      "category": "Statistik",
+      "question": "Apakah median difference 0,00 melemahkan klaim perbedaan?",
+      "safe_answer": "Ya, median difference 0,00 menunjukkan banyak responden memberi skor yang relatif setara pada kedua kondisi. Karena itu hasil harus dibaca sebagai perbedaan kecil pada distribusi/ranking, bukan perubahan pengalaman yang besar.",
+      "basis": "Tesis Bab IV; Skill: interpretasi hasil inferensial.",
+      "risk_level": "Tinggi"
+    },
+    {
+      "category": "Instrumen",
+      "question": "Apakah CUQ tepat untuk menilai usabilitas komunikasi, bukan hanya usabilitas teknis?",
+      "safe_answer": "CUQ relevan karena memuat aspek persona, navigasi, kualitas respons, dan efektivitas interaksi. Namun, untuk kajian komunikasi yang lebih mendalam, CUQ dapat dilengkapi studi kualitatif tentang makna pesan dan pengalaman komunikasi.",
+      "basis": "Skill: evaluasi instrumen dan rekomendasi lanjutan.",
+      "risk_level": "Sedang"
+    },
+    {
+      "category": "Instrumen",
+      "question": "Mengapa item negatif perlu reverse scoring?",
+      "safe_answer": "Item negatif harus dibalik agar arah skor konsisten: skor tinggi selalu berarti usabilitas lebih baik. Tanpa reverse scoring, skor total CUQ akan bias dan dapat menyesatkan interpretasi.",
+      "basis": "Tesis Lampiran skoring CUQ; Skill: pengolahan data.",
+      "risk_level": "Sedang"
+    },
+    {
+      "category": "Validitas",
+      "question": "Apakah reliabilitas tinggi otomatis berarti instrumen valid?",
+      "safe_answer": "Tidak. Reliabilitas tinggi menunjukkan konsistensi internal, tetapi tidak otomatis membuktikan validitas konstruk. Karena itu hasil validitas item tetap dilaporkan dan interpretasi item/dimensi dilakukan hati-hati.",
+      "basis": "Skill: validitas dan reliabilitas instrumen.",
+      "risk_level": "Tinggi"
+    },
+    {
+      "category": "Validitas",
+      "question": "Bagaimana Anda menanggapi item CUQ yang korelasinya rendah tetapi alpha total tinggi?",
+      "safe_answer": "Itu menunjukkan instrumen secara total masih konsisten, tetapi beberapa item mungkin kurang selaras dengan konstruk pada konteks responden ini. Kesimpulan utama sebaiknya bertumpu pada skor total dan reliabilitas keseluruhan, bukan klaim per item.",
+      "basis": "Skill: review instrumen dan interpretasi item-total.",
+      "risk_level": "Tinggi"
+    },
+    {
+      "category": "Hasil",
+      "question": "Apa makna substantif selisih mean hanya sekitar 0,57 poin pada skala 0-100?",
+      "safe_answer": "Maknanya sangat kecil secara praktis. Selisih ini dapat menjadi sinyal preferensi minor, tetapi tidak cukup untuk merekomendasikan penggantian total gaya formal menjadi gaya Gen-Z.",
+      "basis": "Tesis Bab IV-V; Skill: interpretasi hasil dan rekomendasi.",
+      "risk_level": "Tinggi"
+    },
+    {
+      "category": "Hasil",
+      "question": "Jika semua dimensi CUQ relatif setara, aspek apa yang sebenarnya paling menonjol?",
+      "safe_answer": "Tidak ada aspek yang dapat diklaim sebagai pembeda kuat. Jawaban aman adalah menyebut semua dimensi relatif setara, sehingga rekomendasi diarahkan pada segmentasi dan penyempurnaan gaya bahasa, bukan pada satu dimensi dominan.",
+      "basis": "Tesis Bab IV; Skill: interpretasi dimensi dan simpulan.",
+      "risk_level": "Sedang"
+    },
+    {
+      "category": "Pembahasan",
+      "question": "Bagaimana menghubungkan hasil yang kecil dengan kontribusi teoretis?",
+      "safe_answer": "Kontribusinya bukan membuktikan efek besar, melainkan menunjukkan bahwa gaya bahasa sebagai isyarat komunikasi digital tidak otomatis menghasilkan perbedaan praktis besar pada usabilitas. Ini memperkaya pembahasan CMC/TAM/S-O-R secara lebih hati-hati.",
+      "basis": "Skill: kontribusi teoretis dan interpretasi.",
+      "risk_level": "Sedang"
+    },
+    {
+      "category": "Pembahasan",
+      "question": "Mengapa hasil tidak signifikan pada t-test tetap penting untuk komunikasi institusional?",
+      "safe_answer": "Karena hasil tersebut menunjukkan bahwa gaya formal tidak harus ditinggalkan. Bagi institusi, stabilitas, kejelasan, dan kredibilitas pesan tetap penting, sementara gaya Gen-Z dapat dipakai secara segmentatif.",
+      "basis": "Tesis Bab IV-V; Skill: implikasi praktis.",
+      "risk_level": "Sedang"
+    },
+    {
+      "category": "Kesimpulan",
+      "question": "Apakah simpulan sudah konsisten dengan hasil statistik?",
+      "safe_answer": "Simpulan harus menyatakan perbedaan deskriptif kecil, paired t-test tidak signifikan, Wilcoxon signifikan nonparametrik, dan effect size sangat kecil. Hindari simpulan yang menyatakan Gen-Z lebih unggul secara mutlak.",
+      "basis": "Skill: evaluasi interpretasi dan kesimpulan.",
+      "risk_level": "Tinggi"
+    },
+    {
+      "category": "Implikasi",
+      "question": "Apa rekomendasi praktis paling aman untuk Universitas Lampung?",
+      "safe_answer": "Rekomendasi aman adalah segmentasi gaya komunikasi chatbot: tetap mempertahankan gaya formal untuk informasi resmi, dan menggunakan gaya yang lebih ringan/interaktif pada konteks bantuan, orientasi, atau engagement calon mahasiswa.",
+      "basis": "Tesis Bab V; Skill: rekomendasi berbasis data.",
+      "risk_level": "Sedang"
+    },
+    {
+      "category": "Implikasi",
+      "question": "Mengapa rekomendasi bukan mengganti semua chatbot menjadi gaya Gen-Z?",
+      "safe_answer": "Karena bukti praktisnya sangat kecil. Penggantian total tidak proporsional dengan data. Segmentasi pesan lebih sesuai karena menjaga kredibilitas institusi sekaligus memberi ruang adaptasi untuk pengguna muda.",
+      "basis": "Skill: interpretasi hasil dan kebijakan komunikasi.",
+      "risk_level": "Sedang"
+    },
+    {
+      "category": "Etika",
+      "question": "Apakah penggunaan gaya bahasa Gen-Z oleh institusi berisiko manipulatif atau tidak autentik?",
+      "safe_answer": "Risiko itu ada jika gaya bahasa hanya meniru slang tanpa menjaga akurasi dan etika informasi. Jawaban aman adalah menekankan bahwa adaptasi gaya bahasa harus tetap transparan, informatif, sopan, dan sesuai identitas institusi.",
+      "basis": "Skill: evaluasi komunikasi institusional dan etika.",
+      "risk_level": "Sedang"
+    },
+    {
+      "category": "Keterbatasan",
+      "question": "Apa keterbatasan paling kritis dari penelitian ini?",
+      "safe_answer": "Keterbatasan utama adalah konteks tunggal PMB Unila, pengukuran berbasis skenario/eksposur dua kondisi, dan fokus kuantitatif CUQ. Penelitian lanjutan dapat memakai eksperimen lapangan, data perilaku, dan wawancara mendalam.",
+      "basis": "Tesis Bab V; Skill: evaluasi keterbatasan.",
+      "risk_level": "Sedang"
+    },
+    {
+      "category": "Lanjutan",
+      "question": "Riset lanjutan apa yang paling kuat setelah tesis ini?",
+      "safe_answer": "Riset lanjutan dapat berupa A/B testing chatbot PMB aktual, analisis segmentasi responden, pengukuran behavioral seperti completion rate dan waktu pencarian informasi, serta studi kualitatif pengalaman pengguna.",
+      "basis": "Skill: strategi penelitian lanjutan dan inovasi metodologi.",
+      "risk_level": "Aman"
+    },
+    {
+      "category": "Profesor",
+      "question": "Jika Anda menjadi reviewer jurnal, bagian mana yang paling mungkin diminta diperkuat?",
+      "safe_answer": "Reviewer kemungkinan meminta penguatan operasionalisasi gaya bahasa Gen-Z, kontrol kesetaraan konten dua chatbot, pelaporan validitas konstruk, dan pembahasan effect size agar klaim tidak berlebihan.",
+      "basis": "File skill level Profesor: review kritis metodologi dan standardisasi.",
+      "risk_level": "Tinggi"
+    },
+    {
+      "category": "Profesor",
+      "question": "Apa kontribusi tesis ini pada Ilmu Komunikasi, bukan hanya pada evaluasi aplikasi?",
+      "safe_answer": "Kontribusinya adalah menempatkan chatbot PMB sebagai media komunikasi institusional dan menguji bagaimana gaya bahasa sebagai strategi pesan dipersepsi dalam interaksi digital. Fokusnya bukan sekadar aplikasi, tetapi relasi gaya komunikasi, pengguna muda, dan kredibilitas institusi.",
+      "basis": "File skill Ilmu Komunikasi; Tesis Bab II dan V.",
+      "risk_level": "Tinggi"
+    },
+    {
+      "category": "Profesor",
+      "question": "Apa jawaban jika penguji menyatakan penelitian ini terlalu teknis dan kurang komunikasi?",
+      "safe_answer": "Jawaban aman: objek teknologinya adalah chatbot, tetapi variabel yang diuji adalah gaya bahasa dan pengalaman komunikasi. Teori CMC, TAM, dan S-O-R dipakai untuk menempatkan chatbot sebagai media komunikasi institusional.",
+      "basis": "File skill Ilmu Komunikasi; evaluasi kontribusi bidang.",
+      "risk_level": "Tinggi"
+    },
+    {
+      "category": "Profesor",
+      "question": "Apa standar klaim ilmiah paling penting yang harus Anda jaga saat ujian?",
+      "safe_answer": "Jaga tiga batas: jangan mengklaim superioritas Gen-Z yang kuat, jangan menggeneralisasi ke semua Generasi Z, dan jangan menjadikan signifikansi Wilcoxon sebagai bukti dampak praktis besar. Semua jawaban harus kembali ke data final audited, effect size, dan konteks PMB Unila.",
+      "basis": "File skill level Profesor: interpretasi ilmiah dan review kritis.",
+      "risk_level": "Tinggi"
+    }
+  ],
+  "slides": [
+    {
+      "slide": 1,
+      "slide_title": "Pengaruh Gaya Bahasa Chatbot terhadap Usabilitas Informasi PMB pada Generasi Z di Universitas Lampung",
+      "section_bucket": "Cover/Identitas",
+      "thesis_refs": [
+        "ABSTRAK"
+      ],
+      "ppt_image": "D:\\DATA\\TESIS\\KOMPRE\\HARNO-KOMPRE\\00-engine\\parser\\ppt_render\\slides_png\\slide_01.png",
+      "asset": "assets/slides/slide_01.png"
+    },
+    {
+      "slide": 2,
+      "slide_title": "Latar Belakang Masalah: Transformasi Komunikasi PMB",
+      "section_bucket": "Pendahuluan",
+      "thesis_refs": [
+        "I. PENDAHULUAN",
+        "1.1 \tLatar Belakang",
+        "1.2 \tRumusan Masalah",
+        "1.3 \tTujuan Penelitian"
+      ],
+      "ppt_image": "D:\\DATA\\TESIS\\KOMPRE\\HARNO-KOMPRE\\00-engine\\parser\\ppt_render\\slides_png\\slide_02.png",
+      "asset": "assets/slides/slide_02.png"
+    },
+    {
+      "slide": 3,
+      "slide_title": "Kesenjangan Penelitian dan Urgensi Kajian",
+      "section_bucket": "Pendahuluan",
+      "thesis_refs": [
+        "I. PENDAHULUAN",
+        "1.1 \tLatar Belakang",
+        "1.2 \tRumusan Masalah",
+        "1.3 \tTujuan Penelitian"
+      ],
+      "ppt_image": "D:\\DATA\\TESIS\\KOMPRE\\HARNO-KOMPRE\\00-engine\\parser\\ppt_render\\slides_png\\slide_03.png",
+      "asset": "assets/slides/slide_03.png"
+    },
+    {
+      "slide": 4,
+      "slide_title": "Rumusan Masalah, Tujuan, dan Kerangka Pikir",
+      "section_bucket": "Pendahuluan",
+      "thesis_refs": [
+        "I. PENDAHULUAN",
+        "1.1 \tLatar Belakang",
+        "1.2 \tRumusan Masalah",
+        "1.3 \tTujuan Penelitian"
+      ],
+      "ppt_image": "D:\\DATA\\TESIS\\KOMPRE\\HARNO-KOMPRE\\00-engine\\parser\\ppt_render\\slides_png\\slide_04.png",
+      "asset": "assets/slides/slide_04.png"
+    },
+    {
+      "slide": 5,
+      "slide_title": "Konsep Utama Penelitian",
+      "section_bucket": "Konsep dan Teori",
+      "thesis_refs": [
+        "II. TINJAUAN PUSTAKA",
+        "2.2 \tLandasan Teoretis",
+        "2.3 \tChatbot sebagai Media Komunikasi Institusional",
+        "2.4 \tGaya Bahasa Chatbot dan Generasi Z",
+        "2.5 \tUsabilitas Interaksi Komunikasi dan CUQ"
+      ],
+      "ppt_image": "D:\\DATA\\TESIS\\KOMPRE\\HARNO-KOMPRE\\00-engine\\parser\\ppt_render\\slides_png\\slide_05.png",
+      "asset": "assets/slides/slide_05.png"
+    },
+    {
+      "slide": 6,
+      "slide_title": "Landasan Teori: CMC, TAM, dan CUQ",
+      "section_bucket": "Konsep dan Teori",
+      "thesis_refs": [
+        "II. TINJAUAN PUSTAKA",
+        "2.2 \tLandasan Teoretis",
+        "2.3 \tChatbot sebagai Media Komunikasi Institusional",
+        "2.4 \tGaya Bahasa Chatbot dan Generasi Z",
+        "2.5 \tUsabilitas Interaksi Komunikasi dan CUQ"
+      ],
+      "ppt_image": "D:\\DATA\\TESIS\\KOMPRE\\HARNO-KOMPRE\\00-engine\\parser\\ppt_render\\slides_png\\slide_06.png",
+      "asset": "assets/slides/slide_06.png"
+    },
+    {
+      "slide": 7,
+      "slide_title": "Desain Penelitian Kuantitatif",
+      "section_bucket": "Metode",
+      "thesis_refs": [
+        "III. METODE PENELITIAN",
+        "3.1 \tJenis dan Desain Penelitian",
+        "3.5 \tPopulasi, Sampel, dan Teknik Penentuan Sampel",
+        "3.6 \tInstrumen Penelitian",
+        "3.10 \tTeknik Analisis Data"
+      ],
+      "ppt_image": "D:\\DATA\\TESIS\\KOMPRE\\HARNO-KOMPRE\\00-engine\\parser\\ppt_render\\slides_png\\slide_07.png",
+      "asset": "assets/slides/slide_07.png"
+    },
+    {
+      "slide": 8,
+      "slide_title": "Populasi, Sampel, Instrumen, dan Analisis",
+      "section_bucket": "Metode",
+      "thesis_refs": [
+        "III. METODE PENELITIAN",
+        "3.1 \tJenis dan Desain Penelitian",
+        "3.5 \tPopulasi, Sampel, dan Teknik Penentuan Sampel",
+        "3.6 \tInstrumen Penelitian",
+        "3.10 \tTeknik Analisis Data"
+      ],
+      "ppt_image": "D:\\DATA\\TESIS\\KOMPRE\\HARNO-KOMPRE\\00-engine\\parser\\ppt_render\\slides_png\\slide_08.png",
+      "asset": "assets/slides/slide_08.png"
+    },
+    {
+      "slide": 9,
+      "slide_title": "Kesiapan Data dan Profil Responden",
+      "section_bucket": "Hasil",
+      "thesis_refs": [
+        "IV. HASIL DAN PEMBAHASAN",
+        "4.2 Deskripsi Data Penelitian",
+        "4.3 Hasil Uji Instrumen Penelitian",
+        "4.5 Hasil Pengujian Hipotesis"
+      ],
+      "ppt_image": "D:\\DATA\\TESIS\\KOMPRE\\HARNO-KOMPRE\\00-engine\\parser\\ppt_render\\slides_png\\slide_09.png",
+      "asset": "assets/slides/slide_09.png"
+    },
+    {
+      "slide": 10,
+      "slide_title": "Hasil Deskriptif dan Uji Instrumen",
+      "section_bucket": "Hasil",
+      "thesis_refs": [
+        "IV. HASIL DAN PEMBAHASAN",
+        "4.2 Deskripsi Data Penelitian",
+        "4.3 Hasil Uji Instrumen Penelitian",
+        "4.5 Hasil Pengujian Hipotesis"
+      ],
+      "ppt_image": "D:\\DATA\\TESIS\\KOMPRE\\HARNO-KOMPRE\\00-engine\\parser\\ppt_render\\slides_png\\slide_10.png",
+      "asset": "assets/slides/slide_10.png"
+    },
+    {
+      "slide": 11,
+      "slide_title": "Hasil Uji Beda dan Ukuran Efek",
+      "section_bucket": "Hasil",
+      "thesis_refs": [
+        "IV. HASIL DAN PEMBAHASAN",
+        "4.2 Deskripsi Data Penelitian",
+        "4.3 Hasil Uji Instrumen Penelitian",
+        "4.5 Hasil Pengujian Hipotesis"
+      ],
+      "ppt_image": "D:\\DATA\\TESIS\\KOMPRE\\HARNO-KOMPRE\\00-engine\\parser\\ppt_render\\slides_png\\slide_11.png",
+      "asset": "assets/slides/slide_11.png"
+    },
+    {
+      "slide": 12,
+      "slide_title": "Makna Temuan: Tidak Signifikan Bukan Berarti Tidak Penting",
+      "section_bucket": "Pembahasan/Implikasi",
+      "thesis_refs": [
+        "4.6 Pembahasan",
+        "5.2 Implikasi Teoretis",
+        "5.3 Implikasi Praktis dan Rekomendasi Strategis"
+      ],
+      "ppt_image": "D:\\DATA\\TESIS\\KOMPRE\\HARNO-KOMPRE\\00-engine\\parser\\ppt_render\\slides_png\\slide_12.png",
+      "asset": "assets/slides/slide_12.png"
+    },
+    {
+      "slide": 13,
+      "slide_title": "Implikasi Teoretis dan Praktis",
+      "section_bucket": "Pembahasan/Implikasi",
+      "thesis_refs": [
+        "4.6 Pembahasan",
+        "5.2 Implikasi Teoretis",
+        "5.3 Implikasi Praktis dan Rekomendasi Strategis"
+      ],
+      "ppt_image": "D:\\DATA\\TESIS\\KOMPRE\\HARNO-KOMPRE\\00-engine\\parser\\ppt_render\\slides_png\\slide_13.png",
+      "asset": "assets/slides/slide_13.png"
+    },
+    {
+      "slide": 14,
+      "slide_title": "Simpulan Penelitian",
+      "section_bucket": "Simpulan/Saran",
+      "thesis_refs": [
+        "V. SIMPULAN DAN SARAN",
+        "5.1 Simpulan",
+        "5.4 Keterbatasan Penelitian",
+        "5.5 Saran Penelitian Lanjutan"
+      ],
+      "ppt_image": "D:\\DATA\\TESIS\\KOMPRE\\HARNO-KOMPRE\\00-engine\\parser\\ppt_render\\slides_png\\slide_14.png",
+      "asset": "assets/slides/slide_14.png"
+    },
+    {
+      "slide": 15,
+      "slide_title": "Saran dan Rekomendasi",
+      "section_bucket": "Simpulan/Saran",
+      "thesis_refs": [
+        "V. SIMPULAN DAN SARAN",
+        "5.1 Simpulan",
+        "5.4 Keterbatasan Penelitian",
+        "5.5 Saran Penelitian Lanjutan"
+      ],
+      "ppt_image": "D:\\DATA\\TESIS\\KOMPRE\\HARNO-KOMPRE\\00-engine\\parser\\ppt_render\\slides_png\\slide_15.png",
+      "asset": "assets/slides/slide_15.png"
+    }
+  ],
+  "presentation": {
+    "total_slides": 15,
+    "duration_label": "10-15 menit",
+    "topic_count": 5,
+    "focus": "Gaya Bahasa Chatbot",
+    "method": "Kuantitatif within-subject",
+    "main_result": "Tidak ada bukti perbedaan praktis kuat",
+    "slides": [
+      {
+        "slide": 1,
+        "slide_title": "Pengaruh Gaya Bahasa Chatbot terhadap Usabilitas Informasi PMB pada Generasi Z di Universitas Lampung",
+        "section_bucket": "Cover/Identitas",
+        "thesis_refs": [
+          "ABSTRAK"
+        ],
+        "ppt_image": "D:\\DATA\\TESIS\\KOMPRE\\HARNO-KOMPRE\\00-engine\\parser\\ppt_render\\slides_png\\slide_01.png",
+        "asset": "assets/slides/slide_01.png",
+        "points": [
+          "HARNO",
+          "Magister Ilmu Komunikasi, FISIP Universitas Lampung",
+          "Fokus: komunikasi digital, chatbot PMB, Generasi Z, CUQ"
+        ],
+        "notes": "Assalamu'alaikum warahmatullahi wabarakatuh. Terima kasih kepada Ketua Sidang, Bapak/Ibu Penguji, dan Pembimbing. Pada paparan ini saya menyampaikan hasil penelitian tentang pengaruh gaya bahasa chatbot terhadap usabilitas informasi PMB pada Generasi Z di Universitas Lampung. Fokus penelitian ini bukan menilai kecanggihan teknis chatbot, melainkan menilai pengalaman komunikasi pengguna terhadap dua gaya bahasa chatbot, yaitu formal dan Generasi Z.",
+        "display_title": "Slide 1 — Pengaruh Gaya Bahasa Chatbot terhadap Usabilitas Informasi PMB pada Generasi Z di Universitas Lampung"
+      },
+      {
+        "slide": 2,
+        "slide_title": "Latar Belakang Masalah: Transformasi Komunikasi PMB",
+        "section_bucket": "Pendahuluan",
+        "thesis_refs": [
+          "I. PENDAHULUAN",
+          "1.1 \tLatar Belakang",
+          "1.2 \tRumusan Masalah",
+          "1.3 \tTujuan Penelitian"
+        ],
+        "ppt_image": "D:\\DATA\\TESIS\\KOMPRE\\HARNO-KOMPRE\\00-engine\\parser\\ppt_render\\slides_png\\slide_02.png",
+        "asset": "assets/slides/slide_02.png",
+        "points": [
+          "PMB Unila membutuhkan layanan informasi cepat, konsisten, dan mudah diakses.",
+          "Calon mahasiswa didominasi Generasi Z yang terbiasa dengan komunikasi berbasis teks dan respons cepat.",
+          "Chatbot menjadi media komunikasi interaktif antara institusi dan calon mahasiswa.",
+          "Masalah komunikasi tidak hanya pada teknologi, tetapi juga pada cara pesan disampaikan."
+        ],
+        "notes": "Latar belakang penelitian ini dimulai dari perubahan layanan informasi PMB. Universitas tidak hanya dituntut menyediakan informasi yang benar, tetapi juga menyampaikannya melalui media yang cepat, konsisten, dan nyaman bagi calon mahasiswa. Karena calon mahasiswa saat ini didominasi Generasi Z, maka gaya komunikasi menjadi penting. Chatbot dalam penelitian ini diposisikan sebagai media komunikasi institusional berbasis percakapan.",
+        "display_title": "Slide 2 — Latar Belakang Masalah: Transformasi Komunikasi PMB"
+      },
+      {
+        "slide": 3,
+        "slide_title": "Kesenjangan Penelitian dan Urgensi Kajian",
+        "section_bucket": "Pendahuluan",
+        "thesis_refs": [
+          "I. PENDAHULUAN",
+          "1.1 \tLatar Belakang",
+          "1.2 \tRumusan Masalah",
+          "1.3 \tTujuan Penelitian"
+        ],
+        "ppt_image": "D:\\DATA\\TESIS\\KOMPRE\\HARNO-KOMPRE\\00-engine\\parser\\ppt_render\\slides_png\\slide_03.png",
+        "asset": "assets/slides/slide_03.png",
+        "points": [
+          "Kajian chatbot banyak berfokus pada performa teknis, akurasi sistem, dan otomasi layanan.",
+          "Kajian Ilmu Komunikasi perlu melihat chatbot sebagai media pesan dan pengalaman interaksi.",
+          "Belum banyak penelitian yang membandingkan gaya bahasa formal dan gaya Generasi Z dalam konteks chatbot PMB.",
+          "Penelitian ini menguji apakah variasi gaya bahasa menghasilkan perbedaan usabilitas berdasarkan skor CUQ."
+        ],
+        "notes": "Kesenjangan penelitian terletak pada fokus kajian. Banyak penelitian chatbot menitikberatkan pada sisi teknis, sedangkan penelitian ini melihat chatbot sebagai media komunikasi. Pertanyaan utamanya bukan apakah chatbot mampu bekerja secara teknis, tetapi apakah gaya bahasa yang berbeda menghasilkan pengalaman usabilitas komunikasi yang berbeda bagi Generasi Z.",
+        "display_title": "Slide 3 — Kesenjangan Penelitian dan Urgensi Kajian"
+      },
+      {
+        "slide": 4,
+        "slide_title": "Rumusan Masalah, Tujuan, dan Kerangka Pikir",
+        "section_bucket": "Pendahuluan",
+        "thesis_refs": [
+          "I. PENDAHULUAN",
+          "1.1 \tLatar Belakang",
+          "1.2 \tRumusan Masalah",
+          "1.3 \tTujuan Penelitian"
+        ],
+        "ppt_image": "D:\\DATA\\TESIS\\KOMPRE\\HARNO-KOMPRE\\00-engine\\parser\\ppt_render\\slides_png\\slide_04.png",
+        "asset": "assets/slides/slide_04.png",
+        "points": [
+          "RM1: Bagaimana tingkat usabilitas chatbot formal dan chatbot Gen-Z?",
+          "RM2: Apakah terdapat perbedaan tingkat usabilitas keduanya?",
+          "RM3: Aspek usabilitas apa yang paling menonjol?",
+          "Kerangka pikir: Gaya bahasa chatbot → persepsi pengguna → skor usabilitas CUQ."
+        ],
+        "notes": "Rumusan masalah disusun menjadi tiga agar sejajar dengan tujuan, analisis, hasil, dan simpulan. Pertama, mendeskripsikan tingkat usabilitas masing-masing chatbot. Kedua, menguji apakah terdapat perbedaan skor CUQ antara chatbot formal dan Gen-Z. Ketiga, mengidentifikasi aspek usabilitas yang paling menonjol. Kerangka pikirnya menempatkan gaya bahasa sebagai stimulus pesan, persepsi pengguna sebagai proses, dan skor CUQ sebagai respons terukur.",
+        "display_title": "Slide 4 — Rumusan Masalah, Tujuan, dan Kerangka Pikir"
+      },
+      {
+        "slide": 5,
+        "slide_title": "Konsep Utama Penelitian",
+        "section_bucket": "Konsep dan Teori",
+        "thesis_refs": [
+          "II. TINJAUAN PUSTAKA",
+          "2.2 \tLandasan Teoretis",
+          "2.3 \tChatbot sebagai Media Komunikasi Institusional",
+          "2.4 \tGaya Bahasa Chatbot dan Generasi Z",
+          "2.5 \tUsabilitas Interaksi Komunikasi dan CUQ"
+        ],
+        "ppt_image": "D:\\DATA\\TESIS\\KOMPRE\\HARNO-KOMPRE\\00-engine\\parser\\ppt_render\\slides_png\\slide_05.png",
+        "asset": "assets/slides/slide_05.png",
+        "points": [
+          "Chatbot: media komunikasi digital berbasis percakapan.",
+          "Gaya bahasa: strategi penyampaian pesan formal atau akrab/Gen-Z.",
+          "Generasi Z: khalayak digital dengan preferensi komunikasi cepat dan interaktif.",
+          "Usabilitas komunikasi: persepsi kemudahan, kejelasan, efisiensi, kenyamanan, dan kepuasan."
+        ],
+        "notes": "Konsep utama penelitian terdiri dari chatbot sebagai media komunikasi, gaya bahasa sebagai strategi pengemasan pesan, Generasi Z sebagai khalayak sasaran, dan usabilitas sebagai pengalaman komunikasi pengguna. Dengan batasan ini, penelitian tetap berada dalam ranah Ilmu Komunikasi, bukan penelitian rekayasa sistem.",
+        "display_title": "Slide 5 — Konsep Utama Penelitian"
+      },
+      {
+        "slide": 6,
+        "slide_title": "Landasan Teori: CMC, TAM, dan CUQ",
+        "section_bucket": "Konsep dan Teori",
+        "thesis_refs": [
+          "II. TINJAUAN PUSTAKA",
+          "2.2 \tLandasan Teoretis",
+          "2.3 \tChatbot sebagai Media Komunikasi Institusional",
+          "2.4 \tGaya Bahasa Chatbot dan Generasi Z",
+          "2.5 \tUsabilitas Interaksi Komunikasi dan CUQ"
+        ],
+        "ppt_image": "D:\\DATA\\TESIS\\KOMPRE\\HARNO-KOMPRE\\00-engine\\parser\\ppt_render\\slides_png\\slide_06.png",
+        "asset": "assets/slides/slide_06.png",
+        "points": [
+          "CMC menjelaskan komunikasi bermedia dan pentingnya isyarat tekstual dalam membentuk persepsi.",
+          "TAM digunakan sebagai lensa penjelas penerimaan teknologi melalui kemudahan dan kebermanfaatan.",
+          "CUQ digunakan sebagai instrumen pengukuran usabilitas chatbot berbasis persepsi pengguna.",
+          "Posisi teori: CMC sebagai payung komunikasi, TAM sebagai penjelas, CUQ sebagai alat ukur."
+        ],
+        "notes": "Teori yang digunakan adalah Computer-Mediated Communication sebagai teori utama karena komunikasi berlangsung melalui media digital. TAM digunakan sebagai lensa untuk menjelaskan penerimaan pengguna terhadap media, terutama kemudahan dan kebermanfaatan. Sementara itu, CUQ digunakan sebagai instrumen untuk mengukur usabilitas chatbot. Dengan demikian, teori dan instrumen saling terhubung.",
+        "display_title": "Slide 6 — Landasan Teori: CMC, TAM, dan CUQ"
+      },
+      {
+        "slide": 7,
+        "slide_title": "Desain Penelitian Kuantitatif",
+        "section_bucket": "Metode",
+        "thesis_refs": [
+          "III. METODE PENELITIAN",
+          "3.1 \tJenis dan Desain Penelitian",
+          "3.5 \tPopulasi, Sampel, dan Teknik Penentuan Sampel",
+          "3.6 \tInstrumen Penelitian",
+          "3.10 \tTeknik Analisis Data"
+        ],
+        "ppt_image": "D:\\DATA\\TESIS\\KOMPRE\\HARNO-KOMPRE\\00-engine\\parser\\ppt_render\\slides_png\\slide_07.png",
+        "asset": "assets/slides/slide_07.png",
+        "points": [
+          "Jenis: kuantitatif komparatif-eksplanatif.",
+          "Desain: within-subject/repeated measures.",
+          "Setiap responden mencoba dua chatbot: formal dan Gen-Z.",
+          "Counterbalancing digunakan untuk mengurangi bias urutan pengujian."
+        ],
+        "notes": "Metode penelitian menggunakan pendekatan kuantitatif komparatif-eksplanatif. Desain yang digunakan adalah within-subject atau repeated measures, karena responden yang sama menilai dua kondisi chatbot. Desain ini dipilih agar perbandingan lebih terkontrol karena perbedaan individu antarresponden dapat ditekan. Untuk mengurangi bias urutan, digunakan counterbalancing.",
+        "display_title": "Slide 7 — Desain Penelitian Kuantitatif"
+      },
+      {
+        "slide": 8,
+        "slide_title": "Populasi, Sampel, Instrumen, dan Analisis",
+        "section_bucket": "Metode",
+        "thesis_refs": [
+          "III. METODE PENELITIAN",
+          "3.1 \tJenis dan Desain Penelitian",
+          "3.5 \tPopulasi, Sampel, dan Teknik Penentuan Sampel",
+          "3.6 \tInstrumen Penelitian",
+          "3.10 \tTeknik Analisis Data"
+        ],
+        "ppt_image": "D:\\DATA\\TESIS\\KOMPRE\\HARNO-KOMPRE\\00-engine\\parser\\ppt_render\\slides_png\\slide_08.png",
+        "asset": "assets/slides/slide_08.png",
+        "points": [
+          "Populasi: Generasi Z target layanan informasi PMB Unila 2026.",
+          "Sampel akhir: 405 responden dengan data berpasangan lengkap.",
+          "Instrumen: Chatbot Usability Questionnaire/CUQ, 16 item, skala Likert 1–5.",
+          "Analisis: deskriptif, validitas, reliabilitas, normalitas, paired t-test, Wilcoxon, effect size, dan order effect."
+        ],
+        "notes": "Populasi penelitian dibatasi secara operasional pada Generasi Z yang menjadi target layanan informasi PMB Unila 2026. Sampel akhir sebanyak 405 responden dengan data berpasangan lengkap. Instrumen yang digunakan adalah CUQ dengan 16 item. Karena terdapat item positif dan negatif, dilakukan reverse scoring dan normalisasi skor ke rentang 0 sampai 100. Analisis meliputi statistik deskriptif, validitas, reliabilitas, normalitas, uji beda, effect size, dan order effect.",
+        "display_title": "Slide 8 — Populasi, Sampel, Instrumen, dan Analisis"
+      },
+      {
+        "slide": 9,
+        "slide_title": "Kesiapan Data dan Profil Responden",
+        "section_bucket": "Hasil",
+        "thesis_refs": [
+          "IV. HASIL DAN PEMBAHASAN",
+          "4.2 Deskripsi Data Penelitian",
+          "4.3 Hasil Uji Instrumen Penelitian",
+          "4.5 Hasil Pengujian Hipotesis"
+        ],
+        "ppt_image": "D:\\DATA\\TESIS\\KOMPRE\\HARNO-KOMPRE\\00-engine\\parser\\ppt_render\\slides_png\\slide_09.png",
+        "asset": "assets/slides/slide_09.png",
+        "points": [
+          "Data masuk dan dianalisis: 405 responden.",
+          "Ditemukan 2 nilai di luar rentang skala pada item G5; dikoreksi dengan median valid item.",
+          "Mayoritas responden berada pada kelompok usia calon pendaftar perguruan tinggi.",
+          "Data dinilai layak karena seluruh responden memiliki skor berpasangan formal dan Gen-Z."
+        ],
+        "notes": "Pada tahap data cleaning, terdapat 405 data responden final yang dianalisis dan sudah lolos audit rentang nilai CUQ. Seluruh responden memiliki data berpasangan untuk chatbot formal dan Gen-Z, sehingga layak dianalisis dengan desain within-subject.",
+        "display_title": "Slide 9 — Kesiapan Data dan Profil Responden"
+      },
+      {
+        "slide": 10,
+        "slide_title": "Hasil Deskriptif dan Uji Instrumen",
+        "section_bucket": "Hasil",
+        "thesis_refs": [
+          "IV. HASIL DAN PEMBAHASAN",
+          "4.2 Deskripsi Data Penelitian",
+          "4.3 Hasil Uji Instrumen Penelitian",
+          "4.5 Hasil Pengujian Hipotesis"
+        ],
+        "ppt_image": "D:\\DATA\\TESIS\\KOMPRE\\HARNO-KOMPRE\\00-engine\\parser\\ppt_render\\slides_png\\slide_10.png",
+        "asset": "assets/slides/slide_10.png",
+        "points": [
+          "Mean CUQ formal: 72,92; SD: 16,95.",
+          "Mean CUQ Gen-Z: 73,50; SD: 18,50.",
+          "Selisih rata-rata: 0,57 poin pada skala 0–100.",
+          "Reliabilitas tinggi: alpha formal 0,905; alpha Gen-Z 0,922."
+        ],
+        "notes": "Hasil deskriptif menunjukkan rata-rata skor CUQ chatbot formal sebesar 72,92, sedangkan chatbot Gen-Z sebesar 73,50. Selisihnya hanya 0,57 poin pada skala 0 sampai 100. Artinya, secara deskriptif keduanya relatif setara. Reliabilitas instrumen tergolong baik, dengan Cronbach alpha 0,905 pada formal dan 0,922 pada Gen-Z. Namun beberapa item validitas perlu dijelaskan hati-hati karena korelasi item-totalnya rendah.",
+        "display_title": "Slide 10 — Hasil Deskriptif dan Uji Instrumen"
+      },
+      {
+        "slide": 11,
+        "slide_title": "Hasil Uji Beda dan Ukuran Efek",
+        "section_bucket": "Hasil",
+        "thesis_refs": [
+          "IV. HASIL DAN PEMBAHASAN",
+          "4.2 Deskripsi Data Penelitian",
+          "4.3 Hasil Uji Instrumen Penelitian",
+          "4.5 Hasil Pengujian Hipotesis"
+        ],
+        "ppt_image": "D:\\DATA\\TESIS\\KOMPRE\\HARNO-KOMPRE\\00-engine\\parser\\ppt_render\\slides_png\\slide_11.png",
+        "asset": "assets/slides/slide_11.png",
+        "points": [
+          "Normalitas selisih skor tidak terpenuhi; Wilcoxon digunakan sebagai acuan utama.",
+          "Paired sample t-test: p = 0,157, tidak signifikan.",
+          "Wilcoxon signed-rank: p = 0,003, signifikan secara nonparametrik, tetapi efek sangat kecil.",
+          "Cohen’s dz = 0,070, efek sangat kecil/trivial. Order effect: p = 0,988."
+        ],
+        "notes": "Uji normalitas menunjukkan selisih skor tidak berdistribusi normal, sehingga Wilcoxon signed-rank digunakan sebagai acuan utama, sementara paired t-test tetap dilaporkan sebagai pembanding. Paired t-test menghasilkan p = 0,157 atau tidak signifikan, sedangkan Wilcoxon menghasilkan p = 0,003 atau signifikan secara nonparametrik. Namun, effect size Cohen’s dz sebesar 0,070 menunjukkan efek sangat kecil. Karena itu, temuan ditafsirkan hati-hati dan tidak cukup untuk menyatakan keunggulan praktis yang kuat. Order effect juga tidak signifikan, sehingga urutan pengujian tidak memengaruhi hasil.",
+        "display_title": "Slide 11 — Hasil Uji Beda dan Ukuran Efek"
+      },
+      {
+        "slide": 12,
+        "slide_title": "Makna Temuan: Tidak Signifikan Bukan Berarti Tidak Penting",
+        "section_bucket": "Pembahasan/Implikasi",
+        "thesis_refs": [
+          "4.6 Pembahasan",
+          "5.2 Implikasi Teoretis",
+          "5.3 Implikasi Praktis dan Rekomendasi Strategis"
+        ],
+        "ppt_image": "D:\\DATA\\TESIS\\KOMPRE\\HARNO-KOMPRE\\00-engine\\parser\\ppt_render\\slides_png\\slide_12.png",
+        "asset": "assets/slides/slide_12.png",
+        "points": [
+          "Data tidak mendukung klaim bahwa gaya Gen-Z lebih unggul secara statistik.",
+          "Usabilitas kedua gaya bahasa relatif setara pada responden penelitian.",
+          "Temuan menunjukkan bahwa akurasi, kejelasan, dan konsistensi informasi tetap faktor utama.",
+          "Secara komunikasi, adaptasi gaya bahasa perlu dilakukan secara proporsional, bukan berlebihan."
+        ],
+        "notes": "Temuan utama penelitian ini adalah tidak adanya perbedaan signifikan antara chatbot formal dan Gen-Z. Ini bukan berarti gaya bahasa tidak penting, tetapi data tidak cukup mendukung klaim bahwa gaya Gen-Z lebih unggul secara statistik. Secara komunikasi, hasil ini menunjukkan bahwa adaptasi bahasa perlu dilakukan secara proporsional. Gaya yang lebih akrab dapat dipertimbangkan, tetapi tidak boleh mengorbankan kejelasan, akurasi, dan kredibilitas informasi PMB.",
+        "display_title": "Slide 12 — Makna Temuan: Tidak Signifikan Bukan Berarti Tidak Penting"
+      },
+      {
+        "slide": 13,
+        "slide_title": "Implikasi Teoretis dan Praktis",
+        "section_bucket": "Pembahasan/Implikasi",
+        "thesis_refs": [
+          "4.6 Pembahasan",
+          "5.2 Implikasi Teoretis",
+          "5.3 Implikasi Praktis dan Rekomendasi Strategis"
+        ],
+        "ppt_image": "D:\\DATA\\TESIS\\KOMPRE\\HARNO-KOMPRE\\00-engine\\parser\\ppt_render\\slides_png\\slide_13.png",
+        "asset": "assets/slides/slide_13.png",
+        "points": [
+          "CMC: isyarat tekstual penting, tetapi efeknya bergantung pada konteks dan substansi pesan.",
+          "TAM: kemudahan dan kebermanfaatan tidak hanya ditentukan oleh gaya bahasa.",
+          "Untuk Unila: chatbot perlu semi-formal, jelas, ramah, dan konsisten.",
+          "Untuk aspek teknis: evaluasi komunikasi perlu dilengkapi pengujian sistem, log percakapan, dan performa respons."
+        ],
+        "notes": "Secara teoretis, hasil ini memperkaya CMC dan TAM karena menunjukkan bahwa isyarat bahasa memang relevan, tetapi tidak otomatis menghasilkan perbedaan usabilitas yang signifikan. Secara praktis, Unila dapat menggunakan gaya semi-formal: tetap ramah dan mudah dipahami, tetapi menjaga kredibilitas institusional. Untuk penguji dari bidang informatika atau elektro, perlu ditegaskan bahwa penelitian ini tidak menguji performa teknis AI, sehingga penelitian lanjutan dapat menambahkan analisis log, akurasi jawaban, waktu respons, dan error handling.",
+        "display_title": "Slide 13 — Implikasi Teoretis dan Praktis"
+      },
+      {
+        "slide": 14,
+        "slide_title": "Simpulan Penelitian",
+        "section_bucket": "Simpulan/Saran",
+        "thesis_refs": [
+          "V. SIMPULAN DAN SARAN",
+          "5.1 Simpulan",
+          "5.4 Keterbatasan Penelitian",
+          "5.5 Saran Penelitian Lanjutan"
+        ],
+        "ppt_image": "D:\\DATA\\TESIS\\KOMPRE\\HARNO-KOMPRE\\00-engine\\parser\\ppt_render\\slides_png\\slide_14.png",
+        "asset": "assets/slides/slide_14.png",
+        "points": [
+          "Tingkat usabilitas chatbot formal dan Gen-Z relatif setara.",
+          "Paired t-test tidak signifikan, sedangkan Wilcoxon signifikan secara nonparametrik; efek praktis sangat kecil.",
+          "Aspek usabilitas per klaster tidak menunjukkan pembeda dominan.",
+          "Hipotesis alternatif didukung secara nonparametrik, tetapi dukungan praktisnya sangat lemah karena effect size sangat kecil."
+        ],
+        "notes": "Simpulan penelitian disusun sesuai rumusan masalah. Pertama, tingkat usabilitas kedua chatbot relatif setara secara praktis. Kedua, paired t-test tidak menunjukkan perbedaan rata-rata yang signifikan, sedangkan Wilcoxon menunjukkan perbedaan signifikan secara nonparametrik. Namun, ukuran efek sangat kecil sehingga hasilnya harus ditafsirkan hati-hati dan tidak cukup untuk menyatakan keunggulan praktis yang kuat. Ketiga, analisis klaster tidak menunjukkan aspek usabilitas yang menjadi pembeda dominan.",
+        "display_title": "Slide 14 — Simpulan Penelitian"
+      },
+      {
+        "slide": 15,
+        "slide_title": "Saran dan Rekomendasi",
+        "section_bucket": "Simpulan/Saran",
+        "thesis_refs": [
+          "V. SIMPULAN DAN SARAN",
+          "5.1 Simpulan",
+          "5.4 Keterbatasan Penelitian",
+          "5.5 Saran Penelitian Lanjutan"
+        ],
+        "ppt_image": "D:\\DATA\\TESIS\\KOMPRE\\HARNO-KOMPRE\\00-engine\\parser\\ppt_render\\slides_png\\slide_15.png",
+        "asset": "assets/slides/slide_15.png",
+        "points": [
+          "Gunakan gaya bahasa semi-formal: ramah, jelas, ringkas, tetapi tetap kredibel.",
+          "Prioritaskan akurasi informasi PMB, kejelasan alur, dan konsistensi respons chatbot.",
+          "Evaluasi chatbot berikutnya perlu menggabungkan CUQ, trust, kepuasan, log percakapan, dan waktu respons.",
+          "Penelitian lanjutan dapat menggunakan eksperimen longitudinal atau A/B testing pada layanan PMB aktual."
+        ],
+        "notes": "Saran penelitian diarahkan pada strategi komunikasi dan pengembangan layanan. Unila tidak harus memilih ekstrem formal atau Gen-Z, melainkan gaya semi-formal yang ramah, jelas, dan kredibel. Evaluasi selanjutnya dapat menggabungkan ukuran komunikasi dan teknis, seperti trust, kepuasan, log percakapan, waktu respons, dan akurasi jawaban. Dengan demikian, chatbot PMB dapat menjadi media komunikasi institusional yang lebih efektif. C. Penekanan Khusus untuk Komposisi Penguji D. Jawaban Singkat untuk Pertanyaan Kritis Pertanyaan: Mengapa hasil tidak signifikan? Jawaban: Karena berdasarkan dataset aktual, perbedaan rata-rata skor CUQ formal dan Gen-Z hanya 0,57 poin pada skala 0-100. Uji statistik juga menunjukkan p > 0,05 dan effect size sangat kecil. Karena itu, penelitian tidak boleh mengklaim Gen-Z lebih unggul. Pertanyaan: Apakah penelitian menjadi gagal karena hipotesis tidak terbukti? Jawaban: Tidak. Dalam penelitian kuantitatif, hipotesis yang tidak didukung data tetap merupakan temuan ilmiah. Justru hasil ini penting karena mencegah rekomendasi yang berlebihan dan menunjukkan bahwa gaya bahasa bukan satu-satunya faktor pembentuk usabilitas chatbot. Pertanyaan: Mengapa memakai Wilcoxon? Jawaban: Karena distribusi selisih skor tidak normal. Paired sample t-test tetap dilaporkan sebagai pembanding, tetapi Wilcoxon digunakan sebagai acuan utama karena lebih sesuai ketika asumsi normalitas tidak terpenuhi. Pertanyaan: Bagaimana menjelaskan item validitas yang tidak semuanya valid? Jawaban: Beberapa item memiliki korelasi item-total rendah karena jawaban responden cenderung homogen atau item tersebut menangkap aspek khusus. Namun, reliabilitas total tetap tinggi. Karena itu, interpretasi dilakukan hati-hati dengan menekankan skor total CUQ dan tidak mengklaim semua item sebagai indikator kuat. Pertanyaan: Apa kontribusi untuk Ilmu Komunikasi? Jawaban: Penelitian ini menempatkan chatbot sebagai media komunikasi institusional dan menunjukkan bahwa strategi bahasa dalam media digital harus diuji secara empiris. Kontribusinya adalah memberikan batasan berbasis data terhadap asumsi bahwa gaya bahasa Gen-Z pasti lebih efektif. Pertanyaan: Apa kontribusi untuk pengembangan chatbot? Jawaban: Rekomendasinya adalah gaya semi-formal yang ramah, ringkas, jelas, dan tetap kredibel. Pengembangan teknis berikutnya perlu menguji log percakapan, waktu respons, akurasi jawaban, dan error handling. E. Kalimat Penutup Kalimat penutup yang disarankan: Berdasarkan hasil penelitian ini, saya menyimpulkan bahwa gaya bahasa formal dan gaya bahasa Generasi Z menghasilkan tingkat usabilitas yang relatif setara dalam konteks chatbot PMB Unila. Oleh karena itu, rekomendasi penelitian ini bukan mengganti seluruh bahasa formal menjadi bahasa Gen-Z, tetapi menggunakan gaya semi-formal yang ramah, jelas, konsisten, dan tetap menjaga kredibilitas institusi. Terima kasih, saya siap menerima masukan dan pertanyaan dari Bapak/Ibu Penguji.",
+        "display_title": "Slide 15 — Saran dan Rekomendasi"
+      }
+    ]
+  },
+  "thesis_viewer": {
+    "pdf_asset": "assets/docs/TESIS_HARNO_CSV_MASTER_LOCKED_20260521-095322.pdf",
+    "structure_score": 100,
+    "status": "Aman",
+    "chapters": [
+      {
+        "label": "Bab I",
+        "title": "Pendahuluan",
+        "summary": "Latar belakang, rumusan masalah, tujuan, dan manfaat penelitian."
+      },
+      {
+        "label": "Bab II",
+        "title": "Tinjauan Pustaka",
+        "summary": "Konsep chatbot, gaya bahasa, Generasi Z, CMC, TAM, dan CUQ."
+      },
+      {
+        "label": "Bab III",
+        "title": "Metodologi",
+        "summary": "Pendekatan kuantitatif, within-subject design, instrumen, dan analisis."
+      },
+      {
+        "label": "Bab IV",
+        "title": "Hasil & Pembahasan",
+        "summary": "Profil responden, statistik CUQ, uji beda, effect size, dan interpretasi."
+      },
+      {
+        "label": "Bab V",
+        "title": "Simpulan & Saran",
+        "summary": "Simpulan penelitian, implikasi, keterbatasan, dan rekomendasi."
+      },
+      {
+        "label": "Lampiran",
+        "title": "Dokumen Pendukung",
+        "summary": "Instrumen, data pendukung, output statistik, dan audit final."
+      }
+    ],
+    "breakdown": [
+      {
+        "part": "Rumusan Masalah",
+        "summary": "Menanyakan tingkat usabilitas, perbedaan dua gaya bahasa chatbot, dan aspek CUQ yang menonjol.",
+        "links": "Terhubung ke Tujuan, Metode, Hasil, Simpulan",
+        "alignment": "Sangat Baik",
+        "score": 100
+      },
+      {
+        "part": "Tujuan Penelitian",
+        "summary": "Mengukur dan membandingkan persepsi usabilitas chatbot formal dan Gen-Z pada responden Generasi Z.",
+        "links": "Terhubung ke Rumusan Masalah, Metode, Hasil",
+        "alignment": "Sangat Baik",
+        "score": 100
+      },
+      {
+        "part": "Metode Penelitian",
+        "summary": "Desain within-subject dengan 405 responden, instrumen CUQ, reverse scoring, paired t-test, Wilcoxon, dan Cohen's dz.",
+        "links": "Terhubung ke Tujuan, Hasil",
+        "alignment": "Sangat Baik",
+        "score": 100
+      },
+      {
+        "part": "Hasil Penelitian",
+        "summary": "Mean Formal 72.92; mean Gen-Z 73.50; paired p 0.157; Wilcoxon p 0.003; dz 0.070.",
+        "links": "Terhubung ke Rumusan Masalah, Simpulan",
+        "alignment": "Sangat Baik",
+        "score": 100
+      },
+      {
+        "part": "Simpulan",
+        "summary": "Gen-Z sedikit lebih tinggi secara deskriptif, tetapi klaim praktis harus dibatasi karena effect size sangat kecil.",
+        "links": "Terhubung ke Hasil, Tujuan",
+        "alignment": "Sangat Baik",
+        "score": 100
+      }
+    ],
+    "insight": "Alur logika penelitian sudah kuat: masalah, teori, metode, hasil, dan simpulan saling mendukung. Pertahankan batas klaim agar simpulan tetap netral dan sesuai data final."
+  },
+  "documents": {
+    "parse_summary": {
+      "thesis": {
+        "path": "D:\\DATA\\TESIS\\KOMPRE\\HARNO-KOMPRE\\02-data\\thesis\\TESIS_HARNO_CSV_MASTER_LOCKED_20260521-095322.docx",
+        "paragraph_count": 1153,
+        "nonempty_blocks": 558,
+        "tables_count": 27
+      },
+      "paparan": {
+        "path": "D:\\DATA\\TESIS\\KOMPRE\\HARNO-KOMPRE\\02-data\\paparan\\NASKAH_PAPARAN_KOMPRE_HARNO_CSV_MASTER_UPDATE_WORKING_20260521-095618.docx",
+        "paragraph_count": 125,
+        "nonempty_blocks": 125,
+        "tables_count": 2
+      },
+      "ppt": {
+        "path": "D:\\DATA\\TESIS\\KOMPRE\\HARNO-KOMPRE\\02-data\\ppt\\PPT KOMPRE-HARNO.pptx",
+        "slides_count": 15
+      }
+    },
+    "pipeline_report_excerpt": "# Pipeline Final Report\n\n## Status\n- Missing outputs: `0`\n- CSV raw master: `02-data/cuq/cuq_responses_rows.csv`\n- Thesis update policy: copy master first, then update statistics.\n\n## Key CSV Master Statistics\n- N: `405`\n- Formal CUQ mean: `72.9244`\n- Gen-Z CUQ mean: `73.4954`\n- Difference mean (G-F): `0.5710`\n- Paired t-test p: `0.157023`\n- Wilcoxon p: `0.002674`\n- Cohen dz: `0.0705`\n- Formal alpha: `0.9048`\n- Gen-Z alpha: `0.9221`\n\n## Outputs\n- `00-engine\\parser\\output\\parse_summary.json`\n- `00-engine\\analyzer\\output\\cuq_statistics_report.md`\n- `00-engine\\skill-checker\\output\\skill_check_report.md`\n- `00-engine\\ai-interpretation\\output\\ai_interpretation_report.md`\n- `00-engine\\database\\output\\harno_kompre_analysis.sqlite`\n- `00-engine\\frontend\\output\\index.html`\n",
+    "skill_report_excerpt": "# Skill Check Report\n\nPASS: 20\nWARN: 0\nUPDATE_REQUIRED: 0\nFAIL: 0\n\n- **PASS** — Heading I. PENDAHULUAN\n- **PASS** — Heading II. TINJAUAN PUSTAKA\n- **PASS** — Heading III. METODE PENELITIAN\n- **PASS** — Heading IV. HASIL DAN PEMBAHASAN\n- **PASS** — Heading V. SIMPULAN DAN SARAN\n- **PASS** — Coverage Rumusan Masalah\n- **PASS** — Coverage Tujuan Penelitian\n- **PASS** — Coverage Instrumen Penelitian\n- **PASS** — Coverage Uji Reliabilitas\n- **PASS** — Coverage Uji Validitas\n- **PASS** — Coverage Uji Normalitas\n- **PASS** — Coverage Effect Size\n- **PASS** — Coverage Order Effect\n- **PASS** — Coverage Simpulan\n- **PASS** — Stat value present: N 405 / CSV master (`405`)\n- **PASS** — Stat value present: Formal mean 72.92 (`72.92`)\n- **PASS** — Stat value present: GenZ mean 73.50 (`73.50`)\n- **PASS** — Stat value present: paired p 0.157 (`0.157`)\n- **PASS** — Stat value present: wilcoxon p 0.003 (`0.003`)\n- **PASS** — Paparan slide count 15 (`15`)",
+    "lock_manifest_excerpt": "# Thesis Lock Manifest\n\n- Locked file: `D:\\DATA\\TESIS\\KOMPRE\\HARNO-KOMPRE\\02-data\\thesis\\TESIS_HARNO_CSV_MASTER_LOCKED_20260521-095322.docx`\n- Source file: `D:\\DATA\\TESIS\\KOMPRE\\HARNO-KOMPRE\\02-data\\thesis\\TESIS_HARNO_CSV_MASTER_UPDATE_WORKING_20260521-092331.docx`\n- Locked at: `2026-05-21T09:53:22`\n- SHA256: `8D4F9DC302EA574F185AB8AC0CA5AC756C8BC8ABF6E2EDAC16AC1BBC8CBE914A`\n- Status: `LOCKED_READONLY`\n- Basis: CSV raw master, consistency audit PASS, narrative audit 0 contradictions, Word audit FAIL 0\n\n## Audit files\n- `00-engine/analyzer/output/thesis_consistency_audit.md`\n- `00-engine/analyzer/output/thesis_narrative_audit.md`\n- `00-engine/analyzer/output/word_format_audit.md`\n- `00-engine/analyzer/output/audit_404_remaining.md`\n- `00-engine/analyzer/output/caption_cleanup_log.md`\n",
+    "progress_excerpt": "# Progress Checklist Proyek HARNO-KOMPRE\n\nSumber acuan: `01-docs/RDP/rdp_aplikasi_komprehensif_ilmu_komunikasi.md`  \nTanggal monitoring: 2026-05-21  \nStatus terakhir: tesis CSV master sudah dikunci, PDF tesis sudah diekspor, naskah paparan copy sudah diperbarui.\n\n## 1. Status Ringkas\n\n| Area | Status | Catatan |\n|---|---:|---|\n| Audit file data | ✅ Selesai | DOCX, PPTX, XLSX, CSV sudah diaudit |\n| Penetapan raw master | ✅ Selesai | CSV dipilih sebagai raw master aman |\n| Parser dokumen | ✅ Selesai awal | Tesis, paparan, PPT manifest, slide PNG |\n| Analyzer CUQ | ✅ Selesai | Statistik CSV master sudah dihitung ulang |\n| Skill checker | ✅ Selesai | Struktur tesis lolos, statistik sudah dipatch |\n| AI interpretation | ✅ Selesai awal | Klaim aman, teori, Q&A kompre dibuat |\n| Database index | ✅ Selesai awal | SQLite index tersedia |\n| Frontend dashboard | ✅ Selesai awal | Dashboard statis HTML tersedia, belum final interaktif |\n| Update tesis copy | ✅ Selesai | Copy kerja dipatch, diaudit, dan dikunci read-only |\n| Audit narasi tesis | ✅ Selesai | Kontradiksi narasi: 0 |\n| Audit format Word tesis | ✅ Selesai | FAIL 0; warning tersisa false positive TOC/daftar tabel |\n| Export PDF tesis"
+  },
+  "method_flow": [
+    "CSV raw master divalidasi sebagai sumber data utama.",
+    "Skor CUQ Formal dan Gen-Z dihitung pada skala 0–100.",
+    "Normalitas selisih diuji untuk menentukan kehati-hatian inferensial.",
+    "Paired t-test dan Wilcoxon dilaporkan berdampingan.",
+    "Cohen's dz dipakai untuk menahan klaim praktis berlebihan.",
+    "Interpretasi akhir diarahkan pada segmentasi komunikasi, bukan superioritas mutlak."
+  ],
+  "exports": [
+    {
+      "label": "Dashboard Data JSON",
+      "path": "data/dashboard_data.json"
+    },
+    {
+      "label": "CUQ Statistics Report",
+      "path": "../../analyzer/output/cuq_statistics_report.md"
+    },
+    {
+      "label": "AI Interpretation Report",
+      "path": "../../ai-interpretation/output/ai_interpretation_report.md"
+    },
+    {
+      "label": "SQLite Index",
+      "path": "../../database/output/harno_kompre_analysis_20260521-123432.sqlite"
+    }
+  ]
+}

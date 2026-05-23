@@ -1,0 +1,299 @@
+{
+  "file": "D:\\DATA\\TESIS\\KOMPRE\\HARNO-KOMPRE\\02-data\\thesis\\TESIS_HARNO_CSV_MASTER_UPDATE_WORKING_20260521-092331.docx",
+  "results": [
+    {
+      "metric": "N responden/data",
+      "expected": "405",
+      "count": 19,
+      "locations": [
+        "P64",
+        "P85",
+        "P628",
+        "P630",
+        "P697",
+        "P713",
+        "P716",
+        "P766",
+        "P883",
+        "P1125",
+        "T11R2C3",
+        "T11R3C3",
+        "T11R5C3",
+        "T13R2C2",
+        "T13R2C3",
+        "T21R2C2",
+        "T22R2C2",
+        "T22R2C3",
+        "T26R4C3"
+      ],
+      "status": "PASS"
+    },
+    {
+      "metric": "Formal mean",
+      "expected": "72,92",
+      "count": 7,
+      "locations": [
+        "P65",
+        "P738",
+        "P819",
+        "P883",
+        "P913",
+        "T13R3C2",
+        "T22R3C2"
+      ],
+      "status": "PASS"
+    },
+    {
+      "metric": "Formal SD",
+      "expected": "16,95",
+      "count": 3,
+      "locations": [
+        "P738",
+        "T13R4C2",
+        "T22R4C2"
+      ],
+      "status": "PASS"
+    },
+    {
+      "metric": "Gen-Z mean",
+      "expected": "73,50",
+      "count": 7,
+      "locations": [
+        "P65",
+        "P738",
+        "P819",
+        "P883",
+        "P913",
+        "T13R3C3",
+        "T22R3C3"
+      ],
+      "status": "PASS"
+    },
+    {
+      "metric": "Gen-Z SD",
+      "expected": "18,50",
+      "count": 3,
+      "locations": [
+        "P738",
+        "T13R4C3",
+        "T22R4C3"
+      ],
+      "status": "PASS"
+    },
+    {
+      "metric": "Diff mean",
+      "expected": "0,57",
+      "count": 9,
+      "locations": [
+        "P65",
+        "P738",
+        "P819",
+        "P883",
+        "P913",
+        "T17R2C4",
+        "T18R2C3",
+        "T18R3C3",
+        "T26R2C4"
+      ],
+      "status": "PASS"
+    },
+    {
+      "metric": "Paired t",
+      "expected": "1,418",
+      "count": 3,
+      "locations": [
+        "P794",
+        "T17R2C2",
+        "T26R2C2"
+      ],
+      "status": "PASS"
+    },
+    {
+      "metric": "Paired df",
+      "expected": "404",
+      "count": 3,
+      "locations": [
+        "P794",
+        "T17R2C3",
+        "T26R2C3"
+      ],
+      "status": "PASS"
+    },
+    {
+      "metric": "Paired p",
+      "expected": "0,157",
+      "count": 7,
+      "locations": [
+        "P65",
+        "P794",
+        "P834",
+        "P915",
+        "T16R12C4",
+        "T17R2C5",
+        "T26R2C5"
+      ],
+      "status": "PASS"
+    },
+    {
+      "metric": "Wilcoxon W",
+      "expected": "16453,5",
+      "count": 2,
+      "locations": [
+        "T17R3C2",
+        "T26R3C2"
+      ],
+      "status": "PASS"
+    },
+    {
+      "metric": "Wilcoxon p",
+      "expected": "0,003",
+      "count": 6,
+      "locations": [
+        "P65",
+        "P794",
+        "P834",
+        "P915",
+        "T17R3C5",
+        "T26R3C5"
+      ],
+      "status": "PASS"
+    },
+    {
+      "metric": "Cohen dz",
+      "expected": "0,070",
+      "count": 4,
+      "locations": [
+        "P804",
+        "P836",
+        "P915",
+        "P1145"
+      ],
+      "status": "PASS"
+    },
+    {
+      "metric": "Formal alpha",
+      "expected": "0,905",
+      "count": 3,
+      "locations": [
+        "P757",
+        "T15R2C3",
+        "T24R2C3"
+      ],
+      "status": "PASS"
+    },
+    {
+      "metric": "Gen-Z alpha",
+      "expected": "0,922",
+      "count": 3,
+      "locations": [
+        "P757",
+        "T15R3C3",
+        "T24R3C3"
+      ],
+      "status": "PASS"
+    },
+    {
+      "metric": "Shapiro W",
+      "expected": "0,836",
+      "count": 1,
+      "locations": [
+        "P780"
+      ],
+      "status": "PASS"
+    },
+    {
+      "metric": "old_value_should_absent",
+      "expected_absent": "54,59",
+      "count": 0,
+      "locations": [],
+      "status": "PASS"
+    },
+    {
+      "metric": "old_value_should_absent",
+      "expected_absent": "54,70",
+      "count": 0,
+      "locations": [],
+      "status": "PASS"
+    },
+    {
+      "metric": "old_value_should_absent",
+      "expected_absent": "0,313",
+      "count": 0,
+      "locations": [],
+      "status": "PASS"
+    },
+    {
+      "metric": "old_value_should_absent",
+      "expected_absent": "0,091",
+      "count": 0,
+      "locations": [],
+      "status": "PASS"
+    },
+    {
+      "metric": "old_value_should_absent",
+      "expected_absent": "0,866",
+      "count": 0,
+      "locations": [],
+      "status": "PASS"
+    },
+    {
+      "metric": "old_value_should_absent",
+      "expected_absent": "0,890",
+      "count": 0,
+      "locations": [],
+      "status": "PASS"
+    },
+    {
+      "metric": "old_value_should_absent",
+      "expected_absent": "0,050",
+      "count": 0,
+      "locations": [],
+      "status": "PASS"
+    },
+    {
+      "metric": "old_value_should_absent",
+      "expected_absent": "0.313",
+      "count": 0,
+      "locations": [],
+      "status": "PASS"
+    },
+    {
+      "metric": "old_value_should_absent",
+      "expected_absent": "0.091",
+      "count": 0,
+      "locations": [],
+      "status": "PASS"
+    },
+    {
+      "metric": "old_value_should_absent",
+      "expected_absent": "0.866",
+      "count": 0,
+      "locations": [],
+      "status": "PASS"
+    },
+    {
+      "metric": "old_value_should_absent",
+      "expected_absent": "0.890",
+      "count": 0,
+      "locations": [],
+      "status": "PASS"
+    },
+    {
+      "metric": "old_value_should_absent",
+      "expected_absent": "0.050",
+      "count": 0,
+      "locations": [],
+      "status": "PASS"
+    }
+  ],
+  "summary": [
+    {
+      "check": "All old major statistics removed",
+      "status": "PASS"
+    },
+    {
+      "check": "All new major statistics present",
+      "status": "PASS"
+    }
+  ]
+}
