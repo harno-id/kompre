@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/00-engine/frontend/output/index.html"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/00-engine/frontend/output/$1"
+    }
+  ]
+}
